@@ -1,6 +1,5 @@
 ﻿namespace eProject.Migrations
 {
-    using eProject.Models;
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Migrations;
