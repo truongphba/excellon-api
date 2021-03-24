@@ -41,7 +41,9 @@
                 Name = "Long Vân",
                 PhoneNumber = "0987654321",
                 Address = "Long Biên, Hà Nội",
-                Status = ClientStatus.Active
+                Status = ClientStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(new Random().Next(-10, -5)),
+                UpdatedAt = DateTime.Now.AddDays(new Random().Next(-10, -5)),
             });
             context.Clients.AddOrUpdate(new Client()
             {
@@ -49,7 +51,9 @@
                 Name = "Bizman",
                 PhoneNumber = "0987654322",
                 Address = "Long Biên, Hà Nội",
-                Status = ClientStatus.Active
+                Status = ClientStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(new Random().Next(-10, -5)),
+                UpdatedAt = DateTime.Now.AddDays(new Random().Next(-10, -5)),
             });
             context.Clients.AddOrUpdate(new Client()
             {
@@ -57,7 +61,9 @@
                 Name = "Goldsun",
                 PhoneNumber = "0987654323",
                 Address = "Long Biên, Hà Nội",
-                Status = ClientStatus.Active
+                Status = ClientStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(new Random().Next(-10, -5)),
+                UpdatedAt = DateTime.Now.AddDays(new Random().Next(-10, -5)),
             });
             context.Clients.AddOrUpdate(new Client()
             {
@@ -65,7 +71,9 @@
                 Name = "Bibica",
                 PhoneNumber = "0987654324",
                 Address = "Long Biên, Hà Nội",
-                Status = ClientStatus.Active
+                Status = ClientStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(new Random().Next(-10, -5)),
+                UpdatedAt = DateTime.Now.AddDays(new Random().Next(-10, -5)),
             });
             context.Clients.AddOrUpdate(new Client()
             {
@@ -73,7 +81,9 @@
                 Name = "Hoàng phúc",
                 PhoneNumber = "0987654325",
                 Address = "Long Biên, Hà Nội",
-                Status = ClientStatus.Active
+                Status = ClientStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(new Random().Next(-10, -5)),
+                UpdatedAt = DateTime.Now.AddDays(new Random().Next(-10, -5)),
             });
             context.Clients.AddOrUpdate(new Client()
             {
@@ -81,7 +91,9 @@
                 Name = "Đại phát",
                 PhoneNumber = "0987654326",
                 Address = "Long Biên, Hà Nội",
-                Status = ClientStatus.Active
+                Status = ClientStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(new Random().Next(-10, -5)),
+                UpdatedAt = DateTime.Now.AddDays(new Random().Next(-10, -5)),
             });
             context.Clients.AddOrUpdate(new Client()
             {
@@ -89,7 +101,9 @@
                 Name = "Hòa phát",
                 PhoneNumber = "0987654327",
                 Address = "Long Biên, Hà Nội",
-                Status = ClientStatus.Active
+                Status = ClientStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(new Random().Next(-10, -5)),
+                UpdatedAt = DateTime.Now.AddDays(new Random().Next(-10, -5)),
             });
             context.Clients.AddOrUpdate(new Client()
             {
@@ -97,7 +111,9 @@
                 Name = "Kim tín",
                 PhoneNumber = "0987654328",
                 Address = "Long Biên, Hà Nội",
-                Status = ClientStatus.Active
+                Status = ClientStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(new Random().Next(-10, -5)),
+                UpdatedAt = DateTime.Now.AddDays(new Random().Next(-10, -5)),
             });
             context.Clients.AddOrUpdate(new Client()
             {
@@ -105,7 +121,9 @@
                 Name = "Đại Hải",
                 PhoneNumber = "0987654329",
                 Address = "Long Biên, Hà Nội",
-                Status = ClientStatus.Active
+                Status = ClientStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(new Random().Next(-10, -5)),
+                UpdatedAt = DateTime.Now.AddDays(new Random().Next(-10, -5)),
             });
             context.Clients.AddOrUpdate(new Client()
             {
@@ -113,7 +131,9 @@
                 Name = "Hoàng Long",
                 PhoneNumber = "0987654320",
                 Address = "Long Biên, Hà Nội",
-                Status = ClientStatus.Active
+                Status = ClientStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(new Random().Next(-10, -5)),
+                UpdatedAt = DateTime.Now.AddDays(new Random().Next(-10, -5)),
             });
             context.SaveChanges();
             //Department_________________________________________________________________
@@ -121,25 +141,33 @@
             {
                 Id = 1,
                 Name = "Admin",
-                Status = DepartmentStatus.Active
+                Status = DepartmentStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(new Random().Next(-10, -5)),
+                UpdatedAt = DateTime.Now.AddDays(new Random().Next(-10, -5)),
             });
             context.Departments.AddOrUpdate(new Department()
             {
                 Id = 2,
                 Name = "Service",
-                Status = DepartmentStatus.Active
+                Status = DepartmentStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(new Random().Next(-10, -5)),
+                UpdatedAt = DateTime.Now.AddDays(new Random().Next(-10, -5)),
             });
             context.Departments.AddOrUpdate(new Department()
             {
                 Id = 3,
                 Name = "HR",
-                Status = DepartmentStatus.Active
+                Status = DepartmentStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(new Random().Next(-10, -5)),
+                UpdatedAt = DateTime.Now.AddDays(new Random().Next(-10, -5)),
             });
             context.Departments.AddOrUpdate(new Department()
             {
                 Id = 4,
                 Name = "Auditors",
-                Status = DepartmentStatus.Active
+                Status = DepartmentStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(new Random().Next(-10, -5)),
+                UpdatedAt = DateTime.Now.AddDays(new Random().Next(-10, -5)),
             });
             context.SaveChanges();
             //User_________________________________________________________________
