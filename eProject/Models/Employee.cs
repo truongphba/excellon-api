@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNet.Identity.EntityFramework;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -13,6 +14,7 @@ namespace eProject.Models
         public EmployeeStatus Status { get; set; }
         public int DepartmentId { get; set; }
         [ForeignKey("DepartmentId")]
+        [JsonIgnore]
         public virtual Department Department { get; set; }
         public ICollection<Payment> Payments { get; set; }
         public DateTime? CreatedAt { get; set; }

@@ -1,5 +1,6 @@
 ﻿using eProject.Models;
 using Microsoft.AspNet.Identity;
+using Microsoft.AspNet.Identity.EntityFramework;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,6 +20,8 @@ namespace eProject.Controllers
         public EmployeeController()
         {
             _repo = new AuthRepository();
+            this.excelDbContext = new ExcelDbContext();
+            this.userManager = new UserManager<Employee>(new UserStore<Employee>(this.excelDbContext));
         }
 
         
@@ -81,6 +84,17 @@ namespace eProject.Controllers
             }
 
             return null;
+        }
+
+        [System.Web.Http.Authorize]
+        [HostAuthentication(DefaultAuthenticationTypes.ExternalBearer)]
+        [System.Web.Http.Route("EmployeeInfo")]
+        public Employee GetUserInfo()
+        {
+            var userName = User.Identity.GetUserName();
+            var user = userManager.FindByName(userName);
+            return user;
+          
         }
     }
 }
