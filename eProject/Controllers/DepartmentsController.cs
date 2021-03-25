@@ -94,8 +94,8 @@ namespace eProject.Controllers
             {
                 return NotFound();
             }
-
-            db.Departments.Remove(department);
+            department.Status = DepartmentStatus.Deactive;
+            //db.Departments.Remove(department);
             db.SaveChanges();
 
             return Ok(department);
