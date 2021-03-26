@@ -9,6 +9,7 @@ using System.Net.Http;
 using System.Web.Http;
 using System.Web.Http.Description;
 using eProject.Models;
+using PagedList;
 
 namespace eProject.Controllers
 {
@@ -17,9 +18,26 @@ namespace eProject.Controllers
         private ExcelDbContext db = new ExcelDbContext();
 
         // GET: api/Services
-        public IQueryable<Service> GetServices()
+        public IHttpActionResult GetServices(int limit, int? page, string keyword = "", int? status = null)
         {
-            return db.Services;
+            var services = from s in db.Services
+                           select s;
+            if (!String.IsNullOrEmpty(keyword))
+            {
+                services = services.Where(s => s.Name.Contains(keyword));
+            }
+            if (status.HasValue)
+            {
+                services = services.Where(s => s.Status == (ServiceStatus)status);
+            }
+            int pageNumber = (page ?? 1);
+            var data = services.OrderByDescending(s => s.CreatedAt).ToPagedList(pageNumber, limit);
+            var total = services.ToList().Count();
+            return Ok(new
+            {
+                data,
+                total
+            });
         }
 
         // GET: api/Services/5
@@ -48,7 +66,7 @@ namespace eProject.Controllers
             {
                 return BadRequest();
             }
-
+            service.UpdatedAt = DateTime.Now;
             db.Entry(service).State = EntityState.Modified;
 
             try
@@ -78,7 +96,9 @@ namespace eProject.Controllers
             {
                 return BadRequest(ModelState);
             }
-
+            service.Status = ServiceStatus.Active;
+            service.CreatedAt = DateTime.Now;
+            service.UpdatedAt = DateTime.Now;
             db.Services.Add(service);
             db.SaveChanges();
 
@@ -94,8 +114,9 @@ namespace eProject.Controllers
             {
                 return NotFound();
             }
-
-            db.Services.Remove(service);
+            service.UpdatedAt = DateTime.Now;
+            service.Status = ServiceStatus.Deactive;
+            //db.Services.Remove(service);
             db.SaveChanges();
 
             return Ok(service);
