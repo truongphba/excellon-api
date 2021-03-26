@@ -41,6 +41,29 @@ namespace eProject.Controllers
 
         // GET: api/Departments/5
         [ResponseType(typeof(Department))]
+        public IHttpActionResult GetDepartments(int id)
+        {
+            Department department = db.Departments.Find(id);
+            if (department == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(department);
+        }
+        [Route("api/Departments/All")]
+        [HttpGet]
+        public IHttpActionResult GetAllDepartments()
+        {
+            var data = db.Departments.ToList();
+            return Ok(new
+            {
+                data
+            });
+        }
+
+        // GET: api/Departments/5
+        [ResponseType(typeof(Department))]
         public IHttpActionResult GetDepartment(int id)
         {
             Department department = db.Departments.Find(id);
@@ -51,7 +74,6 @@ namespace eProject.Controllers
 
             return Ok(department);
         }
-
         // PUT: api/Departments/5
         [ResponseType(typeof(void))]
         public IHttpActionResult PutDepartment(int id, Department department)
