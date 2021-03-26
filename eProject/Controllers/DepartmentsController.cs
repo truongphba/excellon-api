@@ -38,6 +38,16 @@ namespace eProject.Controllers
                 total
             });
         }
+        [Route("api/Departments/All")]
+        [HttpGet]
+        public IHttpActionResult GetAllDepartments()
+        {
+            var data = db.Departments.ToList();
+            return Ok(new
+            {
+                data
+            });
+        }
 
         // GET: api/Departments/5
         [ResponseType(typeof(Department))]
@@ -51,7 +61,6 @@ namespace eProject.Controllers
 
             return Ok(department);
         }
-
         // PUT: api/Departments/5
         [ResponseType(typeof(void))]
         public IHttpActionResult PutDepartment(int id, Department department)
