@@ -18,6 +18,7 @@ namespace eProject.Controllers
         private ExcelDbContext db = new ExcelDbContext();
 
         // GET: api/Services
+        [System.Web.Http.HttpGet]
         public IHttpActionResult GetServices(int limit, int? page, string keyword = "", int? status = null)
         {
             var services = from s in db.Services
