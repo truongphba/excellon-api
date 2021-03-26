@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
@@ -15,6 +16,7 @@ namespace eProject.Models
         public int DepartmentId { get; set; }
 
         [ForeignKey("DepartmentId")]
+        [JsonIgnore]
         public virtual Department Department { get; set; }
         public ICollection<PaymentDetail> PaymentDetails { get; set; }
         public DateTime? CreatedAt { get; set; }
