@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
@@ -17,7 +18,7 @@ namespace eProject.Models
         public DateTime? EndDate { get; set; }
         public double Cost { get; set; }
         public PaymentDetailStatus Status { get; set; }
-
+        [JsonIgnore]
         [ForeignKey("PaymentId")]
         public virtual Payment Payment { get; set; }
 
