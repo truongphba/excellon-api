@@ -1,14 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using eProject.Models;
+using PagedList;
+using System;
 using System.Data;
 using System.Data.Entity;
 using System.Data.Entity.Infrastructure;
 using System.Linq;
 using System.Net;
-using System.Net.Http;
 using System.Web.Http;
 using System.Web.Http.Description;
-using eProject.Models;
 
 namespace eProject.Controllers
 {
@@ -17,9 +16,27 @@ namespace eProject.Controllers
         private ExcelDbContext db = new ExcelDbContext();
 
         // GET: api/Departments
-        public IQueryable<Department> GetDepartments()
+        [System.Web.Http.HttpGet]
+        public IHttpActionResult GetDepartments(int limit, int? page, string keyword="", int? status = null)
         {
-            return db.Departments;
+            var departments = from s in db.Departments
+                           select s;
+            if (!String.IsNullOrEmpty(keyword))
+            {
+                departments = departments.Where(s => s.Name.Contains(keyword));
+            }
+            if (status.HasValue)
+            {
+                departments = departments.Where(s => s.Status == (DepartmentStatus) status);
+            }
+            int pageNumber = (page ?? 1);
+            var data = departments.OrderByDescending(s => s.CreatedAt).ToPagedList(pageNumber, limit);
+            var total = departments.ToList().Count();
+            return Ok(new
+            {
+                data,
+                total
+            });
         }
 
         // GET: api/Departments/5
@@ -48,7 +65,7 @@ namespace eProject.Controllers
             {
                 return BadRequest();
             }
-
+            department.UpdatedAt = DateTime.Now;
             db.Entry(department).State = EntityState.Modified;
 
             try
@@ -78,7 +95,9 @@ namespace eProject.Controllers
             {
                 return BadRequest(ModelState);
             }
-
+            department.Status = DepartmentStatus.Active;
+            department.CreatedAt = DateTime.Now;
+            department.UpdatedAt = DateTime.Now;
             db.Departments.Add(department);
             db.SaveChanges();
 
@@ -94,7 +113,7 @@ namespace eProject.Controllers
             {
                 return NotFound();
             }
-
+            department.UpdatedAt = DateTime.Now;
             db.Departments.Remove(department);
             db.SaveChanges();
 
