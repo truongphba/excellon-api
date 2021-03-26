@@ -38,19 +38,6 @@ namespace eProject.Controllers
                 total
             });
         }
-
-        // GET: api/Departments/5
-        [ResponseType(typeof(Department))]
-        public IHttpActionResult GetDepartments(int id)
-        {
-            Department department = db.Departments.Find(id);
-            if (department == null)
-            {
-                return NotFound();
-            }
-
-            return Ok(department);
-        }
         [Route("api/Departments/All")]
         [HttpGet]
         public IHttpActionResult GetAllDepartments()
