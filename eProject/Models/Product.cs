@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
@@ -13,7 +14,7 @@ namespace eProject.Models
         public int ClientId { get; set; }
         public string Description { get; set; }
         public ProductService Status { get; set; }
-
+        [JsonIgnore]
         [ForeignKey("ClientId")]
         public virtual Client Client { get; set; }
         public ICollection<PaymentDetail> PaymentDetails { get; set; }
