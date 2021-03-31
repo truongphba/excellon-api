@@ -99,7 +99,7 @@ namespace eProject.Controllers
             {
                 return BadRequest(ModelState);
             }
-            payment.Status = PaymentStatus.Active;
+            payment.Status = PaymentStatus.Pending;
             payment.CreatedAt = DateTime.Now;
             payment.UpdatedAt = DateTime.Now;
             db.Payments.Add(payment);
@@ -119,7 +119,7 @@ namespace eProject.Controllers
             }
 
             payment.UpdatedAt = DateTime.Now;
-            payment.Status = PaymentStatus.Deactive;
+            payment.Status = PaymentStatus.Cancle;
             //db.Payments.Remove(payment);
             db.SaveChanges();
 
