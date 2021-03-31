@@ -39,6 +39,17 @@ namespace eProject.Controllers
             });
         }
 
+        [Route("api/Clients/All")]
+        [HttpGet]
+        public IHttpActionResult GetAllClients()
+        {
+            var data = db.Clients.ToList();
+            return Ok(new
+            {
+                data
+            });
+        }
+
         // GET: api/Clients/5
         [ResponseType(typeof(Client))]
         public IHttpActionResult GetClient(int id)
