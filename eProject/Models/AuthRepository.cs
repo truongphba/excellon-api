@@ -29,7 +29,7 @@ namespace eProject.Models
                 Email = userModel.Email,
                 Status = EmployeeStatus.Active,
                 Address = userModel.Address,
-                DepartmentId = 1,
+                DepartmentId = userModel.DepartmentId,
                 CreatedAt = DateTime.Now,
                 UpdatedAt = DateTime.Now
             };
