@@ -18,7 +18,7 @@ namespace eProject.Controllers
         private ExcelDbContext db = new ExcelDbContext();
 
         // GET: api/Employees
-        public IHttpActionResult GetEmployees(int limit, int? page, string keyword = "", int? status = null)
+        public IHttpActionResult GetEmployees(int limit, int? page, string keyword = "", int? status = null, int? departmentId = null)
         {
             var employees = from s in db.Employees
                               select s;
@@ -29,6 +29,10 @@ namespace eProject.Controllers
             if (status.HasValue)
             {
                 employees = employees.Where(s => s.Status == (EmployeeStatus)status);
+            }
+            if (departmentId.HasValue)
+            {
+                employees = employees.Where(p => p.DepartmentId == departmentId);
             }
             int pageNumber = (page ?? 1);
             var data = employees.Include(c => c.Department).OrderByDescending(s => s.CreatedAt).ToPagedList(pageNumber, limit);

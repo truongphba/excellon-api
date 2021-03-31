@@ -17,7 +17,7 @@ namespace eProject.Controllers
 
         // GET: api/Products
         [System.Web.Http.HttpGet]
-        public IHttpActionResult GetProducts(int limit, int? page, string keyword = "", int? status = null)
+        public IHttpActionResult GetProducts(int limit, int? page, string keyword = "", int? status = null, int? clientId = null)
         {
             var products = from s in db.Products
                               select s;
@@ -28,6 +28,10 @@ namespace eProject.Controllers
             if (status.HasValue)
             {
                 products = products.Where(s => s.Status == (ProductService)status);
+            }
+            if (clientId.HasValue)
+            {
+                products = products.Where(p => p.ClientId == clientId);
             }
             int pageNumber = (page ?? 1);
             var data = products.OrderByDescending(s => s.CreatedAt).ToPagedList(pageNumber, limit);

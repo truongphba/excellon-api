@@ -19,7 +19,7 @@ namespace eProject.Controllers
 
         // GET: api/Services
         [System.Web.Http.HttpGet]
-        public IHttpActionResult GetServices(int limit, int? page, string keyword = "", int? status = null)
+        public IHttpActionResult GetServices(int limit, int? page, string keyword = "", int? status = null, int? departmentId = null)
         {
             var services = from s in db.Services
                            select s;
@@ -30,6 +30,10 @@ namespace eProject.Controllers
             if (status.HasValue)
             {
                 services = services.Where(s => s.Status == (ServiceStatus)status);
+            }
+            if (departmentId.HasValue)
+            {
+                services = services.Where(p => p.DepartmentId == departmentId);
             }
             int pageNumber = (page ?? 1);
             var data = services.OrderByDescending(s => s.CreatedAt).ToPagedList(pageNumber, limit);
