@@ -21,10 +21,10 @@ namespace eProject.Models
         [JsonIgnore]
         [ForeignKey("PaymentId")]
         public virtual Payment Payment { get; set; }
-
+        [JsonIgnore]
         [ForeignKey("ProductId")]
         public virtual Product Product { get; set; }
-
+        [JsonIgnore]
         [ForeignKey("ServiceId")]
         public virtual Service Service { get; set; }
         public DateTime? CreatedAt { get; set; }

@@ -45,6 +45,20 @@ namespace eProject.Controllers
             });
         }
 
+        [Route("api/Services/All")]
+        [HttpGet]
+        public IHttpActionResult GetAllServices()
+        {
+            var products = from s in db.Services
+                           select s;
+          
+            var data = products.OrderByDescending(s => s.CreatedAt).ToList();
+            return Ok(new
+            {
+                data
+            });
+        }
+
         // GET: api/Services/5
         [ResponseType(typeof(Service))]
         public IHttpActionResult GetService(int id)
