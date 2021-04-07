@@ -42,7 +42,22 @@ namespace eProject.Controllers
                 total
             });
         }
-
+        [Route("api/Products/All")]
+        [HttpGet]
+        public IHttpActionResult GetAllProducts(int? clientId = null)
+        {
+            var products = from s in db.Products
+                            select s;
+            if (clientId.HasValue)
+            {
+                products = products.Where(p => p.ClientId == clientId);
+            }
+            var data = products.OrderByDescending(s => s.CreatedAt).ToList();
+            return Ok(new
+            {
+                data
+            });
+        }
         // GET: api/Products/5
         [ResponseType(typeof(Product))]
         public IHttpActionResult GetProduct(int id)
