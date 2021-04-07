@@ -27,6 +27,6 @@ namespace eProject.Models
 
     public enum PaymentStatus
     {
-        Cancle, Done, Pending 
+        Cancel, Done, Pending 
     }
 }
