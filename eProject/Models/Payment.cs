@@ -17,7 +17,7 @@ namespace eProject.Models
         [JsonIgnore]
         [ForeignKey("EmployeeId")]
         public virtual Employee Employee { get; set; }
-
+        [JsonIgnore]
         [ForeignKey("ClientId")]
         public virtual Client Client { get; set; }
         public ICollection<PaymentDetail> PaymentDetails { get; set; }
@@ -27,6 +27,6 @@ namespace eProject.Models
 
     public enum PaymentStatus
     {
-        Cancle, Pending, Done 
+        Cancle, Done, Pending 
     }
 }

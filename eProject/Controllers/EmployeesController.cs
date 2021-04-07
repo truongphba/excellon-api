@@ -43,7 +43,22 @@ namespace eProject.Controllers
                 total
             });
         }
-
+        [Route("api/Employees/All")]
+        [HttpGet]
+        public IHttpActionResult GetAllEmployees(int? departmentId = null)
+        {
+            var employees = from s in db.Employees
+                            select s;
+            if (departmentId.HasValue)
+            {
+                employees = employees.Where(p => p.DepartmentId == departmentId);
+            }
+            var data = employees.OrderByDescending(s => s.CreatedAt).ToList();
+            return Ok(new
+            {
+                data
+            });
+        }
         // GET: api/Employees/5
         [ResponseType(typeof(Employee))]
         public IHttpActionResult GetEmployee(string id)
