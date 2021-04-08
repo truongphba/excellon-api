@@ -21,12 +21,12 @@ namespace eProject.Models
         [ForeignKey("ClientId")]
         public virtual Client Client { get; set; }
         public ICollection<PaymentDetail> PaymentDetails { get; set; }
-        public DateTime? CreatedAt { get; set; }
+        public DateTime CreatedAt { get; set; }
         public DateTime? UpdatedAt { get; set; }
     }
 
     public enum PaymentStatus
     {
-        Cancle, Done, Pending 
+        Cancel, Done, Pending 
     }
 }

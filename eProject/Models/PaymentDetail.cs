@@ -27,12 +27,26 @@ namespace eProject.Models
         [JsonIgnore]
         [ForeignKey("ServiceId")]
         public virtual Service Service { get; set; }
-        public DateTime? CreatedAt { get; set; }
+        public DateTime CreatedAt { get; set; }
         public DateTime? UpdatedAt { get; set; }
     }
 
     public enum PaymentDetailStatus
     {
         Deactive, Active
+    }
+
+    public class PaymentDetailService
+    {
+        public string CreateDate { get; set; }
+        public int? InBoundCount { get; set; }
+        public int? OutBoundCount { get; set; }
+        public int? TeleCount { get; set; }
+    }
+
+    public class PaymentDetailServiceCost
+    {
+        public string CreateDate { get; set; }
+        public double Total { get; set; }
     }
 }

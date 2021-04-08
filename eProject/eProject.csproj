@@ -203,6 +203,7 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\SampleDirection.cs" />
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
+    <Compile Include="Controllers\ChartController.cs" />
     <Compile Include="Controllers\ClientsController.cs" />
     <Compile Include="Controllers\DepartmentsController.cs" />
     <Compile Include="Controllers\EmployeeController.cs" />
@@ -223,9 +224,17 @@
     <Compile Include="Migrations\202103311227561_excel_v2.Designer.cs">
       <DependentUpon>202103311227561_excel_v2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202104041109304_excel_v3.cs" />
+    <Compile Include="Migrations\202104041109304_excel_v3.Designer.cs">
+      <DependentUpon>202104041109304_excel_v3.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\202104020956188_exel_v3.cs" />
     <Compile Include="Migrations\202104020956188_exel_v3.Designer.cs">
       <DependentUpon>202104020956188_exel_v3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202104071224292_excel_v4.cs" />
+    <Compile Include="Migrations\202104071224292_excel_v4.Designer.cs">
+      <DependentUpon>202104071224292_excel_v4.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AuthRepository.cs" />
@@ -333,8 +342,14 @@
     <EmbeddedResource Include="Migrations\202103311227561_excel_v2.resx">
       <DependentUpon>202103311227561_excel_v2.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202104041109304_excel_v3.resx">
+      <DependentUpon>202104041109304_excel_v3.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202104020956188_exel_v3.resx">
       <DependentUpon>202104020956188_exel_v3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202104071224292_excel_v4.resx">
+      <DependentUpon>202104071224292_excel_v4.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

@@ -27,4 +27,11 @@ namespace eProject.Models
     {
         Deactive, Active
     }
+
+    public class AllService
+    {
+        public int InBoundCount { get; set; }
+        public int OutBoundCount { get; set; }
+        public int TeleCount { get; set; }
+    }
 }
