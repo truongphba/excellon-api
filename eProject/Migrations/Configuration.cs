@@ -377,7 +377,7 @@
             });
             context.Services.AddOrUpdate(new Service()
             {
-                Id = 1,
+                Id = 3,
                 Name = "Telemarketing",
                 Price = 5500,
                 DepartmentId = 1,

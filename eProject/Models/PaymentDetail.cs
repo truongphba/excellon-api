@@ -39,7 +39,9 @@ namespace eProject.Models
     public class PaymentDetailService
     {
         public string CreateDate { get; set; }
-        public int Count { get; set; }
+        public int? InBoundCount { get; set; }
+        public int? OutBoundCount { get; set; }
+        public int? TeleCount { get; set; }
     }
 
     public class PaymentDetailServiceCost
