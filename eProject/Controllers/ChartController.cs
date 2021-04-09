@@ -374,7 +374,6 @@ namespace eProject.Controllers
             //var telePercent = tele / totalCost * 100;
             return Ok(new
             {
-                inBound,
                 inBoundPercent,
                 outBoundPercent,
                 telePercent
@@ -396,6 +395,26 @@ namespace eProject.Controllers
                 inBound,
                 outBound,
                 tele
+            });
+        }
+
+        [HttpGet]
+        [Route("api/Chart/allTotal")]
+        public IHttpActionResult GetAllTotal()
+        {
+            var totalCost = db.Payments.Sum(s => s.TotalCost);
+            var totalClient = db.Clients.Count();
+            var totalEmployee = db.Employees.Count();
+            var totalPayment = db.Payments.Count();
+            var totalPaymentDetail = db.PaymentDetails.Count();
+
+            return Ok(new
+            {
+                totalCost,
+                totalClient,
+                totalEmployee,
+                totalPayment,
+                totalPaymentDetail
             });
         }
     }
