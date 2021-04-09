@@ -180,7 +180,7 @@ namespace eProject.Controllers
             }
 
             payment.UpdatedAt = DateTime.Now;
-            payment.Status = PaymentStatus.Cancle;
+            payment.Status = PaymentStatus.Cancel ;
             //db.Payments.Remove(payment);
             db.SaveChanges();
 
