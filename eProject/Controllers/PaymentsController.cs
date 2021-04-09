@@ -1,4 +1,5 @@
-﻿using eProject.Models;
+﻿using ClosedXML.Excel;
+using eProject.Models;
 using Newtonsoft.Json;
 using PagedList;
 using System;
@@ -6,8 +7,10 @@ using System.Collections.Generic;
 using System.Data;
 using System.Data.Entity;
 using System.Data.Entity.Infrastructure;
+using System.IO;
 using System.Linq;
 using System.Net;
+using System.Web;
 using System.Web.Http;
 using System.Web.Http.Description;
 using System.Web.Mvc;
@@ -48,6 +51,106 @@ namespace eProject.Controllers
                 data,
                 total
             });
+        }
+
+        [System.Web.Http.Route("api/Payments/Export")]
+        [System.Web.Http.HttpGet]
+        public void ExportToExcel(int limit, int? page, double? maxCost, double? minCost, int? status = null)
+        {
+            var payments = from s in db.Payments
+                           select s;
+            if (maxCost.HasValue)
+            {
+                payments = payments.Where(s => s.TotalCost >= minCost);
+            }
+            if (maxCost.HasValue)
+            {
+                payments = payments.Where(s => s.TotalCost >= maxCost);
+            }
+            if (status.HasValue)
+            {
+                payments = payments.Where(s => s.Status == (PaymentStatus)status);
+            }
+            int pageNumber = (page ?? 1);
+            var data = payments.OrderByDescending(s => s.CreatedAt).ToPagedList(pageNumber, limit);
+            XLWorkbook wb = new XLWorkbook();
+            var worksheet = wb.Worksheets.Add("Payments");
+            var currentRow = 1;
+            worksheet.Cell(currentRow, 1).Value = "Id";
+            worksheet.Cell(currentRow, 2).Value = "TotalCost";
+            worksheet.Cell(currentRow, 3).Value = "Client";
+            worksheet.Cell(currentRow, 4).Value = "Employee";
+            worksheet.Cell(currentRow, 6).Value = "Create At";
+            worksheet.Cell(currentRow, 7).Value = "Status";
+
+            foreach (Payment payment in data)
+            {
+                currentRow++;
+                worksheet.Cell(currentRow, 1).Value = payment.Id;
+                worksheet.Cell(currentRow, 2).Value = payment.TotalCost;
+                worksheet.Cell(currentRow, 3).Value = payment.Client.Name;
+                worksheet.Cell(currentRow, 4).Value = payment.Employee.UserName;
+                worksheet.Cell(currentRow, 6).Value = payment.CreatedAt;
+                worksheet.Cell(currentRow, 7).Value = payment.Status;
+
+
+            }
+
+
+            HttpContext.Current.Response.Clear();
+            HttpContext.Current.Response.Buffer = true;
+            HttpContext.Current.Response.Charset = "";
+            HttpContext.Current.Response.ContentType = "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet";
+            HttpContext.Current.Response.AddHeader("content-disposition", "attachment;filename=Payments.xlsx");
+            MemoryStream stream = new MemoryStream();
+            wb.SaveAs(stream);
+            HttpContext.Current.Response.AddHeader("content-length", stream.ToArray().Length.ToString());
+            stream.WriteTo(HttpContext.Current.Response.OutputStream);
+            HttpContext.Current.Response.Flush();
+            HttpContext.Current.Response.End();
+
+            XLWorkbook wbPaymentDetail = new XLWorkbook();
+            var worksheetPaymentDetail = wb.Worksheets.Add("Payment Detail");
+            var row = 1;
+            worksheetPaymentDetail.Cell(row, 1).Value = "Id";
+            worksheetPaymentDetail.Cell(row, 2).Value = "Amout Employee";
+            worksheetPaymentDetail.Cell(row, 3).Value = "Start Date";
+            worksheetPaymentDetail.Cell(row, 4).Value = "End Date";
+            worksheetPaymentDetail.Cell(row, 5).Value = "Payment";
+            worksheetPaymentDetail.Cell(row, 6).Value = "Product";
+            worksheetPaymentDetail.Cell(row, 7).Value = "Service";
+            worksheetPaymentDetail.Cell(row, 8).Value = "Cost";
+            worksheetPaymentDetail.Cell(row, 9).Value = "Create At";
+            worksheetPaymentDetail.Cell(row, 10).Value = "Status";
+            foreach (Payment payment in data)
+            {
+                foreach (PaymentDetail paymentDetail in payment.PaymentDetails)
+                {
+                    row++;
+                    worksheetPaymentDetail.Cell(row, 1).Value = paymentDetail.Id;
+                    worksheetPaymentDetail.Cell(row, 2).Value = paymentDetail.AmoutEmployee;
+                    worksheetPaymentDetail.Cell(row, 3).Value = paymentDetail.StartDate;
+                    worksheetPaymentDetail.Cell(row, 4).Value = paymentDetail.EndDate;
+                    worksheetPaymentDetail.Cell(row, 5).Value = paymentDetail.Payment.Id;
+                    worksheetPaymentDetail.Cell(row, 6).Value = paymentDetail.Product.Name;
+                    worksheetPaymentDetail.Cell(row, 7).Value = paymentDetail.Service.Name;
+                    worksheetPaymentDetail.Cell(row, 8).Value = paymentDetail.Cost;
+                    worksheetPaymentDetail.Cell(row, 9).Value = paymentDetail.CreatedAt;
+                    worksheetPaymentDetail.Cell(row, 10).Value = paymentDetail.Status;
+                }
+            }
+            HttpContext.Current.Response.Clear();
+            HttpContext.Current.Response.Buffer = true;
+            HttpContext.Current.Response.Charset = "";
+            HttpContext.Current.Response.ContentType = "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet";
+            HttpContext.Current.Response.AddHeader("content-disposition", "attachment;filename=PaymentsDetail.xlsx");
+            MemoryStream streamPD = new MemoryStream();
+            wbPaymentDetail.SaveAs(stream);
+            HttpContext.Current.Response.AddHeader("content-length", streamPD.ToArray().Length.ToString());
+            streamPD.WriteTo(HttpContext.Current.Response.OutputStream);
+            HttpContext.Current.Response.Flush();
+            HttpContext.Current.Response.End();
+
         }
 
         // GET: api/Payments/5

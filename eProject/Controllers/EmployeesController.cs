@@ -3,11 +3,14 @@ using System.Collections.Generic;
 using System.Data;
 using System.Data.Entity;
 using System.Data.Entity.Infrastructure;
+using System.IO;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
+using System.Web;
 using System.Web.Http;
 using System.Web.Http.Description;
+using ClosedXML.Excel;
 using eProject.Models;
 using PagedList;
 
@@ -43,6 +46,60 @@ namespace eProject.Controllers
                 total
             });
         }
+
+        [System.Web.Http.Route("api/Employees/Export")]
+        [System.Web.Http.HttpGet]
+        public void ExportToExcel(int limit, int? page, string keyword = "", int? status = null)
+        {
+            var employees = from s in db.Employees select s;
+            if (!String.IsNullOrEmpty(keyword))
+            {
+                employees = employees.Where(s => s.UserName.Contains(keyword) || s.Email.Contains(keyword));
+            }
+            if (status.HasValue)
+            {
+                employees = employees.Where(s => s.Status == (EmployeeStatus)status);
+            }
+            int pageNumber = (page ?? 1);
+            var data = employees.Include(c => c.Department).OrderByDescending(s => s.CreatedAt).ToPagedList(pageNumber, limit);
+            XLWorkbook wb = new XLWorkbook();
+            var worksheet = wb.Worksheets.Add("Employee");
+            var currentRow = 1;
+            worksheet.Cell(currentRow, 1).Value = "Name";
+            worksheet.Cell(currentRow, 2).Value = "Email";
+            worksheet.Cell(currentRow, 3).Value = "Phone Number";
+            worksheet.Cell(currentRow, 4).Value = "Address";
+            worksheet.Cell(currentRow, 5).Value = "Department";
+            worksheet.Cell(currentRow, 6).Value = "Create At";
+            worksheet.Cell(currentRow, 7).Value = "Status";
+
+            foreach (Employee employee in data)
+            {
+                currentRow++;
+                worksheet.Cell(currentRow, 1).Value = employee.UserName;
+                worksheet.Cell(currentRow, 2).Value = employee.Email;
+                worksheet.Cell(currentRow, 3).Value = employee.PhoneNumber;
+                worksheet.Cell(currentRow, 4).Value = employee.Address;
+                worksheet.Cell(currentRow, 5).Value = employee.Department.Name;
+                worksheet.Cell(currentRow, 6).Value = employee.CreatedAt;
+                worksheet.Cell(currentRow, 7).Value = employee.Status;
+            }
+
+
+            HttpContext.Current.Response.Clear();
+            HttpContext.Current.Response.Buffer = true;
+            HttpContext.Current.Response.Charset = "";
+            HttpContext.Current.Response.ContentType = "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet";
+            HttpContext.Current.Response.AddHeader("Content-disposition", "attachment;filename=Employee.xlsx");
+            MemoryStream stream = new MemoryStream();
+            wb.SaveAs(stream);
+            HttpContext.Current.Response.AddHeader("Content-length", stream.ToArray().Length.ToString());
+            stream.WriteTo(HttpContext.Current.Response.OutputStream);
+            HttpContext.Current.Response.Flush();
+            HttpContext.Current.Response.End();
+
+        }
+
         [Route("api/Employees/All")]
         [HttpGet]
         public IHttpActionResult GetAllEmployees(int? departmentId = null)
