@@ -6,8 +6,10 @@ using System.Collections.Generic;
 using System.Data;
 using System.Data.Entity;
 using System.Data.Entity.Infrastructure;
+using System.Globalization;
 using System.Linq;
 using System.Net;
+using System.Web;
 using System.Web.Http;
 using System.Web.Http.Description;
 using System.Web.Mvc;
@@ -20,7 +22,7 @@ namespace eProject.Controllers
 
         // GET: api/Payments
         [System.Web.Http.HttpGet]
-        public IHttpActionResult GetPayments(int limit, int? page, double? maxCost = null, double? minCost = null, int? status = null, int? id = null)
+        public IHttpActionResult GetPayments(int limit, int? page, int? status = null, int? id = null,int? clientId = null, string employeeId = null, string createdAt = null)
         {
             var payments = from s in db.Payments
                               select s;
@@ -28,13 +30,19 @@ namespace eProject.Controllers
             {
                 payments = payments.Where(s => s.Id == id);
             }
-            if (maxCost.HasValue)
+            if (clientId.HasValue)
             {
-                payments = payments.Where(s => s.TotalCost >= minCost);
+                payments = payments.Where(s => s.ClientId == clientId);
             }
-            if (maxCost.HasValue)
+            if (!String.IsNullOrEmpty(employeeId))
             {
-                payments = payments.Where(s => s.TotalCost >= maxCost);
+                payments = payments.Where(s => s.EmployeeId == employeeId);
+            }
+            if (!String.IsNullOrEmpty(createdAt))
+            {
+                var from = DateTime.ParseExact(createdAt.Split('_')[0], "dd/MM/yyyy", CultureInfo.InvariantCulture);
+                var to = DateTime.ParseExact(createdAt.Split('_')[1], "dd/MM/yyyy", CultureInfo.InvariantCulture);
+                payments = payments.Where(s => s.CreatedAt >= from && s.CreatedAt <= to);
             }
             if (status.HasValue)
             {
@@ -59,7 +67,6 @@ namespace eProject.Controllers
             {
                 return NotFound();
             }
-
             var detail = db.PaymentDetails.Where(s => s.PaymentId == payment.Id).ToList();
 
             return Ok(payment);
