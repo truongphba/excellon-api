@@ -236,9 +236,18 @@
     <Compile Include="Migrations\202104071224292_excel_v4.Designer.cs">
       <DependentUpon>202104071224292_excel_v4.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202104100104499_excel_v6.cs" />
+    <Compile Include="Migrations\202104100104499_excel_v6.Designer.cs">
+      <DependentUpon>202104100104499_excel_v6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202104100114252_excel_5.cs" />
+    <Compile Include="Migrations\202104100114252_excel_5.Designer.cs">
+      <DependentUpon>202104100114252_excel_5.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AuthRepository.cs" />
     <Compile Include="Models\Client.cs" />
+    <Compile Include="Models\Contact.cs" />
     <Compile Include="Models\Department.cs" />
     <Compile Include="Models\Employee.cs" />
     <Compile Include="Models\ExcelDbContext.cs" />
@@ -350,6 +359,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202104071224292_excel_v4.resx">
       <DependentUpon>202104071224292_excel_v4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202104100104499_excel_v6.resx">
+      <DependentUpon>202104100104499_excel_v6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202104100114252_excel_5.resx">
+      <DependentUpon>202104100114252_excel_5.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

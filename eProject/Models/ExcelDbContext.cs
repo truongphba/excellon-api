@@ -20,6 +20,7 @@ namespace eProject.Models
         public DbSet<PaymentDetail> PaymentDetails { get; set; }
         public DbSet<Product> Products { get; set; }
         public DbSet<Service> Services { get; set; }
+        public DbSet<Contact> Contacts { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
@@ -54,7 +55,7 @@ namespace eProject.Models
                 .HasRequired(p => p.Payment)
                 .WithMany(payment => payment.PaymentDetails)
                 .HasForeignKey(p => p.PaymentId)
-                .WillCascadeOnDelete(false);
+                .WillCascadeOnDelete(true);
 
             modelBuilder.Entity<PaymentDetail>()
                 .HasRequired(p => p.Product)
