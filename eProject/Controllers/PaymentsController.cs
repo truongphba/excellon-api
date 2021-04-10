@@ -1,5 +1,7 @@
 ﻿using ClosedXML.Excel;
 using eProject.Models;
+using MailKit.Net.Smtp;
+using MimeKit;
 using Newtonsoft.Json;
 using PagedList;
 using System;
@@ -251,6 +253,8 @@ namespace eProject.Controllers
 
                     }
                     db.SaveChanges();
+
+
                     dbTran.Commit();
                     return Ok();
                 }
