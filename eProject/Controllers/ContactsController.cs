@@ -55,20 +55,18 @@ namespace eProject.Controllers
 
         // PUT: api/Contacts/5
         [ResponseType(typeof(void))]
-        public IHttpActionResult PutContact(int id, Contact contact)
+        public IHttpActionResult PutContact(int id, [FromBody] dynamic value)
         {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
-
-            if (id != contact.Id)
+            var contact = db.Contacts.Find(id);
+            if (contact == null)
             {
                 return BadRequest();
             }
-
+            contact.UpdatedAt = DateTime.Now;
+            contact.Status = (ContactStatus)(int)value.status.Value;
             db.Entry(contact).State = EntityState.Modified;
 
+           
             try
             {
                 db.SaveChanges();
