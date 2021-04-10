@@ -350,13 +350,28 @@ namespace eProject.Controllers
         [Route("api/Chart/serviceTotalCost")]
         public IHttpActionResult AllServiceCostPercent()
         {
+            double inBoundPercent = 0;
+            double outBoundPercent = 0;
+            double telePercent = 0;
             var totalCost = db.PaymentDetails.AsEnumerable().Sum(s => s.Cost);
-            var inBound = db.PaymentDetails.Where(s => s.ServiceId == 1).Sum(s => s.Cost);
-            var outBound = db.PaymentDetails.Where(s => s.ServiceId == 3).Sum(s => s.Cost);
-            var tele = db.PaymentDetails.Where(s => s.ServiceId == 2).Sum(s => s.Cost);
-            var inBoundPercent = inBound / totalCost * 100;
-            var outBoundPercent = outBound / totalCost * 100;
-            var telePercent = tele / totalCost * 100;
+            var inBound = db.PaymentDetails.Where(s => s.ServiceId == 1);
+            var outBound = db.PaymentDetails.Where(s => s.ServiceId == 3);
+            var tele = db.PaymentDetails.Where(s => s.ServiceId == 2);
+            //var inBoundPercent = inBound / totalCost * 100;
+            if (inBound.Count() != 0)
+            {
+                inBoundPercent = inBound.Sum(s => s.Cost);
+            }
+            if (outBound.Count() != 0)
+            {
+                outBoundPercent = outBound.Sum(s => s.Cost);
+            }
+            if (tele.Count() != 0)
+            {
+                telePercent = tele.Sum(s => s.Cost);
+            }
+            //var outBoundPercent = outBound / totalCost * 100;
+            //var telePercent = tele / totalCost * 100;
             return Ok(new
             {
                 inBoundPercent,
@@ -380,6 +395,26 @@ namespace eProject.Controllers
                 inBound,
                 outBound,
                 tele
+            });
+        }
+
+        [HttpGet]
+        [Route("api/Chart/allTotal")]
+        public IHttpActionResult GetAllTotal()
+        {
+            var totalCost = db.Payments.Sum(s => s.TotalCost);
+            var totalClient = db.Clients.Count();
+            var totalEmployee = db.Employees.Count();
+            var totalPayment = db.Payments.Count();
+            var totalPaymentDetail = db.PaymentDetails.Count();
+
+            return Ok(new
+            {
+                totalCost,
+                totalClient,
+                totalEmployee,
+                totalPayment,
+                totalPaymentDetail
             });
         }
     }
