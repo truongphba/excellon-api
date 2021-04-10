@@ -254,6 +254,53 @@ namespace eProject.Controllers
                     }
                     db.SaveChanges();
 
+                    MimeMessage message = new MimeMessage();
+                    message.From.Add(new MailboxAddress("Excellon", "vuongthanh0111@gmail.com"));
+                    message.To.Add(new MailboxAddress("User", "lihej16596@0pppp.com"));
+                    message.Subject = "Successful support request";
+                    BodyBuilder bodyBuilder = new BodyBuilder();
+                    bodyBuilder.HtmlBody =
+                        "<div>" +
+                            "<h1>Payment Detail</h1> " +
+                            "<table style=\"font - family: arial, sans - serif; border - collapse: collapse;\" > " +
+                                "<tr>" +
+                                    "<th style=\"border: 1px solid #dddddd;text-align:left;padding: 8px;\">" + payment.Id + "</th>" +
+                                    "<th style=\"border: 1px solid #dddddd;text-align:left;padding: 8px;\">ID</th>" +
+                                "</tr>" +
+                                "<tr>" +
+                                    "<th style=\"border: 1px solid #dddddd;text-align:left;padding: 8px;\">" + payment.TotalCost + "</th>" +
+                                    "<th style=\"border: 1px solid #dddddd;text-align:left;padding: 8px;\">Total Cost</th>" +
+                                "</tr>" +
+                                 "<tr>" +
+                                    "<th style=\"border: 1px solid #dddddd;text-align:left;padding: 8px;\">" + payment.ClientId + "</th>" +
+                                    "<th style=\"border: 1px solid #dddddd;text-align:left;padding: 8px;\">Client Id</th>" +
+                                "</tr>" +
+                                 "<tr>" +
+                                    "<th style=\"border: 1px solid #dddddd;text-align:left;padding: 8px;\">" + payment.Client.Name + "</th>" +
+                                    "<th style=\"border: 1px solid #dddddd;text-align:left;padding: 8px;\">Client name</th>" +
+                                "</tr>" +
+                                 "<tr>" +
+                                    "<th style=\"border: 1px solid #dddddd;text-align:left;padding: 8px;\">" + payment.EmployeeId + "</th>" +
+                                    "<th style=\"border: 1px solid #dddddd;text-align:left;padding: 8px;\">Employee Id</th>" +
+                                "</tr>" +
+                                 "<tr>" +
+                                    "<th style=\"border: 1px solid #dddddd;text-align:left;padding: 8px;\">" + payment.Employee.UserName + "</th>" +
+                                    "<th style=\"border: 1px solid #dddddd;text-align:left;padding: 8px;\">Employee Name</th>" +
+                                "</tr>" +
+                            "</table>" +
+                        "</div>" +
+                        "<div>" +
+                            "<h5>Please make a transfer to complete the transaction.</ h5 >" +
+                            "<h6>Account number: 19036480090018 (VUONG HA THANH). </h6>" +
+                            "<h6>Transfer text: \"Excellon + PaymentId + ClientId\"</h6>" +
+                        "</ div > "
+                        ;
+                    message.Body = bodyBuilder.ToMessageBody();
+                    SmtpClient client = new SmtpClient();
+                    client.Connect("smtp.gmail.com", 465, true);
+                    client.Authenticate("vuongthanh0111@gmail.com", "iscgdhmbfhzfqkrp");
+                    client.Send(message);
+                    client.Disconnect(true);
 
                     dbTran.Commit();
                     return Ok();
