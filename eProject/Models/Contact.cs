@@ -14,6 +14,8 @@ namespace eProject.Models
         public string CompanyName { get; set; }
         public string Description { get; set; }
         public ContactStatus Status { get; set; }
+        public DateTime CreatedAt { get; set; }
+        public DateTime? UpdatedAt { get; set; }
     }
 
     public enum ContactStatus
