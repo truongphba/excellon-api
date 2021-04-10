@@ -256,7 +256,7 @@ namespace eProject.Controllers
 
                     MimeMessage message = new MimeMessage();
                     message.From.Add(new MailboxAddress("Excellon", "vuongthanh0111@gmail.com"));
-                    message.To.Add(new MailboxAddress("User", "lihej16596@0pppp.com"));
+                    message.To.Add(new MailboxAddress("User", payment.Client.Email));
                     message.Subject = "Successful support request";
                     BodyBuilder bodyBuilder = new BodyBuilder();
                     bodyBuilder.HtmlBody =
