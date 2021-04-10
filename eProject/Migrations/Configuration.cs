@@ -26,9 +26,9 @@
             context.Database.ExecuteSqlCommand("DELETE FROM [Departments]");
             context.Database.ExecuteSqlCommand("DBCC CHECKIDENT('Departments', RESEED, 0)");
             context.Database.ExecuteSqlCommand("DELETE FROM [Payments]");
+            context.Database.ExecuteSqlCommand("DELETE FROM [PaymentDetails]");            
             context.Database.ExecuteSqlCommand("DBCC CHECKIDENT('Payments', RESEED, 0)");
-            context.Database.ExecuteSqlCommand("DELETE FROM [PaymentDetails]");
-            context.Database.ExecuteSqlCommand("DBCC CHECKIDENT('PaymentDetails', RESEED, 0)");
+            context.Database.ExecuteSqlCommand("DBCC CHECKIDENT('PaymentDetails', RESEED, 0)");                             
             context.Database.ExecuteSqlCommand("DELETE FROM [Products]");
             context.Database.ExecuteSqlCommand("DBCC CHECKIDENT('Products', RESEED, 0)");
             context.Database.ExecuteSqlCommand("DELETE FROM [Services]");
