@@ -205,6 +205,7 @@
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Controllers\ChartController.cs" />
     <Compile Include="Controllers\ClientsController.cs" />
+    <Compile Include="Controllers\ContactsController.cs" />
     <Compile Include="Controllers\DepartmentsController.cs" />
     <Compile Include="Controllers\EmployeeController.cs" />
     <Compile Include="Controllers\EmployeesController.cs" />
@@ -243,6 +244,10 @@
     <Compile Include="Migrations\202104100114252_excel_5.cs" />
     <Compile Include="Migrations\202104100114252_excel_5.Designer.cs">
       <DependentUpon>202104100114252_excel_5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202104100931294_excel_v7.cs" />
+    <Compile Include="Migrations\202104100931294_excel_v7.Designer.cs">
+      <DependentUpon>202104100931294_excel_v7.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AuthRepository.cs" />
@@ -365,6 +370,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202104100114252_excel_5.resx">
       <DependentUpon>202104100114252_excel_5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202104100931294_excel_v7.resx">
+      <DependentUpon>202104100931294_excel_v7.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

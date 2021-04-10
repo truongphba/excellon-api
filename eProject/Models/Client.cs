@@ -14,17 +14,23 @@ namespace eProject.Models
         public string TaxCode { get; set; }
         //mã khách hàng
         public string ClientCode { get; set; }
+        //Nguồn khách hàng
+        public string ClientSource { get; set; }
         public string PhoneNumber { get; set; }
         public string Address { get; set; }
         //ngành nghề 
         public string Career { get; set; }
         public string Email { get; set; }
+        // Người liên hệ chính
+        public string PointOfContact { get; set; }
+        // chức vụ
+        public string position { get; set; }
         //mô tả về khách hàng
         public string Description { get; set; }
         public ClientStatus Status { get; set; }
         public ICollection<Payment> Payments { get; set; }
         public ICollection<Product> Products { get; set; }
-        public DateTime? CreatedAt { get; set; }
+        public DateTime CreatedAt { get; set; }
         public DateTime? UpdatedAt { get; set; }
     }
 
