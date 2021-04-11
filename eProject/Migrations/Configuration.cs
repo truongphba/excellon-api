@@ -22,19 +22,19 @@
             context.Database.ExecuteSqlCommand("DELETE FROM [AspNetUsers]");
             //context.Database.ExecuteSqlCommand("DBCC CHECKIDENT('AspNetUsers', RESEED, 0)");
             context.Database.ExecuteSqlCommand("DELETE FROM [Clients]");
-            context.Database.ExecuteSqlCommand("DBCC CHECKIDENT('Clients', RESEED, 0)");
+            context.Database.ExecuteSqlCommand("DBCC CHECKIDENT('Clients', RESEED, 1)");
             context.Database.ExecuteSqlCommand("DELETE FROM [Departments]");
-            context.Database.ExecuteSqlCommand("DBCC CHECKIDENT('Departments', RESEED, 0)");
+            context.Database.ExecuteSqlCommand("DBCC CHECKIDENT('Departments', RESEED, 1)");
             context.Database.ExecuteSqlCommand("DELETE FROM [Payments]");
             context.Database.ExecuteSqlCommand("DELETE FROM [PaymentDetails]");
-            context.Database.ExecuteSqlCommand("DBCC CHECKIDENT('Payments', RESEED, 0)");
-            context.Database.ExecuteSqlCommand("DBCC CHECKIDENT('PaymentDetails', RESEED, 0)");
+            context.Database.ExecuteSqlCommand("DBCC CHECKIDENT('Payments', RESEED, 1)");
+            context.Database.ExecuteSqlCommand("DBCC CHECKIDENT('PaymentDetails', RESEED, 1)");
             context.Database.ExecuteSqlCommand("DELETE FROM [Products]");
-            context.Database.ExecuteSqlCommand("DBCC CHECKIDENT('Products', RESEED, 0)");
+            context.Database.ExecuteSqlCommand("DBCC CHECKIDENT('Products', RESEED, 1)");
             context.Database.ExecuteSqlCommand("DELETE FROM [Services]");
-            context.Database.ExecuteSqlCommand("DBCC CHECKIDENT('Services', RESEED, 0)");
+            context.Database.ExecuteSqlCommand("DBCC CHECKIDENT('Services', RESEED, 1)");
             context.Database.ExecuteSqlCommand("DELETE FROM [Contacts]");
-            context.Database.ExecuteSqlCommand("DBCC CHECKIDENT('Contacts', RESEED, 0)");
+            context.Database.ExecuteSqlCommand("DBCC CHECKIDENT('Contacts', RESEED, 1)");
 
             //Department_________________________________________________________________
             context.Departments.AddOrUpdate(new Department()

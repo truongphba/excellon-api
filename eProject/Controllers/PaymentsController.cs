@@ -123,8 +123,6 @@ namespace eProject.Controllers
                         TimeSpan x = dt2.Subtract(dt1);
                         int days = x.Days;
                         payment.TotalCost += price * Int32.Parse(paymentDetails[i].amoutEmployee.Value) * days;
-
-
                     }
                     db.Payments.Add(payment);
 
