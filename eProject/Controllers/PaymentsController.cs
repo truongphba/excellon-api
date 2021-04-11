@@ -144,7 +144,7 @@ namespace eProject.Controllers
                         db.PaymentDetails.Add(paymentDetail);
                     }
                     db.SaveChanges();
-
+                    //Mail
                     var ct = db.Clients.Find((int)value.clientId.Value);
                     Employee employee = db.Employees.Find(value.employeeId.Value.ToString());
                     MimeMessage message = new MimeMessage();
@@ -186,13 +186,14 @@ namespace eProject.Controllers
                             "<h5>Please make a transfer to complete the transaction.</ h5 >" +
                             "<h6>Account number: 19036480090018 (VUONG HA THANH). </h6>" +
                             "<h6>Transfer text: \"Excellon + PaymentId + ClientId\"</h6>" +
-                        "</div>", payment.Id, payment.TotalCost, payment.ClientId,ct.Name,payment.EmployeeId,employee.UserName);
+                        "</div>", payment.Id, payment.TotalCost, payment.ClientId, ct.Name, payment.EmployeeId, employee.UserName);
                     message.Body = bodyBuilder.ToMessageBody();
                     SmtpClient client = new SmtpClient();
                     client.Connect("smtp.gmail.com", 465, true);
                     client.Authenticate("vuongthanh0111@gmail.com", "iscgdhmbfhzfqkrp");
                     client.Send(message);
                     client.Disconnect(true);
+                    //Close mail
                     dbTran.Commit();
                     return Ok();
                 }
