@@ -157,36 +157,33 @@ namespace eProject.Controllers
                             "<h1>Payment Detail</h1> " +
                             "<table style=\"font - family: arial, sans - serif; border - collapse: collapse;\" > " +
                                 "<tr>" +
-                                    "<th style=\"border: 1px solid #dddddd;text-align:left;padding: 8px;\">" + "{0}" + "</th>" +
                                     "<th style=\"border: 1px solid #dddddd;text-align:left;padding: 8px;\">ID</th>" +
+                                    "<th style=\"border: 1px solid #dddddd;text-align:left;padding: 8px;\">" + "{0}" + "</th>" +
                                 "</tr>" +
                                 "<tr>" +
+                                    "<th style=\"border: 1px solid #dddddd;text-align:left;padding: 8px;\">Total Cost ($)</th>" +
                                     "<th style=\"border: 1px solid #dddddd;text-align:left;padding: 8px;\">" + "{1}" + "</th>" +
-                                    "<th style=\"border: 1px solid #dddddd;text-align:left;padding: 8px;\">Total Cost</th>" +
+                                    
                                 "</tr>" +
-                                 "<tr>" +
-                                    "<th style=\"border: 1px solid #dddddd;text-align:left;padding: 8px;\">" + "{2}" + "</th>" +
-                                    "<th style=\"border: 1px solid #dddddd;text-align:left;padding: 8px;\">Client Id</th>" +
-                                "</tr>" +
+                                 
                                 "<tr>" +
-                                    "<th style=\"border: 1px solid #dddddd;text-align:left;padding: 8px;\">" + "{3}" + "</th>" +
                                     "<th style=\"border: 1px solid #dddddd;text-align:left;padding: 8px;\">Client Name</th>" +
+                                    "<th style=\"border: 1px solid #dddddd;text-align:left;padding: 8px;\">" + "{2}" + "</th>" +
+                                    
                                 "</tr>" +
-                                 "<tr>" +
-                                    "<th style=\"border: 1px solid #dddddd;text-align:left;padding: 8px;\">" + "{4}" + "</th>" +
-                                    "<th style=\"border: 1px solid #dddddd;text-align:left;padding: 8px;\">Employee Id</th>" +
-                                "</tr>" +
+                                 
                                 "<tr>" +
-                                    "<th style=\"border: 1px solid #dddddd;text-align:left;padding: 8px;\">" + "{5}" + "</th>" +
                                     "<th style=\"border: 1px solid #dddddd;text-align:left;padding: 8px;\">Employee Name</th>" +
+                                    "<th style=\"border: 1px solid #dddddd;text-align:left;padding: 8px;\">" + "{3}" + "</th>" +
+                                    
                                 "</tr>" +
                             "</table>" +
                         "</div>" +
                         "<div>" +
-                            "<h5>Please make a transfer to complete the transaction.</ h5 >" +
-                            "<h6>Account number: 19036480090018 (VUONG HA THANH). </h6>" +
-                            "<h6>Transfer text: \"Excellon + PaymentId + ClientId\"</h6>" +
-                        "</div>", payment.Id, payment.TotalCost, payment.ClientId, ct.Name, payment.EmployeeId, employee.UserName);
+                            "<h2>Please make a transfer to complete the transaction.</ h5 >" +
+                            "<h3>Account number: 19036480090018 (VUONG HA THANH). </h6>" +
+                            "<h3>Transfer text: \"Excellon + PaymentId + ClientName\"</h6>" +
+                        "</div>", payment.Id, payment.TotalCost, ct.Name, employee.UserName);
                     message.Body = bodyBuilder.ToMessageBody();
                     SmtpClient client = new SmtpClient();
                     client.Connect("smtp.gmail.com", 465, true);
