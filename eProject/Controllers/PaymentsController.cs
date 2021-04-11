@@ -1,4 +1,6 @@
 ﻿using eProject.Models;
+using MailKit.Net.Smtp;
+using MimeKit;
 using Newtonsoft.Json;
 using PagedList;
 using System;
@@ -125,8 +127,6 @@ namespace eProject.Controllers
                         payment.TotalCost += price * Int32.Parse(paymentDetails[i].amoutEmployee.Value) * days;
                     }
                     db.Payments.Add(payment);
-
-
                     for (int i = 0; i < paymentDetails.Count; i++)
                     {
                         DateTime dt1 = DateTime.Parse(paymentDetails[i].startDate.Value);
@@ -142,10 +142,57 @@ namespace eProject.Controllers
                         paymentDetail.CreatedAt = DateTime.Now;
                         paymentDetail.UpdatedAt = DateTime.Now;
                         db.PaymentDetails.Add(paymentDetail);
-
-
                     }
                     db.SaveChanges();
+
+                    var ct = db.Clients.Find((int)value.clientId.Value);
+                    Employee employee = db.Employees.Find(value.employeeId.Value.ToString());
+                    MimeMessage message = new MimeMessage();
+                    message.From.Add(new MailboxAddress("Excellon", "vuongthanh0111@gmail.com"));
+                    message.To.Add(new MailboxAddress("User", ct.Email));
+                    message.Subject = "Successful support request";
+                    BodyBuilder bodyBuilder = new BodyBuilder();
+                    bodyBuilder.HtmlBody =
+                       string.Format("<div>" +
+                            "<h1>Payment Detail</h1> " +
+                            "<table style=\"font - family: arial, sans - serif; border - collapse: collapse;\" > " +
+                                "<tr>" +
+                                    "<th style=\"border: 1px solid #dddddd;text-align:left;padding: 8px;\">" + "{0}" + "</th>" +
+                                    "<th style=\"border: 1px solid #dddddd;text-align:left;padding: 8px;\">ID</th>" +
+                                "</tr>" +
+                                "<tr>" +
+                                    "<th style=\"border: 1px solid #dddddd;text-align:left;padding: 8px;\">" + "{1}" + "</th>" +
+                                    "<th style=\"border: 1px solid #dddddd;text-align:left;padding: 8px;\">Total Cost</th>" +
+                                "</tr>" +
+                                 "<tr>" +
+                                    "<th style=\"border: 1px solid #dddddd;text-align:left;padding: 8px;\">" + "{2}" + "</th>" +
+                                    "<th style=\"border: 1px solid #dddddd;text-align:left;padding: 8px;\">Client Id</th>" +
+                                "</tr>" +
+                                "<tr>" +
+                                    "<th style=\"border: 1px solid #dddddd;text-align:left;padding: 8px;\">" + "{3}" + "</th>" +
+                                    "<th style=\"border: 1px solid #dddddd;text-align:left;padding: 8px;\">Client Name</th>" +
+                                "</tr>" +
+                                 "<tr>" +
+                                    "<th style=\"border: 1px solid #dddddd;text-align:left;padding: 8px;\">" + "{4}" + "</th>" +
+                                    "<th style=\"border: 1px solid #dddddd;text-align:left;padding: 8px;\">Employee Id</th>" +
+                                "</tr>" +
+                                "<tr>" +
+                                    "<th style=\"border: 1px solid #dddddd;text-align:left;padding: 8px;\">" + "{5}" + "</th>" +
+                                    "<th style=\"border: 1px solid #dddddd;text-align:left;padding: 8px;\">Employee Name</th>" +
+                                "</tr>" +
+                            "</table>" +
+                        "</div>" +
+                        "<div>" +
+                            "<h5>Please make a transfer to complete the transaction.</ h5 >" +
+                            "<h6>Account number: 19036480090018 (VUONG HA THANH). </h6>" +
+                            "<h6>Transfer text: \"Excellon + PaymentId + ClientId\"</h6>" +
+                        "</div>", payment.Id, payment.TotalCost, payment.ClientId,ct.Name,payment.EmployeeId,employee.UserName);
+                    message.Body = bodyBuilder.ToMessageBody();
+                    SmtpClient client = new SmtpClient();
+                    client.Connect("smtp.gmail.com", 465, true);
+                    client.Authenticate("vuongthanh0111@gmail.com", "iscgdhmbfhzfqkrp");
+                    client.Send(message);
+                    client.Disconnect(true);
                     dbTran.Commit();
                     return Ok();
                 }
