@@ -145,6 +145,11 @@ namespace eProject.Controllers
                         paymentDetail.PaymentId = payment.Id;
                         paymentDetail.ServiceId = (int)paymentDetails[i].serviceId.Value;
                         paymentDetail.AmoutEmployee = Int32.Parse(paymentDetails[i].amoutEmployee.Value);
+                        int serviceId = (int)paymentDetails[i].serviceId.Value;
+                        var price = db.Services.Where(s => s.Id == serviceId).First().Price;
+                        TimeSpan x = dt2.Subtract(dt1);
+                        int days = x.Days;
+                        paymentDetail.Cost = price * Int32.Parse(paymentDetails[i].amoutEmployee.Value) * days;
                         paymentDetail.StartDate = dt1;
                         paymentDetail.EndDate = dt2;
                         paymentDetail.Status = PaymentDetailStatus.Active;
