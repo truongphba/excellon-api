@@ -24,7 +24,7 @@ namespace eProject.Controllers
                           select s;
             if (!String.IsNullOrEmpty(keyword))
             {
-                contacts = contacts.Where(s => s.Name.Contains(keyword));
+                contacts = contacts.Where(s => s.Name.Contains(keyword) || s.Email.Contains(keyword) || s.PhoneNumber.Contains(keyword) || s.CompanyName.Contains(keyword));
             }
             if (status.HasValue)
             {
