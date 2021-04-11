@@ -13864,15992 +13864,15993 @@
             });
             context.SaveChanges();
 
-           //____________________PaymentDetail______________________
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 1,
-PaymentId = 1,
-ProductId = 29,
-ServiceId = 1,
-AmoutEmployee = 160,
-StartDate = DateTime.Now.AddDays(-19),
-EndDate = DateTime.Now.AddDays(-18),
-Cost = 4320000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-1),
-UpdatedAt
- = DateTime.Now.AddDays(-1)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 2,
-PaymentId = 1,
-ProductId = 27,
-ServiceId = 2,
-AmoutEmployee = 118,
-StartDate = DateTime.Now.AddDays(-100),
-EndDate = DateTime.Now.AddDays(-94),
-Cost = 30444000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-1),
-UpdatedAt
- = DateTime.Now.AddDays(-1)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 3,
-PaymentId = 1,
-ProductId = 20,
-ServiceId = 3,
-AmoutEmployee = 33,
-StartDate = DateTime.Now.AddDays(-109),
-EndDate = DateTime.Now.AddDays(-94),
-Cost = 13612500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-1),
-UpdatedAt
- = DateTime.Now.AddDays(-1)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 4,
-PaymentId = 2,
-ProductId = 19,
-ServiceId = 3,
-AmoutEmployee = 87,
-StartDate = DateTime.Now.AddDays(-130),
-EndDate = DateTime.Now.AddDays(-120),
-Cost = 3349500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-2),
-UpdatedAt
- = DateTime.Now.AddDays(-2)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 5,
-PaymentId = 2,
-ProductId = 15,
-ServiceId = 3,
-AmoutEmployee = 152,
-StartDate = DateTime.Now.AddDays(-74),
-EndDate = DateTime.Now.AddDays(-73),
-Cost = 56012000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-2),
-UpdatedAt
- = DateTime.Now.AddDays(-2)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 6,
-PaymentId = 2,
-ProductId = 7,
-ServiceId = 3,
-AmoutEmployee = 70,
-StartDate = DateTime.Now.AddDays(-117),
-EndDate = DateTime.Now.AddDays(-111),
-Cost = 25795000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-2),
-UpdatedAt
- = DateTime.Now.AddDays(-2)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 7,
-PaymentId = 3,
-ProductId = 24,
-ServiceId = 2,
-AmoutEmployee = 26,
-StartDate = DateTime.Now.AddDays(-8),
-EndDate = DateTime.Now.AddDays(-4),
-Cost = 312000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-3),
-UpdatedAt
- = DateTime.Now.AddDays(-3)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 8,
-PaymentId = 3,
-ProductId = 5,
-ServiceId = 3,
-AmoutEmployee = 167,
-StartDate = DateTime.Now.AddDays(-200),
-EndDate = DateTime.Now.AddDays(-196),
-Cost = 66132000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-3),
-UpdatedAt
- = DateTime.Now.AddDays(-3)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 9,
-PaymentId = 3,
-ProductId = 18,
-ServiceId = 3,
-AmoutEmployee = 195,
-StartDate = DateTime.Now.AddDays(-193),
-EndDate = DateTime.Now.AddDays(-180),
-Cost = 8580000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-3),
-UpdatedAt
- = DateTime.Now.AddDays(-3)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 10,
-PaymentId = 4,
-ProductId = 1,
-ServiceId = 3,
-AmoutEmployee = 54,
-StartDate = DateTime.Now.AddDays(-55),
-EndDate = DateTime.Now.AddDays(-51),
-Cost = 5643000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-4),
-UpdatedAt
- = DateTime.Now.AddDays(-4)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 11,
-PaymentId = 4,
-ProductId = 30,
-ServiceId = 1,
-AmoutEmployee = 46,
-StartDate = DateTime.Now.AddDays(-90),
-EndDate = DateTime.Now.AddDays(-87),
-Cost = 11799000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-4),
-UpdatedAt
- = DateTime.Now.AddDays(-4)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 12,
-PaymentId = 5,
-ProductId = 2,
-ServiceId = 3,
-AmoutEmployee = 99,
-StartDate = DateTime.Now.AddDays(-162),
-EndDate = DateTime.Now.AddDays(-149),
-Cost = 81675000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-5),
-UpdatedAt
- = DateTime.Now.AddDays(-5)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 13,
-PaymentId = 5,
-ProductId = 16,
-ServiceId = 1,
-AmoutEmployee = 145,
-StartDate = DateTime.Now.AddDays(-159),
-EndDate = DateTime.Now.AddDays(-151),
-Cost = 15007500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-5),
-UpdatedAt
- = DateTime.Now.AddDays(-5)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 14,
-PaymentId = 5,
-ProductId = 9,
-ServiceId = 3,
-AmoutEmployee = 71,
-StartDate = DateTime.Now.AddDays(-103),
-EndDate = DateTime.Now.AddDays(-97),
-Cost = 19915500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-5),
-UpdatedAt
- = DateTime.Now.AddDays(-5)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 15,
-PaymentId = 6,
-ProductId = 3,
-ServiceId = 1,
-AmoutEmployee = 129,
-StartDate = DateTime.Now.AddDays(-163),
-EndDate = DateTime.Now.AddDays(-148),
-Cost = 49923000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-6),
-UpdatedAt
- = DateTime.Now.AddDays(-6)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 16,
-PaymentId = 6,
-ProductId = 10,
-ServiceId = 3,
-AmoutEmployee = 48,
-StartDate = DateTime.Now.AddDays(-170),
-EndDate = DateTime.Now.AddDays(-165),
-Cost = 18744000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-6),
-UpdatedAt
- = DateTime.Now.AddDays(-6)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 17,
-PaymentId = 7,
-ProductId = 20,
-ServiceId = 1,
-AmoutEmployee = 26,
-StartDate = DateTime.Now.AddDays(-170),
-EndDate = DateTime.Now.AddDays(-158),
-Cost = 10179000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-7),
-UpdatedAt
- = DateTime.Now.AddDays(-7)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 18,
-PaymentId = 7,
-ProductId = 21,
-ServiceId = 2,
-AmoutEmployee = 71,
-StartDate = DateTime.Now.AddDays(-40),
-EndDate = DateTime.Now.AddDays(-33),
-Cost = 5964000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-7),
-UpdatedAt
- = DateTime.Now.AddDays(-7)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 19,
-PaymentId = 7,
-ProductId = 29,
-ServiceId = 3,
-AmoutEmployee = 144,
-StartDate = DateTime.Now.AddDays(-102),
-EndDate = DateTime.Now.AddDays(-93),
-Cost = 76032000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-7),
-UpdatedAt
- = DateTime.Now.AddDays(-7)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 20,
-PaymentId = 8,
-ProductId = 1,
-ServiceId = 2,
-AmoutEmployee = 77,
-StartDate = DateTime.Now.AddDays(-200),
-EndDate = DateTime.Now.AddDays(-193),
-Cost = 24948000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-8),
-UpdatedAt
- = DateTime.Now.AddDays(-8)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 21,
-PaymentId = 8,
-ProductId = 29,
-ServiceId = 1,
-AmoutEmployee = 27,
-StartDate = DateTime.Now.AddDays(-193),
-EndDate = DateTime.Now.AddDays(-179),
-Cost = 2673000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-8),
-UpdatedAt
- = DateTime.Now.AddDays(-8)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 22,
-PaymentId = 9,
-ProductId = 5,
-ServiceId = 1,
-AmoutEmployee = 151,
-StartDate = DateTime.Now.AddDays(-34),
-EndDate = DateTime.Now.AddDays(-20),
-Cost = 6115500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-9),
-UpdatedAt
- = DateTime.Now.AddDays(-9)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 23,
-PaymentId = 9,
-ProductId = 5,
-ServiceId = 3,
-AmoutEmployee = 198,
-StartDate = DateTime.Now.AddDays(-157),
-EndDate = DateTime.Now.AddDays(-151),
-Cost = 144837000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-9),
-UpdatedAt
- = DateTime.Now.AddDays(-9)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 24,
-PaymentId = 9,
-ProductId = 9,
-ServiceId = 1,
-AmoutEmployee = 67,
-StartDate = DateTime.Now.AddDays(-129),
-EndDate = DateTime.Now.AddDays(-122),
-Cost = 5427000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-9),
-UpdatedAt
- = DateTime.Now.AddDays(-9)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 25,
-PaymentId = 10,
-ProductId = 1,
-ServiceId = 2,
-AmoutEmployee = 182,
-StartDate = DateTime.Now.AddDays(-126),
-EndDate = DateTime.Now.AddDays(-118),
-Cost = 113568000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-10),
-UpdatedAt
- = DateTime.Now.AddDays(-10)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 26,
-PaymentId = 10,
-ProductId = 17,
-ServiceId = 1,
-AmoutEmployee = 53,
-StartDate = DateTime.Now.AddDays(-57),
-EndDate = DateTime.Now.AddDays(-47),
-Cost = 2623500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-10),
-UpdatedAt
- = DateTime.Now.AddDays(-10)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 27,
-PaymentId = 11,
-ProductId = 15,
-ServiceId = 1,
-AmoutEmployee = 107,
-StartDate = DateTime.Now.AddDays(-112),
-EndDate = DateTime.Now.AddDays(-97),
-Cost = 51039000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-11),
-UpdatedAt
- = DateTime.Now.AddDays(-11)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 28,
-PaymentId = 11,
-ProductId = 6,
-ServiceId = 1,
-AmoutEmployee = 157,
-StartDate = DateTime.Now.AddDays(-30),
-EndDate = DateTime.Now.AddDays(-24),
-Cost = 1413000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-11),
-UpdatedAt
- = DateTime.Now.AddDays(-11)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 29,
-PaymentId = 11,
-ProductId = 9,
-ServiceId = 1,
-AmoutEmployee = 190,
-StartDate = DateTime.Now.AddDays(-194),
-EndDate = DateTime.Now.AddDays(-180),
-Cost = 155610000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-11),
-UpdatedAt
- = DateTime.Now.AddDays(-11)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 30,
-PaymentId = 12,
-ProductId = 26,
-ServiceId = 2,
-AmoutEmployee = 165,
-StartDate = DateTime.Now.AddDays(-198),
-EndDate = DateTime.Now.AddDays(-196),
-Cost = 141570000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-12),
-UpdatedAt
- = DateTime.Now.AddDays(-12)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 31,
-PaymentId = 12,
-ProductId = 22,
-ServiceId = 1,
-AmoutEmployee = 151,
-StartDate = DateTime.Now.AddDays(-106),
-EndDate = DateTime.Now.AddDays(-98),
-Cost = 47565000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-12),
-UpdatedAt
- = DateTime.Now.AddDays(-12)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 32,
-PaymentId = 12,
-ProductId = 25,
-ServiceId = 3,
-AmoutEmployee = 54,
-StartDate = DateTime.Now.AddDays(-159),
-EndDate = DateTime.Now.AddDays(-157),
-Cost = 34155000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-12),
-UpdatedAt
- = DateTime.Now.AddDays(-12)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 33,
-PaymentId = 13,
-ProductId = 8,
-ServiceId = 3,
-AmoutEmployee = 53,
-StartDate = DateTime.Now.AddDays(-72),
-EndDate = DateTime.Now.AddDays(-70),
-Cost = 5247000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-13),
-UpdatedAt
- = DateTime.Now.AddDays(-13)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 34,
-PaymentId = 13,
-ProductId = 29,
-ServiceId = 1,
-AmoutEmployee = 26,
-StartDate = DateTime.Now.AddDays(-120),
-EndDate = DateTime.Now.AddDays(-105),
-Cost = 12753000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-13),
-UpdatedAt
- = DateTime.Now.AddDays(-13)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 35,
-PaymentId = 14,
-ProductId = 5,
-ServiceId = 1,
-AmoutEmployee = 183,
-StartDate = DateTime.Now.AddDays(-184),
-EndDate = DateTime.Now.AddDays(-170),
-Cost = 88114500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-14),
-UpdatedAt
- = DateTime.Now.AddDays(-14)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 36,
-PaymentId = 14,
-ProductId = 29,
-ServiceId = 1,
-AmoutEmployee = 45,
-StartDate = DateTime.Now.AddDays(-186),
-EndDate = DateTime.Now.AddDays(-179),
-Cost = 14985000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-14),
-UpdatedAt
- = DateTime.Now.AddDays(-14)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 37,
-PaymentId = 14,
-ProductId = 10,
-ServiceId = 2,
-AmoutEmployee = 46,
-StartDate = DateTime.Now.AddDays(-74),
-EndDate = DateTime.Now.AddDays(-62),
-Cost = 11868000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-14),
-UpdatedAt
- = DateTime.Now.AddDays(-14)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 38,
-PaymentId = 15,
-ProductId = 15,
-ServiceId = 1,
-AmoutEmployee = 39,
-StartDate = DateTime.Now.AddDays(-40),
-EndDate = DateTime.Now.AddDays(-38),
-Cost = 3510000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-15),
-UpdatedAt
- = DateTime.Now.AddDays(-15)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 39,
-PaymentId = 15,
-ProductId = 11,
-ServiceId = 2,
-AmoutEmployee = 76,
-StartDate = DateTime.Now.AddDays(-139),
-EndDate = DateTime.Now.AddDays(-129),
-Cost = 25536000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-15),
-UpdatedAt
- = DateTime.Now.AddDays(-15)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 40,
-PaymentId = 16,
-ProductId = 18,
-ServiceId = 3,
-AmoutEmployee = 184,
-StartDate = DateTime.Now.AddDays(-154),
-EndDate = DateTime.Now.AddDays(-147),
-Cost = 19228000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-16),
-UpdatedAt
- = DateTime.Now.AddDays(-16)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 41,
-PaymentId = 16,
-ProductId = 21,
-ServiceId = 1,
-AmoutEmployee = 49,
-StartDate = DateTime.Now.AddDays(-133),
-EndDate = DateTime.Now.AddDays(-120),
-Cost = 3087000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-16),
-UpdatedAt
- = DateTime.Now.AddDays(-16)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 42,
-PaymentId = 16,
-ProductId = 18,
-ServiceId = 1,
-AmoutEmployee = 180,
-StartDate = DateTime.Now.AddDays(-23),
-EndDate = DateTime.Now.AddDays(-11),
-Cost = 4860000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-16),
-UpdatedAt
- = DateTime.Now.AddDays(-16)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 43,
-PaymentId = 17,
-ProductId = 8,
-ServiceId = 3,
-AmoutEmployee = 47,
-StartDate = DateTime.Now.AddDays(-71),
-EndDate = DateTime.Now.AddDays(-57),
-Cost = 8013500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-17),
-UpdatedAt
- = DateTime.Now.AddDays(-17)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 44,
-PaymentId = 17,
-ProductId = 24,
-ServiceId = 2,
-AmoutEmployee = 128,
-StartDate = DateTime.Now.AddDays(-90),
-EndDate = DateTime.Now.AddDays(-82),
-Cost = 768000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-17),
-UpdatedAt
- = DateTime.Now.AddDays(-17)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 45,
-PaymentId = 18,
-ProductId = 5,
-ServiceId = 1,
-AmoutEmployee = 69,
-StartDate = DateTime.Now.AddDays(-192),
-EndDate = DateTime.Now.AddDays(-190),
-Cost = 22045500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-18),
-UpdatedAt
- = DateTime.Now.AddDays(-18)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 46,
-PaymentId = 18,
-ProductId = 17,
-ServiceId = 1,
-AmoutEmployee = 146,
-StartDate = DateTime.Now.AddDays(-77),
-EndDate = DateTime.Now.AddDays(-62),
-Cost = 27594000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-18),
-UpdatedAt
- = DateTime.Now.AddDays(-18)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 47,
-PaymentId = 18,
-ProductId = 8,
-ServiceId = 1,
-AmoutEmployee = 179,
-StartDate = DateTime.Now.AddDays(-52),
-EndDate = DateTime.Now.AddDays(-47),
-Cost = 10471500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-18),
-UpdatedAt
- = DateTime.Now.AddDays(-18)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 48,
-PaymentId = 19,
-ProductId = 23,
-ServiceId = 3,
-AmoutEmployee = 180,
-StartDate = DateTime.Now.AddDays(-79),
-EndDate = DateTime.Now.AddDays(-71),
-Cost = 63360000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-19),
-UpdatedAt
- = DateTime.Now.AddDays(-19)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 49,
-PaymentId = 19,
-ProductId = 17,
-ServiceId = 1,
-AmoutEmployee = 55,
-StartDate = DateTime.Now.AddDays(-142),
-EndDate = DateTime.Now.AddDays(-132),
-Cost = 29947500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-19),
-UpdatedAt
- = DateTime.Now.AddDays(-19)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 50,
-PaymentId = 20,
-ProductId = 1,
-ServiceId = 1,
-AmoutEmployee = 54,
-StartDate = DateTime.Now.AddDays(-46),
-EndDate = DateTime.Now.AddDays(-37),
-Cost = 3888000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-20),
-UpdatedAt
- = DateTime.Now.AddDays(-20)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 51,
-PaymentId = 20,
-ProductId = 28,
-ServiceId = 1,
-AmoutEmployee = 192,
-StartDate = DateTime.Now.AddDays(-198),
-EndDate = DateTime.Now.AddDays(-193),
-Cost = 120960000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-20),
-UpdatedAt
- = DateTime.Now.AddDays(-20)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 52,
-PaymentId = 20,
-ProductId = 28,
-ServiceId = 1,
-AmoutEmployee = 165,
-StartDate = DateTime.Now.AddDays(-154),
-EndDate = DateTime.Now.AddDays(-140),
-Cost = 103950000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-20),
-UpdatedAt
- = DateTime.Now.AddDays(-20)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 53,
-PaymentId = 21,
-ProductId = 18,
-ServiceId = 1,
-AmoutEmployee = 123,
-StartDate = DateTime.Now.AddDays(-126),
-EndDate = DateTime.Now.AddDays(-111),
-Cost = 13284000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-21),
-UpdatedAt
- = DateTime.Now.AddDays(-21)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 54,
-PaymentId = 21,
-ProductId = 23,
-ServiceId = 1,
-AmoutEmployee = 84,
-StartDate = DateTime.Now.AddDays(-160),
-EndDate = DateTime.Now.AddDays(-152),
-Cost = 40068000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-21),
-UpdatedAt
- = DateTime.Now.AddDays(-21)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 55,
-PaymentId = 22,
-ProductId = 24,
-ServiceId = 3,
-AmoutEmployee = 191,
-StartDate = DateTime.Now.AddDays(-193),
-EndDate = DateTime.Now.AddDays(-183),
-Cost = 48323000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-22),
-UpdatedAt
- = DateTime.Now.AddDays(-22)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 56,
-PaymentId = 22,
-ProductId = 29,
-ServiceId = 2,
-AmoutEmployee = 65,
-StartDate = DateTime.Now.AddDays(-163),
-EndDate = DateTime.Now.AddDays(-159),
-Cost = 44850000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-22),
-UpdatedAt
- = DateTime.Now.AddDays(-22)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 57,
-PaymentId = 22,
-ProductId = 4,
-ServiceId = 1,
-AmoutEmployee = 113,
-StartDate = DateTime.Now.AddDays(-22),
-EndDate = DateTime.Now.AddDays(-17),
-Cost = 2542500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-22),
-UpdatedAt
- = DateTime.Now.AddDays(-22)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 58,
-PaymentId = 23,
-ProductId = 9,
-ServiceId = 3,
-AmoutEmployee = 159,
-StartDate = DateTime.Now.AddDays(-176),
-EndDate = DateTime.Now.AddDays(-162),
-Cost = 25360500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-23),
-UpdatedAt
- = DateTime.Now.AddDays(-23)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 59,
-PaymentId = 23,
-ProductId = 17,
-ServiceId = 3,
-AmoutEmployee = 126,
-StartDate = DateTime.Now.AddDays(-68),
-EndDate = DateTime.Now.AddDays(-57),
-Cost = 30492000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-23),
-UpdatedAt
- = DateTime.Now.AddDays(-23)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 60,
-PaymentId = 23,
-ProductId = 28,
-ServiceId = 1,
-AmoutEmployee = 197,
-StartDate = DateTime.Now.AddDays(-10),
-EndDate = DateTime.Now.AddDays(0),
-Cost = 2659500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-23),
-UpdatedAt
- = DateTime.Now.AddDays(-23)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 61,
-PaymentId = 24,
-ProductId = 21,
-ServiceId = 2,
-AmoutEmployee = 116,
-StartDate = DateTime.Now.AddDays(-193),
-EndDate = DateTime.Now.AddDays(-186),
-Cost = 128064000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-24),
-UpdatedAt
- = DateTime.Now.AddDays(-24)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 62,
-PaymentId = 24,
-ProductId = 30,
-ServiceId = 2,
-AmoutEmployee = 80,
-StartDate = DateTime.Now.AddDays(-167),
-EndDate = DateTime.Now.AddDays(-165),
-Cost = 36960000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-24),
-UpdatedAt
- = DateTime.Now.AddDays(-24)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 63,
-PaymentId = 25,
-ProductId = 27,
-ServiceId = 2,
-AmoutEmployee = 94,
-StartDate = DateTime.Now.AddDays(-13),
-EndDate = DateTime.Now.AddDays(2),
-Cost = 1692000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-25),
-UpdatedAt
- = DateTime.Now.AddDays(-25)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 64,
-PaymentId = 25,
-ProductId = 18,
-ServiceId = 2,
-AmoutEmployee = 142,
-StartDate = DateTime.Now.AddDays(-179),
-EndDate = DateTime.Now.AddDays(-176),
-Cost = 145692000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-25),
-UpdatedAt
- = DateTime.Now.AddDays(-25)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 65,
-PaymentId = 25,
-ProductId = 10,
-ServiceId = 3,
-AmoutEmployee = 129,
-StartDate = DateTime.Now.AddDays(-68),
-EndDate = DateTime.Now.AddDays(-62),
-Cost = 16318500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-25),
-UpdatedAt
- = DateTime.Now.AddDays(-25)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 66,
-PaymentId = 26,
-ProductId = 19,
-ServiceId = 3,
-AmoutEmployee = 149,
-StartDate = DateTime.Now.AddDays(-69),
-EndDate = DateTime.Now.AddDays(-62),
-Cost = 31141000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-26),
-UpdatedAt
- = DateTime.Now.AddDays(-26)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 67,
-PaymentId = 26,
-ProductId = 27,
-ServiceId = 2,
-AmoutEmployee = 79,
-StartDate = DateTime.Now.AddDays(-164),
-EndDate = DateTime.Now.AddDays(-157),
-Cost = 57828000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-26),
-UpdatedAt
- = DateTime.Now.AddDays(-26)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 68,
-PaymentId = 27,
-ProductId = 6,
-ServiceId = 3,
-AmoutEmployee = 55,
-StartDate = DateTime.Now.AddDays(-105),
-EndDate = DateTime.Now.AddDays(-91),
-Cost = 20872500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-27),
-UpdatedAt
- = DateTime.Now.AddDays(-27)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 69,
-PaymentId = 27,
-ProductId = 4,
-ServiceId = 2,
-AmoutEmployee = 54,
-StartDate = DateTime.Now.AddDays(-43),
-EndDate = DateTime.Now.AddDays(-36),
-Cost = 324000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-27),
-UpdatedAt
- = DateTime.Now.AddDays(-27)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 70,
-PaymentId = 27,
-ProductId = 13,
-ServiceId = 3,
-AmoutEmployee = 154,
-StartDate = DateTime.Now.AddDays(-126),
-EndDate = DateTime.Now.AddDays(-121),
-Cost = 94017000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-27),
-UpdatedAt
- = DateTime.Now.AddDays(-27)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 71,
-PaymentId = 28,
-ProductId = 5,
-ServiceId = 3,
-AmoutEmployee = 197,
-StartDate = DateTime.Now.AddDays(-163),
-EndDate = DateTime.Now.AddDays(-159),
-Cost = 167942500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-28),
-UpdatedAt
- = DateTime.Now.AddDays(-28)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 72,
-PaymentId = 28,
-ProductId = 15,
-ServiceId = 3,
-AmoutEmployee = 70,
-StartDate = DateTime.Now.AddDays(-10),
-EndDate = DateTime.Now.AddDays(-9),
-Cost = 385000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-28),
-UpdatedAt
- = DateTime.Now.AddDays(-28)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 73,
-PaymentId = 29,
-ProductId = 17,
-ServiceId = 1,
-AmoutEmployee = 66,
-StartDate = DateTime.Now.AddDays(-77),
-EndDate = DateTime.Now.AddDays(-71),
-Cost = 7128000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-29),
-UpdatedAt
- = DateTime.Now.AddDays(-29)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 74,
-PaymentId = 29,
-ProductId = 5,
-ServiceId = 2,
-AmoutEmployee = 54,
-StartDate = DateTime.Now.AddDays(-46),
-EndDate = DateTime.Now.AddDays(-31),
-Cost = 10692000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-29),
-UpdatedAt
- = DateTime.Now.AddDays(-29)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 75,
-PaymentId = 29,
-ProductId = 25,
-ServiceId = 3,
-AmoutEmployee = 160,
-StartDate = DateTime.Now.AddDays(-116),
-EndDate = DateTime.Now.AddDays(-102),
-Cost = 53680000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-29),
-UpdatedAt
- = DateTime.Now.AddDays(-29)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 76,
-PaymentId = 30,
-ProductId = 21,
-ServiceId = 2,
-AmoutEmployee = 68,
-StartDate = DateTime.Now.AddDays(-10),
-EndDate = DateTime.Now.AddDays(-1),
-Cost = 1632000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-30),
-UpdatedAt
- = DateTime.Now.AddDays(-30)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 77,
-PaymentId = 30,
-ProductId = 7,
-ServiceId = 3,
-AmoutEmployee = 200,
-StartDate = DateTime.Now.AddDays(-181),
-EndDate = DateTime.Now.AddDays(-179),
-Cost = 51700000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-30),
-UpdatedAt
- = DateTime.Now.AddDays(-30)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 78,
-PaymentId = 31,
-ProductId = 25,
-ServiceId = 3,
-AmoutEmployee = 129,
-StartDate = DateTime.Now.AddDays(-71),
-EndDate = DateTime.Now.AddDays(-59),
-Cost = 34765500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-31),
-UpdatedAt
- = DateTime.Now.AddDays(-31)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 79,
-PaymentId = 31,
-ProductId = 17,
-ServiceId = 1,
-AmoutEmployee = 61,
-StartDate = DateTime.Now.AddDays(-135),
-EndDate = DateTime.Now.AddDays(-133),
-Cost = 2470500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-31),
-UpdatedAt
- = DateTime.Now.AddDays(-31)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 80,
-PaymentId = 31,
-ProductId = 19,
-ServiceId = 3,
-AmoutEmployee = 61,
-StartDate = DateTime.Now.AddDays(-66),
-EndDate = DateTime.Now.AddDays(-65),
-Cost = 3019500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-31),
-UpdatedAt
- = DateTime.Now.AddDays(-31)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 81,
-PaymentId = 32,
-ProductId = 30,
-ServiceId = 2,
-AmoutEmployee = 140,
-StartDate = DateTime.Now.AddDays(-124),
-EndDate = DateTime.Now.AddDays(-116),
-Cost = 52920000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-32),
-UpdatedAt
- = DateTime.Now.AddDays(-32)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 82,
-PaymentId = 32,
-ProductId = 20,
-ServiceId = 2,
-AmoutEmployee = 25,
-StartDate = DateTime.Now.AddDays(-117),
-EndDate = DateTime.Now.AddDays(-107),
-Cost = 5100000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-32),
-UpdatedAt
- = DateTime.Now.AddDays(-32)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 83,
-PaymentId = 33,
-ProductId = 13,
-ServiceId = 2,
-AmoutEmployee = 71,
-StartDate = DateTime.Now.AddDays(-183),
-EndDate = DateTime.Now.AddDays(-176),
-Cost = 57936000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-33),
-UpdatedAt
- = DateTime.Now.AddDays(-33)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 84,
-PaymentId = 33,
-ProductId = 23,
-ServiceId = 3,
-AmoutEmployee = 155,
-StartDate = DateTime.Now.AddDays(-102),
-EndDate = DateTime.Now.AddDays(-98),
-Cost = 28132500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-33),
-UpdatedAt
- = DateTime.Now.AddDays(-33)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 85,
-PaymentId = 33,
-ProductId = 11,
-ServiceId = 2,
-AmoutEmployee = 70,
-StartDate = DateTime.Now.AddDays(-183),
-EndDate = DateTime.Now.AddDays(-173),
-Cost = 71820000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-33),
-UpdatedAt
- = DateTime.Now.AddDays(-33)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 86,
-PaymentId = 34,
-ProductId = 8,
-ServiceId = 3,
-AmoutEmployee = 105,
-StartDate = DateTime.Now.AddDays(-106),
-EndDate = DateTime.Now.AddDays(-99),
-Cost = 58327500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-34),
-UpdatedAt
- = DateTime.Now.AddDays(-34)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 87,
-PaymentId = 34,
-ProductId = 16,
-ServiceId = 1,
-AmoutEmployee = 197,
-StartDate = DateTime.Now.AddDays(-31),
-EndDate = DateTime.Now.AddDays(-19),
-Cost = 7978500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-34),
-UpdatedAt
- = DateTime.Now.AddDays(-34)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 88,
-PaymentId = 34,
-ProductId = 11,
-ServiceId = 3,
-AmoutEmployee = 114,
-StartDate = DateTime.Now.AddDays(-96),
-EndDate = DateTime.Now.AddDays(-91),
-Cost = 33231000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-34),
-UpdatedAt
- = DateTime.Now.AddDays(-34)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 89,
-PaymentId = 35,
-ProductId = 22,
-ServiceId = 1,
-AmoutEmployee = 96,
-StartDate = DateTime.Now.AddDays(-178),
-EndDate = DateTime.Now.AddDays(-175),
-Cost = 32832000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-35),
-UpdatedAt
- = DateTime.Now.AddDays(-35)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 90,
-PaymentId = 35,
-ProductId = 5,
-ServiceId = 3,
-AmoutEmployee = 88,
-StartDate = DateTime.Now.AddDays(-45),
-EndDate = DateTime.Now.AddDays(-30),
-Cost = 17908000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-35),
-UpdatedAt
- = DateTime.Now.AddDays(-35)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 91,
-PaymentId = 36,
-ProductId = 13,
-ServiceId = 2,
-AmoutEmployee = 88,
-StartDate = DateTime.Now.AddDays(-151),
-EndDate = DateTime.Now.AddDays(-149),
-Cost = 43824000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-36),
-UpdatedAt
- = DateTime.Now.AddDays(-36)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 92,
-PaymentId = 36,
-ProductId = 12,
-ServiceId = 2,
-AmoutEmployee = 152,
-StartDate = DateTime.Now.AddDays(-140),
-EndDate = DateTime.Now.AddDays(-128),
-Cost = 94848000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-36),
-UpdatedAt
- = DateTime.Now.AddDays(-36)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 93,
-PaymentId = 36,
-ProductId = 17,
-ServiceId = 3,
-AmoutEmployee = 45,
-StartDate = DateTime.Now.AddDays(-37),
-EndDate = DateTime.Now.AddDays(-23),
-Cost = 7425000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-36),
-UpdatedAt
- = DateTime.Now.AddDays(-36)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 94,
-PaymentId = 37,
-ProductId = 8,
-ServiceId = 1,
-AmoutEmployee = 166,
-StartDate = DateTime.Now.AddDays(-193),
-EndDate = DateTime.Now.AddDays(-180),
-Cost = 53784000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-37),
-UpdatedAt
- = DateTime.Now.AddDays(-37)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 95,
-PaymentId = 37,
-ProductId = 21,
-ServiceId = 1,
-AmoutEmployee = 126,
-StartDate = DateTime.Now.AddDays(-190),
-EndDate = DateTime.Now.AddDays(-179),
-Cost = 50463000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-37),
-UpdatedAt
- = DateTime.Now.AddDays(-37)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 96,
-PaymentId = 38,
-ProductId = 8,
-ServiceId = 3,
-AmoutEmployee = 58,
-StartDate = DateTime.Now.AddDays(-171),
-EndDate = DateTime.Now.AddDays(-163),
-Cost = 11165000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-38),
-UpdatedAt
- = DateTime.Now.AddDays(-38)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 97,
-PaymentId = 38,
-ProductId = 16,
-ServiceId = 2,
-AmoutEmployee = 174,
-StartDate = DateTime.Now.AddDays(-21),
-EndDate = DateTime.Now.AddDays(-19),
-Cost = 1044000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-38),
-UpdatedAt
- = DateTime.Now.AddDays(-38)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 98,
-PaymentId = 38,
-ProductId = 2,
-ServiceId = 1,
-AmoutEmployee = 177,
-StartDate = DateTime.Now.AddDays(-140),
-EndDate = DateTime.Now.AddDays(-130),
-Cost = 62923500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-38),
-UpdatedAt
- = DateTime.Now.AddDays(-38)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 99,
-PaymentId = 39,
-ProductId = 6,
-ServiceId = 3,
-AmoutEmployee = 159,
-StartDate = DateTime.Now.AddDays(-188),
-EndDate = DateTime.Now.AddDays(-180),
-Cost = 59466000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-39),
-UpdatedAt
- = DateTime.Now.AddDays(-39)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 100,
-PaymentId = 39,
-ProductId = 11,
-ServiceId = 2,
-AmoutEmployee = 64,
-StartDate = DateTime.Now.AddDays(-64),
-EndDate = DateTime.Now.AddDays(-59),
-Cost = 16128000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-39),
-UpdatedAt
- = DateTime.Now.AddDays(-39)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 101,
-PaymentId = 40,
-ProductId = 21,
-ServiceId = 3,
-AmoutEmployee = 33,
-StartDate = DateTime.Now.AddDays(-95),
-EndDate = DateTime.Now.AddDays(-85),
-Cost = 6715500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-40),
-UpdatedAt
- = DateTime.Now.AddDays(-40)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 102,
-PaymentId = 40,
-ProductId = 24,
-ServiceId = 2,
-AmoutEmployee = 94,
-StartDate = DateTime.Now.AddDays(-148),
-EndDate = DateTime.Now.AddDays(-134),
-Cost = 77268000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-40),
-UpdatedAt
- = DateTime.Now.AddDays(-40)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 103,
-PaymentId = 40,
-ProductId = 14,
-ServiceId = 1,
-AmoutEmployee = 177,
-StartDate = DateTime.Now.AddDays(-116),
-EndDate = DateTime.Now.AddDays(-108),
-Cost = 70092000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-40),
-UpdatedAt
- = DateTime.Now.AddDays(-40)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 104,
-PaymentId = 41,
-ProductId = 21,
-ServiceId = 2,
-AmoutEmployee = 84,
-StartDate = DateTime.Now.AddDays(-58),
-EndDate = DateTime.Now.AddDays(-44),
-Cost = 14112000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-41),
-UpdatedAt
- = DateTime.Now.AddDays(-41)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 105,
-PaymentId = 41,
-ProductId = 15,
-ServiceId = 2,
-AmoutEmployee = 103,
-StartDate = DateTime.Now.AddDays(-126),
-EndDate = DateTime.Now.AddDays(-114),
-Cost = 51294000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-41),
-UpdatedAt
- = DateTime.Now.AddDays(-41)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 106,
-PaymentId = 42,
-ProductId = 18,
-ServiceId = 1,
-AmoutEmployee = 115,
-StartDate = DateTime.Now.AddDays(-191),
-EndDate = DateTime.Now.AddDays(-188),
-Cost = 49162500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-42),
-UpdatedAt
- = DateTime.Now.AddDays(-42)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 107,
-PaymentId = 42,
-ProductId = 3,
-ServiceId = 3,
-AmoutEmployee = 42,
-StartDate = DateTime.Now.AddDays(-97),
-EndDate = DateTime.Now.AddDays(-93),
-Cost = 2772000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-42),
-UpdatedAt
- = DateTime.Now.AddDays(-42)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 108,
-PaymentId = 42,
-ProductId = 3,
-ServiceId = 3,
-AmoutEmployee = 191,
-StartDate = DateTime.Now.AddDays(-196),
-EndDate = DateTime.Now.AddDays(-193),
-Cost = 52525000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-42),
-UpdatedAt
- = DateTime.Now.AddDays(-42)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 109,
-PaymentId = 43,
-ProductId = 29,
-ServiceId = 3,
-AmoutEmployee = 89,
-StartDate = DateTime.Now.AddDays(-115),
-EndDate = DateTime.Now.AddDays(-108),
-Cost = 32307000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-43),
-UpdatedAt
- = DateTime.Now.AddDays(-43)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 110,
-PaymentId = 43,
-ProductId = 17,
-ServiceId = 1,
-AmoutEmployee = 56,
-StartDate = DateTime.Now.AddDays(-140),
-EndDate = DateTime.Now.AddDays(-126),
-Cost = 16128000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-43),
-UpdatedAt
- = DateTime.Now.AddDays(-43)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 111,
-PaymentId = 44,
-ProductId = 12,
-ServiceId = 3,
-AmoutEmployee = 159,
-StartDate = DateTime.Now.AddDays(-91),
-EndDate = DateTime.Now.AddDays(-77),
-Cost = 59466000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-44),
-UpdatedAt
- = DateTime.Now.AddDays(-44)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 112,
-PaymentId = 44,
-ProductId = 8,
-ServiceId = 3,
-AmoutEmployee = 69,
-StartDate = DateTime.Now.AddDays(-182),
-EndDate = DateTime.Now.AddDays(-168),
-Cost = 41365500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-44),
-UpdatedAt
- = DateTime.Now.AddDays(-44)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 113,
-PaymentId = 44,
-ProductId = 25,
-ServiceId = 3,
-AmoutEmployee = 73,
-StartDate = DateTime.Now.AddDays(-129),
-EndDate = DateTime.Now.AddDays(-127),
-Cost = 20476500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-44),
-UpdatedAt
- = DateTime.Now.AddDays(-44)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 114,
-PaymentId = 45,
-ProductId = 30,
-ServiceId = 2,
-AmoutEmployee = 79,
-StartDate = DateTime.Now.AddDays(-107),
-EndDate = DateTime.Now.AddDays(-103),
-Cost = 26070000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-45),
-UpdatedAt
- = DateTime.Now.AddDays(-45)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 115,
-PaymentId = 45,
-ProductId = 14,
-ServiceId = 2,
-AmoutEmployee = 52,
-StartDate = DateTime.Now.AddDays(-128),
-EndDate = DateTime.Now.AddDays(-115),
-Cost = 33696000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-45),
-UpdatedAt
- = DateTime.Now.AddDays(-45)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 116,
-PaymentId = 45,
-ProductId = 19,
-ServiceId = 2,
-AmoutEmployee = 72,
-StartDate = DateTime.Now.AddDays(-184),
-EndDate = DateTime.Now.AddDays(-179),
-Cost = 34992000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-45),
-UpdatedAt
- = DateTime.Now.AddDays(-45)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 117,
-PaymentId = 46,
-ProductId = 29,
-ServiceId = 2,
-AmoutEmployee = 170,
-StartDate = DateTime.Now.AddDays(-180),
-EndDate = DateTime.Now.AddDays(-177),
-Cost = 135660000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-46),
-UpdatedAt
- = DateTime.Now.AddDays(-46)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 118,
-PaymentId = 46,
-ProductId = 24,
-ServiceId = 2,
-AmoutEmployee = 118,
-StartDate = DateTime.Now.AddDays(-44),
-EndDate = DateTime.Now.AddDays(-38),
-Cost = 15576000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-46),
-UpdatedAt
- = DateTime.Now.AddDays(-46)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 119,
-PaymentId = 47,
-ProductId = 4,
-ServiceId = 3,
-AmoutEmployee = 85,
-StartDate = DateTime.Now.AddDays(-163),
-EndDate = DateTime.Now.AddDays(-152),
-Cost = 13557500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-47),
-UpdatedAt
- = DateTime.Now.AddDays(-47)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 120,
-PaymentId = 47,
-ProductId = 18,
-ServiceId = 2,
-AmoutEmployee = 88,
-StartDate = DateTime.Now.AddDays(-22),
-EndDate = DateTime.Now.AddDays(-14),
-Cost = 5280000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-47),
-UpdatedAt
- = DateTime.Now.AddDays(-47)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 121,
-PaymentId = 47,
-ProductId = 27,
-ServiceId = 1,
-AmoutEmployee = 80,
-StartDate = DateTime.Now.AddDays(-14),
-EndDate = DateTime.Now.AddDays(-8),
-Cost = 1080000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-47),
-UpdatedAt
- = DateTime.Now.AddDays(-47)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 122,
-PaymentId = 48,
-ProductId = 30,
-ServiceId = 2,
-AmoutEmployee = 50,
-StartDate = DateTime.Now.AddDays(-33),
-EndDate = DateTime.Now.AddDays(-32),
-Cost = 2400000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-48),
-UpdatedAt
- = DateTime.Now.AddDays(-48)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 123,
-PaymentId = 48,
-ProductId = 26,
-ServiceId = 3,
-AmoutEmployee = 156,
-StartDate = DateTime.Now.AddDays(-181),
-EndDate = DateTime.Now.AddDays(-170),
-Cost = 135564000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-48),
-UpdatedAt
- = DateTime.Now.AddDays(-48)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 124,
-PaymentId = 49,
-ProductId = 14,
-ServiceId = 1,
-AmoutEmployee = 164,
-StartDate = DateTime.Now.AddDays(-63),
-EndDate = DateTime.Now.AddDays(-58),
-Cost = 17712000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-49),
-UpdatedAt
- = DateTime.Now.AddDays(-49)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 125,
-PaymentId = 49,
-ProductId = 18,
-ServiceId = 1,
-AmoutEmployee = 139,
-StartDate = DateTime.Now.AddDays(-134),
-EndDate = DateTime.Now.AddDays(-124),
-Cost = 72558000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-49),
-UpdatedAt
- = DateTime.Now.AddDays(-49)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 126,
-PaymentId = 49,
-ProductId = 7,
-ServiceId = 2,
-AmoutEmployee = 193,
-StartDate = DateTime.Now.AddDays(-63),
-EndDate = DateTime.Now.AddDays(-57),
-Cost = 15054000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-49),
-UpdatedAt
- = DateTime.Now.AddDays(-49)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 127,
-PaymentId = 50,
-ProductId = 25,
-ServiceId = 2,
-AmoutEmployee = 53,
-StartDate = DateTime.Now.AddDays(-70),
-EndDate = DateTime.Now.AddDays(-67),
-Cost = 12084000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-50),
-UpdatedAt
- = DateTime.Now.AddDays(-50)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 128,
-PaymentId = 50,
-ProductId = 14,
-ServiceId = 1,
-AmoutEmployee = 157,
-StartDate = DateTime.Now.AddDays(-23),
-EndDate = DateTime.Now.AddDays(-22),
-Cost = 4239000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-50),
-UpdatedAt
- = DateTime.Now.AddDays(-50)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 129,
-PaymentId = 51,
-ProductId = 1,
-ServiceId = 3,
-AmoutEmployee = 116,
-StartDate = DateTime.Now.AddDays(-36),
-EndDate = DateTime.Now.AddDays(-23),
-Cost = 18502000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-51),
-UpdatedAt
- = DateTime.Now.AddDays(-51)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 130,
-PaymentId = 51,
-ProductId = 4,
-ServiceId = 3,
-AmoutEmployee = 131,
-StartDate = DateTime.Now.AddDays(-59),
-EndDate = DateTime.Now.AddDays(-50),
-Cost = 18012500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-51),
-UpdatedAt
- = DateTime.Now.AddDays(-51)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 131,
-PaymentId = 51,
-ProductId = 8,
-ServiceId = 1,
-AmoutEmployee = 60,
-StartDate = DateTime.Now.AddDays(-10),
-EndDate = DateTime.Now.AddDays(-5),
-Cost = 1080000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-51),
-UpdatedAt
- = DateTime.Now.AddDays(-51)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 132,
-PaymentId = 52,
-ProductId = 8,
-ServiceId = 1,
-AmoutEmployee = 178,
-StartDate = DateTime.Now.AddDays(-45),
-EndDate = DateTime.Now.AddDays(-36),
-Cost = 18423000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-52),
-UpdatedAt
- = DateTime.Now.AddDays(-52)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 133,
-PaymentId = 52,
-ProductId = 15,
-ServiceId = 1,
-AmoutEmployee = 98,
-StartDate = DateTime.Now.AddDays(-124),
-EndDate = DateTime.Now.AddDays(-111),
-Cost = 21168000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-52),
-UpdatedAt
- = DateTime.Now.AddDays(-52)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 134,
-PaymentId = 53,
-ProductId = 30,
-ServiceId = 2,
-AmoutEmployee = 104,
-StartDate = DateTime.Now.AddDays(-21),
-EndDate = DateTime.Now.AddDays(-6),
-Cost = 8112000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-53),
-UpdatedAt
- = DateTime.Now.AddDays(-53)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 135,
-PaymentId = 53,
-ProductId = 25,
-ServiceId = 2,
-AmoutEmployee = 129,
-StartDate = DateTime.Now.AddDays(-25),
-EndDate = DateTime.Now.AddDays(-12),
-Cost = 2322000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-53),
-UpdatedAt
- = DateTime.Now.AddDays(-53)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 136,
-PaymentId = 53,
-ProductId = 30,
-ServiceId = 3,
-AmoutEmployee = 105,
-StartDate = DateTime.Now.AddDays(-165),
-EndDate = DateTime.Now.AddDays(-164),
-Cost = 12127500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-53),
-UpdatedAt
- = DateTime.Now.AddDays(-53)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 137,
-PaymentId = 54,
-ProductId = 25,
-ServiceId = 2,
-AmoutEmployee = 168,
-StartDate = DateTime.Now.AddDays(-76),
-EndDate = DateTime.Now.AddDays(-75),
-Cost = 35280000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-54),
-UpdatedAt
- = DateTime.Now.AddDays(-54)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 138,
-PaymentId = 54,
-ProductId = 2,
-ServiceId = 1,
-AmoutEmployee = 127,
-StartDate = DateTime.Now.AddDays(-176),
-EndDate = DateTime.Now.AddDays(-164),
-Cost = 97155000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-54),
-UpdatedAt
- = DateTime.Now.AddDays(-54)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 139,
-PaymentId = 55,
-ProductId = 13,
-ServiceId = 1,
-AmoutEmployee = 44,
-StartDate = DateTime.Now.AddDays(-119),
-EndDate = DateTime.Now.AddDays(-107),
-Cost = 4158000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-55),
-UpdatedAt
- = DateTime.Now.AddDays(-55)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 140,
-PaymentId = 55,
-ProductId = 30,
-ServiceId = 2,
-AmoutEmployee = 200,
-StartDate = DateTime.Now.AddDays(-115),
-EndDate = DateTime.Now.AddDays(-113),
-Cost = 132000000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-55),
-UpdatedAt
- = DateTime.Now.AddDays(-55)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 141,
-PaymentId = 55,
-ProductId = 17,
-ServiceId = 3,
-AmoutEmployee = 149,
-StartDate = DateTime.Now.AddDays(-43),
-EndDate = DateTime.Now.AddDays(-38),
-Cost = 28682500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-55),
-UpdatedAt
- = DateTime.Now.AddDays(-55)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 142,
-PaymentId = 56,
-ProductId = 2,
-ServiceId = 3,
-AmoutEmployee = 65,
-StartDate = DateTime.Now.AddDays(-115),
-EndDate = DateTime.Now.AddDays(-109),
-Cost = 24310000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-56),
-UpdatedAt
- = DateTime.Now.AddDays(-56)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 143,
-PaymentId = 56,
-ProductId = 6,
-ServiceId = 3,
-AmoutEmployee = 92,
-StartDate = DateTime.Now.AddDays(-121),
-EndDate = DateTime.Now.AddDays(-110),
-Cost = 26312000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-56),
-UpdatedAt
- = DateTime.Now.AddDays(-56)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 144,
-PaymentId = 56,
-ProductId = 10,
-ServiceId = 2,
-AmoutEmployee = 174,
-StartDate = DateTime.Now.AddDays(-121),
-EndDate = DateTime.Now.AddDays(-119),
-Cost = 31320000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-56),
-UpdatedAt
- = DateTime.Now.AddDays(-56)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 145,
-PaymentId = 57,
-ProductId = 23,
-ServiceId = 1,
-AmoutEmployee = 79,
-StartDate = DateTime.Now.AddDays(-59),
-EndDate = DateTime.Now.AddDays(-57),
-Cost = 15286500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-57),
-UpdatedAt
- = DateTime.Now.AddDays(-57)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 146,
-PaymentId = 57,
-ProductId = 3,
-ServiceId = 1,
-AmoutEmployee = 25,
-StartDate = DateTime.Now.AddDays(-16),
-EndDate = DateTime.Now.AddDays(-7),
-Cost = 112500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-57),
-UpdatedAt
- = DateTime.Now.AddDays(-57)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 147,
-PaymentId = 58,
-ProductId = 6,
-ServiceId = 1,
-AmoutEmployee = 195,
-StartDate = DateTime.Now.AddDays(-185),
-EndDate = DateTime.Now.AddDays(-183),
-Cost = 58792500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-58),
-UpdatedAt
- = DateTime.Now.AddDays(-58)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 148,
-PaymentId = 58,
-ProductId = 18,
-ServiceId = 2,
-AmoutEmployee = 181,
-StartDate = DateTime.Now.AddDays(-99),
-EndDate = DateTime.Now.AddDays(-86),
-Cost = 21720000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-58),
-UpdatedAt
- = DateTime.Now.AddDays(-58)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 149,
-PaymentId = 58,
-ProductId = 2,
-ServiceId = 2,
-AmoutEmployee = 96,
-StartDate = DateTime.Now.AddDays(-80),
-EndDate = DateTime.Now.AddDays(-74),
-Cost = 23040000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-58),
-UpdatedAt
- = DateTime.Now.AddDays(-58)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 150,
-PaymentId = 59,
-ProductId = 18,
-ServiceId = 1,
-AmoutEmployee = 104,
-StartDate = DateTime.Now.AddDays(-133),
-EndDate = DateTime.Now.AddDays(-127),
-Cost = 3744000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-59),
-UpdatedAt
- = DateTime.Now.AddDays(-59)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 151,
-PaymentId = 59,
-ProductId = 16,
-ServiceId = 1,
-AmoutEmployee = 133,
-StartDate = DateTime.Now.AddDays(-199),
-EndDate = DateTime.Now.AddDays(-196),
-Cost = 46084500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-59),
-UpdatedAt
- = DateTime.Now.AddDays(-59)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 152,
-PaymentId = 60,
-ProductId = 13,
-ServiceId = 3,
-AmoutEmployee = 162,
-StartDate = DateTime.Now.AddDays(-130),
-EndDate = DateTime.Now.AddDays(-126),
-Cost = 67716000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-60),
-UpdatedAt
- = DateTime.Now.AddDays(-60)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 153,
-PaymentId = 60,
-ProductId = 13,
-ServiceId = 3,
-AmoutEmployee = 124,
-StartDate = DateTime.Now.AddDays(-185),
-EndDate = DateTime.Now.AddDays(-183),
-Cost = 97526000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-60),
-UpdatedAt
- = DateTime.Now.AddDays(-60)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 154,
-PaymentId = 60,
-ProductId = 10,
-ServiceId = 3,
-AmoutEmployee = 183,
-StartDate = DateTime.Now.AddDays(-188),
-EndDate = DateTime.Now.AddDays(-176),
-Cost = 55357500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-60),
-UpdatedAt
- = DateTime.Now.AddDays(-60)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 155,
-PaymentId = 61,
-ProductId = 2,
-ServiceId = 1,
-AmoutEmployee = 138,
-StartDate = DateTime.Now.AddDays(-109),
-EndDate = DateTime.Now.AddDays(-101),
-Cost = 29187000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-61),
-UpdatedAt
- = DateTime.Now.AddDays(-61)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 156,
-PaymentId = 61,
-ProductId = 22,
-ServiceId = 2,
-AmoutEmployee = 137,
-StartDate = DateTime.Now.AddDays(-108),
-EndDate = DateTime.Now.AddDays(-100),
-Cost = 39456000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-61),
-UpdatedAt
- = DateTime.Now.AddDays(-61)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 157,
-PaymentId = 62,
-ProductId = 7,
-ServiceId = 1,
-AmoutEmployee = 31,
-StartDate = DateTime.Now.AddDays(-168),
-EndDate = DateTime.Now.AddDays(-158),
-Cost = 21343500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-62),
-UpdatedAt
- = DateTime.Now.AddDays(-62)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 158,
-PaymentId = 62,
-ProductId = 1,
-ServiceId = 1,
-AmoutEmployee = 57,
-StartDate = DateTime.Now.AddDays(-153),
-EndDate = DateTime.Now.AddDays(-144),
-Cost = 31806000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-62),
-UpdatedAt
- = DateTime.Now.AddDays(-62)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 159,
-PaymentId = 62,
-ProductId = 3,
-ServiceId = 2,
-AmoutEmployee = 166,
-StartDate = DateTime.Now.AddDays(-85),
-EndDate = DateTime.Now.AddDays(-70),
-Cost = 42828000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-62),
-UpdatedAt
- = DateTime.Now.AddDays(-62)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 160,
-PaymentId = 63,
-ProductId = 14,
-ServiceId = 2,
-AmoutEmployee = 86,
-StartDate = DateTime.Now.AddDays(-170),
-EndDate = DateTime.Now.AddDays(-162),
-Cost = 44376000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-63),
-UpdatedAt
- = DateTime.Now.AddDays(-63)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 161,
-PaymentId = 63,
-ProductId = 4,
-ServiceId = 3,
-AmoutEmployee = 136,
-StartDate = DateTime.Now.AddDays(-96),
-EndDate = DateTime.Now.AddDays(-91),
-Cost = 59092000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-63),
-UpdatedAt
- = DateTime.Now.AddDays(-63)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 162,
-PaymentId = 64,
-ProductId = 8,
-ServiceId = 2,
-AmoutEmployee = 159,
-StartDate = DateTime.Now.AddDays(-122),
-EndDate = DateTime.Now.AddDays(-118),
-Cost = 105894000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-64),
-UpdatedAt
- = DateTime.Now.AddDays(-64)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 163,
-PaymentId = 64,
-ProductId = 1,
-ServiceId = 2,
-AmoutEmployee = 30,
-StartDate = DateTime.Now.AddDays(-133),
-EndDate = DateTime.Now.AddDays(-132),
-Cost = 360000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-64),
-UpdatedAt
- = DateTime.Now.AddDays(-64)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 164,
-PaymentId = 64,
-ProductId = 24,
-ServiceId = 2,
-AmoutEmployee = 84,
-StartDate = DateTime.Now.AddDays(-108),
-EndDate = DateTime.Now.AddDays(-93),
-Cost = 16128000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-64),
-UpdatedAt
- = DateTime.Now.AddDays(-64)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 165,
-PaymentId = 65,
-ProductId = 12,
-ServiceId = 3,
-AmoutEmployee = 135,
-StartDate = DateTime.Now.AddDays(-161),
-EndDate = DateTime.Now.AddDays(-148),
-Cost = 33412500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-65),
-UpdatedAt
- = DateTime.Now.AddDays(-65)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 166,
-PaymentId = 65,
-ProductId = 27,
-ServiceId = 1,
-AmoutEmployee = 159,
-StartDate = DateTime.Now.AddDays(-76),
-EndDate = DateTime.Now.AddDays(-67),
-Cost = 37206000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-65),
-UpdatedAt
- = DateTime.Now.AddDays(-65)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 167,
-PaymentId = 66,
-ProductId = 15,
-ServiceId = 1,
-AmoutEmployee = 176,
-StartDate = DateTime.Now.AddDays(-93),
-EndDate = DateTime.Now.AddDays(-92),
-Cost = 22968000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-66),
-UpdatedAt
- = DateTime.Now.AddDays(-66)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 168,
-PaymentId = 66,
-ProductId = 1,
-ServiceId = 2,
-AmoutEmployee = 87,
-StartDate = DateTime.Now.AddDays(-41),
-EndDate = DateTime.Now.AddDays(-26),
-Cost = 10962000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-66),
-UpdatedAt
- = DateTime.Now.AddDays(-66)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 169,
-PaymentId = 66,
-ProductId = 27,
-ServiceId = 3,
-AmoutEmployee = 46,
-StartDate = DateTime.Now.AddDays(-180),
-EndDate = DateTime.Now.AddDays(-169),
-Cost = 3036000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-66),
-UpdatedAt
- = DateTime.Now.AddDays(-66)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 170,
-PaymentId = 67,
-ProductId = 25,
-ServiceId = 1,
-AmoutEmployee = 174,
-StartDate = DateTime.Now.AddDays(-19),
-EndDate = DateTime.Now.AddDays(-6),
-Cost = 10179000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-67),
-UpdatedAt
- = DateTime.Now.AddDays(-67)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 171,
-PaymentId = 67,
-ProductId = 7,
-ServiceId = 3,
-AmoutEmployee = 48,
-StartDate = DateTime.Now.AddDays(-117),
-EndDate = DateTime.Now.AddDays(-111),
-Cost = 22968000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-67),
-UpdatedAt
- = DateTime.Now.AddDays(-67)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 172,
-PaymentId = 67,
-ProductId = 4,
-ServiceId = 2,
-AmoutEmployee = 26,
-StartDate = DateTime.Now.AddDays(-59),
-EndDate = DateTime.Now.AddDays(-56),
-Cost = 6708000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-67),
-UpdatedAt
- = DateTime.Now.AddDays(-67)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 173,
-PaymentId = 68,
-ProductId = 3,
-ServiceId = 2,
-AmoutEmployee = 171,
-StartDate = DateTime.Now.AddDays(-54),
-EndDate = DateTime.Now.AddDays(-49),
-Cost = 34884000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-68),
-UpdatedAt
- = DateTime.Now.AddDays(-68)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 174,
-PaymentId = 68,
-ProductId = 27,
-ServiceId = 3,
-AmoutEmployee = 61,
-StartDate = DateTime.Now.AddDays(-66),
-EndDate = DateTime.Now.AddDays(-57),
-Cost = 2684000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-68),
-UpdatedAt
- = DateTime.Now.AddDays(-68)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 175,
-PaymentId = 69,
-ProductId = 3,
-ServiceId = 3,
-AmoutEmployee = 38,
-StartDate = DateTime.Now.AddDays(-158),
-EndDate = DateTime.Now.AddDays(-143),
-Cost = 16093000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-69),
-UpdatedAt
- = DateTime.Now.AddDays(-69)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 176,
-PaymentId = 69,
-ProductId = 12,
-ServiceId = 3,
-AmoutEmployee = 183,
-StartDate = DateTime.Now.AddDays(-68),
-EndDate = DateTime.Now.AddDays(-53),
-Cost = 38247000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-69),
-UpdatedAt
- = DateTime.Now.AddDays(-69)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 177,
-PaymentId = 69,
-ProductId = 16,
-ServiceId = 3,
-AmoutEmployee = 151,
-StartDate = DateTime.Now.AddDays(-71),
-EndDate = DateTime.Now.AddDays(-65),
-Cost = 45677500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-69),
-UpdatedAt
- = DateTime.Now.AddDays(-69)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 178,
-PaymentId = 70,
-ProductId = 8,
-ServiceId = 1,
-AmoutEmployee = 178,
-StartDate = DateTime.Now.AddDays(-72),
-EndDate = DateTime.Now.AddDays(-70),
-Cost = 41652000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-70),
-UpdatedAt
- = DateTime.Now.AddDays(-70)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 179,
-PaymentId = 70,
-ProductId = 8,
-ServiceId = 3,
-AmoutEmployee = 116,
-StartDate = DateTime.Now.AddDays(-191),
-EndDate = DateTime.Now.AddDays(-180),
-Cost = 28710000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-70),
-UpdatedAt
- = DateTime.Now.AddDays(-70)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 180,
-PaymentId = 71,
-ProductId = 22,
-ServiceId = 1,
-AmoutEmployee = 159,
-StartDate = DateTime.Now.AddDays(-142),
-EndDate = DateTime.Now.AddDays(-136),
-Cost = 62248500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-71),
-UpdatedAt
- = DateTime.Now.AddDays(-71)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 181,
-PaymentId = 71,
-ProductId = 15,
-ServiceId = 3,
-AmoutEmployee = 101,
-StartDate = DateTime.Now.AddDays(-172),
-EndDate = DateTime.Now.AddDays(-165),
-Cost = 74437000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-71),
-UpdatedAt
- = DateTime.Now.AddDays(-71)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 182,
-PaymentId = 71,
-ProductId = 7,
-ServiceId = 1,
-AmoutEmployee = 98,
-StartDate = DateTime.Now.AddDays(-25),
-EndDate = DateTime.Now.AddDays(-21),
-Cost = 7497000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-71),
-UpdatedAt
- = DateTime.Now.AddDays(-71)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 183,
-PaymentId = 72,
-ProductId = 6,
-ServiceId = 3,
-AmoutEmployee = 108,
-StartDate = DateTime.Now.AddDays(-9),
-EndDate = DateTime.Now.AddDays(-3),
-Cost = 2376000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-72),
-UpdatedAt
- = DateTime.Now.AddDays(-72)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 184,
-PaymentId = 72,
-ProductId = 12,
-ServiceId = 1,
-AmoutEmployee = 147,
-StartDate = DateTime.Now.AddDays(-11),
-EndDate = DateTime.Now.AddDays(-3),
-Cost = 661500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-72),
-UpdatedAt
- = DateTime.Now.AddDays(-72)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 185,
-PaymentId = 73,
-ProductId = 22,
-ServiceId = 1,
-AmoutEmployee = 148,
-StartDate = DateTime.Now.AddDays(-50),
-EndDate = DateTime.Now.AddDays(-47),
-Cost = 27972000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-73),
-UpdatedAt
- = DateTime.Now.AddDays(-73)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 186,
-PaymentId = 73,
-ProductId = 22,
-ServiceId = 1,
-AmoutEmployee = 73,
-StartDate = DateTime.Now.AddDays(-132),
-EndDate = DateTime.Now.AddDays(-121),
-Cost = 12154500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-73),
-UpdatedAt
- = DateTime.Now.AddDays(-73)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 187,
-PaymentId = 73,
-ProductId = 10,
-ServiceId = 3,
-AmoutEmployee = 191,
-StartDate = DateTime.Now.AddDays(-188),
-EndDate = DateTime.Now.AddDays(-181),
-Cost = 93494500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-73),
-UpdatedAt
- = DateTime.Now.AddDays(-73)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 188,
-PaymentId = 74,
-ProductId = 14,
-ServiceId = 1,
-AmoutEmployee = 105,
-StartDate = DateTime.Now.AddDays(-15),
-EndDate = DateTime.Now.AddDays(-1),
-Cost = 1417500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-74),
-UpdatedAt
- = DateTime.Now.AddDays(-74)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 189,
-PaymentId = 74,
-ProductId = 7,
-ServiceId = 2,
-AmoutEmployee = 100,
-StartDate = DateTime.Now.AddDays(-51),
-EndDate = DateTime.Now.AddDays(-45),
-Cost = 21600000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-74),
-UpdatedAt
- = DateTime.Now.AddDays(-74)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 190,
-PaymentId = 75,
-ProductId = 17,
-ServiceId = 3,
-AmoutEmployee = 82,
-StartDate = DateTime.Now.AddDays(-152),
-EndDate = DateTime.Now.AddDays(-139),
-Cost = 35629000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-75),
-UpdatedAt
- = DateTime.Now.AddDays(-75)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 191,
-PaymentId = 75,
-ProductId = 29,
-ServiceId = 1,
-AmoutEmployee = 35,
-StartDate = DateTime.Now.AddDays(-99),
-EndDate = DateTime.Now.AddDays(-91),
-Cost = 6930000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-75),
-UpdatedAt
- = DateTime.Now.AddDays(-75)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 192,
-PaymentId = 75,
-ProductId = 15,
-ServiceId = 1,
-AmoutEmployee = 192,
-StartDate = DateTime.Now.AddDays(-132),
-EndDate = DateTime.Now.AddDays(-130),
-Cost = 30240000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-75),
-UpdatedAt
- = DateTime.Now.AddDays(-75)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 193,
-PaymentId = 76,
-ProductId = 11,
-ServiceId = 1,
-AmoutEmployee = 103,
-StartDate = DateTime.Now.AddDays(-43),
-EndDate = DateTime.Now.AddDays(-35),
-Cost = 17613000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-76),
-UpdatedAt
- = DateTime.Now.AddDays(-76)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 194,
-PaymentId = 76,
-ProductId = 12,
-ServiceId = 1,
-AmoutEmployee = 27,
-StartDate = DateTime.Now.AddDays(-122),
-EndDate = DateTime.Now.AddDays(-119),
-Cost = 486000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-76),
-UpdatedAt
- = DateTime.Now.AddDays(-76)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 195,
-PaymentId = 77,
-ProductId = 4,
-ServiceId = 3,
-AmoutEmployee = 106,
-StartDate = DateTime.Now.AddDays(-58),
-EndDate = DateTime.Now.AddDays(-54),
-Cost = 19239000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-77),
-UpdatedAt
- = DateTime.Now.AddDays(-77)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 196,
-PaymentId = 77,
-ProductId = 13,
-ServiceId = 1,
-AmoutEmployee = 90,
-StartDate = DateTime.Now.AddDays(-81),
-EndDate = DateTime.Now.AddDays(-78),
-Cost = 16605000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-77),
-UpdatedAt
- = DateTime.Now.AddDays(-77)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 197,
-PaymentId = 77,
-ProductId = 20,
-ServiceId = 1,
-AmoutEmployee = 65,
-StartDate = DateTime.Now.AddDays(-169),
-EndDate = DateTime.Now.AddDays(-158),
-Cost = 28665000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-77),
-UpdatedAt
- = DateTime.Now.AddDays(-77)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 198,
-PaymentId = 78,
-ProductId = 16,
-ServiceId = 2,
-AmoutEmployee = 54,
-StartDate = DateTime.Now.AddDays(-168),
-EndDate = DateTime.Now.AddDays(-155),
-Cost = 14904000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-78),
-UpdatedAt
- = DateTime.Now.AddDays(-78)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 199,
-PaymentId = 78,
-ProductId = 4,
-ServiceId = 2,
-AmoutEmployee = 174,
-StartDate = DateTime.Now.AddDays(-92),
-EndDate = DateTime.Now.AddDays(-86),
-Cost = 40716000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-78),
-UpdatedAt
- = DateTime.Now.AddDays(-78)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 200,
-PaymentId = 78,
-ProductId = 8,
-ServiceId = 3,
-AmoutEmployee = 26,
-StartDate = DateTime.Now.AddDays(-94),
-EndDate = DateTime.Now.AddDays(-82),
-Cost = 11440000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-78),
-UpdatedAt
- = DateTime.Now.AddDays(-78)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 201,
-PaymentId = 79,
-ProductId = 5,
-ServiceId = 2,
-AmoutEmployee = 40,
-StartDate = DateTime.Now.AddDays(-158),
-EndDate = DateTime.Now.AddDays(-155),
-Cost = 30000000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-79),
-UpdatedAt
- = DateTime.Now.AddDays(-79)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 202,
-PaymentId = 79,
-ProductId = 27,
-ServiceId = 1,
-AmoutEmployee = 117,
-StartDate = DateTime.Now.AddDays(-121),
-EndDate = DateTime.Now.AddDays(-117),
-Cost = 17374500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-79),
-UpdatedAt
- = DateTime.Now.AddDays(-79)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 203,
-PaymentId = 80,
-ProductId = 12,
-ServiceId = 3,
-AmoutEmployee = 96,
-StartDate = DateTime.Now.AddDays(-31),
-EndDate = DateTime.Now.AddDays(-23),
-Cost = 8976000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-80),
-UpdatedAt
- = DateTime.Now.AddDays(-80)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 204,
-PaymentId = 80,
-ProductId = 12,
-ServiceId = 2,
-AmoutEmployee = 132,
-StartDate = DateTime.Now.AddDays(-58),
-EndDate = DateTime.Now.AddDays(-44),
-Cost = 36432000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-80),
-UpdatedAt
- = DateTime.Now.AddDays(-80)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 205,
-PaymentId = 80,
-ProductId = 27,
-ServiceId = 3,
-AmoutEmployee = 167,
-StartDate = DateTime.Now.AddDays(-67),
-EndDate = DateTime.Now.AddDays(-61),
-Cost = 37658500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-80),
-UpdatedAt
- = DateTime.Now.AddDays(-80)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 206,
-PaymentId = 81,
-ProductId = 17,
-ServiceId = 1,
-AmoutEmployee = 122,
-StartDate = DateTime.Now.AddDays(-191),
-EndDate = DateTime.Now.AddDays(-181),
-Cost = 8235000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-81),
-UpdatedAt
- = DateTime.Now.AddDays(-81)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 207,
-PaymentId = 81,
-ProductId = 2,
-ServiceId = 1,
-AmoutEmployee = 162,
-StartDate = DateTime.Now.AddDays(-39),
-EndDate = DateTime.Now.AddDays(-31),
-Cost = 7290000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-81),
-UpdatedAt
- = DateTime.Now.AddDays(-81)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 208,
-PaymentId = 82,
-ProductId = 17,
-ServiceId = 2,
-AmoutEmployee = 30,
-StartDate = DateTime.Now.AddDays(-8),
-EndDate = DateTime.Now.AddDays(2),
-Cost = 180000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-82),
-UpdatedAt
- = DateTime.Now.AddDays(-82)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 209,
-PaymentId = 82,
-ProductId = 14,
-ServiceId = 3,
-AmoutEmployee = 132,
-StartDate = DateTime.Now.AddDays(-171),
-EndDate = DateTime.Now.AddDays(-166),
-Cost = 36300000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-82),
-UpdatedAt
- = DateTime.Now.AddDays(-82)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 210,
-PaymentId = 82,
-ProductId = 13,
-ServiceId = 3,
-AmoutEmployee = 78,
-StartDate = DateTime.Now.AddDays(-35),
-EndDate = DateTime.Now.AddDays(-24),
-Cost = 7293000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-82),
-UpdatedAt
- = DateTime.Now.AddDays(-82)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 211,
-PaymentId = 83,
-ProductId = 19,
-ServiceId = 2,
-AmoutEmployee = 29,
-StartDate = DateTime.Now.AddDays(-32),
-EndDate = DateTime.Now.AddDays(-31),
-Cost = 2610000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-83),
-UpdatedAt
- = DateTime.Now.AddDays(-83)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 212,
-PaymentId = 83,
-ProductId = 5,
-ServiceId = 3,
-AmoutEmployee = 72,
-StartDate = DateTime.Now.AddDays(-130),
-EndDate = DateTime.Now.AddDays(-118),
-Cost = 9504000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-83),
-UpdatedAt
- = DateTime.Now.AddDays(-83)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 213,
-PaymentId = 84,
-ProductId = 2,
-ServiceId = 1,
-AmoutEmployee = 159,
-StartDate = DateTime.Now.AddDays(-90),
-EndDate = DateTime.Now.AddDays(-75),
-Cost = 52231500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-84),
-UpdatedAt
- = DateTime.Now.AddDays(-84)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 214,
-PaymentId = 84,
-ProductId = 8,
-ServiceId = 3,
-AmoutEmployee = 39,
-StartDate = DateTime.Now.AddDays(-92),
-EndDate = DateTime.Now.AddDays(-77),
-Cost = 16087500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-84),
-UpdatedAt
- = DateTime.Now.AddDays(-84)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 215,
-PaymentId = 84,
-ProductId = 6,
-ServiceId = 1,
-AmoutEmployee = 165,
-StartDate = DateTime.Now.AddDays(-88),
-EndDate = DateTime.Now.AddDays(-73),
-Cost = 47520000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-84),
-UpdatedAt
- = DateTime.Now.AddDays(-84)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 216,
-PaymentId = 85,
-ProductId = 17,
-ServiceId = 1,
-AmoutEmployee = 98,
-StartDate = DateTime.Now.AddDays(-87),
-EndDate = DateTime.Now.AddDays(-81),
-Cost = 17640000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-85),
-UpdatedAt
- = DateTime.Now.AddDays(-85)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 217,
-PaymentId = 85,
-ProductId = 10,
-ServiceId = 1,
-AmoutEmployee = 59,
-StartDate = DateTime.Now.AddDays(-169),
-EndDate = DateTime.Now.AddDays(-161),
-Cost = 28408500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-85),
-UpdatedAt
- = DateTime.Now.AddDays(-85)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 218,
-PaymentId = 86,
-ProductId = 6,
-ServiceId = 2,
-AmoutEmployee = 84,
-StartDate = DateTime.Now.AddDays(-98),
-EndDate = DateTime.Now.AddDays(-97),
-Cost = 27720000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-86),
-UpdatedAt
- = DateTime.Now.AddDays(-86)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 219,
-PaymentId = 86,
-ProductId = 1,
-ServiceId = 3,
-AmoutEmployee = 150,
-StartDate = DateTime.Now.AddDays(-188),
-EndDate = DateTime.Now.AddDays(-176),
-Cost = 136125000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-86),
-UpdatedAt
- = DateTime.Now.AddDays(-86)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 220,
-PaymentId = 86,
-ProductId = 11,
-ServiceId = 3,
-AmoutEmployee = 124,
-StartDate = DateTime.Now.AddDays(-174),
-EndDate = DateTime.Now.AddDays(-171),
-Cost = 103664000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-86),
-UpdatedAt
- = DateTime.Now.AddDays(-86)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 221,
-PaymentId = 87,
-ProductId = 26,
-ServiceId = 3,
-AmoutEmployee = 129,
-StartDate = DateTime.Now.AddDays(-91),
-EndDate = DateTime.Now.AddDays(-89),
-Cost = 50374500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-87),
-UpdatedAt
- = DateTime.Now.AddDays(-87)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 222,
-PaymentId = 87,
-ProductId = 24,
-ServiceId = 1,
-AmoutEmployee = 124,
-StartDate = DateTime.Now.AddDays(-110),
-EndDate = DateTime.Now.AddDays(-103),
-Cost = 44640000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-87),
-UpdatedAt
- = DateTime.Now.AddDays(-87)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 223,
-PaymentId = 88,
-ProductId = 6,
-ServiceId = 3,
-AmoutEmployee = 159,
-StartDate = DateTime.Now.AddDays(-164),
-EndDate = DateTime.Now.AddDays(-154),
-Cost = 121555500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-88),
-UpdatedAt
- = DateTime.Now.AddDays(-88)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 224,
-PaymentId = 88,
-ProductId = 29,
-ServiceId = 1,
-AmoutEmployee = 167,
-StartDate = DateTime.Now.AddDays(-138),
-EndDate = DateTime.Now.AddDays(-136),
-Cost = 81913500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-88),
-UpdatedAt
- = DateTime.Now.AddDays(-88)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 225,
-PaymentId = 88,
-ProductId = 15,
-ServiceId = 2,
-AmoutEmployee = 129,
-StartDate = DateTime.Now.AddDays(-142),
-EndDate = DateTime.Now.AddDays(-134),
-Cost = 25542000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-88),
-UpdatedAt
- = DateTime.Now.AddDays(-88)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 226,
-PaymentId = 89,
-ProductId = 8,
-ServiceId = 3,
-AmoutEmployee = 61,
-StartDate = DateTime.Now.AddDays(-191),
-EndDate = DateTime.Now.AddDays(-178),
-Cost = 13755500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-89),
-UpdatedAt
- = DateTime.Now.AddDays(-89)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 227,
-PaymentId = 89,
-ProductId = 7,
-ServiceId = 1,
-AmoutEmployee = 28,
-StartDate = DateTime.Now.AddDays(-195),
-EndDate = DateTime.Now.AddDays(-192),
-Cost = 14112000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-89),
-UpdatedAt
- = DateTime.Now.AddDays(-89)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 228,
-PaymentId = 89,
-ProductId = 4,
-ServiceId = 1,
-AmoutEmployee = 102,
-StartDate = DateTime.Now.AddDays(-30),
-EndDate = DateTime.Now.AddDays(-27),
-Cost = 5967000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-89),
-UpdatedAt
- = DateTime.Now.AddDays(-89)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 229,
-PaymentId = 90,
-ProductId = 9,
-ServiceId = 2,
-AmoutEmployee = 152,
-StartDate = DateTime.Now.AddDays(-24),
-EndDate = DateTime.Now.AddDays(-13),
-Cost = 17328000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-90),
-UpdatedAt
- = DateTime.Now.AddDays(-90)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 230,
-PaymentId = 90,
-ProductId = 11,
-ServiceId = 3,
-AmoutEmployee = 63,
-StartDate = DateTime.Now.AddDays(-147),
-EndDate = DateTime.Now.AddDays(-134),
-Cost = 41233500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-90),
-UpdatedAt
- = DateTime.Now.AddDays(-90)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 231,
-PaymentId = 91,
-ProductId = 22,
-ServiceId = 2,
-AmoutEmployee = 195,
-StartDate = DateTime.Now.AddDays(-124),
-EndDate = DateTime.Now.AddDays(-116),
-Cost = 23400000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-91),
-UpdatedAt
- = DateTime.Now.AddDays(-91)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 232,
-PaymentId = 91,
-ProductId = 2,
-ServiceId = 1,
-AmoutEmployee = 157,
-StartDate = DateTime.Now.AddDays(-155),
-EndDate = DateTime.Now.AddDays(-141),
-Cost = 96084000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-91),
-UpdatedAt
- = DateTime.Now.AddDays(-91)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 233,
-PaymentId = 91,
-ProductId = 24,
-ServiceId = 2,
-AmoutEmployee = 154,
-StartDate = DateTime.Now.AddDays(-148),
-EndDate = DateTime.Now.AddDays(-138),
-Cost = 50820000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-91),
-UpdatedAt
- = DateTime.Now.AddDays(-91)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 234,
-PaymentId = 92,
-ProductId = 2,
-ServiceId = 1,
-AmoutEmployee = 152,
-StartDate = DateTime.Now.AddDays(-183),
-EndDate = DateTime.Now.AddDays(-179),
-Cost = 42408000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-92),
-UpdatedAt
- = DateTime.Now.AddDays(-92)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 235,
-PaymentId = 92,
-ProductId = 28,
-ServiceId = 2,
-AmoutEmployee = 193,
-StartDate = DateTime.Now.AddDays(-176),
-EndDate = DateTime.Now.AddDays(-163),
-Cost = 198018000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-92),
-UpdatedAt
- = DateTime.Now.AddDays(-92)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 236,
-PaymentId = 93,
-ProductId = 16,
-ServiceId = 1,
-AmoutEmployee = 104,
-StartDate = DateTime.Now.AddDays(-157),
-EndDate = DateTime.Now.AddDays(-147),
-Cost = 5148000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-93),
-UpdatedAt
- = DateTime.Now.AddDays(-93)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 237,
-PaymentId = 93,
-ProductId = 4,
-ServiceId = 2,
-AmoutEmployee = 34,
-StartDate = DateTime.Now.AddDays(-198),
-EndDate = DateTime.Now.AddDays(-187),
-Cost = 19584000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-93),
-UpdatedAt
- = DateTime.Now.AddDays(-93)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 238,
-PaymentId = 93,
-ProductId = 19,
-ServiceId = 3,
-AmoutEmployee = 71,
-StartDate = DateTime.Now.AddDays(-120),
-EndDate = DateTime.Now.AddDays(-118),
-Cost = 390500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-93),
-UpdatedAt
- = DateTime.Now.AddDays(-93)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 239,
-PaymentId = 94,
-ProductId = 2,
-ServiceId = 3,
-AmoutEmployee = 93,
-StartDate = DateTime.Now.AddDays(-74),
-EndDate = DateTime.Now.AddDays(-59),
-Cost = 28132500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-94),
-UpdatedAt
- = DateTime.Now.AddDays(-94)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 240,
-PaymentId = 94,
-ProductId = 22,
-ServiceId = 2,
-AmoutEmployee = 109,
-StartDate = DateTime.Now.AddDays(-189),
-EndDate = DateTime.Now.AddDays(-174),
-Cost = 31392000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-94),
-UpdatedAt
- = DateTime.Now.AddDays(-94)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 241,
-PaymentId = 95,
-ProductId = 3,
-ServiceId = 3,
-AmoutEmployee = 193,
-StartDate = DateTime.Now.AddDays(-8),
-EndDate = DateTime.Now.AddDays(-4),
-Cost = 3184500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-95),
-UpdatedAt
- = DateTime.Now.AddDays(-95)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 242,
-PaymentId = 95,
-ProductId = 6,
-ServiceId = 3,
-AmoutEmployee = 71,
-StartDate = DateTime.Now.AddDays(-48),
-EndDate = DateTime.Now.AddDays(-38),
-Cost = 13277000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-95),
-UpdatedAt
- = DateTime.Now.AddDays(-95)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 243,
-PaymentId = 95,
-ProductId = 12,
-ServiceId = 2,
-AmoutEmployee = 74,
-StartDate = DateTime.Now.AddDays(-10),
-EndDate = DateTime.Now.AddDays(-4),
-Cost = 444000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-95),
-UpdatedAt
- = DateTime.Now.AddDays(-95)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 244,
-PaymentId = 96,
-ProductId = 20,
-ServiceId = 2,
-AmoutEmployee = 169,
-StartDate = DateTime.Now.AddDays(-56),
-EndDate = DateTime.Now.AddDays(-52),
-Cost = 25350000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-96),
-UpdatedAt
- = DateTime.Now.AddDays(-96)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 245,
-PaymentId = 96,
-ProductId = 10,
-ServiceId = 2,
-AmoutEmployee = 34,
-StartDate = DateTime.Now.AddDays(-139),
-EndDate = DateTime.Now.AddDays(-133),
-Cost = 5916000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-96),
-UpdatedAt
- = DateTime.Now.AddDays(-96)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 246,
-PaymentId = 97,
-ProductId = 29,
-ServiceId = 1,
-AmoutEmployee = 186,
-StartDate = DateTime.Now.AddDays(-159),
-EndDate = DateTime.Now.AddDays(-144),
-Cost = 97092000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-97),
-UpdatedAt
- = DateTime.Now.AddDays(-97)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 247,
-PaymentId = 97,
-ProductId = 2,
-ServiceId = 3,
-AmoutEmployee = 197,
-StartDate = DateTime.Now.AddDays(-186),
-EndDate = DateTime.Now.AddDays(-178),
-Cost = 166859000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-97),
-UpdatedAt
- = DateTime.Now.AddDays(-97)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 248,
-PaymentId = 97,
-ProductId = 10,
-ServiceId = 3,
-AmoutEmployee = 90,
-StartDate = DateTime.Now.AddDays(-150),
-EndDate = DateTime.Now.AddDays(-141),
-Cost = 49500000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-97),
-UpdatedAt
- = DateTime.Now.AddDays(-97)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 249,
-PaymentId = 98,
-ProductId = 2,
-ServiceId = 3,
-AmoutEmployee = 120,
-StartDate = DateTime.Now.AddDays(-158),
-EndDate = DateTime.Now.AddDays(-157),
-Cost = 13200000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-98),
-UpdatedAt
- = DateTime.Now.AddDays(-98)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 250,
-PaymentId = 98,
-ProductId = 21,
-ServiceId = 1,
-AmoutEmployee = 84,
-StartDate = DateTime.Now.AddDays(-49),
-EndDate = DateTime.Now.AddDays(-39),
-Cost = 14742000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-98),
-UpdatedAt
- = DateTime.Now.AddDays(-98)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 251,
-PaymentId = 99,
-ProductId = 29,
-ServiceId = 3,
-AmoutEmployee = 150,
-StartDate = DateTime.Now.AddDays(-143),
-EndDate = DateTime.Now.AddDays(-136),
-Cost = 82500000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-99),
-UpdatedAt
- = DateTime.Now.AddDays(-99)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 252,
-PaymentId = 99,
-ProductId = 1,
-ServiceId = 2,
-AmoutEmployee = 200,
-StartDate = DateTime.Now.AddDays(-158),
-EndDate = DateTime.Now.AddDays(-143),
-Cost = 88800000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-99),
-UpdatedAt
- = DateTime.Now.AddDays(-99)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 253,
-PaymentId = 99,
-ProductId = 28,
-ServiceId = 3,
-AmoutEmployee = 140,
-StartDate = DateTime.Now.AddDays(-14),
-EndDate = DateTime.Now.AddDays(-5),
-Cost = 3850000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-99),
-UpdatedAt
- = DateTime.Now.AddDays(-99)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 254,
-PaymentId = 100,
-ProductId = 10,
-ServiceId = 2,
-AmoutEmployee = 141,
-StartDate = DateTime.Now.AddDays(-126),
-EndDate = DateTime.Now.AddDays(-115),
-Cost = 102366000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-100),
-UpdatedAt
- = DateTime.Now.AddDays(-100)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 255,
-PaymentId = 100,
-ProductId = 22,
-ServiceId = 3,
-AmoutEmployee = 142,
-StartDate = DateTime.Now.AddDays(-113),
-EndDate = DateTime.Now.AddDays(-99),
-Cost = 79662000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-100),
-UpdatedAt
- = DateTime.Now.AddDays(-100)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 256,
-PaymentId = 100,
-ProductId = 7,
-ServiceId = 3,
-AmoutEmployee = 190,
-StartDate = DateTime.Now.AddDays(-41),
-EndDate = DateTime.Now.AddDays(-39),
-Cost = 16720000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-100),
-UpdatedAt
- = DateTime.Now.AddDays(-100)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 257,
-PaymentId = 101,
-ProductId = 27,
-ServiceId = 1,
-AmoutEmployee = 93,
-StartDate = DateTime.Now.AddDays(-96),
-EndDate = DateTime.Now.AddDays(-83),
-Cost = 2092500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-101),
-UpdatedAt
- = DateTime.Now.AddDays(-101)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 258,
-PaymentId = 101,
-ProductId = 26,
-ServiceId = 2,
-AmoutEmployee = 196,
-StartDate = DateTime.Now.AddDays(-117),
-EndDate = DateTime.Now.AddDays(-110),
-Cost = 18816000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-101),
-UpdatedAt
- = DateTime.Now.AddDays(-101)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 259,
-PaymentId = 102,
-ProductId = 22,
-ServiceId = 2,
-AmoutEmployee = 88,
-StartDate = DateTime.Now.AddDays(-107),
-EndDate = DateTime.Now.AddDays(-101),
-Cost = 33792000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-102),
-UpdatedAt
- = DateTime.Now.AddDays(-102)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 260,
-PaymentId = 102,
-ProductId = 10,
-ServiceId = 1,
-AmoutEmployee = 51,
-StartDate = DateTime.Now.AddDays(-136),
-EndDate = DateTime.Now.AddDays(-124),
-Cost = 11016000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-102),
-UpdatedAt
- = DateTime.Now.AddDays(-102)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 261,
-PaymentId = 102,
-ProductId = 15,
-ServiceId = 1,
-AmoutEmployee = 125,
-StartDate = DateTime.Now.AddDays(-75),
-EndDate = DateTime.Now.AddDays(-74),
-Cost = 11812500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-102),
-UpdatedAt
- = DateTime.Now.AddDays(-102)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 262,
-PaymentId = 103,
-ProductId = 19,
-ServiceId = 2,
-AmoutEmployee = 63,
-StartDate = DateTime.Now.AddDays(-123),
-EndDate = DateTime.Now.AddDays(-112),
-Cost = 756000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-103),
-UpdatedAt
- = DateTime.Now.AddDays(-103)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 263,
-PaymentId = 103,
-ProductId = 28,
-ServiceId = 3,
-AmoutEmployee = 158,
-StartDate = DateTime.Now.AddDays(-21),
-EndDate = DateTime.Now.AddDays(-10),
-Cost = 13904000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-103),
-UpdatedAt
- = DateTime.Now.AddDays(-103)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 264,
-PaymentId = 104,
-ProductId = 10,
-ServiceId = 3,
-AmoutEmployee = 126,
-StartDate = DateTime.Now.AddDays(-138),
-EndDate = DateTime.Now.AddDays(-129),
-Cost = 43659000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-104),
-UpdatedAt
- = DateTime.Now.AddDays(-104)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 265,
-PaymentId = 104,
-ProductId = 4,
-ServiceId = 3,
-AmoutEmployee = 36,
-StartDate = DateTime.Now.AddDays(-107),
-EndDate = DateTime.Now.AddDays(-93),
-Cost = 4158000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-104),
-UpdatedAt
- = DateTime.Now.AddDays(-104)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 266,
-PaymentId = 104,
-ProductId = 10,
-ServiceId = 1,
-AmoutEmployee = 175,
-StartDate = DateTime.Now.AddDays(-60),
-EndDate = DateTime.Now.AddDays(-47),
-Cost = 7875000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-104),
-UpdatedAt
- = DateTime.Now.AddDays(-104)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 267,
-PaymentId = 105,
-ProductId = 24,
-ServiceId = 2,
-AmoutEmployee = 151,
-StartDate = DateTime.Now.AddDays(-64),
-EndDate = DateTime.Now.AddDays(-58),
-Cost = 30804000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-105),
-UpdatedAt
- = DateTime.Now.AddDays(-105)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 268,
-PaymentId = 105,
-ProductId = 25,
-ServiceId = 2,
-AmoutEmployee = 101,
-StartDate = DateTime.Now.AddDays(-104),
-EndDate = DateTime.Now.AddDays(-95),
-Cost = 38784000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-105),
-UpdatedAt
- = DateTime.Now.AddDays(-105)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 269,
-PaymentId = 106,
-ProductId = 17,
-ServiceId = 2,
-AmoutEmployee = 134,
-StartDate = DateTime.Now.AddDays(-164),
-EndDate = DateTime.Now.AddDays(-149),
-Cost = 93264000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-106),
-UpdatedAt
- = DateTime.Now.AddDays(-106)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 270,
-PaymentId = 106,
-ProductId = 22,
-ServiceId = 3,
-AmoutEmployee = 149,
-StartDate = DateTime.Now.AddDays(-151),
-EndDate = DateTime.Now.AddDays(-146),
-Cost = 45892000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-106),
-UpdatedAt
- = DateTime.Now.AddDays(-106)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 271,
-PaymentId = 106,
-ProductId = 23,
-ServiceId = 2,
-AmoutEmployee = 200,
-StartDate = DateTime.Now.AddDays(-52),
-EndDate = DateTime.Now.AddDays(-40),
-Cost = 32400000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-106),
-UpdatedAt
- = DateTime.Now.AddDays(-106)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 272,
-PaymentId = 107,
-ProductId = 21,
-ServiceId = 1,
-AmoutEmployee = 70,
-StartDate = DateTime.Now.AddDays(-45),
-EndDate = DateTime.Now.AddDays(-34),
-Cost = 12285000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-107),
-UpdatedAt
- = DateTime.Now.AddDays(-107)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 273,
-PaymentId = 107,
-ProductId = 8,
-ServiceId = 3,
-AmoutEmployee = 125,
-StartDate = DateTime.Now.AddDays(-10),
-EndDate = DateTime.Now.AddDays(0),
-Cost = 2750000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-107),
-UpdatedAt
- = DateTime.Now.AddDays(-107)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 274,
-PaymentId = 108,
-ProductId = 27,
-ServiceId = 3,
-AmoutEmployee = 113,
-StartDate = DateTime.Now.AddDays(-137),
-EndDate = DateTime.Now.AddDays(-136),
-Cost = 60907000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-108),
-UpdatedAt
- = DateTime.Now.AddDays(-108)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 275,
-PaymentId = 108,
-ProductId = 2,
-ServiceId = 3,
-AmoutEmployee = 35,
-StartDate = DateTime.Now.AddDays(-54),
-EndDate = DateTime.Now.AddDays(-51),
-Cost = 8855000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-108),
-UpdatedAt
- = DateTime.Now.AddDays(-108)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 276,
-PaymentId = 108,
-ProductId = 7,
-ServiceId = 2,
-AmoutEmployee = 183,
-StartDate = DateTime.Now.AddDays(-168),
-EndDate = DateTime.Now.AddDays(-165),
-Cost = 18666000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-108),
-UpdatedAt
- = DateTime.Now.AddDays(-108)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 277,
-PaymentId = 109,
-ProductId = 25,
-ServiceId = 2,
-AmoutEmployee = 88,
-StartDate = DateTime.Now.AddDays(-127),
-EndDate = DateTime.Now.AddDays(-114),
-Cost = 23232000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-109),
-UpdatedAt
- = DateTime.Now.AddDays(-109)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 278,
-PaymentId = 109,
-ProductId = 7,
-ServiceId = 2,
-AmoutEmployee = 177,
-StartDate = DateTime.Now.AddDays(-162),
-EndDate = DateTime.Now.AddDays(-158),
-Cost = 52038000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-109),
-UpdatedAt
- = DateTime.Now.AddDays(-109)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 279,
-PaymentId = 110,
-ProductId = 11,
-ServiceId = 3,
-AmoutEmployee = 118,
-StartDate = DateTime.Now.AddDays(-66),
-EndDate = DateTime.Now.AddDays(-60),
-Cost = 17523000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-110),
-UpdatedAt
- = DateTime.Now.AddDays(-110)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 280,
-PaymentId = 110,
-ProductId = 14,
-ServiceId = 1,
-AmoutEmployee = 29,
-StartDate = DateTime.Now.AddDays(-12),
-EndDate = DateTime.Now.AddDays(-4),
-Cost = 652500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-110),
-UpdatedAt
- = DateTime.Now.AddDays(-110)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 281,
-PaymentId = 110,
-ProductId = 9,
-ServiceId = 3,
-AmoutEmployee = 110,
-StartDate = DateTime.Now.AddDays(-22),
-EndDate = DateTime.Now.AddDays(-7),
-Cost = 7865000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-110),
-UpdatedAt
- = DateTime.Now.AddDays(-110)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 282,
-PaymentId = 111,
-ProductId = 10,
-ServiceId = 1,
-AmoutEmployee = 162,
-StartDate = DateTime.Now.AddDays(-138),
-EndDate = DateTime.Now.AddDays(-135),
-Cost = 69984000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-111),
-UpdatedAt
- = DateTime.Now.AddDays(-111)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 283,
-PaymentId = 111,
-ProductId = 24,
-ServiceId = 1,
-AmoutEmployee = 46,
-StartDate = DateTime.Now.AddDays(-146),
-EndDate = DateTime.Now.AddDays(-139),
-Cost = 22149000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-111),
-UpdatedAt
- = DateTime.Now.AddDays(-111)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 284,
-PaymentId = 111,
-ProductId = 12,
-ServiceId = 1,
-AmoutEmployee = 95,
-StartDate = DateTime.Now.AddDays(-152),
-EndDate = DateTime.Now.AddDays(-143),
-Cost = 2992500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-111),
-UpdatedAt
- = DateTime.Now.AddDays(-111)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 285,
-PaymentId = 112,
-ProductId = 8,
-ServiceId = 3,
-AmoutEmployee = 25,
-StartDate = DateTime.Now.AddDays(-101),
-EndDate = DateTime.Now.AddDays(-89),
-Cost = 9625000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-112),
-UpdatedAt
- = DateTime.Now.AddDays(-112)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 286,
-PaymentId = 112,
-ProductId = 7,
-ServiceId = 2,
-AmoutEmployee = 89,
-StartDate = DateTime.Now.AddDays(-40),
-EndDate = DateTime.Now.AddDays(-28),
-Cost = 17088000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-112),
-UpdatedAt
- = DateTime.Now.AddDays(-112)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 287,
-PaymentId = 113,
-ProductId = 22,
-ServiceId = 3,
-AmoutEmployee = 86,
-StartDate = DateTime.Now.AddDays(-126),
-EndDate = DateTime.Now.AddDays(-118),
-Cost = 9460000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-113),
-UpdatedAt
- = DateTime.Now.AddDays(-113)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 288,
-PaymentId = 113,
-ProductId = 15,
-ServiceId = 3,
-AmoutEmployee = 190,
-StartDate = DateTime.Now.AddDays(-175),
-EndDate = DateTime.Now.AddDays(-162),
-Cost = 132715000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-113),
-UpdatedAt
- = DateTime.Now.AddDays(-113)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 289,
-PaymentId = 113,
-ProductId = 4,
-ServiceId = 3,
-AmoutEmployee = 101,
-StartDate = DateTime.Now.AddDays(-185),
-EndDate = DateTime.Now.AddDays(-175),
-Cost = 21109000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-113),
-UpdatedAt
- = DateTime.Now.AddDays(-113)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 290,
-PaymentId = 114,
-ProductId = 6,
-ServiceId = 2,
-AmoutEmployee = 123,
-StartDate = DateTime.Now.AddDays(-183),
-EndDate = DateTime.Now.AddDays(-168),
-Cost = 46494000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-114),
-UpdatedAt
- = DateTime.Now.AddDays(-114)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 291,
-PaymentId = 114,
-ProductId = 11,
-ServiceId = 1,
-AmoutEmployee = 78,
-StartDate = DateTime.Now.AddDays(-37),
-EndDate = DateTime.Now.AddDays(-23),
-Cost = 7371000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-114),
-UpdatedAt
- = DateTime.Now.AddDays(-114)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 292,
-PaymentId = 115,
-ProductId = 10,
-ServiceId = 2,
-AmoutEmployee = 189,
-StartDate = DateTime.Now.AddDays(-8),
-EndDate = DateTime.Now.AddDays(-4),
-Cost = 3402000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-115),
-UpdatedAt
- = DateTime.Now.AddDays(-115)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 293,
-PaymentId = 115,
-ProductId = 13,
-ServiceId = 2,
-AmoutEmployee = 98,
-StartDate = DateTime.Now.AddDays(-161),
-EndDate = DateTime.Now.AddDays(-157),
-Cost = 79380000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-115),
-UpdatedAt
- = DateTime.Now.AddDays(-115)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 294,
-PaymentId = 115,
-ProductId = 2,
-ServiceId = 2,
-AmoutEmployee = 106,
-StartDate = DateTime.Now.AddDays(-164),
-EndDate = DateTime.Now.AddDays(-159),
-Cost = 10176000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-115),
-UpdatedAt
- = DateTime.Now.AddDays(-115)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 295,
-PaymentId = 116,
-ProductId = 12,
-ServiceId = 3,
-AmoutEmployee = 46,
-StartDate = DateTime.Now.AddDays(-98),
-EndDate = DateTime.Now.AddDays(-86),
-Cost = 13915000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-116),
-UpdatedAt
- = DateTime.Now.AddDays(-116)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 296,
-PaymentId = 116,
-ProductId = 4,
-ServiceId = 1,
-AmoutEmployee = 155,
-StartDate = DateTime.Now.AddDays(-114),
-EndDate = DateTime.Now.AddDays(-108),
-Cost = 20925000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-116),
-UpdatedAt
- = DateTime.Now.AddDays(-116)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 297,
-PaymentId = 117,
-ProductId = 23,
-ServiceId = 3,
-AmoutEmployee = 195,
-StartDate = DateTime.Now.AddDays(-181),
-EndDate = DateTime.Now.AddDays(-168),
-Cost = 35392500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-117),
-UpdatedAt
- = DateTime.Now.AddDays(-117)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 298,
-PaymentId = 117,
-ProductId = 11,
-ServiceId = 1,
-AmoutEmployee = 82,
-StartDate = DateTime.Now.AddDays(-31),
-EndDate = DateTime.Now.AddDays(-18),
-Cost = 9594000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-117),
-UpdatedAt
- = DateTime.Now.AddDays(-117)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 299,
-PaymentId = 117,
-ProductId = 29,
-ServiceId = 1,
-AmoutEmployee = 175,
-StartDate = DateTime.Now.AddDays(-122),
-EndDate = DateTime.Now.AddDays(-114),
-Cost = 90562500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-117),
-UpdatedAt
- = DateTime.Now.AddDays(-117)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 300,
-PaymentId = 118,
-ProductId = 14,
-ServiceId = 2,
-AmoutEmployee = 62,
-StartDate = DateTime.Now.AddDays(-11),
-EndDate = DateTime.Now.AddDays(-10),
-Cost = 2232000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-118),
-UpdatedAt
- = DateTime.Now.AddDays(-118)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 301,
-PaymentId = 118,
-ProductId = 25,
-ServiceId = 1,
-AmoutEmployee = 161,
-StartDate = DateTime.Now.AddDays(-35),
-EndDate = DateTime.Now.AddDays(-26),
-Cost = 18837000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-118),
-UpdatedAt
- = DateTime.Now.AddDays(-118)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 302,
-PaymentId = 119,
-ProductId = 4,
-ServiceId = 1,
-AmoutEmployee = 145,
-StartDate = DateTime.Now.AddDays(-171),
-EndDate = DateTime.Now.AddDays(-167),
-Cost = 44370000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-119),
-UpdatedAt
- = DateTime.Now.AddDays(-119)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 303,
-PaymentId = 119,
-ProductId = 3,
-ServiceId = 3,
-AmoutEmployee = 103,
-StartDate = DateTime.Now.AddDays(-198),
-EndDate = DateTime.Now.AddDays(-189),
-Cost = 104802500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-119),
-UpdatedAt
- = DateTime.Now.AddDays(-119)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 304,
-PaymentId = 119,
-ProductId = 26,
-ServiceId = 2,
-AmoutEmployee = 118,
-StartDate = DateTime.Now.AddDays(-198),
-EndDate = DateTime.Now.AddDays(-187),
-Cost = 124608000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-119),
-UpdatedAt
- = DateTime.Now.AddDays(-119)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 305,
-PaymentId = 120,
-ProductId = 8,
-ServiceId = 1,
-AmoutEmployee = 79,
-StartDate = DateTime.Now.AddDays(-17),
-EndDate = DateTime.Now.AddDays(-5),
-Cost = 1066500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-120),
-UpdatedAt
- = DateTime.Now.AddDays(-120)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 306,
-PaymentId = 120,
-ProductId = 28,
-ServiceId = 2,
-AmoutEmployee = 34,
-StartDate = DateTime.Now.AddDays(-95),
-EndDate = DateTime.Now.AddDays(-85),
-Cost = 204000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-120),
-UpdatedAt
- = DateTime.Now.AddDays(-120)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 307,
-PaymentId = 121,
-ProductId = 29,
-ServiceId = 3,
-AmoutEmployee = 166,
-StartDate = DateTime.Now.AddDays(-88),
-EndDate = DateTime.Now.AddDays(-76),
-Cost = 26477000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-121),
-UpdatedAt
- = DateTime.Now.AddDays(-121)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 308,
-PaymentId = 121,
-ProductId = 2,
-ServiceId = 2,
-AmoutEmployee = 87,
-StartDate = DateTime.Now.AddDays(-82),
-EndDate = DateTime.Now.AddDays(-76),
-Cost = 30798000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-121),
-UpdatedAt
- = DateTime.Now.AddDays(-121)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 309,
-PaymentId = 121,
-ProductId = 11,
-ServiceId = 3,
-AmoutEmployee = 34,
-StartDate = DateTime.Now.AddDays(-115),
-EndDate = DateTime.Now.AddDays(-101),
-Cost = 13277000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-121),
-UpdatedAt
- = DateTime.Now.AddDays(-121)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 310,
-PaymentId = 122,
-ProductId = 1,
-ServiceId = 1,
-AmoutEmployee = 61,
-StartDate = DateTime.Now.AddDays(-31),
-EndDate = DateTime.Now.AddDays(-26),
-Cost = 5215500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-122),
-UpdatedAt
- = DateTime.Now.AddDays(-122)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 311,
-PaymentId = 122,
-ProductId = 2,
-ServiceId = 1,
-AmoutEmployee = 178,
-StartDate = DateTime.Now.AddDays(-63),
-EndDate = DateTime.Now.AddDays(-62),
-Cost = 40851000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-122),
-UpdatedAt
- = DateTime.Now.AddDays(-122)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 312,
-PaymentId = 122,
-ProductId = 19,
-ServiceId = 2,
-AmoutEmployee = 48,
-StartDate = DateTime.Now.AddDays(-169),
-EndDate = DateTime.Now.AddDays(-166),
-Cost = 12384000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-122),
-UpdatedAt
- = DateTime.Now.AddDays(-122)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 313,
-PaymentId = 123,
-ProductId = 18,
-ServiceId = 1,
-AmoutEmployee = 127,
-StartDate = DateTime.Now.AddDays(-138),
-EndDate = DateTime.Now.AddDays(-135),
-Cost = 32575500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-123),
-UpdatedAt
- = DateTime.Now.AddDays(-123)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 314,
-PaymentId = 123,
-ProductId = 10,
-ServiceId = 2,
-AmoutEmployee = 146,
-StartDate = DateTime.Now.AddDays(-16),
-EndDate = DateTime.Now.AddDays(-5),
-Cost = 2628000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-123),
-UpdatedAt
- = DateTime.Now.AddDays(-123)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 315,
-PaymentId = 124,
-ProductId = 22,
-ServiceId = 1,
-AmoutEmployee = 115,
-StartDate = DateTime.Now.AddDays(-136),
-EndDate = DateTime.Now.AddDays(-134),
-Cost = 37777500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-124),
-UpdatedAt
- = DateTime.Now.AddDays(-124)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 316,
-PaymentId = 124,
-ProductId = 13,
-ServiceId = 2,
-AmoutEmployee = 45,
-StartDate = DateTime.Now.AddDays(-68),
-EndDate = DateTime.Now.AddDays(-67),
-Cost = 2430000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-124),
-UpdatedAt
- = DateTime.Now.AddDays(-124)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 317,
-PaymentId = 124,
-ProductId = 15,
-ServiceId = 2,
-AmoutEmployee = 107,
-StartDate = DateTime.Now.AddDays(-15),
-EndDate = DateTime.Now.AddDays(-1),
-Cost = 4494000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-124),
-UpdatedAt
- = DateTime.Now.AddDays(-124)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 318,
-PaymentId = 125,
-ProductId = 5,
-ServiceId = 2,
-AmoutEmployee = 46,
-StartDate = DateTime.Now.AddDays(-95),
-EndDate = DateTime.Now.AddDays(-87),
-Cost = 18492000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-125),
-UpdatedAt
- = DateTime.Now.AddDays(-125)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 319,
-PaymentId = 125,
-ProductId = 7,
-ServiceId = 1,
-AmoutEmployee = 85,
-StartDate = DateTime.Now.AddDays(-127),
-EndDate = DateTime.Now.AddDays(-123),
-Cost = 7267500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-125),
-UpdatedAt
- = DateTime.Now.AddDays(-125)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 320,
-PaymentId = 126,
-ProductId = 27,
-ServiceId = 1,
-AmoutEmployee = 196,
-StartDate = DateTime.Now.AddDays(-76),
-EndDate = DateTime.Now.AddDays(-62),
-Cost = 26460000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-126),
-UpdatedAt
- = DateTime.Now.AddDays(-126)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 321,
-PaymentId = 126,
-ProductId = 25,
-ServiceId = 2,
-AmoutEmployee = 106,
-StartDate = DateTime.Now.AddDays(-93),
-EndDate = DateTime.Now.AddDays(-78),
-Cost = 5724000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-126),
-UpdatedAt
- = DateTime.Now.AddDays(-126)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 322,
-PaymentId = 126,
-ProductId = 7,
-ServiceId = 2,
-AmoutEmployee = 193,
-StartDate = DateTime.Now.AddDays(-98),
-EndDate = DateTime.Now.AddDays(-88),
-Cost = 39372000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-126),
-UpdatedAt
- = DateTime.Now.AddDays(-126)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 323,
-PaymentId = 127,
-ProductId = 11,
-ServiceId = 1,
-AmoutEmployee = 48,
-StartDate = DateTime.Now.AddDays(-118),
-EndDate = DateTime.Now.AddDays(-114),
-Cost = 14904000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-127),
-UpdatedAt
- = DateTime.Now.AddDays(-127)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 324,
-PaymentId = 127,
-ProductId = 25,
-ServiceId = 3,
-AmoutEmployee = 196,
-StartDate = DateTime.Now.AddDays(-111),
-EndDate = DateTime.Now.AddDays(-110),
-Cost = 20482000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-127),
-UpdatedAt
- = DateTime.Now.AddDays(-127)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 325,
-PaymentId = 128,
-ProductId = 8,
-ServiceId = 3,
-AmoutEmployee = 131,
-StartDate = DateTime.Now.AddDays(-172),
-EndDate = DateTime.Now.AddDays(-169),
-Cost = 15851000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-128),
-UpdatedAt
- = DateTime.Now.AddDays(-128)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 326,
-PaymentId = 128,
-ProductId = 23,
-ServiceId = 3,
-AmoutEmployee = 158,
-StartDate = DateTime.Now.AddDays(-179),
-EndDate = DateTime.Now.AddDays(-171),
-Cost = 114708000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-128),
-UpdatedAt
- = DateTime.Now.AddDays(-128)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 327,
-PaymentId = 128,
-ProductId = 18,
-ServiceId = 2,
-AmoutEmployee = 163,
-StartDate = DateTime.Now.AddDays(-173),
-EndDate = DateTime.Now.AddDays(-162),
-Cost = 88020000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-128),
-UpdatedAt
- = DateTime.Now.AddDays(-128)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 328,
-PaymentId = 129,
-ProductId = 23,
-ServiceId = 2,
-AmoutEmployee = 131,
-StartDate = DateTime.Now.AddDays(-200),
-EndDate = DateTime.Now.AddDays(-188),
-Cost = 101394000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-129),
-UpdatedAt
- = DateTime.Now.AddDays(-129)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 329,
-PaymentId = 129,
-ProductId = 17,
-ServiceId = 3,
-AmoutEmployee = 87,
-StartDate = DateTime.Now.AddDays(-105),
-EndDate = DateTime.Now.AddDays(-90),
-Cost = 36366000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-129),
-UpdatedAt
- = DateTime.Now.AddDays(-129)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 330,
-PaymentId = 130,
-ProductId = 11,
-ServiceId = 2,
-AmoutEmployee = 96,
-StartDate = DateTime.Now.AddDays(-104),
-EndDate = DateTime.Now.AddDays(-91),
-Cost = 17856000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-130),
-UpdatedAt
- = DateTime.Now.AddDays(-130)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 331,
-PaymentId = 130,
-ProductId = 28,
-ServiceId = 2,
-AmoutEmployee = 96,
-StartDate = DateTime.Now.AddDays(-134),
-EndDate = DateTime.Now.AddDays(-122),
-Cost = 19584000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-130),
-UpdatedAt
- = DateTime.Now.AddDays(-130)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 332,
-PaymentId = 130,
-ProductId = 23,
-ServiceId = 3,
-AmoutEmployee = 188,
-StartDate = DateTime.Now.AddDays(-42),
-EndDate = DateTime.Now.AddDays(-31),
-Cost = 8272000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-130),
-UpdatedAt
- = DateTime.Now.AddDays(-130)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 333,
-PaymentId = 131,
-ProductId = 15,
-ServiceId = 3,
-AmoutEmployee = 164,
-StartDate = DateTime.Now.AddDays(-25),
-EndDate = DateTime.Now.AddDays(-15),
-Cost = 14432000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-131),
-UpdatedAt
- = DateTime.Now.AddDays(-131)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 334,
-PaymentId = 131,
-ProductId = 13,
-ServiceId = 2,
-AmoutEmployee = 161,
-StartDate = DateTime.Now.AddDays(-121),
-EndDate = DateTime.Now.AddDays(-117),
-Cost = 5796000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-131),
-UpdatedAt
- = DateTime.Now.AddDays(-131)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 335,
-PaymentId = 132,
-ProductId = 13,
-ServiceId = 2,
-AmoutEmployee = 33,
-StartDate = DateTime.Now.AddDays(-182),
-EndDate = DateTime.Now.AddDays(-172),
-Cost = 23364000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-132),
-UpdatedAt
- = DateTime.Now.AddDays(-132)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 336,
-PaymentId = 132,
-ProductId = 24,
-ServiceId = 2,
-AmoutEmployee = 75,
-StartDate = DateTime.Now.AddDays(-37),
-EndDate = DateTime.Now.AddDays(-27),
-Cost = 1350000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-132),
-UpdatedAt
- = DateTime.Now.AddDays(-132)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 337,
-PaymentId = 132,
-ProductId = 10,
-ServiceId = 1,
-AmoutEmployee = 120,
-StartDate = DateTime.Now.AddDays(-33),
-EndDate = DateTime.Now.AddDays(-24),
-Cost = 13500000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-132),
-UpdatedAt
- = DateTime.Now.AddDays(-132)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 338,
-PaymentId = 133,
-ProductId = 13,
-ServiceId = 1,
-AmoutEmployee = 190,
-StartDate = DateTime.Now.AddDays(-140),
-EndDate = DateTime.Now.AddDays(-129),
-Cost = 16245000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-133),
-UpdatedAt
- = DateTime.Now.AddDays(-133)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 339,
-PaymentId = 133,
-ProductId = 27,
-ServiceId = 3,
-AmoutEmployee = 119,
-StartDate = DateTime.Now.AddDays(-13),
-EndDate = DateTime.Now.AddDays(1),
-Cost = 1963500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-133),
-UpdatedAt
- = DateTime.Now.AddDays(-133)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 340,
-PaymentId = 133,
-ProductId = 25,
-ServiceId = 2,
-AmoutEmployee = 199,
-StartDate = DateTime.Now.AddDays(-20),
-EndDate = DateTime.Now.AddDays(-12),
-Cost = 13134000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-133),
-UpdatedAt
- = DateTime.Now.AddDays(-133)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 341,
-PaymentId = 134,
-ProductId = 22,
-ServiceId = 1,
-AmoutEmployee = 182,
-StartDate = DateTime.Now.AddDays(-10),
-EndDate = DateTime.Now.AddDays(3),
-Cost = 2457000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-134),
-UpdatedAt
- = DateTime.Now.AddDays(-134)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 342,
-PaymentId = 134,
-ProductId = 25,
-ServiceId = 2,
-AmoutEmployee = 147,
-StartDate = DateTime.Now.AddDays(-154),
-EndDate = DateTime.Now.AddDays(-147),
-Cost = 116424000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-134),
-UpdatedAt
- = DateTime.Now.AddDays(-134)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 343,
-PaymentId = 135,
-ProductId = 19,
-ServiceId = 1,
-AmoutEmployee = 101,
-StartDate = DateTime.Now.AddDays(-98),
-EndDate = DateTime.Now.AddDays(-88),
-Cost = 39087000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-135),
-UpdatedAt
- = DateTime.Now.AddDays(-135)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 344,
-PaymentId = 135,
-ProductId = 22,
-ServiceId = 2,
-AmoutEmployee = 56,
-StartDate = DateTime.Now.AddDays(-137),
-EndDate = DateTime.Now.AddDays(-122),
-Cost = 6384000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-135),
-UpdatedAt
- = DateTime.Now.AddDays(-135)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 345,
-PaymentId = 135,
-ProductId = 10,
-ServiceId = 2,
-AmoutEmployee = 194,
-StartDate = DateTime.Now.AddDays(-77),
-EndDate = DateTime.Now.AddDays(-66),
-Cost = 33756000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-135),
-UpdatedAt
- = DateTime.Now.AddDays(-135)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 346,
-PaymentId = 136,
-ProductId = 17,
-ServiceId = 2,
-AmoutEmployee = 49,
-StartDate = DateTime.Now.AddDays(-68),
-EndDate = DateTime.Now.AddDays(-61),
-Cost = 3822000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-136),
-UpdatedAt
- = DateTime.Now.AddDays(-136)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 347,
-PaymentId = 136,
-ProductId = 21,
-ServiceId = 1,
-AmoutEmployee = 42,
-StartDate = DateTime.Now.AddDays(-72),
-EndDate = DateTime.Now.AddDays(-59),
-Cost = 7560000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-136),
-UpdatedAt
- = DateTime.Now.AddDays(-136)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 348,
-PaymentId = 137,
-ProductId = 6,
-ServiceId = 2,
-AmoutEmployee = 128,
-StartDate = DateTime.Now.AddDays(-8),
-EndDate = DateTime.Now.AddDays(1),
-Cost = 1536000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-137),
-UpdatedAt
- = DateTime.Now.AddDays(-137)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 349,
-PaymentId = 137,
-ProductId = 26,
-ServiceId = 3,
-AmoutEmployee = 163,
-StartDate = DateTime.Now.AddDays(-130),
-EndDate = DateTime.Now.AddDays(-128),
-Cost = 93236000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-137),
-UpdatedAt
- = DateTime.Now.AddDays(-137)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 350,
-PaymentId = 137,
-ProductId = 19,
-ServiceId = 1,
-AmoutEmployee = 26,
-StartDate = DateTime.Now.AddDays(-48),
-EndDate = DateTime.Now.AddDays(-41),
-Cost = 5031000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-137),
-UpdatedAt
- = DateTime.Now.AddDays(-137)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 351,
-PaymentId = 138,
-ProductId = 18,
-ServiceId = 2,
-AmoutEmployee = 115,
-StartDate = DateTime.Now.AddDays(-156),
-EndDate = DateTime.Now.AddDays(-142),
-Cost = 84180000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-138),
-UpdatedAt
- = DateTime.Now.AddDays(-138)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 352,
-PaymentId = 138,
-ProductId = 3,
-ServiceId = 3,
-AmoutEmployee = 35,
-StartDate = DateTime.Now.AddDays(-111),
-EndDate = DateTime.Now.AddDays(-104),
-Cost = 18287500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-138),
-UpdatedAt
- = DateTime.Now.AddDays(-138)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 353,
-PaymentId = 139,
-ProductId = 25,
-ServiceId = 2,
-AmoutEmployee = 99,
-StartDate = DateTime.Now.AddDays(-44),
-EndDate = DateTime.Now.AddDays(-41),
-Cost = 1782000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-139),
-UpdatedAt
- = DateTime.Now.AddDays(-139)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 354,
-PaymentId = 139,
-ProductId = 5,
-ServiceId = 3,
-AmoutEmployee = 63,
-StartDate = DateTime.Now.AddDays(-32),
-EndDate = DateTime.Now.AddDays(-28),
-Cost = 346500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-139),
-UpdatedAt
- = DateTime.Now.AddDays(-139)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 355,
-PaymentId = 139,
-ProductId = 26,
-ServiceId = 1,
-AmoutEmployee = 51,
-StartDate = DateTime.Now.AddDays(-159),
-EndDate = DateTime.Now.AddDays(-146),
-Cost = 13311000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-139),
-UpdatedAt
- = DateTime.Now.AddDays(-139)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 356,
-PaymentId = 140,
-ProductId = 23,
-ServiceId = 3,
-AmoutEmployee = 89,
-StartDate = DateTime.Now.AddDays(-107),
-EndDate = DateTime.Now.AddDays(-105),
-Cost = 39160000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-140),
-UpdatedAt
- = DateTime.Now.AddDays(-140)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 357,
-PaymentId = 140,
-ProductId = 12,
-ServiceId = 1,
-AmoutEmployee = 190,
-StartDate = DateTime.Now.AddDays(-31),
-EndDate = DateTime.Now.AddDays(-30),
-Cost = 11115000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-140),
-UpdatedAt
- = DateTime.Now.AddDays(-140)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 358,
-PaymentId = 141,
-ProductId = 6,
-ServiceId = 1,
-AmoutEmployee = 50,
-StartDate = DateTime.Now.AddDays(-188),
-EndDate = DateTime.Now.AddDays(-176),
-Cost = 900000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-141),
-UpdatedAt
- = DateTime.Now.AddDays(-141)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 359,
-PaymentId = 141,
-ProductId = 21,
-ServiceId = 3,
-AmoutEmployee = 196,
-StartDate = DateTime.Now.AddDays(-125),
-EndDate = DateTime.Now.AddDays(-115),
-Cost = 20482000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-141),
-UpdatedAt
- = DateTime.Now.AddDays(-141)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 360,
-PaymentId = 141,
-ProductId = 24,
-ServiceId = 2,
-AmoutEmployee = 147,
-StartDate = DateTime.Now.AddDays(-57),
-EndDate = DateTime.Now.AddDays(-49),
-Cost = 40572000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-141),
-UpdatedAt
- = DateTime.Now.AddDays(-141)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 361,
-PaymentId = 142,
-ProductId = 9,
-ServiceId = 1,
-AmoutEmployee = 127,
-StartDate = DateTime.Now.AddDays(-152),
-EndDate = DateTime.Now.AddDays(-150),
-Cost = 5143500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-142),
-UpdatedAt
- = DateTime.Now.AddDays(-142)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 362,
-PaymentId = 142,
-ProductId = 30,
-ServiceId = 3,
-AmoutEmployee = 102,
-StartDate = DateTime.Now.AddDays(-96),
-EndDate = DateTime.Now.AddDays(-88),
-Cost = 46002000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-142),
-UpdatedAt
- = DateTime.Now.AddDays(-142)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 363,
-PaymentId = 143,
-ProductId = 9,
-ServiceId = 1,
-AmoutEmployee = 45,
-StartDate = DateTime.Now.AddDays(-181),
-EndDate = DateTime.Now.AddDays(-174),
-Cost = 24907500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-143),
-UpdatedAt
- = DateTime.Now.AddDays(-143)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 364,
-PaymentId = 143,
-ProductId = 26,
-ServiceId = 3,
-AmoutEmployee = 60,
-StartDate = DateTime.Now.AddDays(-112),
-EndDate = DateTime.Now.AddDays(-97),
-Cost = 23100000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-143),
-UpdatedAt
- = DateTime.Now.AddDays(-143)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 365,
-PaymentId = 143,
-ProductId = 25,
-ServiceId = 3,
-AmoutEmployee = 29,
-StartDate = DateTime.Now.AddDays(-88),
-EndDate = DateTime.Now.AddDays(-78),
-Cost = 4466000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-143),
-UpdatedAt
- = DateTime.Now.AddDays(-143)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 366,
-PaymentId = 144,
-ProductId = 16,
-ServiceId = 3,
-AmoutEmployee = 179,
-StartDate = DateTime.Now.AddDays(-74),
-EndDate = DateTime.Now.AddDays(-60),
-Cost = 20674500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-144),
-UpdatedAt
- = DateTime.Now.AddDays(-144)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 367,
-PaymentId = 144,
-ProductId = 26,
-ServiceId = 3,
-AmoutEmployee = 137,
-StartDate = DateTime.Now.AddDays(-71),
-EndDate = DateTime.Now.AddDays(-65),
-Cost = 18084000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-144),
-UpdatedAt
- = DateTime.Now.AddDays(-144)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 368,
-PaymentId = 144,
-ProductId = 16,
-ServiceId = 1,
-AmoutEmployee = 62,
-StartDate = DateTime.Now.AddDays(-103),
-EndDate = DateTime.Now.AddDays(-90),
-Cost = 4185000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-144),
-UpdatedAt
- = DateTime.Now.AddDays(-144)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 369,
-PaymentId = 145,
-ProductId = 16,
-ServiceId = 3,
-AmoutEmployee = 183,
-StartDate = DateTime.Now.AddDays(-15),
-EndDate = DateTime.Now.AddDays(-1),
-Cost = 6039000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-145),
-UpdatedAt
- = DateTime.Now.AddDays(-145)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 370,
-PaymentId = 145,
-ProductId = 1,
-ServiceId = 3,
-AmoutEmployee = 53,
-StartDate = DateTime.Now.AddDays(-31),
-EndDate = DateTime.Now.AddDays(-29),
-Cost = 4664000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-145),
-UpdatedAt
- = DateTime.Now.AddDays(-145)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 371,
-PaymentId = 146,
-ProductId = 3,
-ServiceId = 3,
-AmoutEmployee = 29,
-StartDate = DateTime.Now.AddDays(-77),
-EndDate = DateTime.Now.AddDays(-76),
-Cost = 7177500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-146),
-UpdatedAt
- = DateTime.Now.AddDays(-146)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 372,
-PaymentId = 146,
-ProductId = 29,
-ServiceId = 2,
-AmoutEmployee = 83,
-StartDate = DateTime.Now.AddDays(-116),
-EndDate = DateTime.Now.AddDays(-113),
-Cost = 19920000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-146),
-UpdatedAt
- = DateTime.Now.AddDays(-146)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 373,
-PaymentId = 146,
-ProductId = 18,
-ServiceId = 2,
-AmoutEmployee = 106,
-StartDate = DateTime.Now.AddDays(-132),
-EndDate = DateTime.Now.AddDays(-128),
-Cost = 10176000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-146),
-UpdatedAt
- = DateTime.Now.AddDays(-146)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 374,
-PaymentId = 147,
-ProductId = 11,
-ServiceId = 1,
-AmoutEmployee = 190,
-StartDate = DateTime.Now.AddDays(-107),
-EndDate = DateTime.Now.AddDays(-99),
-Cost = 87210000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-147),
-UpdatedAt
- = DateTime.Now.AddDays(-147)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 375,
-PaymentId = 147,
-ProductId = 24,
-ServiceId = 2,
-AmoutEmployee = 196,
-StartDate = DateTime.Now.AddDays(-52),
-EndDate = DateTime.Now.AddDays(-42),
-Cost = 16464000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-147),
-UpdatedAt
- = DateTime.Now.AddDays(-147)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 376,
-PaymentId = 148,
-ProductId = 1,
-ServiceId = 3,
-AmoutEmployee = 37,
-StartDate = DateTime.Now.AddDays(-80),
-EndDate = DateTime.Now.AddDays(-65),
-Cost = 4273500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-148),
-UpdatedAt
- = DateTime.Now.AddDays(-148)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 377,
-PaymentId = 148,
-ProductId = 28,
-ServiceId = 2,
-AmoutEmployee = 90,
-StartDate = DateTime.Now.AddDays(-134),
-EndDate = DateTime.Now.AddDays(-132),
-Cost = 61560000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-148),
-UpdatedAt
- = DateTime.Now.AddDays(-148)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 378,
-PaymentId = 148,
-ProductId = 6,
-ServiceId = 3,
-AmoutEmployee = 36,
-StartDate = DateTime.Now.AddDays(-141),
-EndDate = DateTime.Now.AddDays(-130),
-Cost = 4752000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-148),
-UpdatedAt
- = DateTime.Now.AddDays(-148)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 379,
-PaymentId = 149,
-ProductId = 11,
-ServiceId = 2,
-AmoutEmployee = 58,
-StartDate = DateTime.Now.AddDays(-108),
-EndDate = DateTime.Now.AddDays(-98),
-Cost = 26100000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-149),
-UpdatedAt
- = DateTime.Now.AddDays(-149)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 380,
-PaymentId = 149,
-ProductId = 5,
-ServiceId = 2,
-AmoutEmployee = 189,
-StartDate = DateTime.Now.AddDays(-149),
-EndDate = DateTime.Now.AddDays(-148),
-Cost = 1134000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-149),
-UpdatedAt
- = DateTime.Now.AddDays(-149)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 381,
-PaymentId = 150,
-ProductId = 17,
-ServiceId = 3,
-AmoutEmployee = 72,
-StartDate = DateTime.Now.AddDays(-167),
-EndDate = DateTime.Now.AddDays(-162),
-Cost = 15048000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-150),
-UpdatedAt
- = DateTime.Now.AddDays(-150)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 382,
-PaymentId = 150,
-ProductId = 21,
-ServiceId = 2,
-AmoutEmployee = 193,
-StartDate = DateTime.Now.AddDays(-18),
-EndDate = DateTime.Now.AddDays(-8),
-Cost = 4632000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-150),
-UpdatedAt
- = DateTime.Now.AddDays(-150)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 383,
-PaymentId = 150,
-ProductId = 13,
-ServiceId = 3,
-AmoutEmployee = 150,
-StartDate = DateTime.Now.AddDays(-159),
-EndDate = DateTime.Now.AddDays(-152),
-Cost = 75900000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-150),
-UpdatedAt
- = DateTime.Now.AddDays(-150)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 384,
-PaymentId = 151,
-ProductId = 23,
-ServiceId = 1,
-AmoutEmployee = 129,
-StartDate = DateTime.Now.AddDays(-197),
-EndDate = DateTime.Now.AddDays(-192),
-Cost = 64435500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-151),
-UpdatedAt
- = DateTime.Now.AddDays(-151)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 385,
-PaymentId = 151,
-ProductId = 17,
-ServiceId = 2,
-AmoutEmployee = 172,
-StartDate = DateTime.Now.AddDays(-14),
-EndDate = DateTime.Now.AddDays(-6),
-Cost = 2064000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-151),
-UpdatedAt
- = DateTime.Now.AddDays(-151)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 386,
-PaymentId = 152,
-ProductId = 28,
-ServiceId = 3,
-AmoutEmployee = 43,
-StartDate = DateTime.Now.AddDays(-120),
-EndDate = DateTime.Now.AddDays(-119),
-Cost = 25305500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-152),
-UpdatedAt
- = DateTime.Now.AddDays(-152)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 387,
-PaymentId = 152,
-ProductId = 9,
-ServiceId = 3,
-AmoutEmployee = 107,
-StartDate = DateTime.Now.AddDays(-18),
-EndDate = DateTime.Now.AddDays(-7),
-Cost = 1177000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-152),
-UpdatedAt
- = DateTime.Now.AddDays(-152)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 388,
-PaymentId = 152,
-ProductId = 10,
-ServiceId = 2,
-AmoutEmployee = 128,
-StartDate = DateTime.Now.AddDays(-89),
-EndDate = DateTime.Now.AddDays(-86),
-Cost = 55296000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-152),
-UpdatedAt
- = DateTime.Now.AddDays(-152)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 389,
-PaymentId = 153,
-ProductId = 30,
-ServiceId = 2,
-AmoutEmployee = 140,
-StartDate = DateTime.Now.AddDays(-64),
-EndDate = DateTime.Now.AddDays(-49),
-Cost = 13440000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-153),
-UpdatedAt
- = DateTime.Now.AddDays(-153)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 390,
-PaymentId = 153,
-ProductId = 26,
-ServiceId = 1,
-AmoutEmployee = 193,
-StartDate = DateTime.Now.AddDays(-17),
-EndDate = DateTime.Now.AddDays(-4),
-Cost = 5211000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-153),
-UpdatedAt
- = DateTime.Now.AddDays(-153)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 391,
-PaymentId = 154,
-ProductId = 28,
-ServiceId = 1,
-AmoutEmployee = 90,
-StartDate = DateTime.Now.AddDays(-69),
-EndDate = DateTime.Now.AddDays(-61),
-Cost = 19035000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-154),
-UpdatedAt
- = DateTime.Now.AddDays(-154)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 392,
-PaymentId = 154,
-ProductId = 25,
-ServiceId = 2,
-AmoutEmployee = 36,
-StartDate = DateTime.Now.AddDays(-127),
-EndDate = DateTime.Now.AddDays(-117),
-Cost = 11016000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-154),
-UpdatedAt
- = DateTime.Now.AddDays(-154)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 393,
-PaymentId = 154,
-ProductId = 2,
-ServiceId = 1,
-AmoutEmployee = 43,
-StartDate = DateTime.Now.AddDays(-149),
-EndDate = DateTime.Now.AddDays(-142),
-Cost = 12964500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-154),
-UpdatedAt
- = DateTime.Now.AddDays(-154)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 394,
-PaymentId = 155,
-ProductId = 27,
-ServiceId = 2,
-AmoutEmployee = 63,
-StartDate = DateTime.Now.AddDays(-97),
-EndDate = DateTime.Now.AddDays(-89),
-Cost = 11340000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-155),
-UpdatedAt
- = DateTime.Now.AddDays(-155)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 395,
-PaymentId = 155,
-ProductId = 17,
-ServiceId = 2,
-AmoutEmployee = 126,
-StartDate = DateTime.Now.AddDays(-51),
-EndDate = DateTime.Now.AddDays(-43),
-Cost = 30996000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-155),
-UpdatedAt
- = DateTime.Now.AddDays(-155)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 396,
-PaymentId = 155,
-ProductId = 19,
-ServiceId = 1,
-AmoutEmployee = 92,
-StartDate = DateTime.Now.AddDays(-150),
-EndDate = DateTime.Now.AddDays(-143),
-Cost = 17802000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-155),
-UpdatedAt
- = DateTime.Now.AddDays(-155)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 397,
-PaymentId = 156,
-ProductId = 17,
-ServiceId = 1,
-AmoutEmployee = 64,
-StartDate = DateTime.Now.AddDays(-89),
-EndDate = DateTime.Now.AddDays(-88),
-Cost = 9504000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-156),
-UpdatedAt
- = DateTime.Now.AddDays(-156)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 398,
-PaymentId = 156,
-ProductId = 24,
-ServiceId = 3,
-AmoutEmployee = 32,
-StartDate = DateTime.Now.AddDays(-122),
-EndDate = DateTime.Now.AddDays(-108),
-Cost = 15664000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-156),
-UpdatedAt
- = DateTime.Now.AddDays(-156)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 399,
-PaymentId = 157,
-ProductId = 20,
-ServiceId = 3,
-AmoutEmployee = 169,
-StartDate = DateTime.Now.AddDays(-117),
-EndDate = DateTime.Now.AddDays(-105),
-Cost = 73430500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-157),
-UpdatedAt
- = DateTime.Now.AddDays(-157)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 400,
-PaymentId = 157,
-ProductId = 20,
-ServiceId = 1,
-AmoutEmployee = 175,
-StartDate = DateTime.Now.AddDays(-52),
-EndDate = DateTime.Now.AddDays(-47),
-Cost = 12600000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-157),
-UpdatedAt
- = DateTime.Now.AddDays(-157)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 401,
-PaymentId = 157,
-ProductId = 14,
-ServiceId = 3,
-AmoutEmployee = 58,
-StartDate = DateTime.Now.AddDays(-52),
-EndDate = DateTime.Now.AddDays(-46),
-Cost = 12122000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-157),
-UpdatedAt
- = DateTime.Now.AddDays(-157)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 402,
-PaymentId = 158,
-ProductId = 5,
-ServiceId = 2,
-AmoutEmployee = 188,
-StartDate = DateTime.Now.AddDays(-106),
-EndDate = DateTime.Now.AddDays(-94),
-Cost = 107160000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-158),
-UpdatedAt
- = DateTime.Now.AddDays(-158)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 403,
-PaymentId = 158,
-ProductId = 11,
-ServiceId = 3,
-AmoutEmployee = 65,
-StartDate = DateTime.Now.AddDays(-79),
-EndDate = DateTime.Now.AddDays(-67),
-Cost = 17517500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-158),
-UpdatedAt
- = DateTime.Now.AddDays(-158)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 404,
-PaymentId = 159,
-ProductId = 16,
-ServiceId = 3,
-AmoutEmployee = 147,
-StartDate = DateTime.Now.AddDays(-107),
-EndDate = DateTime.Now.AddDays(-100),
-Cost = 12936000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-159),
-UpdatedAt
- = DateTime.Now.AddDays(-159)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 405,
-PaymentId = 159,
-ProductId = 18,
-ServiceId = 2,
-AmoutEmployee = 152,
-StartDate = DateTime.Now.AddDays(-34),
-EndDate = DateTime.Now.AddDays(-30),
-Cost = 18240000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-159),
-UpdatedAt
- = DateTime.Now.AddDays(-159)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 406,
-PaymentId = 159,
-ProductId = 20,
-ServiceId = 3,
-AmoutEmployee = 31,
-StartDate = DateTime.Now.AddDays(-81),
-EndDate = DateTime.Now.AddDays(-72),
-Cost = 5456000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-159),
-UpdatedAt
- = DateTime.Now.AddDays(-159)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 407,
-PaymentId = 160,
-ProductId = 8,
-ServiceId = 3,
-AmoutEmployee = 55,
-StartDate = DateTime.Now.AddDays(-128),
-EndDate = DateTime.Now.AddDays(-116),
-Cost = 14822500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-160),
-UpdatedAt
- = DateTime.Now.AddDays(-160)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 408,
-PaymentId = 160,
-ProductId = 30,
-ServiceId = 1,
-AmoutEmployee = 49,
-StartDate = DateTime.Now.AddDays(-110),
-EndDate = DateTime.Now.AddDays(-107),
-Cost = 3087000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-160),
-UpdatedAt
- = DateTime.Now.AddDays(-160)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 409,
-PaymentId = 161,
-ProductId = 2,
-ServiceId = 3,
-AmoutEmployee = 103,
-StartDate = DateTime.Now.AddDays(-147),
-EndDate = DateTime.Now.AddDays(-145),
-Cost = 25492500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-161),
-UpdatedAt
- = DateTime.Now.AddDays(-161)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 410,
-PaymentId = 161,
-ProductId = 17,
-ServiceId = 2,
-AmoutEmployee = 77,
-StartDate = DateTime.Now.AddDays(-10),
-EndDate = DateTime.Now.AddDays(5),
-Cost = 462000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-161),
-UpdatedAt
- = DateTime.Now.AddDays(-161)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 411,
-PaymentId = 161,
-ProductId = 26,
-ServiceId = 3,
-AmoutEmployee = 196,
-StartDate = DateTime.Now.AddDays(-191),
-EndDate = DateTime.Now.AddDays(-178),
-Cost = 173558000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-161),
-UpdatedAt
- = DateTime.Now.AddDays(-161)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 412,
-PaymentId = 162,
-ProductId = 18,
-ServiceId = 2,
-AmoutEmployee = 173,
-StartDate = DateTime.Now.AddDays(-52),
-EndDate = DateTime.Now.AddDays(-41),
-Cost = 43596000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-162),
-UpdatedAt
- = DateTime.Now.AddDays(-162)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 413,
-PaymentId = 162,
-ProductId = 5,
-ServiceId = 2,
-AmoutEmployee = 155,
-StartDate = DateTime.Now.AddDays(-134),
-EndDate = DateTime.Now.AddDays(-119),
-Cost = 930000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-162),
-UpdatedAt
- = DateTime.Now.AddDays(-162)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 414,
-PaymentId = 163,
-ProductId = 22,
-ServiceId = 2,
-AmoutEmployee = 54,
-StartDate = DateTime.Now.AddDays(-182),
-EndDate = DateTime.Now.AddDays(-171),
-Cost = 36288000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-163),
-UpdatedAt
- = DateTime.Now.AddDays(-163)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 415,
-PaymentId = 163,
-ProductId = 26,
-ServiceId = 3,
-AmoutEmployee = 144,
-StartDate = DateTime.Now.AddDays(-156),
-EndDate = DateTime.Now.AddDays(-150),
-Cost = 21384000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-163),
-UpdatedAt
- = DateTime.Now.AddDays(-163)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 416,
-PaymentId = 163,
-ProductId = 17,
-ServiceId = 2,
-AmoutEmployee = 47,
-StartDate = DateTime.Now.AddDays(-82),
-EndDate = DateTime.Now.AddDays(-71),
-Cost = 3948000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-163),
-UpdatedAt
- = DateTime.Now.AddDays(-163)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 417,
-PaymentId = 164,
-ProductId = 15,
-ServiceId = 1,
-AmoutEmployee = 93,
-StartDate = DateTime.Now.AddDays(-100),
-EndDate = DateTime.Now.AddDays(-94),
-Cost = 38083500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-164),
-UpdatedAt
- = DateTime.Now.AddDays(-164)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 418,
-PaymentId = 164,
-ProductId = 29,
-ServiceId = 1,
-AmoutEmployee = 179,
-StartDate = DateTime.Now.AddDays(-154),
-EndDate = DateTime.Now.AddDays(-139),
-Cost = 53968500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-164),
-UpdatedAt
- = DateTime.Now.AddDays(-164)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 419,
-PaymentId = 165,
-ProductId = 8,
-ServiceId = 1,
-AmoutEmployee = 31,
-StartDate = DateTime.Now.AddDays(-158),
-EndDate = DateTime.Now.AddDays(-148),
-Cost = 15484500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-165),
-UpdatedAt
- = DateTime.Now.AddDays(-165)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 420,
-PaymentId = 165,
-ProductId = 11,
-ServiceId = 2,
-AmoutEmployee = 47,
-StartDate = DateTime.Now.AddDays(-84),
-EndDate = DateTime.Now.AddDays(-77),
-Cost = 15792000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-165),
-UpdatedAt
- = DateTime.Now.AddDays(-165)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 421,
-PaymentId = 165,
-ProductId = 24,
-ServiceId = 2,
-AmoutEmployee = 146,
-StartDate = DateTime.Now.AddDays(-10),
-EndDate = DateTime.Now.AddDays(-3),
-Cost = 1752000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-165),
-UpdatedAt
- = DateTime.Now.AddDays(-165)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 422,
-PaymentId = 166,
-ProductId = 22,
-ServiceId = 1,
-AmoutEmployee = 30,
-StartDate = DateTime.Now.AddDays(-146),
-EndDate = DateTime.Now.AddDays(-141),
-Cost = 14580000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-166),
-UpdatedAt
- = DateTime.Now.AddDays(-166)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 423,
-PaymentId = 166,
-ProductId = 26,
-ServiceId = 1,
-AmoutEmployee = 85,
-StartDate = DateTime.Now.AddDays(-148),
-EndDate = DateTime.Now.AddDays(-143),
-Cost = 48577500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-166),
-UpdatedAt
- = DateTime.Now.AddDays(-166)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 424,
-PaymentId = 166,
-ProductId = 29,
-ServiceId = 3,
-AmoutEmployee = 175,
-StartDate = DateTime.Now.AddDays(-168),
-EndDate = DateTime.Now.AddDays(-164),
-Cost = 123200000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-166),
-UpdatedAt
- = DateTime.Now.AddDays(-166)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 425,
-PaymentId = 167,
-ProductId = 11,
-ServiceId = 2,
-AmoutEmployee = 91,
-StartDate = DateTime.Now.AddDays(-38),
-EndDate = DateTime.Now.AddDays(-36),
-Cost = 6006000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-167),
-UpdatedAt
- = DateTime.Now.AddDays(-167)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 426,
-PaymentId = 167,
-ProductId = 30,
-ServiceId = 2,
-AmoutEmployee = 140,
-StartDate = DateTime.Now.AddDays(-162),
-EndDate = DateTime.Now.AddDays(-161),
-Cost = 34440000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-167),
-UpdatedAt
- = DateTime.Now.AddDays(-167)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 427,
-PaymentId = 168,
-ProductId = 10,
-ServiceId = 3,
-AmoutEmployee = 120,
-StartDate = DateTime.Now.AddDays(-182),
-EndDate = DateTime.Now.AddDays(-168),
-Cost = 4620000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-168),
-UpdatedAt
- = DateTime.Now.AddDays(-168)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 428,
-PaymentId = 168,
-ProductId = 21,
-ServiceId = 3,
-AmoutEmployee = 29,
-StartDate = DateTime.Now.AddDays(-186),
-EndDate = DateTime.Now.AddDays(-179),
-Cost = 2552000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-168),
-UpdatedAt
- = DateTime.Now.AddDays(-168)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 429,
-PaymentId = 168,
-ProductId = 28,
-ServiceId = 1,
-AmoutEmployee = 40,
-StartDate = DateTime.Now.AddDays(-178),
-EndDate = DateTime.Now.AddDays(-175),
-Cost = 25020000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-168),
-UpdatedAt
- = DateTime.Now.AddDays(-168)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 430,
-PaymentId = 169,
-ProductId = 17,
-ServiceId = 2,
-AmoutEmployee = 119,
-StartDate = DateTime.Now.AddDays(-64),
-EndDate = DateTime.Now.AddDays(-59),
-Cost = 13566000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-169),
-UpdatedAt
- = DateTime.Now.AddDays(-169)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 431,
-PaymentId = 169,
-ProductId = 4,
-ServiceId = 2,
-AmoutEmployee = 108,
-StartDate = DateTime.Now.AddDays(-157),
-EndDate = DateTime.Now.AddDays(-151),
-Cost = 56376000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-169),
-UpdatedAt
- = DateTime.Now.AddDays(-169)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 432,
-PaymentId = 170,
-ProductId = 29,
-ServiceId = 3,
-AmoutEmployee = 27,
-StartDate = DateTime.Now.AddDays(-77),
-EndDate = DateTime.Now.AddDays(-75),
-Cost = 2821500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-170),
-UpdatedAt
- = DateTime.Now.AddDays(-170)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 433,
-PaymentId = 170,
-ProductId = 22,
-ServiceId = 1,
-AmoutEmployee = 141,
-StartDate = DateTime.Now.AddDays(-146),
-EndDate = DateTime.Now.AddDays(-133),
-Cost = 55201500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-170),
-UpdatedAt
- = DateTime.Now.AddDays(-170)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 434,
-PaymentId = 170,
-ProductId = 7,
-ServiceId = 3,
-AmoutEmployee = 44,
-StartDate = DateTime.Now.AddDays(-15),
-EndDate = DateTime.Now.AddDays(-7),
-Cost = 726000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-170),
-UpdatedAt
- = DateTime.Now.AddDays(-170)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 435,
-PaymentId = 171,
-ProductId = 21,
-ServiceId = 3,
-AmoutEmployee = 189,
-StartDate = DateTime.Now.AddDays(-129),
-EndDate = DateTime.Now.AddDays(-116),
-Cost = 66528000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-171),
-UpdatedAt
- = DateTime.Now.AddDays(-171)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 436,
-PaymentId = 171,
-ProductId = 2,
-ServiceId = 1,
-AmoutEmployee = 112,
-StartDate = DateTime.Now.AddDays(-184),
-EndDate = DateTime.Now.AddDays(-177),
-Cost = 66024000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-171),
-UpdatedAt
- = DateTime.Now.AddDays(-171)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 437,
-PaymentId = 172,
-ProductId = 23,
-ServiceId = 2,
-AmoutEmployee = 192,
-StartDate = DateTime.Now.AddDays(-29),
-EndDate = DateTime.Now.AddDays(-18),
-Cost = 21888000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-172),
-UpdatedAt
- = DateTime.Now.AddDays(-172)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 438,
-PaymentId = 172,
-ProductId = 12,
-ServiceId = 3,
-AmoutEmployee = 104,
-StartDate = DateTime.Now.AddDays(-191),
-EndDate = DateTime.Now.AddDays(-190),
-Cost = 77220000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-172),
-UpdatedAt
- = DateTime.Now.AddDays(-172)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 439,
-PaymentId = 172,
-ProductId = 30,
-ServiceId = 3,
-AmoutEmployee = 100,
-StartDate = DateTime.Now.AddDays(-64),
-EndDate = DateTime.Now.AddDays(-63),
-Cost = 15950000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-172),
-UpdatedAt
- = DateTime.Now.AddDays(-172)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 440,
-PaymentId = 173,
-ProductId = 26,
-ServiceId = 3,
-AmoutEmployee = 79,
-StartDate = DateTime.Now.AddDays(-180),
-EndDate = DateTime.Now.AddDays(-175),
-Cost = 69085500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-173),
-UpdatedAt
- = DateTime.Now.AddDays(-173)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 441,
-PaymentId = 173,
-ProductId = 3,
-ServiceId = 3,
-AmoutEmployee = 69,
-StartDate = DateTime.Now.AddDays(-62),
-EndDate = DateTime.Now.AddDays(-56),
-Cost = 14800500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-173),
-UpdatedAt
- = DateTime.Now.AddDays(-173)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 442,
-PaymentId = 174,
-ProductId = 16,
-ServiceId = 2,
-AmoutEmployee = 171,
-StartDate = DateTime.Now.AddDays(-31),
-EndDate = DateTime.Now.AddDays(-19),
-Cost = 23598000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-174),
-UpdatedAt
- = DateTime.Now.AddDays(-174)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 443,
-PaymentId = 174,
-ProductId = 11,
-ServiceId = 2,
-AmoutEmployee = 104,
-StartDate = DateTime.Now.AddDays(-39),
-EndDate = DateTime.Now.AddDays(-27),
-Cost = 19968000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-174),
-UpdatedAt
- = DateTime.Now.AddDays(-174)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 444,
-PaymentId = 174,
-ProductId = 11,
-ServiceId = 2,
-AmoutEmployee = 144,
-StartDate = DateTime.Now.AddDays(-87),
-EndDate = DateTime.Now.AddDays(-81),
-Cost = 8640000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-174),
-UpdatedAt
- = DateTime.Now.AddDays(-174)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 445,
-PaymentId = 175,
-ProductId = 5,
-ServiceId = 2,
-AmoutEmployee = 152,
-StartDate = DateTime.Now.AddDays(-122),
-EndDate = DateTime.Now.AddDays(-119),
-Cost = 15504000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-175),
-UpdatedAt
- = DateTime.Now.AddDays(-175)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 446,
-PaymentId = 175,
-ProductId = 14,
-ServiceId = 2,
-AmoutEmployee = 165,
-StartDate = DateTime.Now.AddDays(-80),
-EndDate = DateTime.Now.AddDays(-76),
-Cost = 46530000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-175),
-UpdatedAt
- = DateTime.Now.AddDays(-175)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 447,
-PaymentId = 176,
-ProductId = 26,
-ServiceId = 2,
-AmoutEmployee = 49,
-StartDate = DateTime.Now.AddDays(-40),
-EndDate = DateTime.Now.AddDays(-38),
-Cost = 2940000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-176),
-UpdatedAt
- = DateTime.Now.AddDays(-176)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 448,
-PaymentId = 176,
-ProductId = 9,
-ServiceId = 3,
-AmoutEmployee = 89,
-StartDate = DateTime.Now.AddDays(-188),
-EndDate = DateTime.Now.AddDays(-180),
-Cost = 24964500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-176),
-UpdatedAt
- = DateTime.Now.AddDays(-176)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 449,
-PaymentId = 176,
-ProductId = 5,
-ServiceId = 2,
-AmoutEmployee = 155,
-StartDate = DateTime.Now.AddDays(-113),
-EndDate = DateTime.Now.AddDays(-106),
-Cost = 91140000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-176),
-UpdatedAt
- = DateTime.Now.AddDays(-176)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 450,
-PaymentId = 177,
-ProductId = 4,
-ServiceId = 1,
-AmoutEmployee = 105,
-StartDate = DateTime.Now.AddDays(-45),
-EndDate = DateTime.Now.AddDays(-36),
-Cost = 11812500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-177),
-UpdatedAt
- = DateTime.Now.AddDays(-177)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 451,
-PaymentId = 177,
-ProductId = 20,
-ServiceId = 2,
-AmoutEmployee = 194,
-StartDate = DateTime.Now.AddDays(-88),
-EndDate = DateTime.Now.AddDays(-87),
-Cost = 55872000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-177),
-UpdatedAt
- = DateTime.Now.AddDays(-177)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 452,
-PaymentId = 177,
-ProductId = 26,
-ServiceId = 3,
-AmoutEmployee = 105,
-StartDate = DateTime.Now.AddDays(-131),
-EndDate = DateTime.Now.AddDays(-125),
-Cost = 29452500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-177),
-UpdatedAt
- = DateTime.Now.AddDays(-177)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 453,
-PaymentId = 178,
-ProductId = 1,
-ServiceId = 3,
-AmoutEmployee = 54,
-StartDate = DateTime.Now.AddDays(-172),
-EndDate = DateTime.Now.AddDays(-168),
-Cost = 4752000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-178),
-UpdatedAt
- = DateTime.Now.AddDays(-178)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 454,
-PaymentId = 178,
-ProductId = 5,
-ServiceId = 1,
-AmoutEmployee = 67,
-StartDate = DateTime.Now.AddDays(-52),
-EndDate = DateTime.Now.AddDays(-43),
-Cost = 3618000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-178),
-UpdatedAt
- = DateTime.Now.AddDays(-178)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 455,
-PaymentId = 179,
-ProductId = 8,
-ServiceId = 3,
-AmoutEmployee = 87,
-StartDate = DateTime.Now.AddDays(-126),
-EndDate = DateTime.Now.AddDays(-123),
-Cost = 15312000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-179),
-UpdatedAt
- = DateTime.Now.AddDays(-179)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 456,
-PaymentId = 179,
-ProductId = 27,
-ServiceId = 3,
-AmoutEmployee = 50,
-StartDate = DateTime.Now.AddDays(-102),
-EndDate = DateTime.Now.AddDays(-87),
-Cost = 8250000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-179),
-UpdatedAt
- = DateTime.Now.AddDays(-179)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 457,
-PaymentId = 179,
-ProductId = 10,
-ServiceId = 3,
-AmoutEmployee = 27,
-StartDate = DateTime.Now.AddDays(-53),
-EndDate = DateTime.Now.AddDays(-51),
-Cost = 6385500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-179),
-UpdatedAt
- = DateTime.Now.AddDays(-179)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 458,
-PaymentId = 180,
-ProductId = 16,
-ServiceId = 2,
-AmoutEmployee = 153,
-StartDate = DateTime.Now.AddDays(-198),
-EndDate = DateTime.Now.AddDays(-194),
-Cost = 138618000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-180),
-UpdatedAt
- = DateTime.Now.AddDays(-180)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 459,
-PaymentId = 180,
-ProductId = 19,
-ServiceId = 3,
-AmoutEmployee = 125,
-StartDate = DateTime.Now.AddDays(-101),
-EndDate = DateTime.Now.AddDays(-97),
-Cost = 39187500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-180),
-UpdatedAt
- = DateTime.Now.AddDays(-180)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 460,
-PaymentId = 181,
-ProductId = 28,
-ServiceId = 1,
-AmoutEmployee = 138,
-StartDate = DateTime.Now.AddDays(-38),
-EndDate = DateTime.Now.AddDays(-31),
-Cost = 621000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-181),
-UpdatedAt
- = DateTime.Now.AddDays(-181)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 461,
-PaymentId = 181,
-ProductId = 2,
-ServiceId = 3,
-AmoutEmployee = 39,
-StartDate = DateTime.Now.AddDays(-187),
-EndDate = DateTime.Now.AddDays(-177),
-Cost = 35821500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-181),
-UpdatedAt
- = DateTime.Now.AddDays(-181)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 462,
-PaymentId = 181,
-ProductId = 27,
-ServiceId = 3,
-AmoutEmployee = 54,
-StartDate = DateTime.Now.AddDays(-67),
-EndDate = DateTime.Now.AddDays(-65),
-Cost = 5049000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-181),
-UpdatedAt
- = DateTime.Now.AddDays(-181)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 463,
-PaymentId = 182,
-ProductId = 16,
-ServiceId = 3,
-AmoutEmployee = 121,
-StartDate = DateTime.Now.AddDays(-178),
-EndDate = DateTime.Now.AddDays(-172),
-Cost = 61226000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-182),
-UpdatedAt
- = DateTime.Now.AddDays(-182)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 464,
-PaymentId = 182,
-ProductId = 4,
-ServiceId = 3,
-AmoutEmployee = 92,
-StartDate = DateTime.Now.AddDays(-30),
-EndDate = DateTime.Now.AddDays(-29),
-Cost = 2530000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-182),
-UpdatedAt
- = DateTime.Now.AddDays(-182)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 465,
-PaymentId = 183,
-ProductId = 11,
-ServiceId = 2,
-AmoutEmployee = 102,
-StartDate = DateTime.Now.AddDays(-11),
-EndDate = DateTime.Now.AddDays(-8),
-Cost = 3672000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-183),
-UpdatedAt
- = DateTime.Now.AddDays(-183)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 466,
-PaymentId = 183,
-ProductId = 10,
-ServiceId = 2,
-AmoutEmployee = 197,
-StartDate = DateTime.Now.AddDays(-145),
-EndDate = DateTime.Now.AddDays(-133),
-Cost = 140658000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-183),
-UpdatedAt
- = DateTime.Now.AddDays(-183)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 467,
-PaymentId = 183,
-ProductId = 20,
-ServiceId = 3,
-AmoutEmployee = 148,
-StartDate = DateTime.Now.AddDays(-48),
-EndDate = DateTime.Now.AddDays(-37),
-Cost = 13838000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-183),
-UpdatedAt
- = DateTime.Now.AddDays(-183)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 468,
-PaymentId = 184,
-ProductId = 21,
-ServiceId = 1,
-AmoutEmployee = 165,
-StartDate = DateTime.Now.AddDays(-107),
-EndDate = DateTime.Now.AddDays(-93),
-Cost = 23017500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-184),
-UpdatedAt
- = DateTime.Now.AddDays(-184)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 469,
-PaymentId = 184,
-ProductId = 5,
-ServiceId = 2,
-AmoutEmployee = 169,
-StartDate = DateTime.Now.AddDays(-13),
-EndDate = DateTime.Now.AddDays(-1),
-Cost = 3042000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-184),
-UpdatedAt
- = DateTime.Now.AddDays(-184)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 470,
-PaymentId = 185,
-ProductId = 7,
-ServiceId = 3,
-AmoutEmployee = 51,
-StartDate = DateTime.Now.AddDays(-164),
-EndDate = DateTime.Now.AddDays(-162),
-Cost = 3366000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-185),
-UpdatedAt
- = DateTime.Now.AddDays(-185)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 471,
-PaymentId = 185,
-ProductId = 9,
-ServiceId = 1,
-AmoutEmployee = 193,
-StartDate = DateTime.Now.AddDays(-79),
-EndDate = DateTime.Now.AddDays(-69),
-Cost = 54715500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-185),
-UpdatedAt
- = DateTime.Now.AddDays(-185)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 472,
-PaymentId = 185,
-ProductId = 4,
-ServiceId = 1,
-AmoutEmployee = 128,
-StartDate = DateTime.Now.AddDays(-154),
-EndDate = DateTime.Now.AddDays(-145),
-Cost = 11520000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-185),
-UpdatedAt
- = DateTime.Now.AddDays(-185)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 473,
-PaymentId = 186,
-ProductId = 3,
-ServiceId = 3,
-AmoutEmployee = 33,
-StartDate = DateTime.Now.AddDays(-104),
-EndDate = DateTime.Now.AddDays(-103),
-Cost = 1815000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-186),
-UpdatedAt
- = DateTime.Now.AddDays(-186)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 474,
-PaymentId = 186,
-ProductId = 20,
-ServiceId = 3,
-AmoutEmployee = 91,
-StartDate = DateTime.Now.AddDays(-64),
-EndDate = DateTime.Now.AddDays(-62),
-Cost = 21021000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-186),
-UpdatedAt
- = DateTime.Now.AddDays(-186)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 475,
-PaymentId = 187,
-ProductId = 6,
-ServiceId = 3,
-AmoutEmployee = 147,
-StartDate = DateTime.Now.AddDays(-92),
-EndDate = DateTime.Now.AddDays(-90),
-Cost = 6468000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-187),
-UpdatedAt
- = DateTime.Now.AddDays(-187)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 476,
-PaymentId = 187,
-ProductId = 29,
-ServiceId = 3,
-AmoutEmployee = 175,
-StartDate = DateTime.Now.AddDays(-166),
-EndDate = DateTime.Now.AddDays(-154),
-Cost = 34650000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-187),
-UpdatedAt
- = DateTime.Now.AddDays(-187)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 477,
-PaymentId = 187,
-ProductId = 6,
-ServiceId = 1,
-AmoutEmployee = 181,
-StartDate = DateTime.Now.AddDays(-89),
-EndDate = DateTime.Now.AddDays(-75),
-Cost = 33394500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-187),
-UpdatedAt
- = DateTime.Now.AddDays(-187)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 478,
-PaymentId = 188,
-ProductId = 12,
-ServiceId = 1,
-AmoutEmployee = 190,
-StartDate = DateTime.Now.AddDays(-45),
-EndDate = DateTime.Now.AddDays(-34),
-Cost = 9405000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-188),
-UpdatedAt
- = DateTime.Now.AddDays(-188)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 479,
-PaymentId = 188,
-ProductId = 26,
-ServiceId = 3,
-AmoutEmployee = 67,
-StartDate = DateTime.Now.AddDays(-127),
-EndDate = DateTime.Now.AddDays(-114),
-Cost = 31322500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-188),
-UpdatedAt
- = DateTime.Now.AddDays(-188)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 480,
-PaymentId = 188,
-ProductId = 10,
-ServiceId = 2,
-AmoutEmployee = 109,
-StartDate = DateTime.Now.AddDays(-150),
-EndDate = DateTime.Now.AddDays(-149),
-Cost = 23544000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-188),
-UpdatedAt
- = DateTime.Now.AddDays(-188)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 481,
-PaymentId = 189,
-ProductId = 7,
-ServiceId = 3,
-AmoutEmployee = 142,
-StartDate = DateTime.Now.AddDays(-143),
-EndDate = DateTime.Now.AddDays(-129),
-Cost = 63261000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-189),
-UpdatedAt
- = DateTime.Now.AddDays(-189)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 482,
-PaymentId = 189,
-ProductId = 29,
-ServiceId = 1,
-AmoutEmployee = 151,
-StartDate = DateTime.Now.AddDays(-98),
-EndDate = DateTime.Now.AddDays(-83),
-Cost = 29218500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-189),
-UpdatedAt
- = DateTime.Now.AddDays(-189)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 483,
-PaymentId = 190,
-ProductId = 26,
-ServiceId = 2,
-AmoutEmployee = 35,
-StartDate = DateTime.Now.AddDays(-82),
-EndDate = DateTime.Now.AddDays(-75),
-Cost = 9660000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-190),
-UpdatedAt
- = DateTime.Now.AddDays(-190)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 484,
-PaymentId = 190,
-ProductId = 26,
-ServiceId = 3,
-AmoutEmployee = 57,
-StartDate = DateTime.Now.AddDays(-163),
-EndDate = DateTime.Now.AddDays(-148),
-Cost = 35739000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-190),
-UpdatedAt
- = DateTime.Now.AddDays(-190)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 485,
-PaymentId = 190,
-ProductId = 23,
-ServiceId = 1,
-AmoutEmployee = 52,
-StartDate = DateTime.Now.AddDays(-37),
-EndDate = DateTime.Now.AddDays(-24),
-Cost = 1638000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-190),
-UpdatedAt
- = DateTime.Now.AddDays(-190)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 486,
-PaymentId = 191,
-ProductId = 7,
-ServiceId = 3,
-AmoutEmployee = 67,
-StartDate = DateTime.Now.AddDays(-25),
-EndDate = DateTime.Now.AddDays(-18),
-Cost = 368500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-191),
-UpdatedAt
- = DateTime.Now.AddDays(-191)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 487,
-PaymentId = 191,
-ProductId = 1,
-ServiceId = 2,
-AmoutEmployee = 147,
-StartDate = DateTime.Now.AddDays(-141),
-EndDate = DateTime.Now.AddDays(-134),
-Cost = 49392000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-191),
-UpdatedAt
- = DateTime.Now.AddDays(-191)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 488,
-PaymentId = 192,
-ProductId = 4,
-ServiceId = 2,
-AmoutEmployee = 32,
-StartDate = DateTime.Now.AddDays(-95),
-EndDate = DateTime.Now.AddDays(-89),
-Cost = 6912000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-192),
-UpdatedAt
- = DateTime.Now.AddDays(-192)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 489,
-PaymentId = 192,
-ProductId = 28,
-ServiceId = 3,
-AmoutEmployee = 57,
-StartDate = DateTime.Now.AddDays(-118),
-EndDate = DateTime.Now.AddDays(-103),
-Cost = 22572000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-192),
-UpdatedAt
- = DateTime.Now.AddDays(-192)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 490,
-PaymentId = 192,
-ProductId = 29,
-ServiceId = 1,
-AmoutEmployee = 129,
-StartDate = DateTime.Now.AddDays(-41),
-EndDate = DateTime.Now.AddDays(-37),
-Cost = 1161000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-192),
-UpdatedAt
- = DateTime.Now.AddDays(-192)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 491,
-PaymentId = 193,
-ProductId = 19,
-ServiceId = 3,
-AmoutEmployee = 178,
-StartDate = DateTime.Now.AddDays(-143),
-EndDate = DateTime.Now.AddDays(-139),
-Cost = 133144000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-193),
-UpdatedAt
- = DateTime.Now.AddDays(-193)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 492,
-PaymentId = 193,
-ProductId = 2,
-ServiceId = 2,
-AmoutEmployee = 149,
-StartDate = DateTime.Now.AddDays(-162),
-EndDate = DateTime.Now.AddDays(-159),
-Cost = 44700000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-193),
-UpdatedAt
- = DateTime.Now.AddDays(-193)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 493,
-PaymentId = 194,
-ProductId = 18,
-ServiceId = 1,
-AmoutEmployee = 111,
-StartDate = DateTime.Now.AddDays(-196),
-EndDate = DateTime.Now.AddDays(-189),
-Cost = 16983000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-194),
-UpdatedAt
- = DateTime.Now.AddDays(-194)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 494,
-PaymentId = 194,
-ProductId = 12,
-ServiceId = 3,
-AmoutEmployee = 175,
-StartDate = DateTime.Now.AddDays(-166),
-EndDate = DateTime.Now.AddDays(-165),
-Cost = 88550000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-194),
-UpdatedAt
- = DateTime.Now.AddDays(-194)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 495,
-PaymentId = 194,
-ProductId = 15,
-ServiceId = 1,
-AmoutEmployee = 32,
-StartDate = DateTime.Now.AddDays(-102),
-EndDate = DateTime.Now.AddDays(-98),
-Cost = 7776000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-194),
-UpdatedAt
- = DateTime.Now.AddDays(-194)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 496,
-PaymentId = 195,
-ProductId = 26,
-ServiceId = 1,
-AmoutEmployee = 108,
-StartDate = DateTime.Now.AddDays(-71),
-EndDate = DateTime.Now.AddDays(-66),
-Cost = 19926000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-195),
-UpdatedAt
- = DateTime.Now.AddDays(-195)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 497,
-PaymentId = 195,
-ProductId = 13,
-ServiceId = 2,
-AmoutEmployee = 73,
-StartDate = DateTime.Now.AddDays(-10),
-EndDate = DateTime.Now.AddDays(-3),
-Cost = 2190000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-195),
-UpdatedAt
- = DateTime.Now.AddDays(-195)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 498,
-PaymentId = 196,
-ProductId = 3,
-ServiceId = 2,
-AmoutEmployee = 59,
-StartDate = DateTime.Now.AddDays(-157),
-EndDate = DateTime.Now.AddDays(-144),
-Cost = 9912000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-196),
-UpdatedAt
- = DateTime.Now.AddDays(-196)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 499,
-PaymentId = 196,
-ProductId = 20,
-ServiceId = 3,
-AmoutEmployee = 29,
-StartDate = DateTime.Now.AddDays(-122),
-EndDate = DateTime.Now.AddDays(-108),
-Cost = 3668500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-196),
-UpdatedAt
- = DateTime.Now.AddDays(-196)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 500,
-PaymentId = 196,
-ProductId = 26,
-ServiceId = 1,
-AmoutEmployee = 43,
-StartDate = DateTime.Now.AddDays(-53),
-EndDate = DateTime.Now.AddDays(-44),
-Cost = 2709000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-196),
-UpdatedAt
- = DateTime.Now.AddDays(-196)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 501,
-PaymentId = 197,
-ProductId = 21,
-ServiceId = 3,
-AmoutEmployee = 164,
-StartDate = DateTime.Now.AddDays(-26),
-EndDate = DateTime.Now.AddDays(-17),
-Cost = 7216000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-197),
-UpdatedAt
- = DateTime.Now.AddDays(-197)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 502,
-PaymentId = 197,
-ProductId = 25,
-ServiceId = 2,
-AmoutEmployee = 198,
-StartDate = DateTime.Now.AddDays(-195),
-EndDate = DateTime.Now.AddDays(-191),
-Cost = 180576000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-197),
-UpdatedAt
- = DateTime.Now.AddDays(-197)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 503,
-PaymentId = 198,
-ProductId = 19,
-ServiceId = 1,
-AmoutEmployee = 45,
-StartDate = DateTime.Now.AddDays(-84),
-EndDate = DateTime.Now.AddDays(-77),
-Cost = 5467500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-198),
-UpdatedAt
- = DateTime.Now.AddDays(-198)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 504,
-PaymentId = 198,
-ProductId = 14,
-ServiceId = 2,
-AmoutEmployee = 156,
-StartDate = DateTime.Now.AddDays(-86),
-EndDate = DateTime.Now.AddDays(-85),
-Cost = 32760000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-198),
-UpdatedAt
- = DateTime.Now.AddDays(-198)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 505,
-PaymentId = 198,
-ProductId = 24,
-ServiceId = 2,
-AmoutEmployee = 83,
-StartDate = DateTime.Now.AddDays(-184),
-EndDate = DateTime.Now.AddDays(-174),
-Cost = 68724000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-198),
-UpdatedAt
- = DateTime.Now.AddDays(-198)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 506,
-PaymentId = 199,
-ProductId = 3,
-ServiceId = 1,
-AmoutEmployee = 53,
-StartDate = DateTime.Now.AddDays(-133),
-EndDate = DateTime.Now.AddDays(-125),
-Cost = 28620000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-199),
-UpdatedAt
- = DateTime.Now.AddDays(-199)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 507,
-PaymentId = 199,
-ProductId = 2,
-ServiceId = 1,
-AmoutEmployee = 81,
-StartDate = DateTime.Now.AddDays(-140),
-EndDate = DateTime.Now.AddDays(-126),
-Cost = 2916000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-199),
-UpdatedAt
- = DateTime.Now.AddDays(-199)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 508,
-PaymentId = 199,
-ProductId = 25,
-ServiceId = 1,
-AmoutEmployee = 101,
-StartDate = DateTime.Now.AddDays(-10),
-EndDate = DateTime.Now.AddDays(5),
-Cost = 454500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-199),
-UpdatedAt
- = DateTime.Now.AddDays(-199)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 509,
-PaymentId = 200,
-ProductId = 2,
-ServiceId = 1,
-AmoutEmployee = 151,
-StartDate = DateTime.Now.AddDays(-36),
-EndDate = DateTime.Now.AddDays(-24),
-Cost = 679500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-200),
-UpdatedAt
- = DateTime.Now.AddDays(-200)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 510,
-PaymentId = 200,
-ProductId = 12,
-ServiceId = 1,
-AmoutEmployee = 166,
-StartDate = DateTime.Now.AddDays(-121),
-EndDate = DateTime.Now.AddDays(-108),
-Cost = 71712000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-200),
-UpdatedAt
- = DateTime.Now.AddDays(-200)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 511,
-PaymentId = 201,
-ProductId = 24,
-ServiceId = 2,
-AmoutEmployee = 54,
-StartDate = DateTime.Now.AddDays(-183),
-EndDate = DateTime.Now.AddDays(-174),
-Cost = 47628000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-201),
-UpdatedAt
- = DateTime.Now.AddDays(-201)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 512,
-PaymentId = 201,
-ProductId = 10,
-ServiceId = 2,
-AmoutEmployee = 128,
-StartDate = DateTime.Now.AddDays(-48),
-EndDate = DateTime.Now.AddDays(-47),
-Cost = 10752000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-201),
-UpdatedAt
- = DateTime.Now.AddDays(-201)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 513,
-PaymentId = 201,
-ProductId = 24,
-ServiceId = 1,
-AmoutEmployee = 91,
-StartDate = DateTime.Now.AddDays(-150),
-EndDate = DateTime.Now.AddDays(-137),
-Cost = 28255500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-201),
-UpdatedAt
- = DateTime.Now.AddDays(-201)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 514,
-PaymentId = 202,
-ProductId = 7,
-ServiceId = 2,
-AmoutEmployee = 50,
-StartDate = DateTime.Now.AddDays(-123),
-EndDate = DateTime.Now.AddDays(-117),
-Cost = 23100000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-202),
-UpdatedAt
- = DateTime.Now.AddDays(-202)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 515,
-PaymentId = 202,
-ProductId = 14,
-ServiceId = 2,
-AmoutEmployee = 133,
-StartDate = DateTime.Now.AddDays(-193),
-EndDate = DateTime.Now.AddDays(-187),
-Cost = 61446000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-202),
-UpdatedAt
- = DateTime.Now.AddDays(-202)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 516,
-PaymentId = 203,
-ProductId = 13,
-ServiceId = 1,
-AmoutEmployee = 110,
-StartDate = DateTime.Now.AddDays(-90),
-EndDate = DateTime.Now.AddDays(-76),
-Cost = 18315000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-203),
-UpdatedAt
- = DateTime.Now.AddDays(-203)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 517,
-PaymentId = 203,
-ProductId = 12,
-ServiceId = 2,
-AmoutEmployee = 143,
-StartDate = DateTime.Now.AddDays(-193),
-EndDate = DateTime.Now.AddDays(-189),
-Cost = 145860000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-203),
-UpdatedAt
- = DateTime.Now.AddDays(-203)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 518,
-PaymentId = 203,
-ProductId = 25,
-ServiceId = 2,
-AmoutEmployee = 111,
-StartDate = DateTime.Now.AddDays(-87),
-EndDate = DateTime.Now.AddDays(-77),
-Cost = 5994000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-203),
-UpdatedAt
- = DateTime.Now.AddDays(-203)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 519,
-PaymentId = 204,
-ProductId = 10,
-ServiceId = 2,
-AmoutEmployee = 103,
-StartDate = DateTime.Now.AddDays(-113),
-EndDate = DateTime.Now.AddDays(-101),
-Cost = 66126000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-204),
-UpdatedAt
- = DateTime.Now.AddDays(-204)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 520,
-PaymentId = 204,
-ProductId = 13,
-ServiceId = 1,
-AmoutEmployee = 198,
-StartDate = DateTime.Now.AddDays(-58),
-EndDate = DateTime.Now.AddDays(-44),
-Cost = 41877000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-204),
-UpdatedAt
- = DateTime.Now.AddDays(-204)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 521,
-PaymentId = 205,
-ProductId = 26,
-ServiceId = 1,
-AmoutEmployee = 73,
-StartDate = DateTime.Now.AddDays(-28),
-EndDate = DateTime.Now.AddDays(-16),
-Cost = 5584500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-205),
-UpdatedAt
- = DateTime.Now.AddDays(-205)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 522,
-PaymentId = 205,
-ProductId = 10,
-ServiceId = 2,
-AmoutEmployee = 30,
-StartDate = DateTime.Now.AddDays(-111),
-EndDate = DateTime.Now.AddDays(-96),
-Cost = 1620000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-205),
-UpdatedAt
- = DateTime.Now.AddDays(-205)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 523,
-PaymentId = 205,
-ProductId = 12,
-ServiceId = 3,
-AmoutEmployee = 98,
-StartDate = DateTime.Now.AddDays(-79),
-EndDate = DateTime.Now.AddDays(-65),
-Cost = 29645000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-205),
-UpdatedAt
- = DateTime.Now.AddDays(-205)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 524,
-PaymentId = 206,
-ProductId = 15,
-ServiceId = 1,
-AmoutEmployee = 173,
-StartDate = DateTime.Now.AddDays(-191),
-EndDate = DateTime.Now.AddDays(-178),
-Cost = 25690500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-206),
-UpdatedAt
- = DateTime.Now.AddDays(-206)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 525,
-PaymentId = 206,
-ProductId = 9,
-ServiceId = 3,
-AmoutEmployee = 155,
-StartDate = DateTime.Now.AddDays(-125),
-EndDate = DateTime.Now.AddDays(-111),
-Cost = 1705000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-206),
-UpdatedAt
- = DateTime.Now.AddDays(-206)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 526,
-PaymentId = 207,
-ProductId = 16,
-ServiceId = 1,
-AmoutEmployee = 102,
-StartDate = DateTime.Now.AddDays(-147),
-EndDate = DateTime.Now.AddDays(-139),
-Cost = 21573000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-207),
-UpdatedAt
- = DateTime.Now.AddDays(-207)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 527,
-PaymentId = 207,
-ProductId = 14,
-ServiceId = 1,
-AmoutEmployee = 75,
-StartDate = DateTime.Now.AddDays(-156),
-EndDate = DateTime.Now.AddDays(-154),
-Cost = 50625000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-207),
-UpdatedAt
- = DateTime.Now.AddDays(-207)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 528,
-PaymentId = 207,
-ProductId = 7,
-ServiceId = 3,
-AmoutEmployee = 151,
-StartDate = DateTime.Now.AddDays(-172),
-EndDate = DateTime.Now.AddDays(-160),
-Cost = 116270000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-207),
-UpdatedAt
- = DateTime.Now.AddDays(-207)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 529,
-PaymentId = 208,
-ProductId = 9,
-ServiceId = 2,
-AmoutEmployee = 109,
-StartDate = DateTime.Now.AddDays(-178),
-EndDate = DateTime.Now.AddDays(-172),
-Cost = 25506000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-208),
-UpdatedAt
- = DateTime.Now.AddDays(-208)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 530,
-PaymentId = 208,
-ProductId = 26,
-ServiceId = 3,
-AmoutEmployee = 26,
-StartDate = DateTime.Now.AddDays(-29),
-EndDate = DateTime.Now.AddDays(-23),
-Cost = 143000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-208),
-UpdatedAt
- = DateTime.Now.AddDays(-208)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 531,
-PaymentId = 209,
-ProductId = 26,
-ServiceId = 3,
-AmoutEmployee = 159,
-StartDate = DateTime.Now.AddDays(-119),
-EndDate = DateTime.Now.AddDays(-107),
-Cost = 45474000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-209),
-UpdatedAt
- = DateTime.Now.AddDays(-209)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 532,
-PaymentId = 209,
-ProductId = 19,
-ServiceId = 3,
-AmoutEmployee = 103,
-StartDate = DateTime.Now.AddDays(-116),
-EndDate = DateTime.Now.AddDays(-107),
-Cost = 13029500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-209),
-UpdatedAt
- = DateTime.Now.AddDays(-209)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 533,
-PaymentId = 209,
-ProductId = 13,
-ServiceId = 1,
-AmoutEmployee = 155,
-StartDate = DateTime.Now.AddDays(-45),
-EndDate = DateTime.Now.AddDays(-41),
-Cost = 6277500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-209),
-UpdatedAt
- = DateTime.Now.AddDays(-209)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 534,
-PaymentId = 210,
-ProductId = 21,
-ServiceId = 2,
-AmoutEmployee = 81,
-StartDate = DateTime.Now.AddDays(-57),
-EndDate = DateTime.Now.AddDays(-42),
-Cost = 5832000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-210),
-UpdatedAt
- = DateTime.Now.AddDays(-210)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 535,
-PaymentId = 210,
-ProductId = 11,
-ServiceId = 2,
-AmoutEmployee = 198,
-StartDate = DateTime.Now.AddDays(-49),
-EndDate = DateTime.Now.AddDays(-38),
-Cost = 13068000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-210),
-UpdatedAt
- = DateTime.Now.AddDays(-210)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 536,
-PaymentId = 210,
-ProductId = 20,
-ServiceId = 2,
-AmoutEmployee = 80,
-StartDate = DateTime.Now.AddDays(-99),
-EndDate = DateTime.Now.AddDays(-86),
-Cost = 25440000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-210),
-UpdatedAt
- = DateTime.Now.AddDays(-210)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 537,
-PaymentId = 211,
-ProductId = 22,
-ServiceId = 1,
-AmoutEmployee = 43,
-StartDate = DateTime.Now.AddDays(-70),
-EndDate = DateTime.Now.AddDays(-65),
-Cost = 12577500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-211),
-UpdatedAt
- = DateTime.Now.AddDays(-211)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 538,
-PaymentId = 211,
-ProductId = 14,
-ServiceId = 1,
-AmoutEmployee = 190,
-StartDate = DateTime.Now.AddDays(-114),
-EndDate = DateTime.Now.AddDays(-110),
-Cost = 76095000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-211),
-UpdatedAt
- = DateTime.Now.AddDays(-211)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 539,
-PaymentId = 212,
-ProductId = 13,
-ServiceId = 1,
-AmoutEmployee = 68,
-StartDate = DateTime.Now.AddDays(-80),
-EndDate = DateTime.Now.AddDays(-69),
-Cost = 22338000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-212),
-UpdatedAt
- = DateTime.Now.AddDays(-212)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 540,
-PaymentId = 212,
-ProductId = 20,
-ServiceId = 1,
-AmoutEmployee = 27,
-StartDate = DateTime.Now.AddDays(-194),
-EndDate = DateTime.Now.AddDays(-187),
-Cost = 10084500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-212),
-UpdatedAt
- = DateTime.Now.AddDays(-212)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 541,
-PaymentId = 212,
-ProductId = 5,
-ServiceId = 3,
-AmoutEmployee = 108,
-StartDate = DateTime.Now.AddDays(-185),
-EndDate = DateTime.Now.AddDays(-175),
-Cost = 48114000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-212),
-UpdatedAt
- = DateTime.Now.AddDays(-212)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 542,
-PaymentId = 213,
-ProductId = 12,
-ServiceId = 3,
-AmoutEmployee = 47,
-StartDate = DateTime.Now.AddDays(-145),
-EndDate = DateTime.Now.AddDays(-139),
-Cost = 35673000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-213),
-UpdatedAt
- = DateTime.Now.AddDays(-213)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 543,
-PaymentId = 213,
-ProductId = 2,
-ServiceId = 3,
-AmoutEmployee = 30,
-StartDate = DateTime.Now.AddDays(-170),
-EndDate = DateTime.Now.AddDays(-165),
-Cost = 1815000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-213),
-UpdatedAt
- = DateTime.Now.AddDays(-213)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 544,
-PaymentId = 214,
-ProductId = 1,
-ServiceId = 2,
-AmoutEmployee = 121,
-StartDate = DateTime.Now.AddDays(-103),
-EndDate = DateTime.Now.AddDays(-89),
-Cost = 65340000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-214),
-UpdatedAt
- = DateTime.Now.AddDays(-214)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 545,
-PaymentId = 214,
-ProductId = 3,
-ServiceId = 3,
-AmoutEmployee = 42,
-StartDate = DateTime.Now.AddDays(-143),
-EndDate = DateTime.Now.AddDays(-140),
-Cost = 27027000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-214),
-UpdatedAt
- = DateTime.Now.AddDays(-214)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 546,
-PaymentId = 214,
-ProductId = 18,
-ServiceId = 3,
-AmoutEmployee = 137,
-StartDate = DateTime.Now.AddDays(-91),
-EndDate = DateTime.Now.AddDays(-87),
-Cost = 15070000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-214),
-UpdatedAt
- = DateTime.Now.AddDays(-214)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 547,
-PaymentId = 215,
-ProductId = 27,
-ServiceId = 2,
-AmoutEmployee = 106,
-StartDate = DateTime.Now.AddDays(-45),
-EndDate = DateTime.Now.AddDays(-41),
-Cost = 24804000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-215),
-UpdatedAt
- = DateTime.Now.AddDays(-215)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 548,
-PaymentId = 215,
-ProductId = 1,
-ServiceId = 2,
-AmoutEmployee = 165,
-StartDate = DateTime.Now.AddDays(-66),
-EndDate = DateTime.Now.AddDays(-59),
-Cost = 51480000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-215),
-UpdatedAt
- = DateTime.Now.AddDays(-215)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 549,
-PaymentId = 216,
-ProductId = 12,
-ServiceId = 2,
-AmoutEmployee = 186,
-StartDate = DateTime.Now.AddDays(-191),
-EndDate = DateTime.Now.AddDays(-186),
-Cost = 121644000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-216),
-UpdatedAt
- = DateTime.Now.AddDays(-216)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 550,
-PaymentId = 216,
-ProductId = 19,
-ServiceId = 3,
-AmoutEmployee = 109,
-StartDate = DateTime.Now.AddDays(-70),
-EndDate = DateTime.Now.AddDays(-68),
-Cost = 35970000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-216),
-UpdatedAt
- = DateTime.Now.AddDays(-216)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 551,
-PaymentId = 216,
-ProductId = 6,
-ServiceId = 1,
-AmoutEmployee = 136,
-StartDate = DateTime.Now.AddDays(-106),
-EndDate = DateTime.Now.AddDays(-104),
-Cost = 7956000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-216),
-UpdatedAt
- = DateTime.Now.AddDays(-216)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 552,
-PaymentId = 217,
-ProductId = 18,
-ServiceId = 2,
-AmoutEmployee = 92,
-StartDate = DateTime.Now.AddDays(-108),
-EndDate = DateTime.Now.AddDays(-97),
-Cost = 44160000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-217),
-UpdatedAt
- = DateTime.Now.AddDays(-217)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 553,
-PaymentId = 217,
-ProductId = 10,
-ServiceId = 3,
-AmoutEmployee = 165,
-StartDate = DateTime.Now.AddDays(-198),
-EndDate = DateTime.Now.AddDays(-190),
-Cost = 126142500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-217),
-UpdatedAt
- = DateTime.Now.AddDays(-217)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 554,
-PaymentId = 218,
-ProductId = 24,
-ServiceId = 3,
-AmoutEmployee = 41,
-StartDate = DateTime.Now.AddDays(-146),
-EndDate = DateTime.Now.AddDays(-145),
-Cost = 225500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-218),
-UpdatedAt
- = DateTime.Now.AddDays(-218)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 555,
-PaymentId = 218,
-ProductId = 2,
-ServiceId = 1,
-AmoutEmployee = 75,
-StartDate = DateTime.Now.AddDays(-69),
-EndDate = DateTime.Now.AddDays(-58),
-Cost = 16875000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-218),
-UpdatedAt
- = DateTime.Now.AddDays(-218)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 556,
-PaymentId = 218,
-ProductId = 17,
-ServiceId = 1,
-AmoutEmployee = 93,
-StartDate = DateTime.Now.AddDays(-166),
-EndDate = DateTime.Now.AddDays(-157),
-Cost = 30132000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-218),
-UpdatedAt
- = DateTime.Now.AddDays(-218)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 557,
-PaymentId = 219,
-ProductId = 13,
-ServiceId = 2,
-AmoutEmployee = 193,
-StartDate = DateTime.Now.AddDays(-105),
-EndDate = DateTime.Now.AddDays(-95),
-Cost = 2316000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-219),
-UpdatedAt
- = DateTime.Now.AddDays(-219)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 558,
-PaymentId = 219,
-ProductId = 2,
-ServiceId = 1,
-AmoutEmployee = 158,
-StartDate = DateTime.Now.AddDays(-13),
-EndDate = DateTime.Now.AddDays(2),
-Cost = 4266000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-219),
-UpdatedAt
- = DateTime.Now.AddDays(-219)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 559,
-PaymentId = 220,
-ProductId = 15,
-ServiceId = 1,
-AmoutEmployee = 107,
-StartDate = DateTime.Now.AddDays(-85),
-EndDate = DateTime.Now.AddDays(-73),
-Cost = 30816000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-220),
-UpdatedAt
- = DateTime.Now.AddDays(-220)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 560,
-PaymentId = 220,
-ProductId = 29,
-ServiceId = 3,
-AmoutEmployee = 185,
-StartDate = DateTime.Now.AddDays(-197),
-EndDate = DateTime.Now.AddDays(-190),
-Cost = 16280000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-220),
-UpdatedAt
- = DateTime.Now.AddDays(-220)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 561,
-PaymentId = 220,
-ProductId = 14,
-ServiceId = 1,
-AmoutEmployee = 54,
-StartDate = DateTime.Now.AddDays(-11),
-EndDate = DateTime.Now.AddDays(0),
-Cost = 486000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-220),
-UpdatedAt
- = DateTime.Now.AddDays(-220)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 562,
-PaymentId = 221,
-ProductId = 28,
-ServiceId = 3,
-AmoutEmployee = 157,
-StartDate = DateTime.Now.AddDays(-134),
-EndDate = DateTime.Now.AddDays(-119),
-Cost = 109664500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-221),
-UpdatedAt
- = DateTime.Now.AddDays(-221)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 563,
-PaymentId = 221,
-ProductId = 23,
-ServiceId = 2,
-AmoutEmployee = 164,
-StartDate = DateTime.Now.AddDays(-45),
-EndDate = DateTime.Now.AddDays(-31),
-Cost = 17712000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-221),
-UpdatedAt
- = DateTime.Now.AddDays(-221)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 564,
-PaymentId = 221,
-ProductId = 29,
-ServiceId = 3,
-AmoutEmployee = 138,
-StartDate = DateTime.Now.AddDays(-194),
-EndDate = DateTime.Now.AddDays(-187),
-Cost = 115368000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-221),
-UpdatedAt
- = DateTime.Now.AddDays(-221)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 565,
-PaymentId = 222,
-ProductId = 24,
-ServiceId = 3,
-AmoutEmployee = 169,
-StartDate = DateTime.Now.AddDays(-151),
-EndDate = DateTime.Now.AddDays(-148),
-Cost = 6506500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-222),
-UpdatedAt
- = DateTime.Now.AddDays(-222)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 566,
-PaymentId = 222,
-ProductId = 14,
-ServiceId = 1,
-AmoutEmployee = 186,
-StartDate = DateTime.Now.AddDays(-145),
-EndDate = DateTime.Now.AddDays(-130),
-Cost = 93744000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-222),
-UpdatedAt
- = DateTime.Now.AddDays(-222)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 567,
-PaymentId = 223,
-ProductId = 25,
-ServiceId = 3,
-AmoutEmployee = 55,
-StartDate = DateTime.Now.AddDays(-175),
-EndDate = DateTime.Now.AddDays(-164),
-Cost = 11192500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-223),
-UpdatedAt
- = DateTime.Now.AddDays(-223)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 568,
-PaymentId = 223,
-ProductId = 6,
-ServiceId = 3,
-AmoutEmployee = 159,
-StartDate = DateTime.Now.AddDays(-84),
-EndDate = DateTime.Now.AddDays(-83),
-Cost = 48972000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-223),
-UpdatedAt
- = DateTime.Now.AddDays(-223)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 569,
-PaymentId = 223,
-ProductId = 3,
-ServiceId = 3,
-AmoutEmployee = 99,
-StartDate = DateTime.Now.AddDays(-145),
-EndDate = DateTime.Now.AddDays(-143),
-Cost = 44104500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-223),
-UpdatedAt
- = DateTime.Now.AddDays(-223)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 570,
-PaymentId = 224,
-ProductId = 27,
-ServiceId = 2,
-AmoutEmployee = 76,
-StartDate = DateTime.Now.AddDays(-8),
-EndDate = DateTime.Now.AddDays(-7),
-Cost = 456000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-224),
-UpdatedAt
- = DateTime.Now.AddDays(-224)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 571,
-PaymentId = 224,
-ProductId = 15,
-ServiceId = 2,
-AmoutEmployee = 136,
-StartDate = DateTime.Now.AddDays(-86),
-EndDate = DateTime.Now.AddDays(-73),
-Cost = 13056000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-224),
-UpdatedAt
- = DateTime.Now.AddDays(-224)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 572,
-PaymentId = 225,
-ProductId = 13,
-ServiceId = 2,
-AmoutEmployee = 172,
-StartDate = DateTime.Now.AddDays(-101),
-EndDate = DateTime.Now.AddDays(-89),
-Cost = 78432000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-225),
-UpdatedAt
- = DateTime.Now.AddDays(-225)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 573,
-PaymentId = 225,
-ProductId = 9,
-ServiceId = 2,
-AmoutEmployee = 84,
-StartDate = DateTime.Now.AddDays(-184),
-EndDate = DateTime.Now.AddDays(-171),
-Cost = 76608000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-225),
-UpdatedAt
- = DateTime.Now.AddDays(-225)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 574,
-PaymentId = 225,
-ProductId = 19,
-ServiceId = 3,
-AmoutEmployee = 188,
-StartDate = DateTime.Now.AddDays(-16),
-EndDate = DateTime.Now.AddDays(-4),
-Cost = 3102000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-225),
-UpdatedAt
- = DateTime.Now.AddDays(-225)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 575,
-PaymentId = 226,
-ProductId = 5,
-ServiceId = 2,
-AmoutEmployee = 29,
-StartDate = DateTime.Now.AddDays(-40),
-EndDate = DateTime.Now.AddDays(-29),
-Cost = 4872000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-226),
-UpdatedAt
- = DateTime.Now.AddDays(-226)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 576,
-PaymentId = 226,
-ProductId = 14,
-ServiceId = 2,
-AmoutEmployee = 199,
-StartDate = DateTime.Now.AddDays(-177),
-EndDate = DateTime.Now.AddDays(-175),
-Cost = 70446000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-226),
-UpdatedAt
- = DateTime.Now.AddDays(-226)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 577,
-PaymentId = 227,
-ProductId = 8,
-ServiceId = 2,
-AmoutEmployee = 189,
-StartDate = DateTime.Now.AddDays(-159),
-EndDate = DateTime.Now.AddDays(-156),
-Cost = 168966000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-227),
-UpdatedAt
- = DateTime.Now.AddDays(-227)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 578,
-PaymentId = 227,
-ProductId = 21,
-ServiceId = 1,
-AmoutEmployee = 137,
-StartDate = DateTime.Now.AddDays(-24),
-EndDate = DateTime.Now.AddDays(-17),
-Cost = 8014500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-227),
-UpdatedAt
- = DateTime.Now.AddDays(-227)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 579,
-PaymentId = 227,
-ProductId = 19,
-ServiceId = 2,
-AmoutEmployee = 70,
-StartDate = DateTime.Now.AddDays(-164),
-EndDate = DateTime.Now.AddDays(-159),
-Cost = 14700000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-227),
-UpdatedAt
- = DateTime.Now.AddDays(-227)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 580,
-PaymentId = 228,
-ProductId = 3,
-ServiceId = 2,
-AmoutEmployee = 152,
-StartDate = DateTime.Now.AddDays(-187),
-EndDate = DateTime.Now.AddDays(-186),
-Cost = 84816000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-228),
-UpdatedAt
- = DateTime.Now.AddDays(-228)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 581,
-PaymentId = 228,
-ProductId = 11,
-ServiceId = 2,
-AmoutEmployee = 161,
-StartDate = DateTime.Now.AddDays(-63),
-EndDate = DateTime.Now.AddDays(-48),
-Cost = 28014000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-228),
-UpdatedAt
- = DateTime.Now.AddDays(-228)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 582,
-PaymentId = 229,
-ProductId = 22,
-ServiceId = 2,
-AmoutEmployee = 71,
-StartDate = DateTime.Now.AddDays(-82),
-EndDate = DateTime.Now.AddDays(-71),
-Cost = 32802000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-229),
-UpdatedAt
- = DateTime.Now.AddDays(-229)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 583,
-PaymentId = 229,
-ProductId = 6,
-ServiceId = 2,
-AmoutEmployee = 152,
-StartDate = DateTime.Now.AddDays(-119),
-EndDate = DateTime.Now.AddDays(-116),
-Cost = 12768000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-229),
-UpdatedAt
- = DateTime.Now.AddDays(-229)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 584,
-PaymentId = 229,
-ProductId = 12,
-ServiceId = 2,
-AmoutEmployee = 93,
-StartDate = DateTime.Now.AddDays(-71),
-EndDate = DateTime.Now.AddDays(-68),
-Cost = 3906000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-229),
-UpdatedAt
- = DateTime.Now.AddDays(-229)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 585,
-PaymentId = 230,
-ProductId = 7,
-ServiceId = 1,
-AmoutEmployee = 120,
-StartDate = DateTime.Now.AddDays(-102),
-EndDate = DateTime.Now.AddDays(-91),
-Cost = 31320000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-230),
-UpdatedAt
- = DateTime.Now.AddDays(-230)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 586,
-PaymentId = 230,
-ProductId = 13,
-ServiceId = 1,
-AmoutEmployee = 33,
-StartDate = DateTime.Now.AddDays(-45),
-EndDate = DateTime.Now.AddDays(-32),
-Cost = 2079000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-230),
-UpdatedAt
- = DateTime.Now.AddDays(-230)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 587,
-PaymentId = 231,
-ProductId = 9,
-ServiceId = 3,
-AmoutEmployee = 78,
-StartDate = DateTime.Now.AddDays(-59),
-EndDate = DateTime.Now.AddDays(-56),
-Cost = 22737000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-231),
-UpdatedAt
- = DateTime.Now.AddDays(-231)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 588,
-PaymentId = 231,
-ProductId = 21,
-ServiceId = 3,
-AmoutEmployee = 40,
-StartDate = DateTime.Now.AddDays(-40),
-EndDate = DateTime.Now.AddDays(-27),
-Cost = 6160000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-231),
-UpdatedAt
- = DateTime.Now.AddDays(-231)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 589,
-PaymentId = 231,
-ProductId = 27,
-ServiceId = 2,
-AmoutEmployee = 160,
-StartDate = DateTime.Now.AddDays(-70),
-EndDate = DateTime.Now.AddDays(-59),
-Cost = 19200000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-231),
-UpdatedAt
- = DateTime.Now.AddDays(-231)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 590,
-PaymentId = 232,
-ProductId = 24,
-ServiceId = 3,
-AmoutEmployee = 196,
-StartDate = DateTime.Now.AddDays(-60),
-EndDate = DateTime.Now.AddDays(-52),
-Cost = 32340000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-232),
-UpdatedAt
- = DateTime.Now.AddDays(-232)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 591,
-PaymentId = 232,
-ProductId = 9,
-ServiceId = 1,
-AmoutEmployee = 91,
-StartDate = DateTime.Now.AddDays(-91),
-EndDate = DateTime.Now.AddDays(-77),
-Cost = 409500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-232),
-UpdatedAt
- = DateTime.Now.AddDays(-232)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 592,
-PaymentId = 232,
-ProductId = 15,
-ServiceId = 3,
-AmoutEmployee = 169,
-StartDate = DateTime.Now.AddDays(-168),
-EndDate = DateTime.Now.AddDays(-159),
-Cost = 99456500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-232),
-UpdatedAt
- = DateTime.Now.AddDays(-232)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 593,
-PaymentId = 233,
-ProductId = 14,
-ServiceId = 3,
-AmoutEmployee = 148,
-StartDate = DateTime.Now.AddDays(-180),
-EndDate = DateTime.Now.AddDays(-175),
-Cost = 42328000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-233),
-UpdatedAt
- = DateTime.Now.AddDays(-233)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 594,
-PaymentId = 233,
-ProductId = 8,
-ServiceId = 1,
-AmoutEmployee = 124,
-StartDate = DateTime.Now.AddDays(-160),
-EndDate = DateTime.Now.AddDays(-158),
-Cost = 2232000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-233),
-UpdatedAt
- = DateTime.Now.AddDays(-233)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 595,
-PaymentId = 234,
-ProductId = 26,
-ServiceId = 3,
-AmoutEmployee = 191,
-StartDate = DateTime.Now.AddDays(-121),
-EndDate = DateTime.Now.AddDays(-120),
-Cost = 66181500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-234),
-UpdatedAt
- = DateTime.Now.AddDays(-234)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 596,
-PaymentId = 234,
-ProductId = 23,
-ServiceId = 1,
-AmoutEmployee = 180,
-StartDate = DateTime.Now.AddDays(-67),
-EndDate = DateTime.Now.AddDays(-55),
-Cost = 24300000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-234),
-UpdatedAt
- = DateTime.Now.AddDays(-234)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 597,
-PaymentId = 234,
-ProductId = 10,
-ServiceId = 1,
-AmoutEmployee = 129,
-StartDate = DateTime.Now.AddDays(-132),
-EndDate = DateTime.Now.AddDays(-121),
-Cost = 48181500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-234),
-UpdatedAt
- = DateTime.Now.AddDays(-234)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 598,
-PaymentId = 235,
-ProductId = 16,
-ServiceId = 1,
-AmoutEmployee = 37,
-StartDate = DateTime.Now.AddDays(-8),
-EndDate = DateTime.Now.AddDays(1),
-Cost = 333000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-235),
-UpdatedAt
- = DateTime.Now.AddDays(-235)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 599,
-PaymentId = 235,
-ProductId = 23,
-ServiceId = 1,
-AmoutEmployee = 188,
-StartDate = DateTime.Now.AddDays(-112),
-EndDate = DateTime.Now.AddDays(-111),
-Cost = 60912000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-235),
-UpdatedAt
- = DateTime.Now.AddDays(-235)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 600,
-PaymentId = 236,
-ProductId = 22,
-ServiceId = 2,
-AmoutEmployee = 196,
-StartDate = DateTime.Now.AddDays(-158),
-EndDate = DateTime.Now.AddDays(-156),
-Cost = 8232000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-236),
-UpdatedAt
- = DateTime.Now.AddDays(-236)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 601,
-PaymentId = 236,
-ProductId = 6,
-ServiceId = 3,
-AmoutEmployee = 54,
-StartDate = DateTime.Now.AddDays(-33),
-EndDate = DateTime.Now.AddDays(-19),
-Cost = 4158000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-236),
-UpdatedAt
- = DateTime.Now.AddDays(-236)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 602,
-PaymentId = 236,
-ProductId = 21,
-ServiceId = 3,
-AmoutEmployee = 57,
-StartDate = DateTime.Now.AddDays(-20),
-EndDate = DateTime.Now.AddDays(-13),
-Cost = 1567500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-236),
-UpdatedAt
- = DateTime.Now.AddDays(-236)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 603,
-PaymentId = 237,
-ProductId = 28,
-ServiceId = 1,
-AmoutEmployee = 52,
-StartDate = DateTime.Now.AddDays(-18),
-EndDate = DateTime.Now.AddDays(-17),
-Cost = 1872000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-237),
-UpdatedAt
- = DateTime.Now.AddDays(-237)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 604,
-PaymentId = 237,
-ProductId = 3,
-ServiceId = 1,
-AmoutEmployee = 50,
-StartDate = DateTime.Now.AddDays(-127),
-EndDate = DateTime.Now.AddDays(-122),
-Cost = 18000000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-237),
-UpdatedAt
- = DateTime.Now.AddDays(-237)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 605,
-PaymentId = 238,
-ProductId = 18,
-ServiceId = 1,
-AmoutEmployee = 184,
-StartDate = DateTime.Now.AddDays(-58),
-EndDate = DateTime.Now.AddDays(-51),
-Cost = 34776000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-238),
-UpdatedAt
- = DateTime.Now.AddDays(-238)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 606,
-PaymentId = 238,
-ProductId = 29,
-ServiceId = 2,
-AmoutEmployee = 94,
-StartDate = DateTime.Now.AddDays(-159),
-EndDate = DateTime.Now.AddDays(-148),
-Cost = 47376000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-238),
-UpdatedAt
- = DateTime.Now.AddDays(-238)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 607,
-PaymentId = 238,
-ProductId = 2,
-ServiceId = 2,
-AmoutEmployee = 163,
-StartDate = DateTime.Now.AddDays(-100),
-EndDate = DateTime.Now.AddDays(-88),
-Cost = 33252000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-238),
-UpdatedAt
- = DateTime.Now.AddDays(-238)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 608,
-PaymentId = 239,
-ProductId = 14,
-ServiceId = 2,
-AmoutEmployee = 125,
-StartDate = DateTime.Now.AddDays(-41),
-EndDate = DateTime.Now.AddDays(-26),
-Cost = 15000000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-239),
-UpdatedAt
- = DateTime.Now.AddDays(-239)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 609,
-PaymentId = 239,
-ProductId = 14,
-ServiceId = 2,
-AmoutEmployee = 194,
-StartDate = DateTime.Now.AddDays(-53),
-EndDate = DateTime.Now.AddDays(-43),
-Cost = 27936000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-239),
-UpdatedAt
- = DateTime.Now.AddDays(-239)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 610,
-PaymentId = 240,
-ProductId = 9,
-ServiceId = 1,
-AmoutEmployee = 107,
-StartDate = DateTime.Now.AddDays(-70),
-EndDate = DateTime.Now.AddDays(-67),
-Cost = 8667000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-240),
-UpdatedAt
- = DateTime.Now.AddDays(-240)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 611,
-PaymentId = 240,
-ProductId = 12,
-ServiceId = 1,
-AmoutEmployee = 33,
-StartDate = DateTime.Now.AddDays(-30),
-EndDate = DateTime.Now.AddDays(-26),
-Cost = 594000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-240),
-UpdatedAt
- = DateTime.Now.AddDays(-240)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 612,
-PaymentId = 240,
-ProductId = 25,
-ServiceId = 3,
-AmoutEmployee = 66,
-StartDate = DateTime.Now.AddDays(-177),
-EndDate = DateTime.Now.AddDays(-164),
-Cost = 17424000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-240),
-UpdatedAt
- = DateTime.Now.AddDays(-240)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 613,
-PaymentId = 241,
-ProductId = 7,
-ServiceId = 3,
-AmoutEmployee = 128,
-StartDate = DateTime.Now.AddDays(-119),
-EndDate = DateTime.Now.AddDays(-104),
-Cost = 33792000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-241),
-UpdatedAt
- = DateTime.Now.AddDays(-241)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 614,
-PaymentId = 241,
-ProductId = 27,
-ServiceId = 3,
-AmoutEmployee = 64,
-StartDate = DateTime.Now.AddDays(-198),
-EndDate = DateTime.Now.AddDays(-193),
-Cost = 64064000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-241),
-UpdatedAt
- = DateTime.Now.AddDays(-241)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 615,
-PaymentId = 242,
-ProductId = 9,
-ServiceId = 3,
-AmoutEmployee = 81,
-StartDate = DateTime.Now.AddDays(-70),
-EndDate = DateTime.Now.AddDays(-57),
-Cost = 9801000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-242),
-UpdatedAt
- = DateTime.Now.AddDays(-242)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 616,
-PaymentId = 242,
-ProductId = 24,
-ServiceId = 3,
-AmoutEmployee = 31,
-StartDate = DateTime.Now.AddDays(-135),
-EndDate = DateTime.Now.AddDays(-132),
-Cost = 2557500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-242),
-UpdatedAt
- = DateTime.Now.AddDays(-242)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 617,
-PaymentId = 242,
-ProductId = 22,
-ServiceId = 3,
-AmoutEmployee = 196,
-StartDate = DateTime.Now.AddDays(-189),
-EndDate = DateTime.Now.AddDays(-176),
-Cost = 190806000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-242),
-UpdatedAt
- = DateTime.Now.AddDays(-242)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 618,
-PaymentId = 243,
-ProductId = 10,
-ServiceId = 1,
-AmoutEmployee = 110,
-StartDate = DateTime.Now.AddDays(-145),
-EndDate = DateTime.Now.AddDays(-134),
-Cost = 43065000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-243),
-UpdatedAt
- = DateTime.Now.AddDays(-243)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 619,
-PaymentId = 243,
-ProductId = 23,
-ServiceId = 3,
-AmoutEmployee = 176,
-StartDate = DateTime.Now.AddDays(-154),
-EndDate = DateTime.Now.AddDays(-145),
-Cost = 1936000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-243),
-UpdatedAt
- = DateTime.Now.AddDays(-243)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 620,
-PaymentId = 243,
-ProductId = 10,
-ServiceId = 2,
-AmoutEmployee = 40,
-StartDate = DateTime.Now.AddDays(-139),
-EndDate = DateTime.Now.AddDays(-126),
-Cost = 29760000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-243),
-UpdatedAt
- = DateTime.Now.AddDays(-243)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 621,
-PaymentId = 244,
-ProductId = 24,
-ServiceId = 2,
-AmoutEmployee = 92,
-StartDate = DateTime.Now.AddDays(-130),
-EndDate = DateTime.Now.AddDays(-129),
-Cost = 13248000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-244),
-UpdatedAt
- = DateTime.Now.AddDays(-244)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 622,
-PaymentId = 244,
-ProductId = 14,
-ServiceId = 3,
-AmoutEmployee = 46,
-StartDate = DateTime.Now.AddDays(-188),
-EndDate = DateTime.Now.AddDays(-184),
-Cost = 18722000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-244),
-UpdatedAt
- = DateTime.Now.AddDays(-244)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 623,
-PaymentId = 245,
-ProductId = 15,
-ServiceId = 2,
-AmoutEmployee = 98,
-StartDate = DateTime.Now.AddDays(-51),
-EndDate = DateTime.Now.AddDays(-44),
-Cost = 12936000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-245),
-UpdatedAt
- = DateTime.Now.AddDays(-245)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 624,
-PaymentId = 245,
-ProductId = 27,
-ServiceId = 2,
-AmoutEmployee = 46,
-StartDate = DateTime.Now.AddDays(-156),
-EndDate = DateTime.Now.AddDays(-154),
-Cost = 18492000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-245),
-UpdatedAt
- = DateTime.Now.AddDays(-245)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 625,
-PaymentId = 245,
-ProductId = 8,
-ServiceId = 2,
-AmoutEmployee = 103,
-StartDate = DateTime.Now.AddDays(-10),
-EndDate = DateTime.Now.AddDays(-9),
-Cost = 2472000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-245),
-UpdatedAt
- = DateTime.Now.AddDays(-245)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 626,
-PaymentId = 246,
-ProductId = 9,
-ServiceId = 1,
-AmoutEmployee = 87,
-StartDate = DateTime.Now.AddDays(-155),
-EndDate = DateTime.Now.AddDays(-148),
-Cost = 32494500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-246),
-UpdatedAt
- = DateTime.Now.AddDays(-246)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 627,
-PaymentId = 246,
-ProductId = 17,
-ServiceId = 1,
-AmoutEmployee = 56,
-StartDate = DateTime.Now.AddDays(-193),
-EndDate = DateTime.Now.AddDays(-180),
-Cost = 40824000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-246),
-UpdatedAt
- = DateTime.Now.AddDays(-246)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 628,
-PaymentId = 247,
-ProductId = 10,
-ServiceId = 1,
-AmoutEmployee = 116,
-StartDate = DateTime.Now.AddDays(-52),
-EndDate = DateTime.Now.AddDays(-39),
-Cost = 20880000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-247),
-UpdatedAt
- = DateTime.Now.AddDays(-247)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 629,
-PaymentId = 247,
-ProductId = 16,
-ServiceId = 1,
-AmoutEmployee = 97,
-StartDate = DateTime.Now.AddDays(-41),
-EndDate = DateTime.Now.AddDays(-32),
-Cost = 1309500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-247),
-UpdatedAt
- = DateTime.Now.AddDays(-247)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 630,
-PaymentId = 247,
-ProductId = 21,
-ServiceId = 3,
-AmoutEmployee = 195,
-StartDate = DateTime.Now.AddDays(-170),
-EndDate = DateTime.Now.AddDays(-168),
-Cost = 153367500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-247),
-UpdatedAt
- = DateTime.Now.AddDays(-247)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 631,
-PaymentId = 248,
-ProductId = 23,
-ServiceId = 2,
-AmoutEmployee = 101,
-StartDate = DateTime.Now.AddDays(-89),
-EndDate = DateTime.Now.AddDays(-83),
-Cost = 11514000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-248),
-UpdatedAt
- = DateTime.Now.AddDays(-248)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 632,
-PaymentId = 248,
-ProductId = 26,
-ServiceId = 3,
-AmoutEmployee = 192,
-StartDate = DateTime.Now.AddDays(-167),
-EndDate = DateTime.Now.AddDays(-154),
-Cost = 89760000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-248),
-UpdatedAt
- = DateTime.Now.AddDays(-248)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 633,
-PaymentId = 249,
-ProductId = 23,
-ServiceId = 3,
-AmoutEmployee = 35,
-StartDate = DateTime.Now.AddDays(-131),
-EndDate = DateTime.Now.AddDays(-129),
-Cost = 14630000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-249),
-UpdatedAt
- = DateTime.Now.AddDays(-249)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 634,
-PaymentId = 249,
-ProductId = 24,
-ServiceId = 1,
-AmoutEmployee = 152,
-StartDate = DateTime.Now.AddDays(-57),
-EndDate = DateTime.Now.AddDays(-55),
-Cost = 19836000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-249),
-UpdatedAt
- = DateTime.Now.AddDays(-249)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 635,
-PaymentId = 249,
-ProductId = 12,
-ServiceId = 2,
-AmoutEmployee = 107,
-StartDate = DateTime.Now.AddDays(-170),
-EndDate = DateTime.Now.AddDays(-160),
-Cost = 95658000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-249),
-UpdatedAt
- = DateTime.Now.AddDays(-249)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 636,
-PaymentId = 250,
-ProductId = 4,
-ServiceId = 1,
-AmoutEmployee = 168,
-StartDate = DateTime.Now.AddDays(-19),
-EndDate = DateTime.Now.AddDays(-12),
-Cost = 3024000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-250),
-UpdatedAt
- = DateTime.Now.AddDays(-250)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 637,
-PaymentId = 250,
-ProductId = 22,
-ServiceId = 1,
-AmoutEmployee = 170,
-StartDate = DateTime.Now.AddDays(-188),
-EndDate = DateTime.Now.AddDays(-174),
-Cost = 74970000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-250),
-UpdatedAt
- = DateTime.Now.AddDays(-250)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 638,
-PaymentId = 251,
-ProductId = 10,
-ServiceId = 3,
-AmoutEmployee = 46,
-StartDate = DateTime.Now.AddDays(-62),
-EndDate = DateTime.Now.AddDays(-61),
-Cost = 3542000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-251),
-UpdatedAt
- = DateTime.Now.AddDays(-251)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 639,
-PaymentId = 251,
-ProductId = 13,
-ServiceId = 2,
-AmoutEmployee = 37,
-StartDate = DateTime.Now.AddDays(-32),
-EndDate = DateTime.Now.AddDays(-18),
-Cost = 3552000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-251),
-UpdatedAt
- = DateTime.Now.AddDays(-251)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 640,
-PaymentId = 251,
-ProductId = 3,
-ServiceId = 1,
-AmoutEmployee = 112,
-StartDate = DateTime.Now.AddDays(-34),
-EndDate = DateTime.Now.AddDays(-26),
-Cost = 4032000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-251),
-UpdatedAt
- = DateTime.Now.AddDays(-251)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 641,
-PaymentId = 252,
-ProductId = 10,
-ServiceId = 1,
-AmoutEmployee = 121,
-StartDate = DateTime.Now.AddDays(-62),
-EndDate = DateTime.Now.AddDays(-50),
-Cost = 5445000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-252),
-UpdatedAt
- = DateTime.Now.AddDays(-252)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 642,
-PaymentId = 252,
-ProductId = 23,
-ServiceId = 2,
-AmoutEmployee = 190,
-StartDate = DateTime.Now.AddDays(-194),
-EndDate = DateTime.Now.AddDays(-188),
-Cost = 127680000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-252),
-UpdatedAt
- = DateTime.Now.AddDays(-252)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 643,
-PaymentId = 253,
-ProductId = 26,
-ServiceId = 1,
-AmoutEmployee = 34,
-StartDate = DateTime.Now.AddDays(-184),
-EndDate = DateTime.Now.AddDays(-169),
-Cost = 26010000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-253),
-UpdatedAt
- = DateTime.Now.AddDays(-253)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 644,
-PaymentId = 253,
-ProductId = 10,
-ServiceId = 2,
-AmoutEmployee = 40,
-StartDate = DateTime.Now.AddDays(-49),
-EndDate = DateTime.Now.AddDays(-39),
-Cost = 6000000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-253),
-UpdatedAt
- = DateTime.Now.AddDays(-253)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 645,
-PaymentId = 253,
-ProductId = 25,
-ServiceId = 3,
-AmoutEmployee = 45,
-StartDate = DateTime.Now.AddDays(-149),
-EndDate = DateTime.Now.AddDays(-139),
-Cost = 30690000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-253),
-UpdatedAt
- = DateTime.Now.AddDays(-253)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 646,
-PaymentId = 254,
-ProductId = 1,
-ServiceId = 1,
-AmoutEmployee = 31,
-StartDate = DateTime.Now.AddDays(-153),
-EndDate = DateTime.Now.AddDays(-142),
-Cost = 13810500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-254),
-UpdatedAt
- = DateTime.Now.AddDays(-254)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 647,
-PaymentId = 254,
-ProductId = 9,
-ServiceId = 2,
-AmoutEmployee = 40,
-StartDate = DateTime.Now.AddDays(-161),
-EndDate = DateTime.Now.AddDays(-159),
-Cost = 13200000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-254),
-UpdatedAt
- = DateTime.Now.AddDays(-254)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 648,
-PaymentId = 254,
-ProductId = 12,
-ServiceId = 3,
-AmoutEmployee = 120,
-StartDate = DateTime.Now.AddDays(-161),
-EndDate = DateTime.Now.AddDays(-156),
-Cost = 73920000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-254),
-UpdatedAt
- = DateTime.Now.AddDays(-254)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 649,
-PaymentId = 255,
-ProductId = 20,
-ServiceId = 2,
-AmoutEmployee = 184,
-StartDate = DateTime.Now.AddDays(-120),
-EndDate = DateTime.Now.AddDays(-105),
-Cost = 73968000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-255),
-UpdatedAt
- = DateTime.Now.AddDays(-255)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 650,
-PaymentId = 255,
-ProductId = 26,
-ServiceId = 3,
-AmoutEmployee = 163,
-StartDate = DateTime.Now.AddDays(-139),
-EndDate = DateTime.Now.AddDays(-126),
-Cost = 38549500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-255),
-UpdatedAt
- = DateTime.Now.AddDays(-255)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 651,
-PaymentId = 256,
-ProductId = 1,
-ServiceId = 2,
-AmoutEmployee = 34,
-StartDate = DateTime.Now.AddDays(-14),
-EndDate = DateTime.Now.AddDays(-2),
-Cost = 816000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-256),
-UpdatedAt
- = DateTime.Now.AddDays(-256)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 652,
-PaymentId = 256,
-ProductId = 18,
-ServiceId = 1,
-AmoutEmployee = 60,
-StartDate = DateTime.Now.AddDays(-84),
-EndDate = DateTime.Now.AddDays(-77),
-Cost = 7290000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-256),
-UpdatedAt
- = DateTime.Now.AddDays(-256)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 653,
-PaymentId = 256,
-ProductId = 10,
-ServiceId = 1,
-AmoutEmployee = 179,
-StartDate = DateTime.Now.AddDays(-161),
-EndDate = DateTime.Now.AddDays(-146),
-Cost = 8860500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-256),
-UpdatedAt
- = DateTime.Now.AddDays(-256)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 654,
-PaymentId = 257,
-ProductId = 30,
-ServiceId = 2,
-AmoutEmployee = 191,
-StartDate = DateTime.Now.AddDays(-167),
-EndDate = DateTime.Now.AddDays(-156),
-Cost = 61884000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-257),
-UpdatedAt
- = DateTime.Now.AddDays(-257)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 655,
-PaymentId = 257,
-ProductId = 6,
-ServiceId = 1,
-AmoutEmployee = 183,
-StartDate = DateTime.Now.AddDays(-72),
-EndDate = DateTime.Now.AddDays(-71),
-Cost = 44469000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-257),
-UpdatedAt
- = DateTime.Now.AddDays(-257)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 656,
-PaymentId = 258,
-ProductId = 4,
-ServiceId = 2,
-AmoutEmployee = 115,
-StartDate = DateTime.Now.AddDays(-161),
-EndDate = DateTime.Now.AddDays(-156),
-Cost = 71070000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-258),
-UpdatedAt
- = DateTime.Now.AddDays(-258)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 657,
-PaymentId = 258,
-ProductId = 14,
-ServiceId = 2,
-AmoutEmployee = 145,
-StartDate = DateTime.Now.AddDays(-159),
-EndDate = DateTime.Now.AddDays(-153),
-Cost = 72210000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-258),
-UpdatedAt
- = DateTime.Now.AddDays(-258)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 658,
-PaymentId = 258,
-ProductId = 3,
-ServiceId = 1,
-AmoutEmployee = 32,
-StartDate = DateTime.Now.AddDays(-24),
-EndDate = DateTime.Now.AddDays(-23),
-Cost = 1584000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-258),
-UpdatedAt
- = DateTime.Now.AddDays(-258)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 659,
-PaymentId = 259,
-ProductId = 12,
-ServiceId = 1,
-AmoutEmployee = 197,
-StartDate = DateTime.Now.AddDays(-93),
-EndDate = DateTime.Now.AddDays(-85),
-Cost = 14184000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-259),
-UpdatedAt
- = DateTime.Now.AddDays(-259)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 660,
-PaymentId = 259,
-ProductId = 1,
-ServiceId = 2,
-AmoutEmployee = 47,
-StartDate = DateTime.Now.AddDays(-119),
-EndDate = DateTime.Now.AddDays(-108),
-Cost = 22842000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-259),
-UpdatedAt
- = DateTime.Now.AddDays(-259)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 661,
-PaymentId = 260,
-ProductId = 1,
-ServiceId = 3,
-AmoutEmployee = 28,
-StartDate = DateTime.Now.AddDays(-177),
-EndDate = DateTime.Now.AddDays(-174),
-Cost = 9086000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-260),
-UpdatedAt
- = DateTime.Now.AddDays(-260)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 662,
-PaymentId = 260,
-ProductId = 9,
-ServiceId = 3,
-AmoutEmployee = 89,
-StartDate = DateTime.Now.AddDays(-82),
-EndDate = DateTime.Now.AddDays(-67),
-Cost = 1958000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-260),
-UpdatedAt
- = DateTime.Now.AddDays(-260)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 663,
-PaymentId = 260,
-ProductId = 10,
-ServiceId = 2,
-AmoutEmployee = 95,
-StartDate = DateTime.Now.AddDays(-132),
-EndDate = DateTime.Now.AddDays(-130),
-Cost = 38190000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-260),
-UpdatedAt
- = DateTime.Now.AddDays(-260)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 664,
-PaymentId = 261,
-ProductId = 13,
-ServiceId = 2,
-AmoutEmployee = 160,
-StartDate = DateTime.Now.AddDays(-151),
-EndDate = DateTime.Now.AddDays(-136),
-Cost = 126720000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-261),
-UpdatedAt
- = DateTime.Now.AddDays(-261)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 665,
-PaymentId = 261,
-ProductId = 4,
-ServiceId = 3,
-AmoutEmployee = 195,
-StartDate = DateTime.Now.AddDays(-40),
-EndDate = DateTime.Now.AddDays(-27),
-Cost = 37537500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-261),
-UpdatedAt
- = DateTime.Now.AddDays(-261)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 666,
-PaymentId = 262,
-ProductId = 26,
-ServiceId = 2,
-AmoutEmployee = 62,
-StartDate = DateTime.Now.AddDays(-197),
-EndDate = DateTime.Now.AddDays(-182),
-Cost = 20832000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-262),
-UpdatedAt
- = DateTime.Now.AddDays(-262)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 667,
-PaymentId = 262,
-ProductId = 24,
-ServiceId = 2,
-AmoutEmployee = 191,
-StartDate = DateTime.Now.AddDays(-98),
-EndDate = DateTime.Now.AddDays(-83),
-Cost = 55008000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-262),
-UpdatedAt
- = DateTime.Now.AddDays(-262)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 668,
-PaymentId = 262,
-ProductId = 27,
-ServiceId = 3,
-AmoutEmployee = 60,
-StartDate = DateTime.Now.AddDays(-112),
-EndDate = DateTime.Now.AddDays(-99),
-Cost = 23430000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-262),
-UpdatedAt
- = DateTime.Now.AddDays(-262)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 669,
-PaymentId = 263,
-ProductId = 6,
-ServiceId = 2,
-AmoutEmployee = 157,
-StartDate = DateTime.Now.AddDays(-137),
-EndDate = DateTime.Now.AddDays(-127),
-Cost = 80070000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-263),
-UpdatedAt
- = DateTime.Now.AddDays(-263)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 670,
-PaymentId = 263,
-ProductId = 21,
-ServiceId = 3,
-AmoutEmployee = 118,
-StartDate = DateTime.Now.AddDays(-90),
-EndDate = DateTime.Now.AddDays(-77),
-Cost = 10384000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-263),
-UpdatedAt
- = DateTime.Now.AddDays(-263)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 671,
-PaymentId = 264,
-ProductId = 16,
-ServiceId = 1,
-AmoutEmployee = 131,
-StartDate = DateTime.Now.AddDays(-28),
-EndDate = DateTime.Now.AddDays(-24),
-Cost = 3537000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-264),
-UpdatedAt
- = DateTime.Now.AddDays(-264)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 672,
-PaymentId = 264,
-ProductId = 27,
-ServiceId = 1,
-AmoutEmployee = 79,
-StartDate = DateTime.Now.AddDays(-176),
-EndDate = DateTime.Now.AddDays(-174),
-Cost = 26307000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-264),
-UpdatedAt
- = DateTime.Now.AddDays(-264)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 673,
-PaymentId = 264,
-ProductId = 13,
-ServiceId = 3,
-AmoutEmployee = 196,
-StartDate = DateTime.Now.AddDays(-8),
-EndDate = DateTime.Now.AddDays(-3),
-Cost = 3234000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-264),
-UpdatedAt
- = DateTime.Now.AddDays(-264)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 674,
-PaymentId = 265,
-ProductId = 30,
-ServiceId = 3,
-AmoutEmployee = 59,
-StartDate = DateTime.Now.AddDays(-69),
-EndDate = DateTime.Now.AddDays(-54),
-Cost = 7463500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-265),
-UpdatedAt
- = DateTime.Now.AddDays(-265)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 675,
-PaymentId = 265,
-ProductId = 8,
-ServiceId = 2,
-AmoutEmployee = 149,
-StartDate = DateTime.Now.AddDays(-85),
-EndDate = DateTime.Now.AddDays(-77),
-Cost = 51852000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-265),
-UpdatedAt
- = DateTime.Now.AddDays(-265)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 676,
-PaymentId = 265,
-ProductId = 23,
-ServiceId = 3,
-AmoutEmployee = 114,
-StartDate = DateTime.Now.AddDays(-183),
-EndDate = DateTime.Now.AddDays(-171),
-Cost = 89034000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-265),
-UpdatedAt
- = DateTime.Now.AddDays(-265)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 677,
-PaymentId = 266,
-ProductId = 21,
-ServiceId = 2,
-AmoutEmployee = 168,
-StartDate = DateTime.Now.AddDays(-186),
-EndDate = DateTime.Now.AddDays(-183),
-Cost = 55440000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-266),
-UpdatedAt
- = DateTime.Now.AddDays(-266)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 678,
-PaymentId = 266,
-ProductId = 21,
-ServiceId = 1,
-AmoutEmployee = 196,
-StartDate = DateTime.Now.AddDays(-194),
-EndDate = DateTime.Now.AddDays(-186),
-Cost = 138474000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-266),
-UpdatedAt
- = DateTime.Now.AddDays(-266)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 679,
-PaymentId = 267,
-ProductId = 2,
-ServiceId = 1,
-AmoutEmployee = 199,
-StartDate = DateTime.Now.AddDays(-91),
-EndDate = DateTime.Now.AddDays(-89),
-Cost = 32238000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-267),
-UpdatedAt
- = DateTime.Now.AddDays(-267)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 680,
-PaymentId = 267,
-ProductId = 8,
-ServiceId = 1,
-AmoutEmployee = 184,
-StartDate = DateTime.Now.AddDays(-146),
-EndDate = DateTime.Now.AddDays(-143),
-Cost = 12420000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-267),
-UpdatedAt
- = DateTime.Now.AddDays(-267)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 681,
-PaymentId = 267,
-ProductId = 21,
-ServiceId = 1,
-AmoutEmployee = 93,
-StartDate = DateTime.Now.AddDays(-109),
-EndDate = DateTime.Now.AddDays(-101),
-Cost = 3766500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-267),
-UpdatedAt
- = DateTime.Now.AddDays(-267)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 682,
-PaymentId = 268,
-ProductId = 6,
-ServiceId = 2,
-AmoutEmployee = 157,
-StartDate = DateTime.Now.AddDays(-117),
-EndDate = DateTime.Now.AddDays(-116),
-Cost = 98910000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-268),
-UpdatedAt
- = DateTime.Now.AddDays(-268)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 683,
-PaymentId = 268,
-ProductId = 27,
-ServiceId = 1,
-AmoutEmployee = 30,
-StartDate = DateTime.Now.AddDays(-196),
-EndDate = DateTime.Now.AddDays(-184),
-Cost = 22950000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-268),
-UpdatedAt
- = DateTime.Now.AddDays(-268)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 684,
-PaymentId = 269,
-ProductId = 15,
-ServiceId = 1,
-AmoutEmployee = 89,
-StartDate = DateTime.Now.AddDays(-28),
-EndDate = DateTime.Now.AddDays(-20),
-Cost = 8811000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-269),
-UpdatedAt
- = DateTime.Now.AddDays(-269)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 685,
-PaymentId = 269,
-ProductId = 29,
-ServiceId = 2,
-AmoutEmployee = 163,
-StartDate = DateTime.Now.AddDays(-179),
-EndDate = DateTime.Now.AddDays(-169),
-Cost = 95844000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-269),
-UpdatedAt
- = DateTime.Now.AddDays(-269)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 686,
-PaymentId = 269,
-ProductId = 28,
-ServiceId = 2,
-AmoutEmployee = 194,
-StartDate = DateTime.Now.AddDays(-107),
-EndDate = DateTime.Now.AddDays(-104),
-Cost = 4656000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-269),
-UpdatedAt
- = DateTime.Now.AddDays(-269)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 687,
-PaymentId = 270,
-ProductId = 23,
-ServiceId = 2,
-AmoutEmployee = 118,
-StartDate = DateTime.Now.AddDays(-92),
-EndDate = DateTime.Now.AddDays(-87),
-Cost = 37524000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-270),
-UpdatedAt
- = DateTime.Now.AddDays(-270)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 688,
-PaymentId = 270,
-ProductId = 20,
-ServiceId = 1,
-AmoutEmployee = 46,
-StartDate = DateTime.Now.AddDays(-195),
-EndDate = DateTime.Now.AddDays(-189),
-Cost = 31257000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-270),
-UpdatedAt
- = DateTime.Now.AddDays(-270)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 689,
-PaymentId = 271,
-ProductId = 13,
-ServiceId = 3,
-AmoutEmployee = 181,
-StartDate = DateTime.Now.AddDays(-95),
-EndDate = DateTime.Now.AddDays(-84),
-Cost = 995500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-271),
-UpdatedAt
- = DateTime.Now.AddDays(-271)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 690,
-PaymentId = 271,
-ProductId = 23,
-ServiceId = 2,
-AmoutEmployee = 28,
-StartDate = DateTime.Now.AddDays(-188),
-EndDate = DateTime.Now.AddDays(-185),
-Cost = 30576000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-271),
-UpdatedAt
- = DateTime.Now.AddDays(-271)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 691,
-PaymentId = 271,
-ProductId = 14,
-ServiceId = 2,
-AmoutEmployee = 35,
-StartDate = DateTime.Now.AddDays(-10),
-EndDate = DateTime.Now.AddDays(-6),
-Cost = 1050000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-271),
-UpdatedAt
- = DateTime.Now.AddDays(-271)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 692,
-PaymentId = 272,
-ProductId = 10,
-ServiceId = 2,
-AmoutEmployee = 168,
-StartDate = DateTime.Now.AddDays(-161),
-EndDate = DateTime.Now.AddDays(-154),
-Cost = 22176000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-272),
-UpdatedAt
- = DateTime.Now.AddDays(-272)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 693,
-PaymentId = 272,
-ProductId = 27,
-ServiceId = 1,
-AmoutEmployee = 105,
-StartDate = DateTime.Now.AddDays(-105),
-EndDate = DateTime.Now.AddDays(-94),
-Cost = 15120000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-272),
-UpdatedAt
- = DateTime.Now.AddDays(-272)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 694,
-PaymentId = 273,
-ProductId = 13,
-ServiceId = 1,
-AmoutEmployee = 99,
-StartDate = DateTime.Now.AddDays(-128),
-EndDate = DateTime.Now.AddDays(-120),
-Cost = 35194500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-273),
-UpdatedAt
- = DateTime.Now.AddDays(-273)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 695,
-PaymentId = 273,
-ProductId = 23,
-ServiceId = 2,
-AmoutEmployee = 182,
-StartDate = DateTime.Now.AddDays(-41),
-EndDate = DateTime.Now.AddDays(-38),
-Cost = 4368000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-273),
-UpdatedAt
- = DateTime.Now.AddDays(-273)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 696,
-PaymentId = 273,
-ProductId = 22,
-ServiceId = 3,
-AmoutEmployee = 167,
-StartDate = DateTime.Now.AddDays(-33),
-EndDate = DateTime.Now.AddDays(-26),
-Cost = 8266500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-273),
-UpdatedAt
- = DateTime.Now.AddDays(-273)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 697,
-PaymentId = 274,
-ProductId = 24,
-ServiceId = 1,
-AmoutEmployee = 98,
-StartDate = DateTime.Now.AddDays(-97),
-EndDate = DateTime.Now.AddDays(-91),
-Cost = 2646000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-274),
-UpdatedAt
- = DateTime.Now.AddDays(-274)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 698,
-PaymentId = 274,
-ProductId = 10,
-ServiceId = 2,
-AmoutEmployee = 100,
-StartDate = DateTime.Now.AddDays(-180),
-EndDate = DateTime.Now.AddDays(-169),
-Cost = 10800000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-274),
-UpdatedAt
- = DateTime.Now.AddDays(-274)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 699,
-PaymentId = 275,
-ProductId = 6,
-ServiceId = 3,
-AmoutEmployee = 140,
-StartDate = DateTime.Now.AddDays(-145),
-EndDate = DateTime.Now.AddDays(-134),
-Cost = 16940000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-275),
-UpdatedAt
- = DateTime.Now.AddDays(-275)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 700,
-PaymentId = 275,
-ProductId = 13,
-ServiceId = 1,
-AmoutEmployee = 74,
-StartDate = DateTime.Now.AddDays(-57),
-EndDate = DateTime.Now.AddDays(-43),
-Cost = 5994000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-275),
-UpdatedAt
- = DateTime.Now.AddDays(-275)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 701,
-PaymentId = 275,
-ProductId = 10,
-ServiceId = 2,
-AmoutEmployee = 120,
-StartDate = DateTime.Now.AddDays(-174),
-EndDate = DateTime.Now.AddDays(-165),
-Cost = 59040000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-275),
-UpdatedAt
- = DateTime.Now.AddDays(-275)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 702,
-PaymentId = 276,
-ProductId = 6,
-ServiceId = 3,
-AmoutEmployee = 123,
-StartDate = DateTime.Now.AddDays(-17),
-EndDate = DateTime.Now.AddDays(-2),
-Cost = 5412000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-276),
-UpdatedAt
- = DateTime.Now.AddDays(-276)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 703,
-PaymentId = 276,
-ProductId = 22,
-ServiceId = 2,
-AmoutEmployee = 72,
-StartDate = DateTime.Now.AddDays(-198),
-EndDate = DateTime.Now.AddDays(-196),
-Cost = 14688000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-276),
-UpdatedAt
- = DateTime.Now.AddDays(-276)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 704,
-PaymentId = 276,
-ProductId = 21,
-ServiceId = 2,
-AmoutEmployee = 183,
-StartDate = DateTime.Now.AddDays(-57),
-EndDate = DateTime.Now.AddDays(-54),
-Cost = 49410000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-276),
-UpdatedAt
- = DateTime.Now.AddDays(-276)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 705,
-PaymentId = 277,
-ProductId = 10,
-ServiceId = 3,
-AmoutEmployee = 69,
-StartDate = DateTime.Now.AddDays(-58),
-EndDate = DateTime.Now.AddDays(-54),
-Cost = 13662000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-277),
-UpdatedAt
- = DateTime.Now.AddDays(-277)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 706,
-PaymentId = 277,
-ProductId = 4,
-ServiceId = 2,
-AmoutEmployee = 168,
-StartDate = DateTime.Now.AddDays(-113),
-EndDate = DateTime.Now.AddDays(-112),
-Cost = 21168000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-277),
-UpdatedAt
- = DateTime.Now.AddDays(-277)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 707,
-PaymentId = 278,
-ProductId = 21,
-ServiceId = 2,
-AmoutEmployee = 193,
-StartDate = DateTime.Now.AddDays(-22),
-EndDate = DateTime.Now.AddDays(-9),
-Cost = 9264000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-278),
-UpdatedAt
- = DateTime.Now.AddDays(-278)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 708,
-PaymentId = 278,
-ProductId = 5,
-ServiceId = 3,
-AmoutEmployee = 42,
-StartDate = DateTime.Now.AddDays(-54),
-EndDate = DateTime.Now.AddDays(-41),
-Cost = 231000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-278),
-UpdatedAt
- = DateTime.Now.AddDays(-278)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 709,
-PaymentId = 278,
-ProductId = 28,
-ServiceId = 2,
-AmoutEmployee = 82,
-StartDate = DateTime.Now.AddDays(-93),
-EndDate = DateTime.Now.AddDays(-92),
-Cost = 12792000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-278),
-UpdatedAt
- = DateTime.Now.AddDays(-278)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 710,
-PaymentId = 279,
-ProductId = 4,
-ServiceId = 2,
-AmoutEmployee = 93,
-StartDate = DateTime.Now.AddDays(-191),
-EndDate = DateTime.Now.AddDays(-184),
-Cost = 87048000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-279),
-UpdatedAt
- = DateTime.Now.AddDays(-279)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 711,
-PaymentId = 279,
-ProductId = 13,
-ServiceId = 3,
-AmoutEmployee = 150,
-StartDate = DateTime.Now.AddDays(-191),
-EndDate = DateTime.Now.AddDays(-180),
-Cost = 88275000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-279),
-UpdatedAt
- = DateTime.Now.AddDays(-279)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 712,
-PaymentId = 280,
-ProductId = 25,
-ServiceId = 3,
-AmoutEmployee = 154,
-StartDate = DateTime.Now.AddDays(-104),
-EndDate = DateTime.Now.AddDays(-94),
-Cost = 5082000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-280),
-UpdatedAt
- = DateTime.Now.AddDays(-280)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 713,
-PaymentId = 280,
-ProductId = 12,
-ServiceId = 2,
-AmoutEmployee = 179,
-StartDate = DateTime.Now.AddDays(-129),
-EndDate = DateTime.Now.AddDays(-127),
-Cost = 93438000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-280),
-UpdatedAt
- = DateTime.Now.AddDays(-280)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 714,
-PaymentId = 280,
-ProductId = 5,
-ServiceId = 2,
-AmoutEmployee = 120,
-StartDate = DateTime.Now.AddDays(-72),
-EndDate = DateTime.Now.AddDays(-62),
-Cost = 46800000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-280),
-UpdatedAt
- = DateTime.Now.AddDays(-280)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 715,
-PaymentId = 281,
-ProductId = 13,
-ServiceId = 3,
-AmoutEmployee = 129,
-StartDate = DateTime.Now.AddDays(-197),
-EndDate = DateTime.Now.AddDays(-183),
-Cost = 47536500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-281),
-UpdatedAt
- = DateTime.Now.AddDays(-281)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 716,
-PaymentId = 281,
-ProductId = 9,
-ServiceId = 1,
-AmoutEmployee = 100,
-StartDate = DateTime.Now.AddDays(-154),
-EndDate = DateTime.Now.AddDays(-140),
-Cost = 57150000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-281),
-UpdatedAt
- = DateTime.Now.AddDays(-281)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 717,
-PaymentId = 282,
-ProductId = 15,
-ServiceId = 3,
-AmoutEmployee = 183,
-StartDate = DateTime.Now.AddDays(-125),
-EndDate = DateTime.Now.AddDays(-114),
-Cost = 41266500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-282),
-UpdatedAt
- = DateTime.Now.AddDays(-282)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 718,
-PaymentId = 282,
-ProductId = 6,
-ServiceId = 1,
-AmoutEmployee = 164,
-StartDate = DateTime.Now.AddDays(-145),
-EndDate = DateTime.Now.AddDays(-134),
-Cost = 93726000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-282),
-UpdatedAt
- = DateTime.Now.AddDays(-282)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 719,
-PaymentId = 282,
-ProductId = 22,
-ServiceId = 2,
-AmoutEmployee = 57,
-StartDate = DateTime.Now.AddDays(-49),
-EndDate = DateTime.Now.AddDays(-38),
-Cost = 12312000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-282),
-UpdatedAt
- = DateTime.Now.AddDays(-282)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 720,
-PaymentId = 283,
-ProductId = 6,
-ServiceId = 2,
-AmoutEmployee = 55,
-StartDate = DateTime.Now.AddDays(-167),
-EndDate = DateTime.Now.AddDays(-165),
-Cost = 53130000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-283),
-UpdatedAt
- = DateTime.Now.AddDays(-283)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 721,
-PaymentId = 283,
-ProductId = 24,
-ServiceId = 3,
-AmoutEmployee = 51,
-StartDate = DateTime.Now.AddDays(-196),
-EndDate = DateTime.Now.AddDays(-187),
-Cost = 46563000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-283),
-UpdatedAt
- = DateTime.Now.AddDays(-283)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 722,
-PaymentId = 284,
-ProductId = 27,
-ServiceId = 3,
-AmoutEmployee = 183,
-StartDate = DateTime.Now.AddDays(-120),
-EndDate = DateTime.Now.AddDays(-117),
-Cost = 61396500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-284),
-UpdatedAt
- = DateTime.Now.AddDays(-284)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 723,
-PaymentId = 284,
-ProductId = 30,
-ServiceId = 1,
-AmoutEmployee = 68,
-StartDate = DateTime.Now.AddDays(-88),
-EndDate = DateTime.Now.AddDays(-87),
-Cost = 14076000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-284),
-UpdatedAt
- = DateTime.Now.AddDays(-284)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 724,
-PaymentId = 284,
-ProductId = 28,
-ServiceId = 2,
-AmoutEmployee = 156,
-StartDate = DateTime.Now.AddDays(-73),
-EndDate = DateTime.Now.AddDays(-63),
-Cost = 60840000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-284),
-UpdatedAt
- = DateTime.Now.AddDays(-284)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 725,
-PaymentId = 285,
-ProductId = 13,
-ServiceId = 2,
-AmoutEmployee = 51,
-StartDate = DateTime.Now.AddDays(-177),
-EndDate = DateTime.Now.AddDays(-165),
-Cost = 46512000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-285),
-UpdatedAt
- = DateTime.Now.AddDays(-285)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 726,
-PaymentId = 285,
-ProductId = 12,
-ServiceId = 3,
-AmoutEmployee = 177,
-StartDate = DateTime.Now.AddDays(-166),
-EndDate = DateTime.Now.AddDays(-160),
-Cost = 2920500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-285),
-UpdatedAt
- = DateTime.Now.AddDays(-285)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 727,
-PaymentId = 286,
-ProductId = 17,
-ServiceId = 3,
-AmoutEmployee = 98,
-StartDate = DateTime.Now.AddDays(-145),
-EndDate = DateTime.Now.AddDays(-130),
-Cost = 52283000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-286),
-UpdatedAt
- = DateTime.Now.AddDays(-286)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 728,
-PaymentId = 286,
-ProductId = 4,
-ServiceId = 1,
-AmoutEmployee = 58,
-StartDate = DateTime.Now.AddDays(-87),
-EndDate = DateTime.Now.AddDays(-75),
-Cost = 13833000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-286),
-UpdatedAt
- = DateTime.Now.AddDays(-286)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 729,
-PaymentId = 286,
-ProductId = 7,
-ServiceId = 2,
-AmoutEmployee = 91,
-StartDate = DateTime.Now.AddDays(-194),
-EndDate = DateTime.Now.AddDays(-179),
-Cost = 52962000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-286),
-UpdatedAt
- = DateTime.Now.AddDays(-286)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 730,
-PaymentId = 287,
-ProductId = 27,
-ServiceId = 3,
-AmoutEmployee = 58,
-StartDate = DateTime.Now.AddDays(-73),
-EndDate = DateTime.Now.AddDays(-69),
-Cost = 11484000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-287),
-UpdatedAt
- = DateTime.Now.AddDays(-287)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 731,
-PaymentId = 287,
-ProductId = 22,
-ServiceId = 2,
-AmoutEmployee = 130,
-StartDate = DateTime.Now.AddDays(-71),
-EndDate = DateTime.Now.AddDays(-63),
-Cost = 39000000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-287),
-UpdatedAt
- = DateTime.Now.AddDays(-287)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 732,
-PaymentId = 287,
-ProductId = 11,
-ServiceId = 2,
-AmoutEmployee = 200,
-StartDate = DateTime.Now.AddDays(-58),
-EndDate = DateTime.Now.AddDays(-47),
-Cost = 2400000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-287),
-UpdatedAt
- = DateTime.Now.AddDays(-287)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 733,
-PaymentId = 288,
-ProductId = 29,
-ServiceId = 2,
-AmoutEmployee = 145,
-StartDate = DateTime.Now.AddDays(-100),
-EndDate = DateTime.Now.AddDays(-86),
-Cost = 26970000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-288),
-UpdatedAt
- = DateTime.Now.AddDays(-288)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 734,
-PaymentId = 288,
-ProductId = 7,
-ServiceId = 3,
-AmoutEmployee = 136,
-StartDate = DateTime.Now.AddDays(-75),
-EndDate = DateTime.Now.AddDays(-69),
-Cost = 8976000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-288),
-UpdatedAt
- = DateTime.Now.AddDays(-288)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 735,
-PaymentId = 289,
-ProductId = 5,
-ServiceId = 3,
-AmoutEmployee = 101,
-StartDate = DateTime.Now.AddDays(-163),
-EndDate = DateTime.Now.AddDays(-152),
-Cost = 51661500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-289),
-UpdatedAt
- = DateTime.Now.AddDays(-289)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 736,
-PaymentId = 289,
-ProductId = 10,
-ServiceId = 3,
-AmoutEmployee = 162,
-StartDate = DateTime.Now.AddDays(-67),
-EndDate = DateTime.Now.AddDays(-56),
-Cost = 891000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-289),
-UpdatedAt
- = DateTime.Now.AddDays(-289)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 737,
-PaymentId = 289,
-ProductId = 13,
-ServiceId = 1,
-AmoutEmployee = 66,
-StartDate = DateTime.Now.AddDays(-125),
-EndDate = DateTime.Now.AddDays(-123),
-Cost = 9801000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-289),
-UpdatedAt
- = DateTime.Now.AddDays(-289)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 738,
-PaymentId = 290,
-ProductId = 2,
-ServiceId = 3,
-AmoutEmployee = 55,
-StartDate = DateTime.Now.AddDays(-27),
-EndDate = DateTime.Now.AddDays(-18),
-Cost = 302500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-290),
-UpdatedAt
- = DateTime.Now.AddDays(-290)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 739,
-PaymentId = 290,
-ProductId = 5,
-ServiceId = 3,
-AmoutEmployee = 170,
-StartDate = DateTime.Now.AddDays(-130),
-EndDate = DateTime.Now.AddDays(-117),
-Cost = 38335000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-290),
-UpdatedAt
- = DateTime.Now.AddDays(-290)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 740,
-PaymentId = 291,
-ProductId = 30,
-ServiceId = 3,
-AmoutEmployee = 34,
-StartDate = DateTime.Now.AddDays(-46),
-EndDate = DateTime.Now.AddDays(-44),
-Cost = 7480000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-291),
-UpdatedAt
- = DateTime.Now.AddDays(-291)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 741,
-PaymentId = 291,
-ProductId = 19,
-ServiceId = 1,
-AmoutEmployee = 63,
-StartDate = DateTime.Now.AddDays(-130),
-EndDate = DateTime.Now.AddDays(-126),
-Cost = 5953500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-291),
-UpdatedAt
- = DateTime.Now.AddDays(-291)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 742,
-PaymentId = 291,
-ProductId = 8,
-ServiceId = 2,
-AmoutEmployee = 106,
-StartDate = DateTime.Now.AddDays(-101),
-EndDate = DateTime.Now.AddDays(-91),
-Cost = 60420000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-291),
-UpdatedAt
- = DateTime.Now.AddDays(-291)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 743,
-PaymentId = 292,
-ProductId = 1,
-ServiceId = 3,
-AmoutEmployee = 94,
-StartDate = DateTime.Now.AddDays(-61),
-EndDate = DateTime.Now.AddDays(-51),
-Cost = 13959000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-292),
-UpdatedAt
- = DateTime.Now.AddDays(-292)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 744,
-PaymentId = 292,
-ProductId = 4,
-ServiceId = 1,
-AmoutEmployee = 85,
-StartDate = DateTime.Now.AddDays(-153),
-EndDate = DateTime.Now.AddDays(-145),
-Cost = 382500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-292),
-UpdatedAt
- = DateTime.Now.AddDays(-292)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 745,
-PaymentId = 293,
-ProductId = 19,
-ServiceId = 3,
-AmoutEmployee = 133,
-StartDate = DateTime.Now.AddDays(-85),
-EndDate = DateTime.Now.AddDays(-83),
-Cost = 20482000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-293),
-UpdatedAt
- = DateTime.Now.AddDays(-293)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 746,
-PaymentId = 293,
-ProductId = 9,
-ServiceId = 2,
-AmoutEmployee = 165,
-StartDate = DateTime.Now.AddDays(-165),
-EndDate = DateTime.Now.AddDays(-160),
-Cost = 128700000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-293),
-UpdatedAt
- = DateTime.Now.AddDays(-293)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 747,
-PaymentId = 293,
-ProductId = 27,
-ServiceId = 1,
-AmoutEmployee = 36,
-StartDate = DateTime.Now.AddDays(-178),
-EndDate = DateTime.Now.AddDays(-164),
-Cost = 13932000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-293),
-UpdatedAt
- = DateTime.Now.AddDays(-293)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 748,
-PaymentId = 294,
-ProductId = 5,
-ServiceId = 1,
-AmoutEmployee = 41,
-StartDate = DateTime.Now.AddDays(-174),
-EndDate = DateTime.Now.AddDays(-171),
-Cost = 9040500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-294),
-UpdatedAt
- = DateTime.Now.AddDays(-294)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 749,
-PaymentId = 294,
-ProductId = 27,
-ServiceId = 1,
-AmoutEmployee = 80,
-StartDate = DateTime.Now.AddDays(-40),
-EndDate = DateTime.Now.AddDays(-38),
-Cost = 11520000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-294),
-UpdatedAt
- = DateTime.Now.AddDays(-294)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 750,
-PaymentId = 295,
-ProductId = 29,
-ServiceId = 2,
-AmoutEmployee = 148,
-StartDate = DateTime.Now.AddDays(-140),
-EndDate = DateTime.Now.AddDays(-131),
-Cost = 72816000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-295),
-UpdatedAt
- = DateTime.Now.AddDays(-295)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 751,
-PaymentId = 295,
-ProductId = 9,
-ServiceId = 1,
-AmoutEmployee = 185,
-StartDate = DateTime.Now.AddDays(-63),
-EndDate = DateTime.Now.AddDays(-60),
-Cost = 39127500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-295),
-UpdatedAt
- = DateTime.Now.AddDays(-295)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 752,
-PaymentId = 295,
-ProductId = 23,
-ServiceId = 2,
-AmoutEmployee = 175,
-StartDate = DateTime.Now.AddDays(-149),
-EndDate = DateTime.Now.AddDays(-144),
-Cost = 35700000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-295),
-UpdatedAt
- = DateTime.Now.AddDays(-295)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 753,
-PaymentId = 296,
-ProductId = 8,
-ServiceId = 1,
-AmoutEmployee = 186,
-StartDate = DateTime.Now.AddDays(-194),
-EndDate = DateTime.Now.AddDays(-189),
-Cost = 146475000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-296),
-UpdatedAt
- = DateTime.Now.AddDays(-296)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 754,
-PaymentId = 296,
-ProductId = 21,
-ServiceId = 2,
-AmoutEmployee = 105,
-StartDate = DateTime.Now.AddDays(-156),
-EndDate = DateTime.Now.AddDays(-142),
-Cost = 15750000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-296),
-UpdatedAt
- = DateTime.Now.AddDays(-296)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 755,
-PaymentId = 297,
-ProductId = 17,
-ServiceId = 2,
-AmoutEmployee = 145,
-StartDate = DateTime.Now.AddDays(-17),
-EndDate = DateTime.Now.AddDays(-5),
-Cost = 6090000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-297),
-UpdatedAt
- = DateTime.Now.AddDays(-297)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 756,
-PaymentId = 297,
-ProductId = 5,
-ServiceId = 2,
-AmoutEmployee = 198,
-StartDate = DateTime.Now.AddDays(-26),
-EndDate = DateTime.Now.AddDays(-24),
-Cost = 11880000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-297),
-UpdatedAt
- = DateTime.Now.AddDays(-297)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 757,
-PaymentId = 297,
-ProductId = 27,
-ServiceId = 3,
-AmoutEmployee = 81,
-StartDate = DateTime.Now.AddDays(-169),
-EndDate = DateTime.Now.AddDays(-154),
-Cost = 445500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-297),
-UpdatedAt
- = DateTime.Now.AddDays(-297)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 758,
-PaymentId = 298,
-ProductId = 20,
-ServiceId = 3,
-AmoutEmployee = 86,
-StartDate = DateTime.Now.AddDays(-178),
-EndDate = DateTime.Now.AddDays(-173),
-Cost = 80410000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-298),
-UpdatedAt
- = DateTime.Now.AddDays(-298)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 759,
-PaymentId = 298,
-ProductId = 4,
-ServiceId = 1,
-AmoutEmployee = 62,
-StartDate = DateTime.Now.AddDays(-129),
-EndDate = DateTime.Now.AddDays(-123),
-Cost = 4464000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-298),
-UpdatedAt
- = DateTime.Now.AddDays(-298)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 760,
-PaymentId = 298,
-ProductId = 27,
-ServiceId = 1,
-AmoutEmployee = 112,
-StartDate = DateTime.Now.AddDays(-49),
-EndDate = DateTime.Now.AddDays(-36),
-Cost = 10584000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-298),
-UpdatedAt
- = DateTime.Now.AddDays(-298)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 761,
-PaymentId = 299,
-ProductId = 27,
-ServiceId = 2,
-AmoutEmployee = 79,
-StartDate = DateTime.Now.AddDays(-152),
-EndDate = DateTime.Now.AddDays(-144),
-Cost = 16590000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-299),
-UpdatedAt
- = DateTime.Now.AddDays(-299)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 762,
-PaymentId = 299,
-ProductId = 9,
-ServiceId = 3,
-AmoutEmployee = 42,
-StartDate = DateTime.Now.AddDays(-154),
-EndDate = DateTime.Now.AddDays(-149),
-Cost = 25872000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-299),
-UpdatedAt
- = DateTime.Now.AddDays(-299)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 763,
-PaymentId = 300,
-ProductId = 28,
-ServiceId = 1,
-AmoutEmployee = 61,
-StartDate = DateTime.Now.AddDays(-192),
-EndDate = DateTime.Now.AddDays(-181),
-Cost = 1098000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-300),
-UpdatedAt
- = DateTime.Now.AddDays(-300)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 764,
-PaymentId = 300,
-ProductId = 11,
-ServiceId = 1,
-AmoutEmployee = 180,
-StartDate = DateTime.Now.AddDays(-178),
-EndDate = DateTime.Now.AddDays(-175),
-Cost = 57510000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-300),
-UpdatedAt
- = DateTime.Now.AddDays(-300)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 765,
-PaymentId = 300,
-ProductId = 25,
-ServiceId = 3,
-AmoutEmployee = 195,
-StartDate = DateTime.Now.AddDays(-193),
-EndDate = DateTime.Now.AddDays(-191),
-Cost = 168382500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-300),
-UpdatedAt
- = DateTime.Now.AddDays(-300)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 766,
-PaymentId = 301,
-ProductId = 11,
-ServiceId = 1,
-AmoutEmployee = 171,
-StartDate = DateTime.Now.AddDays(-60),
-EndDate = DateTime.Now.AddDays(-50),
-Cost = 3847500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-301),
-UpdatedAt
- = DateTime.Now.AddDays(-301)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 767,
-PaymentId = 301,
-ProductId = 19,
-ServiceId = 3,
-AmoutEmployee = 140,
-StartDate = DateTime.Now.AddDays(-195),
-EndDate = DateTime.Now.AddDays(-189),
-Cost = 40040000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-301),
-UpdatedAt
- = DateTime.Now.AddDays(-301)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 768,
-PaymentId = 302,
-ProductId = 3,
-ServiceId = 2,
-AmoutEmployee = 132,
-StartDate = DateTime.Now.AddDays(-128),
-EndDate = DateTime.Now.AddDays(-116),
-Cost = 47520000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-302),
-UpdatedAt
- = DateTime.Now.AddDays(-302)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 769,
-PaymentId = 302,
-ProductId = 18,
-ServiceId = 1,
-AmoutEmployee = 192,
-StartDate = DateTime.Now.AddDays(-43),
-EndDate = DateTime.Now.AddDays(-31),
-Cost = 6912000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-302),
-UpdatedAt
- = DateTime.Now.AddDays(-302)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 770,
-PaymentId = 302,
-ProductId = 21,
-ServiceId = 2,
-AmoutEmployee = 28,
-StartDate = DateTime.Now.AddDays(-33),
-EndDate = DateTime.Now.AddDays(-32),
-Cost = 840000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-302),
-UpdatedAt
- = DateTime.Now.AddDays(-302)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 771,
-PaymentId = 303,
-ProductId = 11,
-ServiceId = 2,
-AmoutEmployee = 57,
-StartDate = DateTime.Now.AddDays(-183),
-EndDate = DateTime.Now.AddDays(-172),
-Cost = 27018000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-303),
-UpdatedAt
- = DateTime.Now.AddDays(-303)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 772,
-PaymentId = 303,
-ProductId = 12,
-ServiceId = 3,
-AmoutEmployee = 124,
-StartDate = DateTime.Now.AddDays(-180),
-EndDate = DateTime.Now.AddDays(-171),
-Cost = 60698000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-303),
-UpdatedAt
- = DateTime.Now.AddDays(-303)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 773,
-PaymentId = 304,
-ProductId = 10,
-ServiceId = 1,
-AmoutEmployee = 26,
-StartDate = DateTime.Now.AddDays(-161),
-EndDate = DateTime.Now.AddDays(-147),
-Cost = 11583000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-304),
-UpdatedAt
- = DateTime.Now.AddDays(-304)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 774,
-PaymentId = 304,
-ProductId = 6,
-ServiceId = 2,
-AmoutEmployee = 67,
-StartDate = DateTime.Now.AddDays(-49),
-EndDate = DateTime.Now.AddDays(-40),
-Cost = 14070000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-304),
-UpdatedAt
- = DateTime.Now.AddDays(-304)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 775,
-PaymentId = 304,
-ProductId = 20,
-ServiceId = 3,
-AmoutEmployee = 121,
-StartDate = DateTime.Now.AddDays(-91),
-EndDate = DateTime.Now.AddDays(-77),
-Cost = 45254000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-304),
-UpdatedAt
- = DateTime.Now.AddDays(-304)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 776,
-PaymentId = 305,
-ProductId = 8,
-ServiceId = 1,
-AmoutEmployee = 38,
-StartDate = DateTime.Now.AddDays(-200),
-EndDate = DateTime.Now.AddDays(-188),
-Cost = 12996000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-305),
-UpdatedAt
- = DateTime.Now.AddDays(-305)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 777,
-PaymentId = 305,
-ProductId = 9,
-ServiceId = 2,
-AmoutEmployee = 81,
-StartDate = DateTime.Now.AddDays(-186),
-EndDate = DateTime.Now.AddDays(-184),
-Cost = 57834000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-305),
-UpdatedAt
- = DateTime.Now.AddDays(-305)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 778,
-PaymentId = 306,
-ProductId = 5,
-ServiceId = 2,
-AmoutEmployee = 44,
-StartDate = DateTime.Now.AddDays(-34),
-EndDate = DateTime.Now.AddDays(-33),
-Cost = 6336000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-306),
-UpdatedAt
- = DateTime.Now.AddDays(-306)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 779,
-PaymentId = 306,
-ProductId = 13,
-ServiceId = 3,
-AmoutEmployee = 95,
-StartDate = DateTime.Now.AddDays(-175),
-EndDate = DateTime.Now.AddDays(-165),
-Cost = 16720000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-306),
-UpdatedAt
- = DateTime.Now.AddDays(-306)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 780,
-PaymentId = 306,
-ProductId = 2,
-ServiceId = 3,
-AmoutEmployee = 57,
-StartDate = DateTime.Now.AddDays(-184),
-EndDate = DateTime.Now.AddDays(-173),
-Cost = 45771000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-306),
-UpdatedAt
- = DateTime.Now.AddDays(-306)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 781,
-PaymentId = 307,
-ProductId = 29,
-ServiceId = 2,
-AmoutEmployee = 159,
-StartDate = DateTime.Now.AddDays(-49),
-EndDate = DateTime.Now.AddDays(-39),
-Cost = 26712000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-307),
-UpdatedAt
- = DateTime.Now.AddDays(-307)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 782,
-PaymentId = 307,
-ProductId = 1,
-ServiceId = 2,
-AmoutEmployee = 104,
-StartDate = DateTime.Now.AddDays(-139),
-EndDate = DateTime.Now.AddDays(-128),
-Cost = 28704000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-307),
-UpdatedAt
- = DateTime.Now.AddDays(-307)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 783,
-PaymentId = 308,
-ProductId = 20,
-ServiceId = 2,
-AmoutEmployee = 64,
-StartDate = DateTime.Now.AddDays(-24),
-EndDate = DateTime.Now.AddDays(-17),
-Cost = 4992000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-308),
-UpdatedAt
- = DateTime.Now.AddDays(-308)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 784,
-PaymentId = 308,
-ProductId = 28,
-ServiceId = 3,
-AmoutEmployee = 109,
-StartDate = DateTime.Now.AddDays(-77),
-EndDate = DateTime.Now.AddDays(-71),
-Cost = 34771000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-308),
-UpdatedAt
- = DateTime.Now.AddDays(-308)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 785,
-PaymentId = 308,
-ProductId = 11,
-ServiceId = 2,
-AmoutEmployee = 191,
-StartDate = DateTime.Now.AddDays(-116),
-EndDate = DateTime.Now.AddDays(-102),
-Cost = 93972000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-308),
-UpdatedAt
- = DateTime.Now.AddDays(-308)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 786,
-PaymentId = 309,
-ProductId = 25,
-ServiceId = 2,
-AmoutEmployee = 180,
-StartDate = DateTime.Now.AddDays(-33),
-EndDate = DateTime.Now.AddDays(-24),
-Cost = 23760000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-309),
-UpdatedAt
- = DateTime.Now.AddDays(-309)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 787,
-PaymentId = 309,
-ProductId = 29,
-ServiceId = 3,
-AmoutEmployee = 67,
-StartDate = DateTime.Now.AddDays(-177),
-EndDate = DateTime.Now.AddDays(-172),
-Cost = 368500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-309),
-UpdatedAt
- = DateTime.Now.AddDays(-309)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 788,
-PaymentId = 309,
-ProductId = 24,
-ServiceId = 1,
-AmoutEmployee = 116,
-StartDate = DateTime.Now.AddDays(-151),
-EndDate = DateTime.Now.AddDays(-136),
-Cost = 45936000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-309),
-UpdatedAt
- = DateTime.Now.AddDays(-309)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 789,
-PaymentId = 310,
-ProductId = 22,
-ServiceId = 2,
-AmoutEmployee = 127,
-StartDate = DateTime.Now.AddDays(-31),
-EndDate = DateTime.Now.AddDays(-28),
-Cost = 15240000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-310),
-UpdatedAt
- = DateTime.Now.AddDays(-310)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 790,
-PaymentId = 310,
-ProductId = 21,
-ServiceId = 2,
-AmoutEmployee = 43,
-StartDate = DateTime.Now.AddDays(-160),
-EndDate = DateTime.Now.AddDays(-148),
-Cost = 1806000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-310),
-UpdatedAt
- = DateTime.Now.AddDays(-310)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 791,
-PaymentId = 311,
-ProductId = 13,
-ServiceId = 3,
-AmoutEmployee = 177,
-StartDate = DateTime.Now.AddDays(-168),
-EndDate = DateTime.Now.AddDays(-159),
-Cost = 98323500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-311),
-UpdatedAt
- = DateTime.Now.AddDays(-311)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 792,
-PaymentId = 311,
-ProductId = 13,
-ServiceId = 3,
-AmoutEmployee = 153,
-StartDate = DateTime.Now.AddDays(-163),
-EndDate = DateTime.Now.AddDays(-153),
-Cost = 58063500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-311),
-UpdatedAt
- = DateTime.Now.AddDays(-311)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 793,
-PaymentId = 311,
-ProductId = 17,
-ServiceId = 2,
-AmoutEmployee = 95,
-StartDate = DateTime.Now.AddDays(-80),
-EndDate = DateTime.Now.AddDays(-67),
-Cost = 30210000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-311),
-UpdatedAt
- = DateTime.Now.AddDays(-311)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 794,
-PaymentId = 312,
-ProductId = 1,
-ServiceId = 1,
-AmoutEmployee = 134,
-StartDate = DateTime.Now.AddDays(-19),
-EndDate = DateTime.Now.AddDays(-17),
-Cost = 3015000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-312),
-UpdatedAt
- = DateTime.Now.AddDays(-312)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 795,
-PaymentId = 312,
-ProductId = 4,
-ServiceId = 3,
-AmoutEmployee = 33,
-StartDate = DateTime.Now.AddDays(-16),
-EndDate = DateTime.Now.AddDays(-4),
-Cost = 1452000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-312),
-UpdatedAt
- = DateTime.Now.AddDays(-312)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 796,
-PaymentId = 313,
-ProductId = 14,
-ServiceId = 2,
-AmoutEmployee = 188,
-StartDate = DateTime.Now.AddDays(-29),
-EndDate = DateTime.Now.AddDays(-28),
-Cost = 5640000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-313),
-UpdatedAt
- = DateTime.Now.AddDays(-313)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 797,
-PaymentId = 313,
-ProductId = 26,
-ServiceId = 3,
-AmoutEmployee = 105,
-StartDate = DateTime.Now.AddDays(-33),
-EndDate = DateTime.Now.AddDays(-24),
-Cost = 15592500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-313),
-UpdatedAt
- = DateTime.Now.AddDays(-313)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 798,
-PaymentId = 313,
-ProductId = 26,
-ServiceId = 2,
-AmoutEmployee = 88,
-StartDate = DateTime.Now.AddDays(-191),
-EndDate = DateTime.Now.AddDays(-186),
-Cost = 13200000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-313),
-UpdatedAt
- = DateTime.Now.AddDays(-313)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 799,
-PaymentId = 314,
-ProductId = 23,
-ServiceId = 1,
-AmoutEmployee = 116,
-StartDate = DateTime.Now.AddDays(-43),
-EndDate = DateTime.Now.AddDays(-31),
-Cost = 15138000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-314),
-UpdatedAt
- = DateTime.Now.AddDays(-314)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 800,
-PaymentId = 314,
-ProductId = 22,
-ServiceId = 2,
-AmoutEmployee = 195,
-StartDate = DateTime.Now.AddDays(-158),
-EndDate = DateTime.Now.AddDays(-144),
-Cost = 170820000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-314),
-UpdatedAt
- = DateTime.Now.AddDays(-314)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 801,
-PaymentId = 315,
-ProductId = 17,
-ServiceId = 3,
-AmoutEmployee = 62,
-StartDate = DateTime.Now.AddDays(-125),
-EndDate = DateTime.Now.AddDays(-120),
-Cost = 21483000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-315),
-UpdatedAt
- = DateTime.Now.AddDays(-315)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 802,
-PaymentId = 315,
-ProductId = 26,
-ServiceId = 3,
-AmoutEmployee = 86,
-StartDate = DateTime.Now.AddDays(-174),
-EndDate = DateTime.Now.AddDays(-163),
-Cost = 48719000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-315),
-UpdatedAt
- = DateTime.Now.AddDays(-315)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 803,
-PaymentId = 315,
-ProductId = 13,
-ServiceId = 1,
-AmoutEmployee = 166,
-StartDate = DateTime.Now.AddDays(-149),
-EndDate = DateTime.Now.AddDays(-135),
-Cost = 15687000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-315),
-UpdatedAt
- = DateTime.Now.AddDays(-315)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 804,
-PaymentId = 316,
-ProductId = 14,
-ServiceId = 1,
-AmoutEmployee = 113,
-StartDate = DateTime.Now.AddDays(-194),
-EndDate = DateTime.Now.AddDays(-183),
-Cost = 80851500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-316),
-UpdatedAt
- = DateTime.Now.AddDays(-316)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 805,
-PaymentId = 316,
-ProductId = 22,
-ServiceId = 3,
-AmoutEmployee = 92,
-StartDate = DateTime.Now.AddDays(-24),
-EndDate = DateTime.Now.AddDays(-14),
-Cost = 5566000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-316),
-UpdatedAt
- = DateTime.Now.AddDays(-316)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 806,
-PaymentId = 317,
-ProductId = 27,
-ServiceId = 1,
-AmoutEmployee = 176,
-StartDate = DateTime.Now.AddDays(-19),
-EndDate = DateTime.Now.AddDays(-10),
-Cost = 792000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-317),
-UpdatedAt
- = DateTime.Now.AddDays(-317)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 807,
-PaymentId = 317,
-ProductId = 17,
-ServiceId = 1,
-AmoutEmployee = 74,
-StartDate = DateTime.Now.AddDays(-94),
-EndDate = DateTime.Now.AddDays(-91),
-Cost = 25641000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-317),
-UpdatedAt
- = DateTime.Now.AddDays(-317)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 808,
-PaymentId = 317,
-ProductId = 5,
-ServiceId = 1,
-AmoutEmployee = 183,
-StartDate = DateTime.Now.AddDays(-22),
-EndDate = DateTime.Now.AddDays(-14),
-Cost = 1647000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-317),
-UpdatedAt
- = DateTime.Now.AddDays(-317)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 809,
-PaymentId = 318,
-ProductId = 6,
-ServiceId = 2,
-AmoutEmployee = 36,
-StartDate = DateTime.Now.AddDays(-153),
-EndDate = DateTime.Now.AddDays(-142),
-Cost = 24408000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-318),
-UpdatedAt
- = DateTime.Now.AddDays(-318)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 810,
-PaymentId = 318,
-ProductId = 25,
-ServiceId = 2,
-AmoutEmployee = 136,
-StartDate = DateTime.Now.AddDays(-32),
-EndDate = DateTime.Now.AddDays(-20),
-Cost = 11424000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-318),
-UpdatedAt
- = DateTime.Now.AddDays(-318)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 811,
-PaymentId = 319,
-ProductId = 8,
-ServiceId = 1,
-AmoutEmployee = 120,
-StartDate = DateTime.Now.AddDays(-76),
-EndDate = DateTime.Now.AddDays(-70),
-Cost = 10260000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-319),
-UpdatedAt
- = DateTime.Now.AddDays(-319)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 812,
-PaymentId = 319,
-ProductId = 25,
-ServiceId = 1,
-AmoutEmployee = 47,
-StartDate = DateTime.Now.AddDays(-154),
-EndDate = DateTime.Now.AddDays(-144),
-Cost = 30667500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-319),
-UpdatedAt
- = DateTime.Now.AddDays(-319)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 813,
-PaymentId = 319,
-ProductId = 16,
-ServiceId = 1,
-AmoutEmployee = 55,
-StartDate = DateTime.Now.AddDays(-149),
-EndDate = DateTime.Now.AddDays(-135),
-Cost = 25987500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-319),
-UpdatedAt
- = DateTime.Now.AddDays(-319)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 814,
-PaymentId = 320,
-ProductId = 1,
-ServiceId = 2,
-AmoutEmployee = 86,
-StartDate = DateTime.Now.AddDays(-65),
-EndDate = DateTime.Now.AddDays(-61),
-Cost = 3096000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-320),
-UpdatedAt
- = DateTime.Now.AddDays(-320)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 815,
-PaymentId = 320,
-ProductId = 28,
-ServiceId = 2,
-AmoutEmployee = 127,
-StartDate = DateTime.Now.AddDays(-160),
-EndDate = DateTime.Now.AddDays(-156),
-Cost = 11430000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-320),
-UpdatedAt
- = DateTime.Now.AddDays(-320)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 816,
-PaymentId = 320,
-ProductId = 12,
-ServiceId = 1,
-AmoutEmployee = 182,
-StartDate = DateTime.Now.AddDays(-15),
-EndDate = DateTime.Now.AddDays(-7),
-Cost = 4914000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-320),
-UpdatedAt
- = DateTime.Now.AddDays(-320)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 817,
-PaymentId = 321,
-ProductId = 2,
-ServiceId = 1,
-AmoutEmployee = 121,
-StartDate = DateTime.Now.AddDays(-77),
-EndDate = DateTime.Now.AddDays(-74),
-Cost = 30492000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-321),
-UpdatedAt
- = DateTime.Now.AddDays(-321)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 818,
-PaymentId = 321,
-ProductId = 30,
-ServiceId = 2,
-AmoutEmployee = 70,
-StartDate = DateTime.Now.AddDays(-124),
-EndDate = DateTime.Now.AddDays(-123),
-Cost = 34020000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-321),
-UpdatedAt
- = DateTime.Now.AddDays(-321)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 819,
-PaymentId = 322,
-ProductId = 24,
-ServiceId = 3,
-AmoutEmployee = 56,
-StartDate = DateTime.Now.AddDays(-73),
-EndDate = DateTime.Now.AddDays(-65),
-Cost = 7700000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-322),
-UpdatedAt
- = DateTime.Now.AddDays(-322)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 820,
-PaymentId = 322,
-ProductId = 27,
-ServiceId = 2,
-AmoutEmployee = 126,
-StartDate = DateTime.Now.AddDays(-51),
-EndDate = DateTime.Now.AddDays(-37),
-Cost = 6804000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-322),
-UpdatedAt
- = DateTime.Now.AddDays(-322)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 821,
-PaymentId = 322,
-ProductId = 29,
-ServiceId = 3,
-AmoutEmployee = 169,
-StartDate = DateTime.Now.AddDays(-60),
-EndDate = DateTime.Now.AddDays(-50),
-Cost = 39039000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-322),
-UpdatedAt
- = DateTime.Now.AddDays(-322)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 822,
-PaymentId = 323,
-ProductId = 10,
-ServiceId = 1,
-AmoutEmployee = 167,
-StartDate = DateTime.Now.AddDays(-199),
-EndDate = DateTime.Now.AddDays(-198),
-Cost = 39078000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-323),
-UpdatedAt
- = DateTime.Now.AddDays(-323)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 823,
-PaymentId = 323,
-ProductId = 7,
-ServiceId = 2,
-AmoutEmployee = 47,
-StartDate = DateTime.Now.AddDays(-142),
-EndDate = DateTime.Now.AddDays(-136),
-Cost = 25098000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-323),
-UpdatedAt
- = DateTime.Now.AddDays(-323)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 824,
-PaymentId = 324,
-ProductId = 13,
-ServiceId = 1,
-AmoutEmployee = 116,
-StartDate = DateTime.Now.AddDays(-97),
-EndDate = DateTime.Now.AddDays(-88),
-Cost = 41760000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-324),
-UpdatedAt
- = DateTime.Now.AddDays(-324)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 825,
-PaymentId = 324,
-ProductId = 27,
-ServiceId = 1,
-AmoutEmployee = 50,
-StartDate = DateTime.Now.AddDays(-174),
-EndDate = DateTime.Now.AddDays(-170),
-Cost = 6075000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-324),
-UpdatedAt
- = DateTime.Now.AddDays(-324)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 826,
-PaymentId = 324,
-ProductId = 22,
-ServiceId = 3,
-AmoutEmployee = 84,
-StartDate = DateTime.Now.AddDays(-23),
-EndDate = DateTime.Now.AddDays(-21),
-Cost = 2310000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-324),
-UpdatedAt
- = DateTime.Now.AddDays(-324)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 827,
-PaymentId = 325,
-ProductId = 8,
-ServiceId = 2,
-AmoutEmployee = 170,
-StartDate = DateTime.Now.AddDays(-147),
-EndDate = DateTime.Now.AddDays(-143),
-Cost = 9180000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-325),
-UpdatedAt
- = DateTime.Now.AddDays(-325)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 828,
-PaymentId = 325,
-ProductId = 26,
-ServiceId = 2,
-AmoutEmployee = 147,
-StartDate = DateTime.Now.AddDays(-14),
-EndDate = DateTime.Now.AddDays(0),
-Cost = 7938000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-325),
-UpdatedAt
- = DateTime.Now.AddDays(-325)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 829,
-PaymentId = 326,
-ProductId = 1,
-ServiceId = 2,
-AmoutEmployee = 137,
-StartDate = DateTime.Now.AddDays(-29),
-EndDate = DateTime.Now.AddDays(-17),
-Cost = 4932000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-326),
-UpdatedAt
- = DateTime.Now.AddDays(-326)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 830,
-PaymentId = 326,
-ProductId = 1,
-ServiceId = 3,
-AmoutEmployee = 61,
-StartDate = DateTime.Now.AddDays(-22),
-EndDate = DateTime.Now.AddDays(-7),
-Cost = 3690500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-326),
-UpdatedAt
- = DateTime.Now.AddDays(-326)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 831,
-PaymentId = 326,
-ProductId = 11,
-ServiceId = 2,
-AmoutEmployee = 168,
-StartDate = DateTime.Now.AddDays(-70),
-EndDate = DateTime.Now.AddDays(-66),
-Cost = 35280000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-326),
-UpdatedAt
- = DateTime.Now.AddDays(-326)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 832,
-PaymentId = 327,
-ProductId = 18,
-ServiceId = 2,
-AmoutEmployee = 89,
-StartDate = DateTime.Now.AddDays(-147),
-EndDate = DateTime.Now.AddDays(-140),
-Cost = 61944000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-327),
-UpdatedAt
- = DateTime.Now.AddDays(-327)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 833,
-PaymentId = 327,
-ProductId = 27,
-ServiceId = 2,
-AmoutEmployee = 99,
-StartDate = DateTime.Now.AddDays(-186),
-EndDate = DateTime.Now.AddDays(-178),
-Cost = 103356000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-327),
-UpdatedAt
- = DateTime.Now.AddDays(-327)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 834,
-PaymentId = 328,
-ProductId = 7,
-ServiceId = 1,
-AmoutEmployee = 112,
-StartDate = DateTime.Now.AddDays(-16),
-EndDate = DateTime.Now.AddDays(-6),
-Cost = 5040000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-328),
-UpdatedAt
- = DateTime.Now.AddDays(-328)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 835,
-PaymentId = 328,
-ProductId = 28,
-ServiceId = 2,
-AmoutEmployee = 143,
-StartDate = DateTime.Now.AddDays(-176),
-EndDate = DateTime.Now.AddDays(-169),
-Cost = 104676000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-328),
-UpdatedAt
- = DateTime.Now.AddDays(-328)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 836,
-PaymentId = 328,
-ProductId = 25,
-ServiceId = 2,
-AmoutEmployee = 84,
-StartDate = DateTime.Now.AddDays(-195),
-EndDate = DateTime.Now.AddDays(-188),
-Cost = 26208000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-328),
-UpdatedAt
- = DateTime.Now.AddDays(-328)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 837,
-PaymentId = 329,
-ProductId = 24,
-ServiceId = 3,
-AmoutEmployee = 149,
-StartDate = DateTime.Now.AddDays(-89),
-EndDate = DateTime.Now.AddDays(-80),
-Cost = 5736500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-329),
-UpdatedAt
- = DateTime.Now.AddDays(-329)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 838,
-PaymentId = 329,
-ProductId = 30,
-ServiceId = 2,
-AmoutEmployee = 38,
-StartDate = DateTime.Now.AddDays(-126),
-EndDate = DateTime.Now.AddDays(-114),
-Cost = 4560000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-329),
-UpdatedAt
- = DateTime.Now.AddDays(-329)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 839,
-PaymentId = 330,
-ProductId = 9,
-ServiceId = 2,
-AmoutEmployee = 156,
-StartDate = DateTime.Now.AddDays(-60),
-EndDate = DateTime.Now.AddDays(-45),
-Cost = 46800000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-330),
-UpdatedAt
- = DateTime.Now.AddDays(-330)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 840,
-PaymentId = 330,
-ProductId = 16,
-ServiceId = 1,
-AmoutEmployee = 64,
-StartDate = DateTime.Now.AddDays(-117),
-EndDate = DateTime.Now.AddDays(-112),
-Cost = 15840000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-330),
-UpdatedAt
- = DateTime.Now.AddDays(-330)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 841,
-PaymentId = 330,
-ProductId = 6,
-ServiceId = 1,
-AmoutEmployee = 104,
-StartDate = DateTime.Now.AddDays(-166),
-EndDate = DateTime.Now.AddDays(-160),
-Cost = 14508000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-330),
-UpdatedAt
- = DateTime.Now.AddDays(-330)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 842,
-PaymentId = 331,
-ProductId = 23,
-ServiceId = 3,
-AmoutEmployee = 29,
-StartDate = DateTime.Now.AddDays(-142),
-EndDate = DateTime.Now.AddDays(-131),
-Cost = 16109500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-331),
-UpdatedAt
- = DateTime.Now.AddDays(-331)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 843,
-PaymentId = 331,
-ProductId = 3,
-ServiceId = 1,
-AmoutEmployee = 27,
-StartDate = DateTime.Now.AddDays(-186),
-EndDate = DateTime.Now.AddDays(-178),
-Cost = 20898000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-331),
-UpdatedAt
- = DateTime.Now.AddDays(-331)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 844,
-PaymentId = 331,
-ProductId = 17,
-ServiceId = 1,
-AmoutEmployee = 151,
-StartDate = DateTime.Now.AddDays(-18),
-EndDate = DateTime.Now.AddDays(-4),
-Cost = 5436000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-331),
-UpdatedAt
- = DateTime.Now.AddDays(-331)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 845,
-PaymentId = 332,
-ProductId = 20,
-ServiceId = 1,
-AmoutEmployee = 105,
-StartDate = DateTime.Now.AddDays(-189),
-EndDate = DateTime.Now.AddDays(-179),
-Cost = 70402500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-332),
-UpdatedAt
- = DateTime.Now.AddDays(-332)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 846,
-PaymentId = 332,
-ProductId = 12,
-ServiceId = 1,
-AmoutEmployee = 125,
-StartDate = DateTime.Now.AddDays(-188),
-EndDate = DateTime.Now.AddDays(-187),
-Cost = 86062500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-332),
-UpdatedAt
- = DateTime.Now.AddDays(-332)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 847,
-PaymentId = 333,
-ProductId = 1,
-ServiceId = 3,
-AmoutEmployee = 58,
-StartDate = DateTime.Now.AddDays(-50),
-EndDate = DateTime.Now.AddDays(-42),
-Cost = 7975000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-333),
-UpdatedAt
- = DateTime.Now.AddDays(-333)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 848,
-PaymentId = 333,
-ProductId = 24,
-ServiceId = 2,
-AmoutEmployee = 43,
-StartDate = DateTime.Now.AddDays(-44),
-EndDate = DateTime.Now.AddDays(-41),
-Cost = 1290000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-333),
-UpdatedAt
- = DateTime.Now.AddDays(-333)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 849,
-PaymentId = 333,
-ProductId = 25,
-ServiceId = 3,
-AmoutEmployee = 28,
-StartDate = DateTime.Now.AddDays(-68),
-EndDate = DateTime.Now.AddDays(-55),
-Cost = 1540000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-333),
-UpdatedAt
- = DateTime.Now.AddDays(-333)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 850,
-PaymentId = 334,
-ProductId = 12,
-ServiceId = 2,
-AmoutEmployee = 69,
-StartDate = DateTime.Now.AddDays(-167),
-EndDate = DateTime.Now.AddDays(-160),
-Cost = 34362000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-334),
-UpdatedAt
- = DateTime.Now.AddDays(-334)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 851,
-PaymentId = 334,
-ProductId = 7,
-ServiceId = 3,
-AmoutEmployee = 38,
-StartDate = DateTime.Now.AddDays(-59),
-EndDate = DateTime.Now.AddDays(-49),
-Cost = 3971000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-334),
-UpdatedAt
- = DateTime.Now.AddDays(-334)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 852,
-PaymentId = 335,
-ProductId = 2,
-ServiceId = 2,
-AmoutEmployee = 58,
-StartDate = DateTime.Now.AddDays(-25),
-EndDate = DateTime.Now.AddDays(-17),
-Cost = 6264000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-335),
-UpdatedAt
- = DateTime.Now.AddDays(-335)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 853,
-PaymentId = 335,
-ProductId = 24,
-ServiceId = 2,
-AmoutEmployee = 83,
-StartDate = DateTime.Now.AddDays(-116),
-EndDate = DateTime.Now.AddDays(-111),
-Cost = 12948000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-335),
-UpdatedAt
- = DateTime.Now.AddDays(-335)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 854,
-PaymentId = 335,
-ProductId = 9,
-ServiceId = 2,
-AmoutEmployee = 154,
-StartDate = DateTime.Now.AddDays(-168),
-EndDate = DateTime.Now.AddDays(-158),
-Cost = 48048000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-335),
-UpdatedAt
- = DateTime.Now.AddDays(-335)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 855,
-PaymentId = 336,
-ProductId = 11,
-ServiceId = 3,
-AmoutEmployee = 197,
-StartDate = DateTime.Now.AddDays(-194),
-EndDate = DateTime.Now.AddDays(-186),
-Cost = 28171000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-336),
-UpdatedAt
- = DateTime.Now.AddDays(-336)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 856,
-PaymentId = 336,
-ProductId = 19,
-ServiceId = 3,
-AmoutEmployee = 130,
-StartDate = DateTime.Now.AddDays(-184),
-EndDate = DateTime.Now.AddDays(-172),
-Cost = 112970000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-336),
-UpdatedAt
- = DateTime.Now.AddDays(-336)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 857,
-PaymentId = 337,
-ProductId = 3,
-ServiceId = 3,
-AmoutEmployee = 43,
-StartDate = DateTime.Now.AddDays(-111),
-EndDate = DateTime.Now.AddDays(-97),
-Cost = 2365000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-337),
-UpdatedAt
- = DateTime.Now.AddDays(-337)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 858,
-PaymentId = 337,
-ProductId = 12,
-ServiceId = 1,
-AmoutEmployee = 117,
-StartDate = DateTime.Now.AddDays(-188),
-EndDate = DateTime.Now.AddDays(-176),
-Cost = 18954000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-337),
-UpdatedAt
- = DateTime.Now.AddDays(-337)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 859,
-PaymentId = 337,
-ProductId = 28,
-ServiceId = 2,
-AmoutEmployee = 132,
-StartDate = DateTime.Now.AddDays(-150),
-EndDate = DateTime.Now.AddDays(-136),
-Cost = 63360000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-337),
-UpdatedAt
- = DateTime.Now.AddDays(-337)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 860,
-PaymentId = 338,
-ProductId = 2,
-ServiceId = 3,
-AmoutEmployee = 145,
-StartDate = DateTime.Now.AddDays(-46),
-EndDate = DateTime.Now.AddDays(-40),
-Cost = 31102500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-338),
-UpdatedAt
- = DateTime.Now.AddDays(-338)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 861,
-PaymentId = 338,
-ProductId = 7,
-ServiceId = 2,
-AmoutEmployee = 180,
-StartDate = DateTime.Now.AddDays(-46),
-EndDate = DateTime.Now.AddDays(-40),
-Cost = 5400000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-338),
-UpdatedAt
- = DateTime.Now.AddDays(-338)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 862,
-PaymentId = 339,
-ProductId = 11,
-ServiceId = 2,
-AmoutEmployee = 47,
-StartDate = DateTime.Now.AddDays(-71),
-EndDate = DateTime.Now.AddDays(-65),
-Cost = 12972000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-339),
-UpdatedAt
- = DateTime.Now.AddDays(-339)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 863,
-PaymentId = 339,
-ProductId = 4,
-ServiceId = 2,
-AmoutEmployee = 182,
-StartDate = DateTime.Now.AddDays(-79),
-EndDate = DateTime.Now.AddDays(-67),
-Cost = 45864000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-339),
-UpdatedAt
- = DateTime.Now.AddDays(-339)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 864,
-PaymentId = 339,
-ProductId = 2,
-ServiceId = 1,
-AmoutEmployee = 118,
-StartDate = DateTime.Now.AddDays(-44),
-EndDate = DateTime.Now.AddDays(-36),
-Cost = 18585000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-339),
-UpdatedAt
- = DateTime.Now.AddDays(-339)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 865,
-PaymentId = 340,
-ProductId = 3,
-ServiceId = 1,
-AmoutEmployee = 148,
-StartDate = DateTime.Now.AddDays(-98),
-EndDate = DateTime.Now.AddDays(-83),
-Cost = 17982000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-340),
-UpdatedAt
- = DateTime.Now.AddDays(-340)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 866,
-PaymentId = 340,
-ProductId = 18,
-ServiceId = 3,
-AmoutEmployee = 110,
-StartDate = DateTime.Now.AddDays(-66),
-EndDate = DateTime.Now.AddDays(-58),
-Cost = 29645000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-340),
-UpdatedAt
- = DateTime.Now.AddDays(-340)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 867,
-PaymentId = 341,
-ProductId = 7,
-ServiceId = 2,
-AmoutEmployee = 113,
-StartDate = DateTime.Now.AddDays(-189),
-EndDate = DateTime.Now.AddDays(-188),
-Cost = 18984000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-341),
-UpdatedAt
- = DateTime.Now.AddDays(-341)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 868,
-PaymentId = 341,
-ProductId = 13,
-ServiceId = 2,
-AmoutEmployee = 85,
-StartDate = DateTime.Now.AddDays(-166),
-EndDate = DateTime.Now.AddDays(-163),
-Cost = 55080000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-341),
-UpdatedAt
- = DateTime.Now.AddDays(-341)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 869,
-PaymentId = 341,
-ProductId = 28,
-ServiceId = 2,
-AmoutEmployee = 165,
-StartDate = DateTime.Now.AddDays(-83),
-EndDate = DateTime.Now.AddDays(-75),
-Cost = 11880000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-341),
-UpdatedAt
- = DateTime.Now.AddDays(-341)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 870,
-PaymentId = 342,
-ProductId = 29,
-ServiceId = 3,
-AmoutEmployee = 26,
-StartDate = DateTime.Now.AddDays(-112),
-EndDate = DateTime.Now.AddDays(-100),
-Cost = 13013000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-342),
-UpdatedAt
- = DateTime.Now.AddDays(-342)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 871,
-PaymentId = 342,
-ProductId = 20,
-ServiceId = 2,
-AmoutEmployee = 174,
-StartDate = DateTime.Now.AddDays(-138),
-EndDate = DateTime.Now.AddDays(-132),
-Cost = 85608000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-342),
-UpdatedAt
- = DateTime.Now.AddDays(-342)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 872,
-PaymentId = 342,
-ProductId = 2,
-ServiceId = 3,
-AmoutEmployee = 26,
-StartDate = DateTime.Now.AddDays(-45),
-EndDate = DateTime.Now.AddDays(-37),
-Cost = 3575000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-342),
-UpdatedAt
- = DateTime.Now.AddDays(-342)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 873,
-PaymentId = 343,
-ProductId = 22,
-ServiceId = 2,
-AmoutEmployee = 200,
-StartDate = DateTime.Now.AddDays(-74),
-EndDate = DateTime.Now.AddDays(-73),
-Cost = 75600000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-343),
-UpdatedAt
- = DateTime.Now.AddDays(-343)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 874,
-PaymentId = 343,
-ProductId = 24,
-ServiceId = 1,
-AmoutEmployee = 131,
-StartDate = DateTime.Now.AddDays(-64),
-EndDate = DateTime.Now.AddDays(-58),
-Cost = 9432000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-343),
-UpdatedAt
- = DateTime.Now.AddDays(-343)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 875,
-PaymentId = 344,
-ProductId = 19,
-ServiceId = 1,
-AmoutEmployee = 166,
-StartDate = DateTime.Now.AddDays(-50),
-EndDate = DateTime.Now.AddDays(-36),
-Cost = 1494000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-344),
-UpdatedAt
- = DateTime.Now.AddDays(-344)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 876,
-PaymentId = 344,
-ProductId = 11,
-ServiceId = 1,
-AmoutEmployee = 37,
-StartDate = DateTime.Now.AddDays(-129),
-EndDate = DateTime.Now.AddDays(-120),
-Cost = 18315000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-344),
-UpdatedAt
- = DateTime.Now.AddDays(-344)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 877,
-PaymentId = 344,
-ProductId = 10,
-ServiceId = 3,
-AmoutEmployee = 132,
-StartDate = DateTime.Now.AddDays(-47),
-EndDate = DateTime.Now.AddDays(-33),
-Cost = 15246000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-344),
-UpdatedAt
- = DateTime.Now.AddDays(-344)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 878,
-PaymentId = 345,
-ProductId = 4,
-ServiceId = 3,
-AmoutEmployee = 153,
-StartDate = DateTime.Now.AddDays(-38),
-EndDate = DateTime.Now.AddDays(-31),
-Cost = 20196000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-345),
-UpdatedAt
- = DateTime.Now.AddDays(-345)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 879,
-PaymentId = 345,
-ProductId = 5,
-ServiceId = 3,
-AmoutEmployee = 195,
-StartDate = DateTime.Now.AddDays(-151),
-EndDate = DateTime.Now.AddDays(-146),
-Cost = 47190000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-345),
-UpdatedAt
- = DateTime.Now.AddDays(-345)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 880,
-PaymentId = 346,
-ProductId = 20,
-ServiceId = 2,
-AmoutEmployee = 58,
-StartDate = DateTime.Now.AddDays(-146),
-EndDate = DateTime.Now.AddDays(-145),
-Cost = 35844000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-346),
-UpdatedAt
- = DateTime.Now.AddDays(-346)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 881,
-PaymentId = 346,
-ProductId = 22,
-ServiceId = 3,
-AmoutEmployee = 91,
-StartDate = DateTime.Now.AddDays(-128),
-EndDate = DateTime.Now.AddDays(-118),
-Cost = 12012000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-346),
-UpdatedAt
- = DateTime.Now.AddDays(-346)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 882,
-PaymentId = 346,
-ProductId = 21,
-ServiceId = 3,
-AmoutEmployee = 49,
-StartDate = DateTime.Now.AddDays(-112),
-EndDate = DateTime.Now.AddDays(-106),
-Cost = 28836500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-346),
-UpdatedAt
- = DateTime.Now.AddDays(-346)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 883,
-PaymentId = 347,
-ProductId = 23,
-ServiceId = 3,
-AmoutEmployee = 200,
-StartDate = DateTime.Now.AddDays(-154),
-EndDate = DateTime.Now.AddDays(-147),
-Cost = 132000000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-347),
-UpdatedAt
- = DateTime.Now.AddDays(-347)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 884,
-PaymentId = 347,
-ProductId = 24,
-ServiceId = 2,
-AmoutEmployee = 195,
-StartDate = DateTime.Now.AddDays(-189),
-EndDate = DateTime.Now.AddDays(-184),
-Cost = 112320000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-347),
-UpdatedAt
- = DateTime.Now.AddDays(-347)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 885,
-PaymentId = 348,
-ProductId = 16,
-ServiceId = 3,
-AmoutEmployee = 56,
-StartDate = DateTime.Now.AddDays(-178),
-EndDate = DateTime.Now.AddDays(-177),
-Cost = 36344000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-348),
-UpdatedAt
- = DateTime.Now.AddDays(-348)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 886,
-PaymentId = 348,
-ProductId = 28,
-ServiceId = 2,
-AmoutEmployee = 43,
-StartDate = DateTime.Now.AddDays(-186),
-EndDate = DateTime.Now.AddDays(-173),
-Cost = 23478000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-348),
-UpdatedAt
- = DateTime.Now.AddDays(-348)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 887,
-PaymentId = 348,
-ProductId = 12,
-ServiceId = 1,
-AmoutEmployee = 196,
-StartDate = DateTime.Now.AddDays(-137),
-EndDate = DateTime.Now.AddDays(-126),
-Cost = 14112000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-348),
-UpdatedAt
- = DateTime.Now.AddDays(-348)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 888,
-PaymentId = 349,
-ProductId = 19,
-ServiceId = 1,
-AmoutEmployee = 109,
-StartDate = DateTime.Now.AddDays(-148),
-EndDate = DateTime.Now.AddDays(-136),
-Cost = 2943000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-349),
-UpdatedAt
- = DateTime.Now.AddDays(-349)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 889,
-PaymentId = 349,
-ProductId = 6,
-ServiceId = 3,
-AmoutEmployee = 187,
-StartDate = DateTime.Now.AddDays(-196),
-EndDate = DateTime.Now.AddDays(-195),
-Cost = 140904500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-349),
-UpdatedAt
- = DateTime.Now.AddDays(-349)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 890,
-PaymentId = 350,
-ProductId = 9,
-ServiceId = 2,
-AmoutEmployee = 182,
-StartDate = DateTime.Now.AddDays(-98),
-EndDate = DateTime.Now.AddDays(-92),
-Cost = 99372000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-350),
-UpdatedAt
- = DateTime.Now.AddDays(-350)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 891,
-PaymentId = 350,
-ProductId = 14,
-ServiceId = 2,
-AmoutEmployee = 83,
-StartDate = DateTime.Now.AddDays(-75),
-EndDate = DateTime.Now.AddDays(-60),
-Cost = 18426000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-350),
-UpdatedAt
- = DateTime.Now.AddDays(-350)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 892,
-PaymentId = 350,
-ProductId = 29,
-ServiceId = 1,
-AmoutEmployee = 191,
-StartDate = DateTime.Now.AddDays(-23),
-EndDate = DateTime.Now.AddDays(-22),
-Cost = 1719000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-350),
-UpdatedAt
- = DateTime.Now.AddDays(-350)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 893,
-PaymentId = 351,
-ProductId = 14,
-ServiceId = 3,
-AmoutEmployee = 46,
-StartDate = DateTime.Now.AddDays(-164),
-EndDate = DateTime.Now.AddDays(-161),
-Cost = 39468000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-351),
-UpdatedAt
- = DateTime.Now.AddDays(-351)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 894,
-PaymentId = 351,
-ProductId = 7,
-ServiceId = 3,
-AmoutEmployee = 168,
-StartDate = DateTime.Now.AddDays(-156),
-EndDate = DateTime.Now.AddDays(-142),
-Cost = 105336000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-351),
-UpdatedAt
- = DateTime.Now.AddDays(-351)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 895,
-PaymentId = 352,
-ProductId = 15,
-ServiceId = 1,
-AmoutEmployee = 85,
-StartDate = DateTime.Now.AddDays(-67),
-EndDate = DateTime.Now.AddDays(-65),
-Cost = 16447500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-352),
-UpdatedAt
- = DateTime.Now.AddDays(-352)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 896,
-PaymentId = 352,
-ProductId = 8,
-ServiceId = 2,
-AmoutEmployee = 189,
-StartDate = DateTime.Now.AddDays(-31),
-EndDate = DateTime.Now.AddDays(-22),
-Cost = 22680000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-352),
-UpdatedAt
- = DateTime.Now.AddDays(-352)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 897,
-PaymentId = 352,
-ProductId = 28,
-ServiceId = 2,
-AmoutEmployee = 65,
-StartDate = DateTime.Now.AddDays(-162),
-EndDate = DateTime.Now.AddDays(-158),
-Cost = 40560000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-352),
-UpdatedAt
- = DateTime.Now.AddDays(-352)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 898,
-PaymentId = 353,
-ProductId = 7,
-ServiceId = 1,
-AmoutEmployee = 133,
-StartDate = DateTime.Now.AddDays(-123),
-EndDate = DateTime.Now.AddDays(-119),
-Cost = 55062000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-353),
-UpdatedAt
- = DateTime.Now.AddDays(-353)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 899,
-PaymentId = 353,
-ProductId = 2,
-ServiceId = 3,
-AmoutEmployee = 123,
-StartDate = DateTime.Now.AddDays(-59),
-EndDate = DateTime.Now.AddDays(-55),
-Cost = 35178000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-353),
-UpdatedAt
- = DateTime.Now.AddDays(-353)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 900,
-PaymentId = 353,
-ProductId = 17,
-ServiceId = 1,
-AmoutEmployee = 25,
-StartDate = DateTime.Now.AddDays(-40),
-EndDate = DateTime.Now.AddDays(-37),
-Cost = 1237500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-353),
-UpdatedAt
- = DateTime.Now.AddDays(-353)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 901,
-PaymentId = 354,
-ProductId = 19,
-ServiceId = 1,
-AmoutEmployee = 179,
-StartDate = DateTime.Now.AddDays(-41),
-EndDate = DateTime.Now.AddDays(-39),
-Cost = 9666000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-354),
-UpdatedAt
- = DateTime.Now.AddDays(-354)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 902,
-PaymentId = 354,
-ProductId = 15,
-ServiceId = 3,
-AmoutEmployee = 51,
-StartDate = DateTime.Now.AddDays(-11),
-EndDate = DateTime.Now.AddDays(4),
-Cost = 280500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-354),
-UpdatedAt
- = DateTime.Now.AddDays(-354)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 903,
-PaymentId = 355,
-ProductId = 28,
-ServiceId = 1,
-AmoutEmployee = 56,
-StartDate = DateTime.Now.AddDays(-37),
-EndDate = DateTime.Now.AddDays(-27),
-Cost = 1008000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-355),
-UpdatedAt
- = DateTime.Now.AddDays(-355)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 904,
-PaymentId = 355,
-ProductId = 29,
-ServiceId = 1,
-AmoutEmployee = 39,
-StartDate = DateTime.Now.AddDays(-49),
-EndDate = DateTime.Now.AddDays(-43),
-Cost = 2457000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-355),
-UpdatedAt
- = DateTime.Now.AddDays(-355)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 905,
-PaymentId = 355,
-ProductId = 13,
-ServiceId = 2,
-AmoutEmployee = 166,
-StartDate = DateTime.Now.AddDays(-148),
-EndDate = DateTime.Now.AddDays(-141),
-Cost = 131472000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-355),
-UpdatedAt
- = DateTime.Now.AddDays(-355)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 906,
-PaymentId = 356,
-ProductId = 16,
-ServiceId = 1,
-AmoutEmployee = 158,
-StartDate = DateTime.Now.AddDays(-56),
-EndDate = DateTime.Now.AddDays(-44),
-Cost = 22752000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-356),
-UpdatedAt
- = DateTime.Now.AddDays(-356)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 907,
-PaymentId = 356,
-ProductId = 17,
-ServiceId = 2,
-AmoutEmployee = 105,
-StartDate = DateTime.Now.AddDays(-169),
-EndDate = DateTime.Now.AddDays(-162),
-Cost = 37800000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-356),
-UpdatedAt
- = DateTime.Now.AddDays(-356)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 908,
-PaymentId = 357,
-ProductId = 3,
-ServiceId = 1,
-AmoutEmployee = 182,
-StartDate = DateTime.Now.AddDays(-184),
-EndDate = DateTime.Now.AddDays(-169),
-Cost = 58968000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-357),
-UpdatedAt
- = DateTime.Now.AddDays(-357)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 909,
-PaymentId = 357,
-ProductId = 6,
-ServiceId = 1,
-AmoutEmployee = 200,
-StartDate = DateTime.Now.AddDays(-191),
-EndDate = DateTime.Now.AddDays(-189),
-Cost = 5400000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-357),
-UpdatedAt
- = DateTime.Now.AddDays(-357)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 910,
-PaymentId = 357,
-ProductId = 6,
-ServiceId = 1,
-AmoutEmployee = 150,
-StartDate = DateTime.Now.AddDays(-32),
-EndDate = DateTime.Now.AddDays(-30),
-Cost = 8100000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-357),
-UpdatedAt
- = DateTime.Now.AddDays(-357)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 911,
-PaymentId = 358,
-ProductId = 5,
-ServiceId = 1,
-AmoutEmployee = 178,
-StartDate = DateTime.Now.AddDays(-41),
-EndDate = DateTime.Now.AddDays(-40),
-Cost = 21627000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-358),
-UpdatedAt
- = DateTime.Now.AddDays(-358)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 912,
-PaymentId = 358,
-ProductId = 26,
-ServiceId = 3,
-AmoutEmployee = 103,
-StartDate = DateTime.Now.AddDays(-92),
-EndDate = DateTime.Now.AddDays(-91),
-Cost = 45886500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-358),
-UpdatedAt
- = DateTime.Now.AddDays(-358)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 913,
-PaymentId = 359,
-ProductId = 5,
-ServiceId = 1,
-AmoutEmployee = 86,
-StartDate = DateTime.Now.AddDays(-137),
-EndDate = DateTime.Now.AddDays(-128),
-Cost = 41796000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-359),
-UpdatedAt
- = DateTime.Now.AddDays(-359)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 914,
-PaymentId = 359,
-ProductId = 4,
-ServiceId = 1,
-AmoutEmployee = 197,
-StartDate = DateTime.Now.AddDays(-12),
-EndDate = DateTime.Now.AddDays(-7),
-Cost = 6205500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-359),
-UpdatedAt
- = DateTime.Now.AddDays(-359)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 915,
-PaymentId = 359,
-ProductId = 16,
-ServiceId = 1,
-AmoutEmployee = 186,
-StartDate = DateTime.Now.AddDays(-31),
-EndDate = DateTime.Now.AddDays(-18),
-Cost = 15903000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-359),
-UpdatedAt
- = DateTime.Now.AddDays(-359)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 916,
-PaymentId = 360,
-ProductId = 12,
-ServiceId = 3,
-AmoutEmployee = 57,
-StartDate = DateTime.Now.AddDays(-168),
-EndDate = DateTime.Now.AddDays(-159),
-Cost = 25707000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-360),
-UpdatedAt
- = DateTime.Now.AddDays(-360)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 917,
-PaymentId = 360,
-ProductId = 20,
-ServiceId = 3,
-AmoutEmployee = 169,
-StartDate = DateTime.Now.AddDays(-135),
-EndDate = DateTime.Now.AddDays(-131),
-Cost = 119905500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-360),
-UpdatedAt
- = DateTime.Now.AddDays(-360)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 918,
-PaymentId = 361,
-ProductId = 8,
-ServiceId = 3,
-AmoutEmployee = 156,
-StartDate = DateTime.Now.AddDays(-118),
-EndDate = DateTime.Now.AddDays(-110),
-Cost = 42900000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-361),
-UpdatedAt
- = DateTime.Now.AddDays(-361)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 919,
-PaymentId = 361,
-ProductId = 11,
-ServiceId = 3,
-AmoutEmployee = 166,
-StartDate = DateTime.Now.AddDays(-8),
-EndDate = DateTime.Now.AddDays(-6),
-Cost = 913000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-361),
-UpdatedAt
- = DateTime.Now.AddDays(-361)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 920,
-PaymentId = 361,
-ProductId = 27,
-ServiceId = 1,
-AmoutEmployee = 103,
-StartDate = DateTime.Now.AddDays(-145),
-EndDate = DateTime.Now.AddDays(-137),
-Cost = 63036000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-361),
-UpdatedAt
- = DateTime.Now.AddDays(-361)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 921,
-PaymentId = 362,
-ProductId = 4,
-ServiceId = 2,
-AmoutEmployee = 135,
-StartDate = DateTime.Now.AddDays(-181),
-EndDate = DateTime.Now.AddDays(-166),
-Cost = 25110000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-362),
-UpdatedAt
- = DateTime.Now.AddDays(-362)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 922,
-PaymentId = 362,
-ProductId = 22,
-ServiceId = 2,
-AmoutEmployee = 144,
-StartDate = DateTime.Now.AddDays(-131),
-EndDate = DateTime.Now.AddDays(-125),
-Cost = 76032000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-362),
-UpdatedAt
- = DateTime.Now.AddDays(-362)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 923,
-PaymentId = 363,
-ProductId = 20,
-ServiceId = 1,
-AmoutEmployee = 111,
-StartDate = DateTime.Now.AddDays(-53),
-EndDate = DateTime.Now.AddDays(-38),
-Cost = 499500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-363),
-UpdatedAt
- = DateTime.Now.AddDays(-363)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 924,
-PaymentId = 363,
-ProductId = 11,
-ServiceId = 3,
-AmoutEmployee = 194,
-StartDate = DateTime.Now.AddDays(-89),
-EndDate = DateTime.Now.AddDays(-76),
-Cost = 76824000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-363),
-UpdatedAt
- = DateTime.Now.AddDays(-363)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 925,
-PaymentId = 363,
-ProductId = 9,
-ServiceId = 2,
-AmoutEmployee = 163,
-StartDate = DateTime.Now.AddDays(-77),
-EndDate = DateTime.Now.AddDays(-70),
-Cost = 5868000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-363),
-UpdatedAt
- = DateTime.Now.AddDays(-363)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 926,
-PaymentId = 364,
-ProductId = 20,
-ServiceId = 3,
-AmoutEmployee = 84,
-StartDate = DateTime.Now.AddDays(-59),
-EndDate = DateTime.Now.AddDays(-58),
-Cost = 24486000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-364),
-UpdatedAt
- = DateTime.Now.AddDays(-364)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 927,
-PaymentId = 364,
-ProductId = 28,
-ServiceId = 2,
-AmoutEmployee = 171,
-StartDate = DateTime.Now.AddDays(-11),
-EndDate = DateTime.Now.AddDays(0),
-Cost = 1026000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-364),
-UpdatedAt
- = DateTime.Now.AddDays(-364)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 928,
-PaymentId = 364,
-ProductId = 24,
-ServiceId = 2,
-AmoutEmployee = 120,
-StartDate = DateTime.Now.AddDays(-16),
-EndDate = DateTime.Now.AddDays(-12),
-Cost = 3600000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-364),
-UpdatedAt
- = DateTime.Now.AddDays(-364)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 929,
-PaymentId = 365,
-ProductId = 2,
-ServiceId = 1,
-AmoutEmployee = 166,
-StartDate = DateTime.Now.AddDays(-122),
-EndDate = DateTime.Now.AddDays(-117),
-Cost = 37350000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-365),
-UpdatedAt
- = DateTime.Now.AddDays(-365)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 930,
-PaymentId = 365,
-ProductId = 26,
-ServiceId = 3,
-AmoutEmployee = 86,
-StartDate = DateTime.Now.AddDays(-126),
-EndDate = DateTime.Now.AddDays(-124),
-Cost = 26015000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-365),
-UpdatedAt
- = DateTime.Now.AddDays(-365)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 931,
-PaymentId = 366,
-ProductId = 10,
-ServiceId = 1,
-AmoutEmployee = 147,
-StartDate = DateTime.Now.AddDays(-170),
-EndDate = DateTime.Now.AddDays(-169),
-Cost = 36382500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-366),
-UpdatedAt
- = DateTime.Now.AddDays(-366)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 932,
-PaymentId = 366,
-ProductId = 9,
-ServiceId = 1,
-AmoutEmployee = 147,
-StartDate = DateTime.Now.AddDays(-164),
-EndDate = DateTime.Now.AddDays(-161),
-Cost = 53581500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-366),
-UpdatedAt
- = DateTime.Now.AddDays(-366)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 933,
-PaymentId = 366,
-ProductId = 2,
-ServiceId = 3,
-AmoutEmployee = 176,
-StartDate = DateTime.Now.AddDays(-87),
-EndDate = DateTime.Now.AddDays(-74),
-Cost = 50336000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-366),
-UpdatedAt
- = DateTime.Now.AddDays(-366)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 934,
-PaymentId = 367,
-ProductId = 9,
-ServiceId = 1,
-AmoutEmployee = 136,
-StartDate = DateTime.Now.AddDays(-26),
-EndDate = DateTime.Now.AddDays(-25),
-Cost = 10404000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-367),
-UpdatedAt
- = DateTime.Now.AddDays(-367)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 935,
-PaymentId = 367,
-ProductId = 6,
-ServiceId = 3,
-AmoutEmployee = 67,
-StartDate = DateTime.Now.AddDays(-169),
-EndDate = DateTime.Now.AddDays(-158),
-Cost = 16214000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-367),
-UpdatedAt
- = DateTime.Now.AddDays(-367)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 936,
-PaymentId = 368,
-ProductId = 19,
-ServiceId = 1,
-AmoutEmployee = 154,
-StartDate = DateTime.Now.AddDays(-172),
-EndDate = DateTime.Now.AddDays(-161),
-Cost = 96327000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-368),
-UpdatedAt
- = DateTime.Now.AddDays(-368)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 937,
-PaymentId = 368,
-ProductId = 28,
-ServiceId = 3,
-AmoutEmployee = 105,
-StartDate = DateTime.Now.AddDays(-99),
-EndDate = DateTime.Now.AddDays(-97),
-Cost = 24255000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-368),
-UpdatedAt
- = DateTime.Now.AddDays(-368)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 938,
-PaymentId = 368,
-ProductId = 24,
-ServiceId = 2,
-AmoutEmployee = 133,
-StartDate = DateTime.Now.AddDays(-54),
-EndDate = DateTime.Now.AddDays(-46),
-Cost = 28728000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-368),
-UpdatedAt
- = DateTime.Now.AddDays(-368)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 939,
-PaymentId = 369,
-ProductId = 19,
-ServiceId = 1,
-AmoutEmployee = 102,
-StartDate = DateTime.Now.AddDays(-58),
-EndDate = DateTime.Now.AddDays(-47),
-Cost = 22950000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-369),
-UpdatedAt
- = DateTime.Now.AddDays(-369)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 940,
-PaymentId = 369,
-ProductId = 17,
-ServiceId = 3,
-AmoutEmployee = 194,
-StartDate = DateTime.Now.AddDays(-74),
-EndDate = DateTime.Now.AddDays(-73),
-Cost = 40546000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-369),
-UpdatedAt
- = DateTime.Now.AddDays(-369)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 941,
-PaymentId = 370,
-ProductId = 21,
-ServiceId = 2,
-AmoutEmployee = 184,
-StartDate = DateTime.Now.AddDays(-117),
-EndDate = DateTime.Now.AddDays(-107),
-Cost = 85008000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-370),
-UpdatedAt
- = DateTime.Now.AddDays(-370)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 942,
-PaymentId = 370,
-ProductId = 22,
-ServiceId = 1,
-AmoutEmployee = 151,
-StartDate = DateTime.Now.AddDays(-8),
-EndDate = DateTime.Now.AddDays(1),
-Cost = 1359000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-370),
-UpdatedAt
- = DateTime.Now.AddDays(-370)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 943,
-PaymentId = 370,
-ProductId = 9,
-ServiceId = 3,
-AmoutEmployee = 87,
-StartDate = DateTime.Now.AddDays(-143),
-EndDate = DateTime.Now.AddDays(-140),
-Cost = 60291000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-370),
-UpdatedAt
- = DateTime.Now.AddDays(-370)
-,
-});
+            //____________________PaymentDetail______________________
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 1,
+                PaymentId = 1,
+                ProductId = 29,
+                ServiceId = 1,
+                AmoutEmployee = 160,
+                StartDate = DateTime.Now.AddDays(-19),
+                EndDate = DateTime.Now.AddDays(-18),
+                Cost = 4320000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-1),
+                UpdatedAt
+             = DateTime.Now.AddDays(-1)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 2,
+                PaymentId = 1,
+                ProductId = 27,
+                ServiceId = 2,
+                AmoutEmployee = 118,
+                StartDate = DateTime.Now.AddDays(-100),
+                EndDate = DateTime.Now.AddDays(-94),
+                Cost = 30444000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-1),
+                UpdatedAt
+             = DateTime.Now.AddDays(-1)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 3,
+                PaymentId = 1,
+                ProductId = 20,
+                ServiceId = 3,
+                AmoutEmployee = 33,
+                StartDate = DateTime.Now.AddDays(-109),
+                EndDate = DateTime.Now.AddDays(-94),
+                Cost = 13612500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-1),
+                UpdatedAt
+             = DateTime.Now.AddDays(-1)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 4,
+                PaymentId = 2,
+                ProductId = 19,
+                ServiceId = 3,
+                AmoutEmployee = 87,
+                StartDate = DateTime.Now.AddDays(-130),
+                EndDate = DateTime.Now.AddDays(-120),
+                Cost = 3349500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-2),
+                UpdatedAt
+             = DateTime.Now.AddDays(-2)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 5,
+                PaymentId = 2,
+                ProductId = 15,
+                ServiceId = 3,
+                AmoutEmployee = 152,
+                StartDate = DateTime.Now.AddDays(-74),
+                EndDate = DateTime.Now.AddDays(-73),
+                Cost = 56012000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-2),
+                UpdatedAt
+             = DateTime.Now.AddDays(-2)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 6,
+                PaymentId = 2,
+                ProductId = 7,
+                ServiceId = 3,
+                AmoutEmployee = 70,
+                StartDate = DateTime.Now.AddDays(-117),
+                EndDate = DateTime.Now.AddDays(-111),
+                Cost = 25795000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-2),
+                UpdatedAt
+             = DateTime.Now.AddDays(-2)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 7,
+                PaymentId = 3,
+                ProductId = 24,
+                ServiceId = 2,
+                AmoutEmployee = 26,
+                StartDate = DateTime.Now.AddDays(-8),
+                EndDate = DateTime.Now.AddDays(-4),
+                Cost = 312000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-3),
+                UpdatedAt
+             = DateTime.Now.AddDays(-3)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 8,
+                PaymentId = 3,
+                ProductId = 5,
+                ServiceId = 3,
+                AmoutEmployee = 167,
+                StartDate = DateTime.Now.AddDays(-200),
+                EndDate = DateTime.Now.AddDays(-196),
+                Cost = 66132000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-3),
+                UpdatedAt
+             = DateTime.Now.AddDays(-3)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 9,
+                PaymentId = 3,
+                ProductId = 18,
+                ServiceId = 3,
+                AmoutEmployee = 195,
+                StartDate = DateTime.Now.AddDays(-193),
+                EndDate = DateTime.Now.AddDays(-180),
+                Cost = 8580000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-3),
+                UpdatedAt
+             = DateTime.Now.AddDays(-3)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 10,
+                PaymentId = 4,
+                ProductId = 1,
+                ServiceId = 3,
+                AmoutEmployee = 54,
+                StartDate = DateTime.Now.AddDays(-55),
+                EndDate = DateTime.Now.AddDays(-51),
+                Cost = 5643000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-4),
+                UpdatedAt
+             = DateTime.Now.AddDays(-4)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 11,
+                PaymentId = 4,
+                ProductId = 30,
+                ServiceId = 1,
+                AmoutEmployee = 46,
+                StartDate = DateTime.Now.AddDays(-90),
+                EndDate = DateTime.Now.AddDays(-87),
+                Cost = 11799000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-4),
+                UpdatedAt
+             = DateTime.Now.AddDays(-4)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 12,
+                PaymentId = 5,
+                ProductId = 2,
+                ServiceId = 3,
+                AmoutEmployee = 99,
+                StartDate = DateTime.Now.AddDays(-162),
+                EndDate = DateTime.Now.AddDays(-149),
+                Cost = 81675000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-5),
+                UpdatedAt
+             = DateTime.Now.AddDays(-5)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 13,
+                PaymentId = 5,
+                ProductId = 16,
+                ServiceId = 1,
+                AmoutEmployee = 145,
+                StartDate = DateTime.Now.AddDays(-159),
+                EndDate = DateTime.Now.AddDays(-151),
+                Cost = 15007500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-5),
+                UpdatedAt
+             = DateTime.Now.AddDays(-5)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 14,
+                PaymentId = 5,
+                ProductId = 9,
+                ServiceId = 3,
+                AmoutEmployee = 71,
+                StartDate = DateTime.Now.AddDays(-103),
+                EndDate = DateTime.Now.AddDays(-97),
+                Cost = 19915500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-5),
+                UpdatedAt
+             = DateTime.Now.AddDays(-5)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 15,
+                PaymentId = 6,
+                ProductId = 3,
+                ServiceId = 1,
+                AmoutEmployee = 129,
+                StartDate = DateTime.Now.AddDays(-163),
+                EndDate = DateTime.Now.AddDays(-148),
+                Cost = 49923000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-6),
+                UpdatedAt
+             = DateTime.Now.AddDays(-6)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 16,
+                PaymentId = 6,
+                ProductId = 10,
+                ServiceId = 3,
+                AmoutEmployee = 48,
+                StartDate = DateTime.Now.AddDays(-170),
+                EndDate = DateTime.Now.AddDays(-165),
+                Cost = 18744000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-6),
+                UpdatedAt
+             = DateTime.Now.AddDays(-6)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 17,
+                PaymentId = 7,
+                ProductId = 20,
+                ServiceId = 1,
+                AmoutEmployee = 26,
+                StartDate = DateTime.Now.AddDays(-170),
+                EndDate = DateTime.Now.AddDays(-158),
+                Cost = 10179000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-7),
+                UpdatedAt
+             = DateTime.Now.AddDays(-7)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 18,
+                PaymentId = 7,
+                ProductId = 21,
+                ServiceId = 2,
+                AmoutEmployee = 71,
+                StartDate = DateTime.Now.AddDays(-40),
+                EndDate = DateTime.Now.AddDays(-33),
+                Cost = 5964000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-7),
+                UpdatedAt
+             = DateTime.Now.AddDays(-7)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 19,
+                PaymentId = 7,
+                ProductId = 29,
+                ServiceId = 3,
+                AmoutEmployee = 144,
+                StartDate = DateTime.Now.AddDays(-102),
+                EndDate = DateTime.Now.AddDays(-93),
+                Cost = 76032000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-7),
+                UpdatedAt
+             = DateTime.Now.AddDays(-7)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 20,
+                PaymentId = 8,
+                ProductId = 1,
+                ServiceId = 2,
+                AmoutEmployee = 77,
+                StartDate = DateTime.Now.AddDays(-200),
+                EndDate = DateTime.Now.AddDays(-193),
+                Cost = 24948000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-8),
+                UpdatedAt
+             = DateTime.Now.AddDays(-8)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 21,
+                PaymentId = 8,
+                ProductId = 29,
+                ServiceId = 1,
+                AmoutEmployee = 27,
+                StartDate = DateTime.Now.AddDays(-193),
+                EndDate = DateTime.Now.AddDays(-179),
+                Cost = 2673000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-8),
+                UpdatedAt
+             = DateTime.Now.AddDays(-8)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 22,
+                PaymentId = 9,
+                ProductId = 5,
+                ServiceId = 1,
+                AmoutEmployee = 151,
+                StartDate = DateTime.Now.AddDays(-34),
+                EndDate = DateTime.Now.AddDays(-20),
+                Cost = 6115500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-9),
+                UpdatedAt
+             = DateTime.Now.AddDays(-9)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 23,
+                PaymentId = 9,
+                ProductId = 5,
+                ServiceId = 3,
+                AmoutEmployee = 198,
+                StartDate = DateTime.Now.AddDays(-157),
+                EndDate = DateTime.Now.AddDays(-151),
+                Cost = 144837000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-9),
+                UpdatedAt
+             = DateTime.Now.AddDays(-9)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 24,
+                PaymentId = 9,
+                ProductId = 9,
+                ServiceId = 1,
+                AmoutEmployee = 67,
+                StartDate = DateTime.Now.AddDays(-129),
+                EndDate = DateTime.Now.AddDays(-122),
+                Cost = 5427000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-9),
+                UpdatedAt
+             = DateTime.Now.AddDays(-9)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 25,
+                PaymentId = 10,
+                ProductId = 1,
+                ServiceId = 2,
+                AmoutEmployee = 182,
+                StartDate = DateTime.Now.AddDays(-126),
+                EndDate = DateTime.Now.AddDays(-118),
+                Cost = 113568000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-10),
+                UpdatedAt
+             = DateTime.Now.AddDays(-10)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 26,
+                PaymentId = 10,
+                ProductId = 17,
+                ServiceId = 1,
+                AmoutEmployee = 53,
+                StartDate = DateTime.Now.AddDays(-57),
+                EndDate = DateTime.Now.AddDays(-47),
+                Cost = 2623500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-10),
+                UpdatedAt
+             = DateTime.Now.AddDays(-10)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 27,
+                PaymentId = 11,
+                ProductId = 15,
+                ServiceId = 1,
+                AmoutEmployee = 107,
+                StartDate = DateTime.Now.AddDays(-112),
+                EndDate = DateTime.Now.AddDays(-97),
+                Cost = 51039000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-11),
+                UpdatedAt
+             = DateTime.Now.AddDays(-11)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 28,
+                PaymentId = 11,
+                ProductId = 6,
+                ServiceId = 1,
+                AmoutEmployee = 157,
+                StartDate = DateTime.Now.AddDays(-30),
+                EndDate = DateTime.Now.AddDays(-24),
+                Cost = 1413000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-11),
+                UpdatedAt
+             = DateTime.Now.AddDays(-11)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 29,
+                PaymentId = 11,
+                ProductId = 9,
+                ServiceId = 1,
+                AmoutEmployee = 190,
+                StartDate = DateTime.Now.AddDays(-194),
+                EndDate = DateTime.Now.AddDays(-180),
+                Cost = 155610000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-11),
+                UpdatedAt
+             = DateTime.Now.AddDays(-11)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 30,
+                PaymentId = 12,
+                ProductId = 26,
+                ServiceId = 2,
+                AmoutEmployee = 165,
+                StartDate = DateTime.Now.AddDays(-198),
+                EndDate = DateTime.Now.AddDays(-196),
+                Cost = 141570000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-12),
+                UpdatedAt
+             = DateTime.Now.AddDays(-12)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 31,
+                PaymentId = 12,
+                ProductId = 22,
+                ServiceId = 1,
+                AmoutEmployee = 151,
+                StartDate = DateTime.Now.AddDays(-106),
+                EndDate = DateTime.Now.AddDays(-98),
+                Cost = 47565000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-12),
+                UpdatedAt
+             = DateTime.Now.AddDays(-12)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 32,
+                PaymentId = 12,
+                ProductId = 25,
+                ServiceId = 3,
+                AmoutEmployee = 54,
+                StartDate = DateTime.Now.AddDays(-159),
+                EndDate = DateTime.Now.AddDays(-157),
+                Cost = 34155000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-12),
+                UpdatedAt
+             = DateTime.Now.AddDays(-12)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 33,
+                PaymentId = 13,
+                ProductId = 8,
+                ServiceId = 3,
+                AmoutEmployee = 53,
+                StartDate = DateTime.Now.AddDays(-72),
+                EndDate = DateTime.Now.AddDays(-70),
+                Cost = 5247000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-13),
+                UpdatedAt
+             = DateTime.Now.AddDays(-13)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 34,
+                PaymentId = 13,
+                ProductId = 29,
+                ServiceId = 1,
+                AmoutEmployee = 26,
+                StartDate = DateTime.Now.AddDays(-120),
+                EndDate = DateTime.Now.AddDays(-105),
+                Cost = 12753000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-13),
+                UpdatedAt
+             = DateTime.Now.AddDays(-13)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 35,
+                PaymentId = 14,
+                ProductId = 5,
+                ServiceId = 1,
+                AmoutEmployee = 183,
+                StartDate = DateTime.Now.AddDays(-184),
+                EndDate = DateTime.Now.AddDays(-170),
+                Cost = 88114500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-14),
+                UpdatedAt
+             = DateTime.Now.AddDays(-14)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 36,
+                PaymentId = 14,
+                ProductId = 29,
+                ServiceId = 1,
+                AmoutEmployee = 45,
+                StartDate = DateTime.Now.AddDays(-186),
+                EndDate = DateTime.Now.AddDays(-179),
+                Cost = 14985000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-14),
+                UpdatedAt
+             = DateTime.Now.AddDays(-14)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 37,
+                PaymentId = 14,
+                ProductId = 10,
+                ServiceId = 2,
+                AmoutEmployee = 46,
+                StartDate = DateTime.Now.AddDays(-74),
+                EndDate = DateTime.Now.AddDays(-62),
+                Cost = 11868000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-14),
+                UpdatedAt
+             = DateTime.Now.AddDays(-14)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 38,
+                PaymentId = 15,
+                ProductId = 15,
+                ServiceId = 1,
+                AmoutEmployee = 39,
+                StartDate = DateTime.Now.AddDays(-40),
+                EndDate = DateTime.Now.AddDays(-38),
+                Cost = 3510000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-15),
+                UpdatedAt
+             = DateTime.Now.AddDays(-15)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 39,
+                PaymentId = 15,
+                ProductId = 11,
+                ServiceId = 2,
+                AmoutEmployee = 76,
+                StartDate = DateTime.Now.AddDays(-139),
+                EndDate = DateTime.Now.AddDays(-129),
+                Cost = 25536000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-15),
+                UpdatedAt
+             = DateTime.Now.AddDays(-15)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 40,
+                PaymentId = 16,
+                ProductId = 18,
+                ServiceId = 3,
+                AmoutEmployee = 184,
+                StartDate = DateTime.Now.AddDays(-154),
+                EndDate = DateTime.Now.AddDays(-147),
+                Cost = 19228000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-16),
+                UpdatedAt
+             = DateTime.Now.AddDays(-16)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 41,
+                PaymentId = 16,
+                ProductId = 21,
+                ServiceId = 1,
+                AmoutEmployee = 49,
+                StartDate = DateTime.Now.AddDays(-133),
+                EndDate = DateTime.Now.AddDays(-120),
+                Cost = 3087000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-16),
+                UpdatedAt
+             = DateTime.Now.AddDays(-16)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 42,
+                PaymentId = 16,
+                ProductId = 18,
+                ServiceId = 1,
+                AmoutEmployee = 180,
+                StartDate = DateTime.Now.AddDays(-23),
+                EndDate = DateTime.Now.AddDays(-11),
+                Cost = 4860000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-16),
+                UpdatedAt
+             = DateTime.Now.AddDays(-16)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 43,
+                PaymentId = 17,
+                ProductId = 8,
+                ServiceId = 3,
+                AmoutEmployee = 47,
+                StartDate = DateTime.Now.AddDays(-71),
+                EndDate = DateTime.Now.AddDays(-57),
+                Cost = 8013500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-17),
+                UpdatedAt
+             = DateTime.Now.AddDays(-17)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 44,
+                PaymentId = 17,
+                ProductId = 24,
+                ServiceId = 2,
+                AmoutEmployee = 128,
+                StartDate = DateTime.Now.AddDays(-90),
+                EndDate = DateTime.Now.AddDays(-82),
+                Cost = 768000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-17),
+                UpdatedAt
+             = DateTime.Now.AddDays(-17)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 45,
+                PaymentId = 18,
+                ProductId = 5,
+                ServiceId = 1,
+                AmoutEmployee = 69,
+                StartDate = DateTime.Now.AddDays(-192),
+                EndDate = DateTime.Now.AddDays(-190),
+                Cost = 22045500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-18),
+                UpdatedAt
+             = DateTime.Now.AddDays(-18)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 46,
+                PaymentId = 18,
+                ProductId = 17,
+                ServiceId = 1,
+                AmoutEmployee = 146,
+                StartDate = DateTime.Now.AddDays(-77),
+                EndDate = DateTime.Now.AddDays(-62),
+                Cost = 27594000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-18),
+                UpdatedAt
+             = DateTime.Now.AddDays(-18)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 47,
+                PaymentId = 18,
+                ProductId = 8,
+                ServiceId = 1,
+                AmoutEmployee = 179,
+                StartDate = DateTime.Now.AddDays(-52),
+                EndDate = DateTime.Now.AddDays(-47),
+                Cost = 10471500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-18),
+                UpdatedAt
+             = DateTime.Now.AddDays(-18)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 48,
+                PaymentId = 19,
+                ProductId = 23,
+                ServiceId = 3,
+                AmoutEmployee = 180,
+                StartDate = DateTime.Now.AddDays(-79),
+                EndDate = DateTime.Now.AddDays(-71),
+                Cost = 63360000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-19),
+                UpdatedAt
+             = DateTime.Now.AddDays(-19)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 49,
+                PaymentId = 19,
+                ProductId = 17,
+                ServiceId = 1,
+                AmoutEmployee = 55,
+                StartDate = DateTime.Now.AddDays(-142),
+                EndDate = DateTime.Now.AddDays(-132),
+                Cost = 29947500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-19),
+                UpdatedAt
+             = DateTime.Now.AddDays(-19)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 50,
+                PaymentId = 20,
+                ProductId = 1,
+                ServiceId = 1,
+                AmoutEmployee = 54,
+                StartDate = DateTime.Now.AddDays(-46),
+                EndDate = DateTime.Now.AddDays(-37),
+                Cost = 3888000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-20),
+                UpdatedAt
+             = DateTime.Now.AddDays(-20)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 51,
+                PaymentId = 20,
+                ProductId = 28,
+                ServiceId = 1,
+                AmoutEmployee = 192,
+                StartDate = DateTime.Now.AddDays(-198),
+                EndDate = DateTime.Now.AddDays(-193),
+                Cost = 120960000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-20),
+                UpdatedAt
+             = DateTime.Now.AddDays(-20)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 52,
+                PaymentId = 20,
+                ProductId = 28,
+                ServiceId = 1,
+                AmoutEmployee = 165,
+                StartDate = DateTime.Now.AddDays(-154),
+                EndDate = DateTime.Now.AddDays(-140),
+                Cost = 103950000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-20),
+                UpdatedAt
+             = DateTime.Now.AddDays(-20)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 53,
+                PaymentId = 21,
+                ProductId = 18,
+                ServiceId = 1,
+                AmoutEmployee = 123,
+                StartDate = DateTime.Now.AddDays(-126),
+                EndDate = DateTime.Now.AddDays(-111),
+                Cost = 13284000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-21),
+                UpdatedAt
+             = DateTime.Now.AddDays(-21)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 54,
+                PaymentId = 21,
+                ProductId = 23,
+                ServiceId = 1,
+                AmoutEmployee = 84,
+                StartDate = DateTime.Now.AddDays(-160),
+                EndDate = DateTime.Now.AddDays(-152),
+                Cost = 40068000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-21),
+                UpdatedAt
+             = DateTime.Now.AddDays(-21)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 55,
+                PaymentId = 22,
+                ProductId = 24,
+                ServiceId = 3,
+                AmoutEmployee = 191,
+                StartDate = DateTime.Now.AddDays(-193),
+                EndDate = DateTime.Now.AddDays(-183),
+                Cost = 48323000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-22),
+                UpdatedAt
+             = DateTime.Now.AddDays(-22)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 56,
+                PaymentId = 22,
+                ProductId = 29,
+                ServiceId = 2,
+                AmoutEmployee = 65,
+                StartDate = DateTime.Now.AddDays(-163),
+                EndDate = DateTime.Now.AddDays(-159),
+                Cost = 44850000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-22),
+                UpdatedAt
+             = DateTime.Now.AddDays(-22)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 57,
+                PaymentId = 22,
+                ProductId = 4,
+                ServiceId = 1,
+                AmoutEmployee = 113,
+                StartDate = DateTime.Now.AddDays(-22),
+                EndDate = DateTime.Now.AddDays(-17),
+                Cost = 2542500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-22),
+                UpdatedAt
+             = DateTime.Now.AddDays(-22)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 58,
+                PaymentId = 23,
+                ProductId = 9,
+                ServiceId = 3,
+                AmoutEmployee = 159,
+                StartDate = DateTime.Now.AddDays(-176),
+                EndDate = DateTime.Now.AddDays(-162),
+                Cost = 25360500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-23),
+                UpdatedAt
+             = DateTime.Now.AddDays(-23)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 59,
+                PaymentId = 23,
+                ProductId = 17,
+                ServiceId = 3,
+                AmoutEmployee = 126,
+                StartDate = DateTime.Now.AddDays(-68),
+                EndDate = DateTime.Now.AddDays(-57),
+                Cost = 30492000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-23),
+                UpdatedAt
+             = DateTime.Now.AddDays(-23)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 60,
+                PaymentId = 23,
+                ProductId = 28,
+                ServiceId = 1,
+                AmoutEmployee = 197,
+                StartDate = DateTime.Now.AddDays(-10),
+                EndDate = DateTime.Now.AddDays(0),
+                Cost = 2659500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-23),
+                UpdatedAt
+             = DateTime.Now.AddDays(-23)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 61,
+                PaymentId = 24,
+                ProductId = 21,
+                ServiceId = 2,
+                AmoutEmployee = 116,
+                StartDate = DateTime.Now.AddDays(-193),
+                EndDate = DateTime.Now.AddDays(-186),
+                Cost = 128064000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-24),
+                UpdatedAt
+             = DateTime.Now.AddDays(-24)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 62,
+                PaymentId = 24,
+                ProductId = 30,
+                ServiceId = 2,
+                AmoutEmployee = 80,
+                StartDate = DateTime.Now.AddDays(-167),
+                EndDate = DateTime.Now.AddDays(-165),
+                Cost = 36960000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-24),
+                UpdatedAt
+             = DateTime.Now.AddDays(-24)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 63,
+                PaymentId = 25,
+                ProductId = 27,
+                ServiceId = 2,
+                AmoutEmployee = 94,
+                StartDate = DateTime.Now.AddDays(-13),
+                EndDate = DateTime.Now.AddDays(2),
+                Cost = 1692000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-25),
+                UpdatedAt
+             = DateTime.Now.AddDays(-25)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 64,
+                PaymentId = 25,
+                ProductId = 18,
+                ServiceId = 2,
+                AmoutEmployee = 142,
+                StartDate = DateTime.Now.AddDays(-179),
+                EndDate = DateTime.Now.AddDays(-176),
+                Cost = 145692000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-25),
+                UpdatedAt
+             = DateTime.Now.AddDays(-25)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 65,
+                PaymentId = 25,
+                ProductId = 10,
+                ServiceId = 3,
+                AmoutEmployee = 129,
+                StartDate = DateTime.Now.AddDays(-68),
+                EndDate = DateTime.Now.AddDays(-62),
+                Cost = 16318500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-25),
+                UpdatedAt
+             = DateTime.Now.AddDays(-25)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 66,
+                PaymentId = 26,
+                ProductId = 19,
+                ServiceId = 3,
+                AmoutEmployee = 149,
+                StartDate = DateTime.Now.AddDays(-69),
+                EndDate = DateTime.Now.AddDays(-62),
+                Cost = 31141000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-26),
+                UpdatedAt
+             = DateTime.Now.AddDays(-26)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 67,
+                PaymentId = 26,
+                ProductId = 27,
+                ServiceId = 2,
+                AmoutEmployee = 79,
+                StartDate = DateTime.Now.AddDays(-164),
+                EndDate = DateTime.Now.AddDays(-157),
+                Cost = 57828000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-26),
+                UpdatedAt
+             = DateTime.Now.AddDays(-26)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 68,
+                PaymentId = 27,
+                ProductId = 6,
+                ServiceId = 3,
+                AmoutEmployee = 55,
+                StartDate = DateTime.Now.AddDays(-105),
+                EndDate = DateTime.Now.AddDays(-91),
+                Cost = 20872500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-27),
+                UpdatedAt
+             = DateTime.Now.AddDays(-27)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 69,
+                PaymentId = 27,
+                ProductId = 4,
+                ServiceId = 2,
+                AmoutEmployee = 54,
+                StartDate = DateTime.Now.AddDays(-43),
+                EndDate = DateTime.Now.AddDays(-36),
+                Cost = 324000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-27),
+                UpdatedAt
+             = DateTime.Now.AddDays(-27)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 70,
+                PaymentId = 27,
+                ProductId = 13,
+                ServiceId = 3,
+                AmoutEmployee = 154,
+                StartDate = DateTime.Now.AddDays(-126),
+                EndDate = DateTime.Now.AddDays(-121),
+                Cost = 94017000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-27),
+                UpdatedAt
+             = DateTime.Now.AddDays(-27)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 71,
+                PaymentId = 28,
+                ProductId = 5,
+                ServiceId = 3,
+                AmoutEmployee = 197,
+                StartDate = DateTime.Now.AddDays(-163),
+                EndDate = DateTime.Now.AddDays(-159),
+                Cost = 167942500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-28),
+                UpdatedAt
+             = DateTime.Now.AddDays(-28)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 72,
+                PaymentId = 28,
+                ProductId = 15,
+                ServiceId = 3,
+                AmoutEmployee = 70,
+                StartDate = DateTime.Now.AddDays(-10),
+                EndDate = DateTime.Now.AddDays(-9),
+                Cost = 385000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-28),
+                UpdatedAt
+             = DateTime.Now.AddDays(-28)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 73,
+                PaymentId = 29,
+                ProductId = 17,
+                ServiceId = 1,
+                AmoutEmployee = 66,
+                StartDate = DateTime.Now.AddDays(-77),
+                EndDate = DateTime.Now.AddDays(-71),
+                Cost = 7128000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-29),
+                UpdatedAt
+             = DateTime.Now.AddDays(-29)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 74,
+                PaymentId = 29,
+                ProductId = 5,
+                ServiceId = 2,
+                AmoutEmployee = 54,
+                StartDate = DateTime.Now.AddDays(-46),
+                EndDate = DateTime.Now.AddDays(-31),
+                Cost = 10692000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-29),
+                UpdatedAt
+             = DateTime.Now.AddDays(-29)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 75,
+                PaymentId = 29,
+                ProductId = 25,
+                ServiceId = 3,
+                AmoutEmployee = 160,
+                StartDate = DateTime.Now.AddDays(-116),
+                EndDate = DateTime.Now.AddDays(-102),
+                Cost = 53680000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-29),
+                UpdatedAt
+             = DateTime.Now.AddDays(-29)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 76,
+                PaymentId = 30,
+                ProductId = 21,
+                ServiceId = 2,
+                AmoutEmployee = 68,
+                StartDate = DateTime.Now.AddDays(-10),
+                EndDate = DateTime.Now.AddDays(-1),
+                Cost = 1632000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-30),
+                UpdatedAt
+             = DateTime.Now.AddDays(-30)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 77,
+                PaymentId = 30,
+                ProductId = 7,
+                ServiceId = 3,
+                AmoutEmployee = 200,
+                StartDate = DateTime.Now.AddDays(-181),
+                EndDate = DateTime.Now.AddDays(-179),
+                Cost = 51700000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-30),
+                UpdatedAt
+             = DateTime.Now.AddDays(-30)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 78,
+                PaymentId = 31,
+                ProductId = 25,
+                ServiceId = 3,
+                AmoutEmployee = 129,
+                StartDate = DateTime.Now.AddDays(-71),
+                EndDate = DateTime.Now.AddDays(-59),
+                Cost = 34765500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-31),
+                UpdatedAt
+             = DateTime.Now.AddDays(-31)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 79,
+                PaymentId = 31,
+                ProductId = 17,
+                ServiceId = 1,
+                AmoutEmployee = 61,
+                StartDate = DateTime.Now.AddDays(-135),
+                EndDate = DateTime.Now.AddDays(-133),
+                Cost = 2470500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-31),
+                UpdatedAt
+             = DateTime.Now.AddDays(-31)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 80,
+                PaymentId = 31,
+                ProductId = 19,
+                ServiceId = 3,
+                AmoutEmployee = 61,
+                StartDate = DateTime.Now.AddDays(-66),
+                EndDate = DateTime.Now.AddDays(-65),
+                Cost = 3019500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-31),
+                UpdatedAt
+             = DateTime.Now.AddDays(-31)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 81,
+                PaymentId = 32,
+                ProductId = 30,
+                ServiceId = 2,
+                AmoutEmployee = 140,
+                StartDate = DateTime.Now.AddDays(-124),
+                EndDate = DateTime.Now.AddDays(-116),
+                Cost = 52920000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-32),
+                UpdatedAt
+             = DateTime.Now.AddDays(-32)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 82,
+                PaymentId = 32,
+                ProductId = 20,
+                ServiceId = 2,
+                AmoutEmployee = 25,
+                StartDate = DateTime.Now.AddDays(-117),
+                EndDate = DateTime.Now.AddDays(-107),
+                Cost = 5100000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-32),
+                UpdatedAt
+             = DateTime.Now.AddDays(-32)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 83,
+                PaymentId = 33,
+                ProductId = 13,
+                ServiceId = 2,
+                AmoutEmployee = 71,
+                StartDate = DateTime.Now.AddDays(-183),
+                EndDate = DateTime.Now.AddDays(-176),
+                Cost = 57936000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-33),
+                UpdatedAt
+             = DateTime.Now.AddDays(-33)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 84,
+                PaymentId = 33,
+                ProductId = 23,
+                ServiceId = 3,
+                AmoutEmployee = 155,
+                StartDate = DateTime.Now.AddDays(-102),
+                EndDate = DateTime.Now.AddDays(-98),
+                Cost = 28132500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-33),
+                UpdatedAt
+             = DateTime.Now.AddDays(-33)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 85,
+                PaymentId = 33,
+                ProductId = 11,
+                ServiceId = 2,
+                AmoutEmployee = 70,
+                StartDate = DateTime.Now.AddDays(-183),
+                EndDate = DateTime.Now.AddDays(-173),
+                Cost = 71820000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-33),
+                UpdatedAt
+             = DateTime.Now.AddDays(-33)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 86,
+                PaymentId = 34,
+                ProductId = 8,
+                ServiceId = 3,
+                AmoutEmployee = 105,
+                StartDate = DateTime.Now.AddDays(-106),
+                EndDate = DateTime.Now.AddDays(-99),
+                Cost = 58327500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-34),
+                UpdatedAt
+             = DateTime.Now.AddDays(-34)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 87,
+                PaymentId = 34,
+                ProductId = 16,
+                ServiceId = 1,
+                AmoutEmployee = 197,
+                StartDate = DateTime.Now.AddDays(-31),
+                EndDate = DateTime.Now.AddDays(-19),
+                Cost = 7978500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-34),
+                UpdatedAt
+             = DateTime.Now.AddDays(-34)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 88,
+                PaymentId = 34,
+                ProductId = 11,
+                ServiceId = 3,
+                AmoutEmployee = 114,
+                StartDate = DateTime.Now.AddDays(-96),
+                EndDate = DateTime.Now.AddDays(-91),
+                Cost = 33231000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-34),
+                UpdatedAt
+             = DateTime.Now.AddDays(-34)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 89,
+                PaymentId = 35,
+                ProductId = 22,
+                ServiceId = 1,
+                AmoutEmployee = 96,
+                StartDate = DateTime.Now.AddDays(-178),
+                EndDate = DateTime.Now.AddDays(-175),
+                Cost = 32832000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-35),
+                UpdatedAt
+             = DateTime.Now.AddDays(-35)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 90,
+                PaymentId = 35,
+                ProductId = 5,
+                ServiceId = 3,
+                AmoutEmployee = 88,
+                StartDate = DateTime.Now.AddDays(-45),
+                EndDate = DateTime.Now.AddDays(-30),
+                Cost = 17908000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-35),
+                UpdatedAt
+             = DateTime.Now.AddDays(-35)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 91,
+                PaymentId = 36,
+                ProductId = 13,
+                ServiceId = 2,
+                AmoutEmployee = 88,
+                StartDate = DateTime.Now.AddDays(-151),
+                EndDate = DateTime.Now.AddDays(-149),
+                Cost = 43824000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-36),
+                UpdatedAt
+             = DateTime.Now.AddDays(-36)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 92,
+                PaymentId = 36,
+                ProductId = 12,
+                ServiceId = 2,
+                AmoutEmployee = 152,
+                StartDate = DateTime.Now.AddDays(-140),
+                EndDate = DateTime.Now.AddDays(-128),
+                Cost = 94848000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-36),
+                UpdatedAt
+             = DateTime.Now.AddDays(-36)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 93,
+                PaymentId = 36,
+                ProductId = 17,
+                ServiceId = 3,
+                AmoutEmployee = 45,
+                StartDate = DateTime.Now.AddDays(-37),
+                EndDate = DateTime.Now.AddDays(-23),
+                Cost = 7425000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-36),
+                UpdatedAt
+             = DateTime.Now.AddDays(-36)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 94,
+                PaymentId = 37,
+                ProductId = 8,
+                ServiceId = 1,
+                AmoutEmployee = 166,
+                StartDate = DateTime.Now.AddDays(-193),
+                EndDate = DateTime.Now.AddDays(-180),
+                Cost = 53784000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-37),
+                UpdatedAt
+             = DateTime.Now.AddDays(-37)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 95,
+                PaymentId = 37,
+                ProductId = 21,
+                ServiceId = 1,
+                AmoutEmployee = 126,
+                StartDate = DateTime.Now.AddDays(-190),
+                EndDate = DateTime.Now.AddDays(-179),
+                Cost = 50463000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-37),
+                UpdatedAt
+             = DateTime.Now.AddDays(-37)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 96,
+                PaymentId = 38,
+                ProductId = 8,
+                ServiceId = 3,
+                AmoutEmployee = 58,
+                StartDate = DateTime.Now.AddDays(-171),
+                EndDate = DateTime.Now.AddDays(-163),
+                Cost = 11165000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-38),
+                UpdatedAt
+             = DateTime.Now.AddDays(-38)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 97,
+                PaymentId = 38,
+                ProductId = 16,
+                ServiceId = 2,
+                AmoutEmployee = 174,
+                StartDate = DateTime.Now.AddDays(-21),
+                EndDate = DateTime.Now.AddDays(-19),
+                Cost = 1044000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-38),
+                UpdatedAt
+             = DateTime.Now.AddDays(-38)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 98,
+                PaymentId = 38,
+                ProductId = 2,
+                ServiceId = 1,
+                AmoutEmployee = 177,
+                StartDate = DateTime.Now.AddDays(-140),
+                EndDate = DateTime.Now.AddDays(-130),
+                Cost = 62923500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-38),
+                UpdatedAt
+             = DateTime.Now.AddDays(-38)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 99,
+                PaymentId = 39,
+                ProductId = 6,
+                ServiceId = 3,
+                AmoutEmployee = 159,
+                StartDate = DateTime.Now.AddDays(-188),
+                EndDate = DateTime.Now.AddDays(-180),
+                Cost = 59466000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-39),
+                UpdatedAt
+             = DateTime.Now.AddDays(-39)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 100,
+                PaymentId = 39,
+                ProductId = 11,
+                ServiceId = 2,
+                AmoutEmployee = 64,
+                StartDate = DateTime.Now.AddDays(-64),
+                EndDate = DateTime.Now.AddDays(-59),
+                Cost = 16128000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-39),
+                UpdatedAt
+             = DateTime.Now.AddDays(-39)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 101,
+                PaymentId = 40,
+                ProductId = 21,
+                ServiceId = 3,
+                AmoutEmployee = 33,
+                StartDate = DateTime.Now.AddDays(-95),
+                EndDate = DateTime.Now.AddDays(-85),
+                Cost = 6715500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-40),
+                UpdatedAt
+             = DateTime.Now.AddDays(-40)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 102,
+                PaymentId = 40,
+                ProductId = 24,
+                ServiceId = 2,
+                AmoutEmployee = 94,
+                StartDate = DateTime.Now.AddDays(-148),
+                EndDate = DateTime.Now.AddDays(-134),
+                Cost = 77268000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-40),
+                UpdatedAt
+             = DateTime.Now.AddDays(-40)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 103,
+                PaymentId = 40,
+                ProductId = 14,
+                ServiceId = 1,
+                AmoutEmployee = 177,
+                StartDate = DateTime.Now.AddDays(-116),
+                EndDate = DateTime.Now.AddDays(-108),
+                Cost = 70092000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-40),
+                UpdatedAt
+             = DateTime.Now.AddDays(-40)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 104,
+                PaymentId = 41,
+                ProductId = 21,
+                ServiceId = 2,
+                AmoutEmployee = 84,
+                StartDate = DateTime.Now.AddDays(-58),
+                EndDate = DateTime.Now.AddDays(-44),
+                Cost = 14112000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-41),
+                UpdatedAt
+             = DateTime.Now.AddDays(-41)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 105,
+                PaymentId = 41,
+                ProductId = 15,
+                ServiceId = 2,
+                AmoutEmployee = 103,
+                StartDate = DateTime.Now.AddDays(-126),
+                EndDate = DateTime.Now.AddDays(-114),
+                Cost = 51294000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-41),
+                UpdatedAt
+             = DateTime.Now.AddDays(-41)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 106,
+                PaymentId = 42,
+                ProductId = 18,
+                ServiceId = 1,
+                AmoutEmployee = 115,
+                StartDate = DateTime.Now.AddDays(-191),
+                EndDate = DateTime.Now.AddDays(-188),
+                Cost = 49162500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-42),
+                UpdatedAt
+             = DateTime.Now.AddDays(-42)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 107,
+                PaymentId = 42,
+                ProductId = 3,
+                ServiceId = 3,
+                AmoutEmployee = 42,
+                StartDate = DateTime.Now.AddDays(-97),
+                EndDate = DateTime.Now.AddDays(-93),
+                Cost = 2772000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-42),
+                UpdatedAt
+             = DateTime.Now.AddDays(-42)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 108,
+                PaymentId = 42,
+                ProductId = 3,
+                ServiceId = 3,
+                AmoutEmployee = 191,
+                StartDate = DateTime.Now.AddDays(-196),
+                EndDate = DateTime.Now.AddDays(-193),
+                Cost = 52525000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-42),
+                UpdatedAt
+             = DateTime.Now.AddDays(-42)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 109,
+                PaymentId = 43,
+                ProductId = 29,
+                ServiceId = 3,
+                AmoutEmployee = 89,
+                StartDate = DateTime.Now.AddDays(-115),
+                EndDate = DateTime.Now.AddDays(-108),
+                Cost = 32307000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-43),
+                UpdatedAt
+             = DateTime.Now.AddDays(-43)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 110,
+                PaymentId = 43,
+                ProductId = 17,
+                ServiceId = 1,
+                AmoutEmployee = 56,
+                StartDate = DateTime.Now.AddDays(-140),
+                EndDate = DateTime.Now.AddDays(-126),
+                Cost = 16128000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-43),
+                UpdatedAt
+             = DateTime.Now.AddDays(-43)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 111,
+                PaymentId = 44,
+                ProductId = 12,
+                ServiceId = 3,
+                AmoutEmployee = 159,
+                StartDate = DateTime.Now.AddDays(-91),
+                EndDate = DateTime.Now.AddDays(-77),
+                Cost = 59466000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-44),
+                UpdatedAt
+             = DateTime.Now.AddDays(-44)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 112,
+                PaymentId = 44,
+                ProductId = 8,
+                ServiceId = 3,
+                AmoutEmployee = 69,
+                StartDate = DateTime.Now.AddDays(-182),
+                EndDate = DateTime.Now.AddDays(-168),
+                Cost = 41365500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-44),
+                UpdatedAt
+             = DateTime.Now.AddDays(-44)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 113,
+                PaymentId = 44,
+                ProductId = 25,
+                ServiceId = 3,
+                AmoutEmployee = 73,
+                StartDate = DateTime.Now.AddDays(-129),
+                EndDate = DateTime.Now.AddDays(-127),
+                Cost = 20476500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-44),
+                UpdatedAt
+             = DateTime.Now.AddDays(-44)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 114,
+                PaymentId = 45,
+                ProductId = 30,
+                ServiceId = 2,
+                AmoutEmployee = 79,
+                StartDate = DateTime.Now.AddDays(-107),
+                EndDate = DateTime.Now.AddDays(-103),
+                Cost = 26070000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-45),
+                UpdatedAt
+             = DateTime.Now.AddDays(-45)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 115,
+                PaymentId = 45,
+                ProductId = 14,
+                ServiceId = 2,
+                AmoutEmployee = 52,
+                StartDate = DateTime.Now.AddDays(-128),
+                EndDate = DateTime.Now.AddDays(-115),
+                Cost = 33696000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-45),
+                UpdatedAt
+             = DateTime.Now.AddDays(-45)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 116,
+                PaymentId = 45,
+                ProductId = 19,
+                ServiceId = 2,
+                AmoutEmployee = 72,
+                StartDate = DateTime.Now.AddDays(-184),
+                EndDate = DateTime.Now.AddDays(-179),
+                Cost = 34992000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-45),
+                UpdatedAt
+             = DateTime.Now.AddDays(-45)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 117,
+                PaymentId = 46,
+                ProductId = 29,
+                ServiceId = 2,
+                AmoutEmployee = 170,
+                StartDate = DateTime.Now.AddDays(-180),
+                EndDate = DateTime.Now.AddDays(-177),
+                Cost = 135660000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-46),
+                UpdatedAt
+             = DateTime.Now.AddDays(-46)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 118,
+                PaymentId = 46,
+                ProductId = 24,
+                ServiceId = 2,
+                AmoutEmployee = 118,
+                StartDate = DateTime.Now.AddDays(-44),
+                EndDate = DateTime.Now.AddDays(-38),
+                Cost = 15576000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-46),
+                UpdatedAt
+             = DateTime.Now.AddDays(-46)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 119,
+                PaymentId = 47,
+                ProductId = 4,
+                ServiceId = 3,
+                AmoutEmployee = 85,
+                StartDate = DateTime.Now.AddDays(-163),
+                EndDate = DateTime.Now.AddDays(-152),
+                Cost = 13557500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-47),
+                UpdatedAt
+             = DateTime.Now.AddDays(-47)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 120,
+                PaymentId = 47,
+                ProductId = 18,
+                ServiceId = 2,
+                AmoutEmployee = 88,
+                StartDate = DateTime.Now.AddDays(-22),
+                EndDate = DateTime.Now.AddDays(-14),
+                Cost = 5280000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-47),
+                UpdatedAt
+             = DateTime.Now.AddDays(-47)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 121,
+                PaymentId = 47,
+                ProductId = 27,
+                ServiceId = 1,
+                AmoutEmployee = 80,
+                StartDate = DateTime.Now.AddDays(-14),
+                EndDate = DateTime.Now.AddDays(-8),
+                Cost = 1080000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-47),
+                UpdatedAt
+             = DateTime.Now.AddDays(-47)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 122,
+                PaymentId = 48,
+                ProductId = 30,
+                ServiceId = 2,
+                AmoutEmployee = 50,
+                StartDate = DateTime.Now.AddDays(-33),
+                EndDate = DateTime.Now.AddDays(-32),
+                Cost = 2400000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-48),
+                UpdatedAt
+             = DateTime.Now.AddDays(-48)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 123,
+                PaymentId = 48,
+                ProductId = 26,
+                ServiceId = 3,
+                AmoutEmployee = 156,
+                StartDate = DateTime.Now.AddDays(-181),
+                EndDate = DateTime.Now.AddDays(-170),
+                Cost = 135564000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-48),
+                UpdatedAt
+             = DateTime.Now.AddDays(-48)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 124,
+                PaymentId = 49,
+                ProductId = 14,
+                ServiceId = 1,
+                AmoutEmployee = 164,
+                StartDate = DateTime.Now.AddDays(-63),
+                EndDate = DateTime.Now.AddDays(-58),
+                Cost = 17712000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-49),
+                UpdatedAt
+             = DateTime.Now.AddDays(-49)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 125,
+                PaymentId = 49,
+                ProductId = 18,
+                ServiceId = 1,
+                AmoutEmployee = 139,
+                StartDate = DateTime.Now.AddDays(-134),
+                EndDate = DateTime.Now.AddDays(-124),
+                Cost = 72558000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-49),
+                UpdatedAt
+             = DateTime.Now.AddDays(-49)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 126,
+                PaymentId = 49,
+                ProductId = 7,
+                ServiceId = 2,
+                AmoutEmployee = 193,
+                StartDate = DateTime.Now.AddDays(-63),
+                EndDate = DateTime.Now.AddDays(-57),
+                Cost = 15054000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-49),
+                UpdatedAt
+             = DateTime.Now.AddDays(-49)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 127,
+                PaymentId = 50,
+                ProductId = 25,
+                ServiceId = 2,
+                AmoutEmployee = 53,
+                StartDate = DateTime.Now.AddDays(-70),
+                EndDate = DateTime.Now.AddDays(-67),
+                Cost = 12084000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-50),
+                UpdatedAt
+             = DateTime.Now.AddDays(-50)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 128,
+                PaymentId = 50,
+                ProductId = 14,
+                ServiceId = 1,
+                AmoutEmployee = 157,
+                StartDate = DateTime.Now.AddDays(-23),
+                EndDate = DateTime.Now.AddDays(-22),
+                Cost = 4239000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-50),
+                UpdatedAt
+             = DateTime.Now.AddDays(-50)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 129,
+                PaymentId = 51,
+                ProductId = 1,
+                ServiceId = 3,
+                AmoutEmployee = 116,
+                StartDate = DateTime.Now.AddDays(-36),
+                EndDate = DateTime.Now.AddDays(-23),
+                Cost = 18502000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-51),
+                UpdatedAt
+             = DateTime.Now.AddDays(-51)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 130,
+                PaymentId = 51,
+                ProductId = 4,
+                ServiceId = 3,
+                AmoutEmployee = 131,
+                StartDate = DateTime.Now.AddDays(-59),
+                EndDate = DateTime.Now.AddDays(-50),
+                Cost = 18012500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-51),
+                UpdatedAt
+             = DateTime.Now.AddDays(-51)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 131,
+                PaymentId = 51,
+                ProductId = 8,
+                ServiceId = 1,
+                AmoutEmployee = 60,
+                StartDate = DateTime.Now.AddDays(-10),
+                EndDate = DateTime.Now.AddDays(-5),
+                Cost = 1080000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-51),
+                UpdatedAt
+             = DateTime.Now.AddDays(-51)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 132,
+                PaymentId = 52,
+                ProductId = 8,
+                ServiceId = 1,
+                AmoutEmployee = 178,
+                StartDate = DateTime.Now.AddDays(-45),
+                EndDate = DateTime.Now.AddDays(-36),
+                Cost = 18423000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-52),
+                UpdatedAt
+             = DateTime.Now.AddDays(-52)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 133,
+                PaymentId = 52,
+                ProductId = 15,
+                ServiceId = 1,
+                AmoutEmployee = 98,
+                StartDate = DateTime.Now.AddDays(-124),
+                EndDate = DateTime.Now.AddDays(-111),
+                Cost = 21168000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-52),
+                UpdatedAt
+             = DateTime.Now.AddDays(-52)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 134,
+                PaymentId = 53,
+                ProductId = 30,
+                ServiceId = 2,
+                AmoutEmployee = 104,
+                StartDate = DateTime.Now.AddDays(-21),
+                EndDate = DateTime.Now.AddDays(-6),
+                Cost = 8112000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-53),
+                UpdatedAt
+             = DateTime.Now.AddDays(-53)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 135,
+                PaymentId = 53,
+                ProductId = 25,
+                ServiceId = 2,
+                AmoutEmployee = 129,
+                StartDate = DateTime.Now.AddDays(-25),
+                EndDate = DateTime.Now.AddDays(-12),
+                Cost = 2322000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-53),
+                UpdatedAt
+             = DateTime.Now.AddDays(-53)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 136,
+                PaymentId = 53,
+                ProductId = 30,
+                ServiceId = 3,
+                AmoutEmployee = 105,
+                StartDate = DateTime.Now.AddDays(-165),
+                EndDate = DateTime.Now.AddDays(-164),
+                Cost = 12127500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-53),
+                UpdatedAt
+             = DateTime.Now.AddDays(-53)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 137,
+                PaymentId = 54,
+                ProductId = 25,
+                ServiceId = 2,
+                AmoutEmployee = 168,
+                StartDate = DateTime.Now.AddDays(-76),
+                EndDate = DateTime.Now.AddDays(-75),
+                Cost = 35280000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-54),
+                UpdatedAt
+             = DateTime.Now.AddDays(-54)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 138,
+                PaymentId = 54,
+                ProductId = 2,
+                ServiceId = 1,
+                AmoutEmployee = 127,
+                StartDate = DateTime.Now.AddDays(-176),
+                EndDate = DateTime.Now.AddDays(-164),
+                Cost = 97155000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-54),
+                UpdatedAt
+             = DateTime.Now.AddDays(-54)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 139,
+                PaymentId = 55,
+                ProductId = 13,
+                ServiceId = 1,
+                AmoutEmployee = 44,
+                StartDate = DateTime.Now.AddDays(-119),
+                EndDate = DateTime.Now.AddDays(-107),
+                Cost = 4158000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-55),
+                UpdatedAt
+             = DateTime.Now.AddDays(-55)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 140,
+                PaymentId = 55,
+                ProductId = 30,
+                ServiceId = 2,
+                AmoutEmployee = 200,
+                StartDate = DateTime.Now.AddDays(-115),
+                EndDate = DateTime.Now.AddDays(-113),
+                Cost = 132000000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-55),
+                UpdatedAt
+             = DateTime.Now.AddDays(-55)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 141,
+                PaymentId = 55,
+                ProductId = 17,
+                ServiceId = 3,
+                AmoutEmployee = 149,
+                StartDate = DateTime.Now.AddDays(-43),
+                EndDate = DateTime.Now.AddDays(-38),
+                Cost = 28682500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-55),
+                UpdatedAt
+             = DateTime.Now.AddDays(-55)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 142,
+                PaymentId = 56,
+                ProductId = 2,
+                ServiceId = 3,
+                AmoutEmployee = 65,
+                StartDate = DateTime.Now.AddDays(-115),
+                EndDate = DateTime.Now.AddDays(-109),
+                Cost = 24310000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-56),
+                UpdatedAt
+             = DateTime.Now.AddDays(-56)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 143,
+                PaymentId = 56,
+                ProductId = 6,
+                ServiceId = 3,
+                AmoutEmployee = 92,
+                StartDate = DateTime.Now.AddDays(-121),
+                EndDate = DateTime.Now.AddDays(-110),
+                Cost = 26312000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-56),
+                UpdatedAt
+             = DateTime.Now.AddDays(-56)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 144,
+                PaymentId = 56,
+                ProductId = 10,
+                ServiceId = 2,
+                AmoutEmployee = 174,
+                StartDate = DateTime.Now.AddDays(-121),
+                EndDate = DateTime.Now.AddDays(-119),
+                Cost = 31320000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-56),
+                UpdatedAt
+             = DateTime.Now.AddDays(-56)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 145,
+                PaymentId = 57,
+                ProductId = 23,
+                ServiceId = 1,
+                AmoutEmployee = 79,
+                StartDate = DateTime.Now.AddDays(-59),
+                EndDate = DateTime.Now.AddDays(-57),
+                Cost = 15286500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-57),
+                UpdatedAt
+             = DateTime.Now.AddDays(-57)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 146,
+                PaymentId = 57,
+                ProductId = 3,
+                ServiceId = 1,
+                AmoutEmployee = 25,
+                StartDate = DateTime.Now.AddDays(-16),
+                EndDate = DateTime.Now.AddDays(-7),
+                Cost = 112500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-57),
+                UpdatedAt
+             = DateTime.Now.AddDays(-57)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 147,
+                PaymentId = 58,
+                ProductId = 6,
+                ServiceId = 1,
+                AmoutEmployee = 195,
+                StartDate = DateTime.Now.AddDays(-185),
+                EndDate = DateTime.Now.AddDays(-183),
+                Cost = 58792500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-58),
+                UpdatedAt
+             = DateTime.Now.AddDays(-58)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 148,
+                PaymentId = 58,
+                ProductId = 18,
+                ServiceId = 2,
+                AmoutEmployee = 181,
+                StartDate = DateTime.Now.AddDays(-99),
+                EndDate = DateTime.Now.AddDays(-86),
+                Cost = 21720000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-58),
+                UpdatedAt
+             = DateTime.Now.AddDays(-58)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 149,
+                PaymentId = 58,
+                ProductId = 2,
+                ServiceId = 2,
+                AmoutEmployee = 96,
+                StartDate = DateTime.Now.AddDays(-80),
+                EndDate = DateTime.Now.AddDays(-74),
+                Cost = 23040000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-58),
+                UpdatedAt
+             = DateTime.Now.AddDays(-58)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 150,
+                PaymentId = 59,
+                ProductId = 18,
+                ServiceId = 1,
+                AmoutEmployee = 104,
+                StartDate = DateTime.Now.AddDays(-133),
+                EndDate = DateTime.Now.AddDays(-127),
+                Cost = 3744000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-59),
+                UpdatedAt
+             = DateTime.Now.AddDays(-59)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 151,
+                PaymentId = 59,
+                ProductId = 16,
+                ServiceId = 1,
+                AmoutEmployee = 133,
+                StartDate = DateTime.Now.AddDays(-199),
+                EndDate = DateTime.Now.AddDays(-196),
+                Cost = 46084500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-59),
+                UpdatedAt
+             = DateTime.Now.AddDays(-59)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 152,
+                PaymentId = 60,
+                ProductId = 13,
+                ServiceId = 3,
+                AmoutEmployee = 162,
+                StartDate = DateTime.Now.AddDays(-130),
+                EndDate = DateTime.Now.AddDays(-126),
+                Cost = 67716000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-60),
+                UpdatedAt
+             = DateTime.Now.AddDays(-60)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 153,
+                PaymentId = 60,
+                ProductId = 13,
+                ServiceId = 3,
+                AmoutEmployee = 124,
+                StartDate = DateTime.Now.AddDays(-185),
+                EndDate = DateTime.Now.AddDays(-183),
+                Cost = 97526000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-60),
+                UpdatedAt
+             = DateTime.Now.AddDays(-60)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 154,
+                PaymentId = 60,
+                ProductId = 10,
+                ServiceId = 3,
+                AmoutEmployee = 183,
+                StartDate = DateTime.Now.AddDays(-188),
+                EndDate = DateTime.Now.AddDays(-176),
+                Cost = 55357500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-60),
+                UpdatedAt
+             = DateTime.Now.AddDays(-60)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 155,
+                PaymentId = 61,
+                ProductId = 2,
+                ServiceId = 1,
+                AmoutEmployee = 138,
+                StartDate = DateTime.Now.AddDays(-109),
+                EndDate = DateTime.Now.AddDays(-101),
+                Cost = 29187000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-61),
+                UpdatedAt
+             = DateTime.Now.AddDays(-61)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 156,
+                PaymentId = 61,
+                ProductId = 22,
+                ServiceId = 2,
+                AmoutEmployee = 137,
+                StartDate = DateTime.Now.AddDays(-108),
+                EndDate = DateTime.Now.AddDays(-100),
+                Cost = 39456000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-61),
+                UpdatedAt
+             = DateTime.Now.AddDays(-61)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 157,
+                PaymentId = 62,
+                ProductId = 7,
+                ServiceId = 1,
+                AmoutEmployee = 31,
+                StartDate = DateTime.Now.AddDays(-168),
+                EndDate = DateTime.Now.AddDays(-158),
+                Cost = 21343500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-62),
+                UpdatedAt
+             = DateTime.Now.AddDays(-62)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 158,
+                PaymentId = 62,
+                ProductId = 1,
+                ServiceId = 1,
+                AmoutEmployee = 57,
+                StartDate = DateTime.Now.AddDays(-153),
+                EndDate = DateTime.Now.AddDays(-144),
+                Cost = 31806000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-62),
+                UpdatedAt
+             = DateTime.Now.AddDays(-62)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 159,
+                PaymentId = 62,
+                ProductId = 3,
+                ServiceId = 2,
+                AmoutEmployee = 166,
+                StartDate = DateTime.Now.AddDays(-85),
+                EndDate = DateTime.Now.AddDays(-70),
+                Cost = 42828000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-62),
+                UpdatedAt
+             = DateTime.Now.AddDays(-62)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 160,
+                PaymentId = 63,
+                ProductId = 14,
+                ServiceId = 2,
+                AmoutEmployee = 86,
+                StartDate = DateTime.Now.AddDays(-170),
+                EndDate = DateTime.Now.AddDays(-162),
+                Cost = 44376000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-63),
+                UpdatedAt
+             = DateTime.Now.AddDays(-63)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 161,
+                PaymentId = 63,
+                ProductId = 4,
+                ServiceId = 3,
+                AmoutEmployee = 136,
+                StartDate = DateTime.Now.AddDays(-96),
+                EndDate = DateTime.Now.AddDays(-91),
+                Cost = 59092000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-63),
+                UpdatedAt
+             = DateTime.Now.AddDays(-63)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 162,
+                PaymentId = 64,
+                ProductId = 8,
+                ServiceId = 2,
+                AmoutEmployee = 159,
+                StartDate = DateTime.Now.AddDays(-122),
+                EndDate = DateTime.Now.AddDays(-118),
+                Cost = 105894000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-64),
+                UpdatedAt
+             = DateTime.Now.AddDays(-64)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 163,
+                PaymentId = 64,
+                ProductId = 1,
+                ServiceId = 2,
+                AmoutEmployee = 30,
+                StartDate = DateTime.Now.AddDays(-133),
+                EndDate = DateTime.Now.AddDays(-132),
+                Cost = 360000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-64),
+                UpdatedAt
+             = DateTime.Now.AddDays(-64)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 164,
+                PaymentId = 64,
+                ProductId = 24,
+                ServiceId = 2,
+                AmoutEmployee = 84,
+                StartDate = DateTime.Now.AddDays(-108),
+                EndDate = DateTime.Now.AddDays(-93),
+                Cost = 16128000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-64),
+                UpdatedAt
+             = DateTime.Now.AddDays(-64)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 165,
+                PaymentId = 65,
+                ProductId = 12,
+                ServiceId = 3,
+                AmoutEmployee = 135,
+                StartDate = DateTime.Now.AddDays(-161),
+                EndDate = DateTime.Now.AddDays(-148),
+                Cost = 33412500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-65),
+                UpdatedAt
+             = DateTime.Now.AddDays(-65)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 166,
+                PaymentId = 65,
+                ProductId = 27,
+                ServiceId = 1,
+                AmoutEmployee = 159,
+                StartDate = DateTime.Now.AddDays(-76),
+                EndDate = DateTime.Now.AddDays(-67),
+                Cost = 37206000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-65),
+                UpdatedAt
+             = DateTime.Now.AddDays(-65)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 167,
+                PaymentId = 66,
+                ProductId = 15,
+                ServiceId = 1,
+                AmoutEmployee = 176,
+                StartDate = DateTime.Now.AddDays(-93),
+                EndDate = DateTime.Now.AddDays(-92),
+                Cost = 22968000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-66),
+                UpdatedAt
+             = DateTime.Now.AddDays(-66)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 168,
+                PaymentId = 66,
+                ProductId = 1,
+                ServiceId = 2,
+                AmoutEmployee = 87,
+                StartDate = DateTime.Now.AddDays(-41),
+                EndDate = DateTime.Now.AddDays(-26),
+                Cost = 10962000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-66),
+                UpdatedAt
+             = DateTime.Now.AddDays(-66)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 169,
+                PaymentId = 66,
+                ProductId = 27,
+                ServiceId = 3,
+                AmoutEmployee = 46,
+                StartDate = DateTime.Now.AddDays(-180),
+                EndDate = DateTime.Now.AddDays(-169),
+                Cost = 3036000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-66),
+                UpdatedAt
+             = DateTime.Now.AddDays(-66)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 170,
+                PaymentId = 67,
+                ProductId = 25,
+                ServiceId = 1,
+                AmoutEmployee = 174,
+                StartDate = DateTime.Now.AddDays(-19),
+                EndDate = DateTime.Now.AddDays(-6),
+                Cost = 10179000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-67),
+                UpdatedAt
+             = DateTime.Now.AddDays(-67)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 171,
+                PaymentId = 67,
+                ProductId = 7,
+                ServiceId = 3,
+                AmoutEmployee = 48,
+                StartDate = DateTime.Now.AddDays(-117),
+                EndDate = DateTime.Now.AddDays(-111),
+                Cost = 22968000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-67),
+                UpdatedAt
+             = DateTime.Now.AddDays(-67)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 172,
+                PaymentId = 67,
+                ProductId = 4,
+                ServiceId = 2,
+                AmoutEmployee = 26,
+                StartDate = DateTime.Now.AddDays(-59),
+                EndDate = DateTime.Now.AddDays(-56),
+                Cost = 6708000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-67),
+                UpdatedAt
+             = DateTime.Now.AddDays(-67)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 173,
+                PaymentId = 68,
+                ProductId = 3,
+                ServiceId = 2,
+                AmoutEmployee = 171,
+                StartDate = DateTime.Now.AddDays(-54),
+                EndDate = DateTime.Now.AddDays(-49),
+                Cost = 34884000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-68),
+                UpdatedAt
+             = DateTime.Now.AddDays(-68)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 174,
+                PaymentId = 68,
+                ProductId = 27,
+                ServiceId = 3,
+                AmoutEmployee = 61,
+                StartDate = DateTime.Now.AddDays(-66),
+                EndDate = DateTime.Now.AddDays(-57),
+                Cost = 2684000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-68),
+                UpdatedAt
+             = DateTime.Now.AddDays(-68)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 175,
+                PaymentId = 69,
+                ProductId = 3,
+                ServiceId = 3,
+                AmoutEmployee = 38,
+                StartDate = DateTime.Now.AddDays(-158),
+                EndDate = DateTime.Now.AddDays(-143),
+                Cost = 16093000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-69),
+                UpdatedAt
+             = DateTime.Now.AddDays(-69)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 176,
+                PaymentId = 69,
+                ProductId = 12,
+                ServiceId = 3,
+                AmoutEmployee = 183,
+                StartDate = DateTime.Now.AddDays(-68),
+                EndDate = DateTime.Now.AddDays(-53),
+                Cost = 38247000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-69),
+                UpdatedAt
+             = DateTime.Now.AddDays(-69)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 177,
+                PaymentId = 69,
+                ProductId = 16,
+                ServiceId = 3,
+                AmoutEmployee = 151,
+                StartDate = DateTime.Now.AddDays(-71),
+                EndDate = DateTime.Now.AddDays(-65),
+                Cost = 45677500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-69),
+                UpdatedAt
+             = DateTime.Now.AddDays(-69)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 178,
+                PaymentId = 70,
+                ProductId = 8,
+                ServiceId = 1,
+                AmoutEmployee = 178,
+                StartDate = DateTime.Now.AddDays(-72),
+                EndDate = DateTime.Now.AddDays(-70),
+                Cost = 41652000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-70),
+                UpdatedAt
+             = DateTime.Now.AddDays(-70)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 179,
+                PaymentId = 70,
+                ProductId = 8,
+                ServiceId = 3,
+                AmoutEmployee = 116,
+                StartDate = DateTime.Now.AddDays(-191),
+                EndDate = DateTime.Now.AddDays(-180),
+                Cost = 28710000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-70),
+                UpdatedAt
+             = DateTime.Now.AddDays(-70)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 180,
+                PaymentId = 71,
+                ProductId = 22,
+                ServiceId = 1,
+                AmoutEmployee = 159,
+                StartDate = DateTime.Now.AddDays(-142),
+                EndDate = DateTime.Now.AddDays(-136),
+                Cost = 62248500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-71),
+                UpdatedAt
+             = DateTime.Now.AddDays(-71)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 181,
+                PaymentId = 71,
+                ProductId = 15,
+                ServiceId = 3,
+                AmoutEmployee = 101,
+                StartDate = DateTime.Now.AddDays(-172),
+                EndDate = DateTime.Now.AddDays(-165),
+                Cost = 74437000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-71),
+                UpdatedAt
+             = DateTime.Now.AddDays(-71)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 182,
+                PaymentId = 71,
+                ProductId = 7,
+                ServiceId = 1,
+                AmoutEmployee = 98,
+                StartDate = DateTime.Now.AddDays(-25),
+                EndDate = DateTime.Now.AddDays(-21),
+                Cost = 7497000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-71),
+                UpdatedAt
+             = DateTime.Now.AddDays(-71)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 183,
+                PaymentId = 72,
+                ProductId = 6,
+                ServiceId = 3,
+                AmoutEmployee = 108,
+                StartDate = DateTime.Now.AddDays(-9),
+                EndDate = DateTime.Now.AddDays(-3),
+                Cost = 2376000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-72),
+                UpdatedAt
+             = DateTime.Now.AddDays(-72)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 184,
+                PaymentId = 72,
+                ProductId = 12,
+                ServiceId = 1,
+                AmoutEmployee = 147,
+                StartDate = DateTime.Now.AddDays(-11),
+                EndDate = DateTime.Now.AddDays(-3),
+                Cost = 661500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-72),
+                UpdatedAt
+             = DateTime.Now.AddDays(-72)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 185,
+                PaymentId = 73,
+                ProductId = 22,
+                ServiceId = 1,
+                AmoutEmployee = 148,
+                StartDate = DateTime.Now.AddDays(-50),
+                EndDate = DateTime.Now.AddDays(-47),
+                Cost = 27972000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-73),
+                UpdatedAt
+             = DateTime.Now.AddDays(-73)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 186,
+                PaymentId = 73,
+                ProductId = 22,
+                ServiceId = 1,
+                AmoutEmployee = 73,
+                StartDate = DateTime.Now.AddDays(-132),
+                EndDate = DateTime.Now.AddDays(-121),
+                Cost = 12154500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-73),
+                UpdatedAt
+             = DateTime.Now.AddDays(-73)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 187,
+                PaymentId = 73,
+                ProductId = 10,
+                ServiceId = 3,
+                AmoutEmployee = 191,
+                StartDate = DateTime.Now.AddDays(-188),
+                EndDate = DateTime.Now.AddDays(-181),
+                Cost = 93494500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-73),
+                UpdatedAt
+             = DateTime.Now.AddDays(-73)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 188,
+                PaymentId = 74,
+                ProductId = 14,
+                ServiceId = 1,
+                AmoutEmployee = 105,
+                StartDate = DateTime.Now.AddDays(-15),
+                EndDate = DateTime.Now.AddDays(-1),
+                Cost = 1417500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-74),
+                UpdatedAt
+             = DateTime.Now.AddDays(-74)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 189,
+                PaymentId = 74,
+                ProductId = 7,
+                ServiceId = 2,
+                AmoutEmployee = 100,
+                StartDate = DateTime.Now.AddDays(-51),
+                EndDate = DateTime.Now.AddDays(-45),
+                Cost = 21600000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-74),
+                UpdatedAt
+             = DateTime.Now.AddDays(-74)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 190,
+                PaymentId = 75,
+                ProductId = 17,
+                ServiceId = 3,
+                AmoutEmployee = 82,
+                StartDate = DateTime.Now.AddDays(-152),
+                EndDate = DateTime.Now.AddDays(-139),
+                Cost = 35629000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-75),
+                UpdatedAt
+             = DateTime.Now.AddDays(-75)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 191,
+                PaymentId = 75,
+                ProductId = 29,
+                ServiceId = 1,
+                AmoutEmployee = 35,
+                StartDate = DateTime.Now.AddDays(-99),
+                EndDate = DateTime.Now.AddDays(-91),
+                Cost = 6930000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-75),
+                UpdatedAt
+             = DateTime.Now.AddDays(-75)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 192,
+                PaymentId = 75,
+                ProductId = 15,
+                ServiceId = 1,
+                AmoutEmployee = 192,
+                StartDate = DateTime.Now.AddDays(-132),
+                EndDate = DateTime.Now.AddDays(-130),
+                Cost = 30240000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-75),
+                UpdatedAt
+             = DateTime.Now.AddDays(-75)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 193,
+                PaymentId = 76,
+                ProductId = 11,
+                ServiceId = 1,
+                AmoutEmployee = 103,
+                StartDate = DateTime.Now.AddDays(-43),
+                EndDate = DateTime.Now.AddDays(-35),
+                Cost = 17613000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-76),
+                UpdatedAt
+             = DateTime.Now.AddDays(-76)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 194,
+                PaymentId = 76,
+                ProductId = 12,
+                ServiceId = 1,
+                AmoutEmployee = 27,
+                StartDate = DateTime.Now.AddDays(-122),
+                EndDate = DateTime.Now.AddDays(-119),
+                Cost = 486000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-76),
+                UpdatedAt
+             = DateTime.Now.AddDays(-76)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 195,
+                PaymentId = 77,
+                ProductId = 4,
+                ServiceId = 3,
+                AmoutEmployee = 106,
+                StartDate = DateTime.Now.AddDays(-58),
+                EndDate = DateTime.Now.AddDays(-54),
+                Cost = 19239000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-77),
+                UpdatedAt
+             = DateTime.Now.AddDays(-77)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 196,
+                PaymentId = 77,
+                ProductId = 13,
+                ServiceId = 1,
+                AmoutEmployee = 90,
+                StartDate = DateTime.Now.AddDays(-81),
+                EndDate = DateTime.Now.AddDays(-78),
+                Cost = 16605000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-77),
+                UpdatedAt
+             = DateTime.Now.AddDays(-77)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 197,
+                PaymentId = 77,
+                ProductId = 20,
+                ServiceId = 1,
+                AmoutEmployee = 65,
+                StartDate = DateTime.Now.AddDays(-169),
+                EndDate = DateTime.Now.AddDays(-158),
+                Cost = 28665000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-77),
+                UpdatedAt
+             = DateTime.Now.AddDays(-77)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 198,
+                PaymentId = 78,
+                ProductId = 16,
+                ServiceId = 2,
+                AmoutEmployee = 54,
+                StartDate = DateTime.Now.AddDays(-168),
+                EndDate = DateTime.Now.AddDays(-155),
+                Cost = 14904000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-78),
+                UpdatedAt
+             = DateTime.Now.AddDays(-78)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 199,
+                PaymentId = 78,
+                ProductId = 4,
+                ServiceId = 2,
+                AmoutEmployee = 174,
+                StartDate = DateTime.Now.AddDays(-92),
+                EndDate = DateTime.Now.AddDays(-86),
+                Cost = 40716000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-78),
+                UpdatedAt
+             = DateTime.Now.AddDays(-78)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 200,
+                PaymentId = 78,
+                ProductId = 8,
+                ServiceId = 3,
+                AmoutEmployee = 26,
+                StartDate = DateTime.Now.AddDays(-94),
+                EndDate = DateTime.Now.AddDays(-82),
+                Cost = 11440000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-78),
+                UpdatedAt
+             = DateTime.Now.AddDays(-78)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 201,
+                PaymentId = 79,
+                ProductId = 5,
+                ServiceId = 2,
+                AmoutEmployee = 40,
+                StartDate = DateTime.Now.AddDays(-158),
+                EndDate = DateTime.Now.AddDays(-155),
+                Cost = 30000000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-79),
+                UpdatedAt
+             = DateTime.Now.AddDays(-79)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 202,
+                PaymentId = 79,
+                ProductId = 27,
+                ServiceId = 1,
+                AmoutEmployee = 117,
+                StartDate = DateTime.Now.AddDays(-121),
+                EndDate = DateTime.Now.AddDays(-117),
+                Cost = 17374500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-79),
+                UpdatedAt
+             = DateTime.Now.AddDays(-79)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 203,
+                PaymentId = 80,
+                ProductId = 12,
+                ServiceId = 3,
+                AmoutEmployee = 96,
+                StartDate = DateTime.Now.AddDays(-31),
+                EndDate = DateTime.Now.AddDays(-23),
+                Cost = 8976000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-80),
+                UpdatedAt
+             = DateTime.Now.AddDays(-80)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 204,
+                PaymentId = 80,
+                ProductId = 12,
+                ServiceId = 2,
+                AmoutEmployee = 132,
+                StartDate = DateTime.Now.AddDays(-58),
+                EndDate = DateTime.Now.AddDays(-44),
+                Cost = 36432000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-80),
+                UpdatedAt
+             = DateTime.Now.AddDays(-80)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 205,
+                PaymentId = 80,
+                ProductId = 27,
+                ServiceId = 3,
+                AmoutEmployee = 167,
+                StartDate = DateTime.Now.AddDays(-67),
+                EndDate = DateTime.Now.AddDays(-61),
+                Cost = 37658500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-80),
+                UpdatedAt
+             = DateTime.Now.AddDays(-80)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 206,
+                PaymentId = 81,
+                ProductId = 17,
+                ServiceId = 1,
+                AmoutEmployee = 122,
+                StartDate = DateTime.Now.AddDays(-191),
+                EndDate = DateTime.Now.AddDays(-181),
+                Cost = 8235000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-81),
+                UpdatedAt
+             = DateTime.Now.AddDays(-81)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 207,
+                PaymentId = 81,
+                ProductId = 2,
+                ServiceId = 1,
+                AmoutEmployee = 162,
+                StartDate = DateTime.Now.AddDays(-39),
+                EndDate = DateTime.Now.AddDays(-31),
+                Cost = 7290000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-81),
+                UpdatedAt
+             = DateTime.Now.AddDays(-81)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 208,
+                PaymentId = 82,
+                ProductId = 17,
+                ServiceId = 2,
+                AmoutEmployee = 30,
+                StartDate = DateTime.Now.AddDays(-8),
+                EndDate = DateTime.Now.AddDays(2),
+                Cost = 180000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-82),
+                UpdatedAt
+             = DateTime.Now.AddDays(-82)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 209,
+                PaymentId = 82,
+                ProductId = 14,
+                ServiceId = 3,
+                AmoutEmployee = 132,
+                StartDate = DateTime.Now.AddDays(-171),
+                EndDate = DateTime.Now.AddDays(-166),
+                Cost = 36300000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-82),
+                UpdatedAt
+             = DateTime.Now.AddDays(-82)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 210,
+                PaymentId = 82,
+                ProductId = 13,
+                ServiceId = 3,
+                AmoutEmployee = 78,
+                StartDate = DateTime.Now.AddDays(-35),
+                EndDate = DateTime.Now.AddDays(-24),
+                Cost = 7293000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-82),
+                UpdatedAt
+             = DateTime.Now.AddDays(-82)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 211,
+                PaymentId = 83,
+                ProductId = 19,
+                ServiceId = 2,
+                AmoutEmployee = 29,
+                StartDate = DateTime.Now.AddDays(-32),
+                EndDate = DateTime.Now.AddDays(-31),
+                Cost = 2610000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-83),
+                UpdatedAt
+             = DateTime.Now.AddDays(-83)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 212,
+                PaymentId = 83,
+                ProductId = 5,
+                ServiceId = 3,
+                AmoutEmployee = 72,
+                StartDate = DateTime.Now.AddDays(-130),
+                EndDate = DateTime.Now.AddDays(-118),
+                Cost = 9504000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-83),
+                UpdatedAt
+             = DateTime.Now.AddDays(-83)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 213,
+                PaymentId = 84,
+                ProductId = 2,
+                ServiceId = 1,
+                AmoutEmployee = 159,
+                StartDate = DateTime.Now.AddDays(-90),
+                EndDate = DateTime.Now.AddDays(-75),
+                Cost = 52231500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-84),
+                UpdatedAt
+             = DateTime.Now.AddDays(-84)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 214,
+                PaymentId = 84,
+                ProductId = 8,
+                ServiceId = 3,
+                AmoutEmployee = 39,
+                StartDate = DateTime.Now.AddDays(-92),
+                EndDate = DateTime.Now.AddDays(-77),
+                Cost = 16087500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-84),
+                UpdatedAt
+             = DateTime.Now.AddDays(-84)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 215,
+                PaymentId = 84,
+                ProductId = 6,
+                ServiceId = 1,
+                AmoutEmployee = 165,
+                StartDate = DateTime.Now.AddDays(-88),
+                EndDate = DateTime.Now.AddDays(-73),
+                Cost = 47520000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-84),
+                UpdatedAt
+             = DateTime.Now.AddDays(-84)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 216,
+                PaymentId = 85,
+                ProductId = 17,
+                ServiceId = 1,
+                AmoutEmployee = 98,
+                StartDate = DateTime.Now.AddDays(-87),
+                EndDate = DateTime.Now.AddDays(-81),
+                Cost = 17640000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-85),
+                UpdatedAt
+             = DateTime.Now.AddDays(-85)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 217,
+                PaymentId = 85,
+                ProductId = 10,
+                ServiceId = 1,
+                AmoutEmployee = 59,
+                StartDate = DateTime.Now.AddDays(-169),
+                EndDate = DateTime.Now.AddDays(-161),
+                Cost = 28408500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-85),
+                UpdatedAt
+             = DateTime.Now.AddDays(-85)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 218,
+                PaymentId = 86,
+                ProductId = 6,
+                ServiceId = 2,
+                AmoutEmployee = 84,
+                StartDate = DateTime.Now.AddDays(-98),
+                EndDate = DateTime.Now.AddDays(-97),
+                Cost = 27720000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-86),
+                UpdatedAt
+             = DateTime.Now.AddDays(-86)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 219,
+                PaymentId = 86,
+                ProductId = 1,
+                ServiceId = 3,
+                AmoutEmployee = 150,
+                StartDate = DateTime.Now.AddDays(-188),
+                EndDate = DateTime.Now.AddDays(-176),
+                Cost = 136125000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-86),
+                UpdatedAt
+             = DateTime.Now.AddDays(-86)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 220,
+                PaymentId = 86,
+                ProductId = 11,
+                ServiceId = 3,
+                AmoutEmployee = 124,
+                StartDate = DateTime.Now.AddDays(-174),
+                EndDate = DateTime.Now.AddDays(-171),
+                Cost = 103664000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-86),
+                UpdatedAt
+             = DateTime.Now.AddDays(-86)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 221,
+                PaymentId = 87,
+                ProductId = 26,
+                ServiceId = 3,
+                AmoutEmployee = 129,
+                StartDate = DateTime.Now.AddDays(-91),
+                EndDate = DateTime.Now.AddDays(-89),
+                Cost = 50374500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-87),
+                UpdatedAt
+             = DateTime.Now.AddDays(-87)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 222,
+                PaymentId = 87,
+                ProductId = 24,
+                ServiceId = 1,
+                AmoutEmployee = 124,
+                StartDate = DateTime.Now.AddDays(-110),
+                EndDate = DateTime.Now.AddDays(-103),
+                Cost = 44640000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-87),
+                UpdatedAt
+             = DateTime.Now.AddDays(-87)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 223,
+                PaymentId = 88,
+                ProductId = 6,
+                ServiceId = 3,
+                AmoutEmployee = 159,
+                StartDate = DateTime.Now.AddDays(-164),
+                EndDate = DateTime.Now.AddDays(-154),
+                Cost = 121555500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-88),
+                UpdatedAt
+             = DateTime.Now.AddDays(-88)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 224,
+                PaymentId = 88,
+                ProductId = 29,
+                ServiceId = 1,
+                AmoutEmployee = 167,
+                StartDate = DateTime.Now.AddDays(-138),
+                EndDate = DateTime.Now.AddDays(-136),
+                Cost = 81913500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-88),
+                UpdatedAt
+             = DateTime.Now.AddDays(-88)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 225,
+                PaymentId = 88,
+                ProductId = 15,
+                ServiceId = 2,
+                AmoutEmployee = 129,
+                StartDate = DateTime.Now.AddDays(-142),
+                EndDate = DateTime.Now.AddDays(-134),
+                Cost = 25542000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-88),
+                UpdatedAt
+             = DateTime.Now.AddDays(-88)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 226,
+                PaymentId = 89,
+                ProductId = 8,
+                ServiceId = 3,
+                AmoutEmployee = 61,
+                StartDate = DateTime.Now.AddDays(-191),
+                EndDate = DateTime.Now.AddDays(-178),
+                Cost = 13755500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-89),
+                UpdatedAt
+             = DateTime.Now.AddDays(-89)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 227,
+                PaymentId = 89,
+                ProductId = 7,
+                ServiceId = 1,
+                AmoutEmployee = 28,
+                StartDate = DateTime.Now.AddDays(-195),
+                EndDate = DateTime.Now.AddDays(-192),
+                Cost = 14112000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-89),
+                UpdatedAt
+             = DateTime.Now.AddDays(-89)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 228,
+                PaymentId = 89,
+                ProductId = 4,
+                ServiceId = 1,
+                AmoutEmployee = 102,
+                StartDate = DateTime.Now.AddDays(-30),
+                EndDate = DateTime.Now.AddDays(-27),
+                Cost = 5967000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-89),
+                UpdatedAt
+             = DateTime.Now.AddDays(-89)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 229,
+                PaymentId = 90,
+                ProductId = 9,
+                ServiceId = 2,
+                AmoutEmployee = 152,
+                StartDate = DateTime.Now.AddDays(-24),
+                EndDate = DateTime.Now.AddDays(-13),
+                Cost = 17328000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-90),
+                UpdatedAt
+             = DateTime.Now.AddDays(-90)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 230,
+                PaymentId = 90,
+                ProductId = 11,
+                ServiceId = 3,
+                AmoutEmployee = 63,
+                StartDate = DateTime.Now.AddDays(-147),
+                EndDate = DateTime.Now.AddDays(-134),
+                Cost = 41233500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-90),
+                UpdatedAt
+             = DateTime.Now.AddDays(-90)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 231,
+                PaymentId = 91,
+                ProductId = 22,
+                ServiceId = 2,
+                AmoutEmployee = 195,
+                StartDate = DateTime.Now.AddDays(-124),
+                EndDate = DateTime.Now.AddDays(-116),
+                Cost = 23400000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-91),
+                UpdatedAt
+             = DateTime.Now.AddDays(-91)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 232,
+                PaymentId = 91,
+                ProductId = 2,
+                ServiceId = 1,
+                AmoutEmployee = 157,
+                StartDate = DateTime.Now.AddDays(-155),
+                EndDate = DateTime.Now.AddDays(-141),
+                Cost = 96084000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-91),
+                UpdatedAt
+             = DateTime.Now.AddDays(-91)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 233,
+                PaymentId = 91,
+                ProductId = 24,
+                ServiceId = 2,
+                AmoutEmployee = 154,
+                StartDate = DateTime.Now.AddDays(-148),
+                EndDate = DateTime.Now.AddDays(-138),
+                Cost = 50820000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-91),
+                UpdatedAt
+             = DateTime.Now.AddDays(-91)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 234,
+                PaymentId = 92,
+                ProductId = 2,
+                ServiceId = 1,
+                AmoutEmployee = 152,
+                StartDate = DateTime.Now.AddDays(-183),
+                EndDate = DateTime.Now.AddDays(-179),
+                Cost = 42408000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-92),
+                UpdatedAt
+             = DateTime.Now.AddDays(-92)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 235,
+                PaymentId = 92,
+                ProductId = 28,
+                ServiceId = 2,
+                AmoutEmployee = 193,
+                StartDate = DateTime.Now.AddDays(-176),
+                EndDate = DateTime.Now.AddDays(-163),
+                Cost = 198018000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-92),
+                UpdatedAt
+             = DateTime.Now.AddDays(-92)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 236,
+                PaymentId = 93,
+                ProductId = 16,
+                ServiceId = 1,
+                AmoutEmployee = 104,
+                StartDate = DateTime.Now.AddDays(-157),
+                EndDate = DateTime.Now.AddDays(-147),
+                Cost = 5148000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-93),
+                UpdatedAt
+             = DateTime.Now.AddDays(-93)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 237,
+                PaymentId = 93,
+                ProductId = 4,
+                ServiceId = 2,
+                AmoutEmployee = 34,
+                StartDate = DateTime.Now.AddDays(-198),
+                EndDate = DateTime.Now.AddDays(-187),
+                Cost = 19584000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-93),
+                UpdatedAt
+             = DateTime.Now.AddDays(-93)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 238,
+                PaymentId = 93,
+                ProductId = 19,
+                ServiceId = 3,
+                AmoutEmployee = 71,
+                StartDate = DateTime.Now.AddDays(-120),
+                EndDate = DateTime.Now.AddDays(-118),
+                Cost = 390500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-93),
+                UpdatedAt
+             = DateTime.Now.AddDays(-93)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 239,
+                PaymentId = 94,
+                ProductId = 2,
+                ServiceId = 3,
+                AmoutEmployee = 93,
+                StartDate = DateTime.Now.AddDays(-74),
+                EndDate = DateTime.Now.AddDays(-59),
+                Cost = 28132500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-94),
+                UpdatedAt
+             = DateTime.Now.AddDays(-94)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 240,
+                PaymentId = 94,
+                ProductId = 22,
+                ServiceId = 2,
+                AmoutEmployee = 109,
+                StartDate = DateTime.Now.AddDays(-189),
+                EndDate = DateTime.Now.AddDays(-174),
+                Cost = 31392000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-94),
+                UpdatedAt
+             = DateTime.Now.AddDays(-94)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 241,
+                PaymentId = 95,
+                ProductId = 3,
+                ServiceId = 3,
+                AmoutEmployee = 193,
+                StartDate = DateTime.Now.AddDays(-8),
+                EndDate = DateTime.Now.AddDays(-4),
+                Cost = 3184500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-95),
+                UpdatedAt
+             = DateTime.Now.AddDays(-95)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 242,
+                PaymentId = 95,
+                ProductId = 6,
+                ServiceId = 3,
+                AmoutEmployee = 71,
+                StartDate = DateTime.Now.AddDays(-48),
+                EndDate = DateTime.Now.AddDays(-38),
+                Cost = 13277000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-95),
+                UpdatedAt
+             = DateTime.Now.AddDays(-95)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 243,
+                PaymentId = 95,
+                ProductId = 12,
+                ServiceId = 2,
+                AmoutEmployee = 74,
+                StartDate = DateTime.Now.AddDays(-10),
+                EndDate = DateTime.Now.AddDays(-4),
+                Cost = 444000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-95),
+                UpdatedAt
+             = DateTime.Now.AddDays(-95)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 244,
+                PaymentId = 96,
+                ProductId = 20,
+                ServiceId = 2,
+                AmoutEmployee = 169,
+                StartDate = DateTime.Now.AddDays(-56),
+                EndDate = DateTime.Now.AddDays(-52),
+                Cost = 25350000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-96),
+                UpdatedAt
+             = DateTime.Now.AddDays(-96)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 245,
+                PaymentId = 96,
+                ProductId = 10,
+                ServiceId = 2,
+                AmoutEmployee = 34,
+                StartDate = DateTime.Now.AddDays(-139),
+                EndDate = DateTime.Now.AddDays(-133),
+                Cost = 5916000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-96),
+                UpdatedAt
+             = DateTime.Now.AddDays(-96)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 246,
+                PaymentId = 97,
+                ProductId = 29,
+                ServiceId = 1,
+                AmoutEmployee = 186,
+                StartDate = DateTime.Now.AddDays(-159),
+                EndDate = DateTime.Now.AddDays(-144),
+                Cost = 97092000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-97),
+                UpdatedAt
+             = DateTime.Now.AddDays(-97)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 247,
+                PaymentId = 97,
+                ProductId = 2,
+                ServiceId = 3,
+                AmoutEmployee = 197,
+                StartDate = DateTime.Now.AddDays(-186),
+                EndDate = DateTime.Now.AddDays(-178),
+                Cost = 166859000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-97),
+                UpdatedAt
+             = DateTime.Now.AddDays(-97)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 248,
+                PaymentId = 97,
+                ProductId = 10,
+                ServiceId = 3,
+                AmoutEmployee = 90,
+                StartDate = DateTime.Now.AddDays(-150),
+                EndDate = DateTime.Now.AddDays(-141),
+                Cost = 49500000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-97),
+                UpdatedAt
+             = DateTime.Now.AddDays(-97)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 249,
+                PaymentId = 98,
+                ProductId = 2,
+                ServiceId = 3,
+                AmoutEmployee = 120,
+                StartDate = DateTime.Now.AddDays(-158),
+                EndDate = DateTime.Now.AddDays(-157),
+                Cost = 13200000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-98),
+                UpdatedAt
+             = DateTime.Now.AddDays(-98)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 250,
+                PaymentId = 98,
+                ProductId = 21,
+                ServiceId = 1,
+                AmoutEmployee = 84,
+                StartDate = DateTime.Now.AddDays(-49),
+                EndDate = DateTime.Now.AddDays(-39),
+                Cost = 14742000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-98),
+                UpdatedAt
+             = DateTime.Now.AddDays(-98)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 251,
+                PaymentId = 99,
+                ProductId = 29,
+                ServiceId = 3,
+                AmoutEmployee = 150,
+                StartDate = DateTime.Now.AddDays(-143),
+                EndDate = DateTime.Now.AddDays(-136),
+                Cost = 82500000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-99),
+                UpdatedAt
+             = DateTime.Now.AddDays(-99)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 252,
+                PaymentId = 99,
+                ProductId = 1,
+                ServiceId = 2,
+                AmoutEmployee = 200,
+                StartDate = DateTime.Now.AddDays(-158),
+                EndDate = DateTime.Now.AddDays(-143),
+                Cost = 88800000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-99),
+                UpdatedAt
+             = DateTime.Now.AddDays(-99)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 253,
+                PaymentId = 99,
+                ProductId = 28,
+                ServiceId = 3,
+                AmoutEmployee = 140,
+                StartDate = DateTime.Now.AddDays(-14),
+                EndDate = DateTime.Now.AddDays(-5),
+                Cost = 3850000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-99),
+                UpdatedAt
+             = DateTime.Now.AddDays(-99)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 254,
+                PaymentId = 100,
+                ProductId = 10,
+                ServiceId = 2,
+                AmoutEmployee = 141,
+                StartDate = DateTime.Now.AddDays(-126),
+                EndDate = DateTime.Now.AddDays(-115),
+                Cost = 102366000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-100),
+                UpdatedAt
+             = DateTime.Now.AddDays(-100)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 255,
+                PaymentId = 100,
+                ProductId = 22,
+                ServiceId = 3,
+                AmoutEmployee = 142,
+                StartDate = DateTime.Now.AddDays(-113),
+                EndDate = DateTime.Now.AddDays(-99),
+                Cost = 79662000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-100),
+                UpdatedAt
+             = DateTime.Now.AddDays(-100)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 256,
+                PaymentId = 100,
+                ProductId = 7,
+                ServiceId = 3,
+                AmoutEmployee = 190,
+                StartDate = DateTime.Now.AddDays(-41),
+                EndDate = DateTime.Now.AddDays(-39),
+                Cost = 16720000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-100),
+                UpdatedAt
+             = DateTime.Now.AddDays(-100)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 257,
+                PaymentId = 101,
+                ProductId = 27,
+                ServiceId = 1,
+                AmoutEmployee = 93,
+                StartDate = DateTime.Now.AddDays(-96),
+                EndDate = DateTime.Now.AddDays(-83),
+                Cost = 2092500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-101),
+                UpdatedAt
+             = DateTime.Now.AddDays(-101)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 258,
+                PaymentId = 101,
+                ProductId = 26,
+                ServiceId = 2,
+                AmoutEmployee = 196,
+                StartDate = DateTime.Now.AddDays(-117),
+                EndDate = DateTime.Now.AddDays(-110),
+                Cost = 18816000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-101),
+                UpdatedAt
+             = DateTime.Now.AddDays(-101)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 259,
+                PaymentId = 102,
+                ProductId = 22,
+                ServiceId = 2,
+                AmoutEmployee = 88,
+                StartDate = DateTime.Now.AddDays(-107),
+                EndDate = DateTime.Now.AddDays(-101),
+                Cost = 33792000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-102),
+                UpdatedAt
+             = DateTime.Now.AddDays(-102)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 260,
+                PaymentId = 102,
+                ProductId = 10,
+                ServiceId = 1,
+                AmoutEmployee = 51,
+                StartDate = DateTime.Now.AddDays(-136),
+                EndDate = DateTime.Now.AddDays(-124),
+                Cost = 11016000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-102),
+                UpdatedAt
+             = DateTime.Now.AddDays(-102)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 261,
+                PaymentId = 102,
+                ProductId = 15,
+                ServiceId = 1,
+                AmoutEmployee = 125,
+                StartDate = DateTime.Now.AddDays(-75),
+                EndDate = DateTime.Now.AddDays(-74),
+                Cost = 11812500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-102),
+                UpdatedAt
+             = DateTime.Now.AddDays(-102)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 262,
+                PaymentId = 103,
+                ProductId = 19,
+                ServiceId = 2,
+                AmoutEmployee = 63,
+                StartDate = DateTime.Now.AddDays(-123),
+                EndDate = DateTime.Now.AddDays(-112),
+                Cost = 756000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-103),
+                UpdatedAt
+             = DateTime.Now.AddDays(-103)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 263,
+                PaymentId = 103,
+                ProductId = 28,
+                ServiceId = 3,
+                AmoutEmployee = 158,
+                StartDate = DateTime.Now.AddDays(-21),
+                EndDate = DateTime.Now.AddDays(-10),
+                Cost = 13904000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-103),
+                UpdatedAt
+             = DateTime.Now.AddDays(-103)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 264,
+                PaymentId = 104,
+                ProductId = 10,
+                ServiceId = 3,
+                AmoutEmployee = 126,
+                StartDate = DateTime.Now.AddDays(-138),
+                EndDate = DateTime.Now.AddDays(-129),
+                Cost = 43659000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-104),
+                UpdatedAt
+             = DateTime.Now.AddDays(-104)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 265,
+                PaymentId = 104,
+                ProductId = 4,
+                ServiceId = 3,
+                AmoutEmployee = 36,
+                StartDate = DateTime.Now.AddDays(-107),
+                EndDate = DateTime.Now.AddDays(-93),
+                Cost = 4158000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-104),
+                UpdatedAt
+             = DateTime.Now.AddDays(-104)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 266,
+                PaymentId = 104,
+                ProductId = 10,
+                ServiceId = 1,
+                AmoutEmployee = 175,
+                StartDate = DateTime.Now.AddDays(-60),
+                EndDate = DateTime.Now.AddDays(-47),
+                Cost = 7875000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-104),
+                UpdatedAt
+             = DateTime.Now.AddDays(-104)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 267,
+                PaymentId = 105,
+                ProductId = 24,
+                ServiceId = 2,
+                AmoutEmployee = 151,
+                StartDate = DateTime.Now.AddDays(-64),
+                EndDate = DateTime.Now.AddDays(-58),
+                Cost = 30804000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-105),
+                UpdatedAt
+             = DateTime.Now.AddDays(-105)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 268,
+                PaymentId = 105,
+                ProductId = 25,
+                ServiceId = 2,
+                AmoutEmployee = 101,
+                StartDate = DateTime.Now.AddDays(-104),
+                EndDate = DateTime.Now.AddDays(-95),
+                Cost = 38784000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-105),
+                UpdatedAt
+             = DateTime.Now.AddDays(-105)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 269,
+                PaymentId = 106,
+                ProductId = 17,
+                ServiceId = 2,
+                AmoutEmployee = 134,
+                StartDate = DateTime.Now.AddDays(-164),
+                EndDate = DateTime.Now.AddDays(-149),
+                Cost = 93264000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-106),
+                UpdatedAt
+             = DateTime.Now.AddDays(-106)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 270,
+                PaymentId = 106,
+                ProductId = 22,
+                ServiceId = 3,
+                AmoutEmployee = 149,
+                StartDate = DateTime.Now.AddDays(-151),
+                EndDate = DateTime.Now.AddDays(-146),
+                Cost = 45892000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-106),
+                UpdatedAt
+             = DateTime.Now.AddDays(-106)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 271,
+                PaymentId = 106,
+                ProductId = 23,
+                ServiceId = 2,
+                AmoutEmployee = 200,
+                StartDate = DateTime.Now.AddDays(-52),
+                EndDate = DateTime.Now.AddDays(-40),
+                Cost = 32400000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-106),
+                UpdatedAt
+             = DateTime.Now.AddDays(-106)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 272,
+                PaymentId = 107,
+                ProductId = 21,
+                ServiceId = 1,
+                AmoutEmployee = 70,
+                StartDate = DateTime.Now.AddDays(-45),
+                EndDate = DateTime.Now.AddDays(-34),
+                Cost = 12285000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-107),
+                UpdatedAt
+             = DateTime.Now.AddDays(-107)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 273,
+                PaymentId = 107,
+                ProductId = 8,
+                ServiceId = 3,
+                AmoutEmployee = 125,
+                StartDate = DateTime.Now.AddDays(-10),
+                EndDate = DateTime.Now.AddDays(0),
+                Cost = 2750000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-107),
+                UpdatedAt
+             = DateTime.Now.AddDays(-107)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 274,
+                PaymentId = 108,
+                ProductId = 27,
+                ServiceId = 3,
+                AmoutEmployee = 113,
+                StartDate = DateTime.Now.AddDays(-137),
+                EndDate = DateTime.Now.AddDays(-136),
+                Cost = 60907000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-108),
+                UpdatedAt
+             = DateTime.Now.AddDays(-108)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 275,
+                PaymentId = 108,
+                ProductId = 2,
+                ServiceId = 3,
+                AmoutEmployee = 35,
+                StartDate = DateTime.Now.AddDays(-54),
+                EndDate = DateTime.Now.AddDays(-51),
+                Cost = 8855000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-108),
+                UpdatedAt
+             = DateTime.Now.AddDays(-108)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 276,
+                PaymentId = 108,
+                ProductId = 7,
+                ServiceId = 2,
+                AmoutEmployee = 183,
+                StartDate = DateTime.Now.AddDays(-168),
+                EndDate = DateTime.Now.AddDays(-165),
+                Cost = 18666000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-108),
+                UpdatedAt
+             = DateTime.Now.AddDays(-108)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 277,
+                PaymentId = 109,
+                ProductId = 25,
+                ServiceId = 2,
+                AmoutEmployee = 88,
+                StartDate = DateTime.Now.AddDays(-127),
+                EndDate = DateTime.Now.AddDays(-114),
+                Cost = 23232000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-109),
+                UpdatedAt
+             = DateTime.Now.AddDays(-109)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 278,
+                PaymentId = 109,
+                ProductId = 7,
+                ServiceId = 2,
+                AmoutEmployee = 177,
+                StartDate = DateTime.Now.AddDays(-162),
+                EndDate = DateTime.Now.AddDays(-158),
+                Cost = 52038000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-109),
+                UpdatedAt
+             = DateTime.Now.AddDays(-109)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 279,
+                PaymentId = 110,
+                ProductId = 11,
+                ServiceId = 3,
+                AmoutEmployee = 118,
+                StartDate = DateTime.Now.AddDays(-66),
+                EndDate = DateTime.Now.AddDays(-60),
+                Cost = 17523000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-110),
+                UpdatedAt
+             = DateTime.Now.AddDays(-110)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 280,
+                PaymentId = 110,
+                ProductId = 14,
+                ServiceId = 1,
+                AmoutEmployee = 29,
+                StartDate = DateTime.Now.AddDays(-12),
+                EndDate = DateTime.Now.AddDays(-4),
+                Cost = 652500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-110),
+                UpdatedAt
+             = DateTime.Now.AddDays(-110)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 281,
+                PaymentId = 110,
+                ProductId = 9,
+                ServiceId = 3,
+                AmoutEmployee = 110,
+                StartDate = DateTime.Now.AddDays(-22),
+                EndDate = DateTime.Now.AddDays(-7),
+                Cost = 7865000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-110),
+                UpdatedAt
+             = DateTime.Now.AddDays(-110)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 282,
+                PaymentId = 111,
+                ProductId = 10,
+                ServiceId = 1,
+                AmoutEmployee = 162,
+                StartDate = DateTime.Now.AddDays(-138),
+                EndDate = DateTime.Now.AddDays(-135),
+                Cost = 69984000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-111),
+                UpdatedAt
+             = DateTime.Now.AddDays(-111)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 283,
+                PaymentId = 111,
+                ProductId = 24,
+                ServiceId = 1,
+                AmoutEmployee = 46,
+                StartDate = DateTime.Now.AddDays(-146),
+                EndDate = DateTime.Now.AddDays(-139),
+                Cost = 22149000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-111),
+                UpdatedAt
+             = DateTime.Now.AddDays(-111)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 284,
+                PaymentId = 111,
+                ProductId = 12,
+                ServiceId = 1,
+                AmoutEmployee = 95,
+                StartDate = DateTime.Now.AddDays(-152),
+                EndDate = DateTime.Now.AddDays(-143),
+                Cost = 2992500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-111),
+                UpdatedAt
+             = DateTime.Now.AddDays(-111)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 285,
+                PaymentId = 112,
+                ProductId = 8,
+                ServiceId = 3,
+                AmoutEmployee = 25,
+                StartDate = DateTime.Now.AddDays(-101),
+                EndDate = DateTime.Now.AddDays(-89),
+                Cost = 9625000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-112),
+                UpdatedAt
+             = DateTime.Now.AddDays(-112)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 286,
+                PaymentId = 112,
+                ProductId = 7,
+                ServiceId = 2,
+                AmoutEmployee = 89,
+                StartDate = DateTime.Now.AddDays(-40),
+                EndDate = DateTime.Now.AddDays(-28),
+                Cost = 17088000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-112),
+                UpdatedAt
+             = DateTime.Now.AddDays(-112)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 287,
+                PaymentId = 113,
+                ProductId = 22,
+                ServiceId = 3,
+                AmoutEmployee = 86,
+                StartDate = DateTime.Now.AddDays(-126),
+                EndDate = DateTime.Now.AddDays(-118),
+                Cost = 9460000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-113),
+                UpdatedAt
+             = DateTime.Now.AddDays(-113)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 288,
+                PaymentId = 113,
+                ProductId = 15,
+                ServiceId = 3,
+                AmoutEmployee = 190,
+                StartDate = DateTime.Now.AddDays(-175),
+                EndDate = DateTime.Now.AddDays(-162),
+                Cost = 132715000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-113),
+                UpdatedAt
+             = DateTime.Now.AddDays(-113)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 289,
+                PaymentId = 113,
+                ProductId = 4,
+                ServiceId = 3,
+                AmoutEmployee = 101,
+                StartDate = DateTime.Now.AddDays(-185),
+                EndDate = DateTime.Now.AddDays(-175),
+                Cost = 21109000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-113),
+                UpdatedAt
+             = DateTime.Now.AddDays(-113)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 290,
+                PaymentId = 114,
+                ProductId = 6,
+                ServiceId = 2,
+                AmoutEmployee = 123,
+                StartDate = DateTime.Now.AddDays(-183),
+                EndDate = DateTime.Now.AddDays(-168),
+                Cost = 46494000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-114),
+                UpdatedAt
+             = DateTime.Now.AddDays(-114)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 291,
+                PaymentId = 114,
+                ProductId = 11,
+                ServiceId = 1,
+                AmoutEmployee = 78,
+                StartDate = DateTime.Now.AddDays(-37),
+                EndDate = DateTime.Now.AddDays(-23),
+                Cost = 7371000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-114),
+                UpdatedAt
+             = DateTime.Now.AddDays(-114)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 292,
+                PaymentId = 115,
+                ProductId = 10,
+                ServiceId = 2,
+                AmoutEmployee = 189,
+                StartDate = DateTime.Now.AddDays(-8),
+                EndDate = DateTime.Now.AddDays(-4),
+                Cost = 3402000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-115),
+                UpdatedAt
+             = DateTime.Now.AddDays(-115)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 293,
+                PaymentId = 115,
+                ProductId = 13,
+                ServiceId = 2,
+                AmoutEmployee = 98,
+                StartDate = DateTime.Now.AddDays(-161),
+                EndDate = DateTime.Now.AddDays(-157),
+                Cost = 79380000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-115),
+                UpdatedAt
+             = DateTime.Now.AddDays(-115)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 294,
+                PaymentId = 115,
+                ProductId = 2,
+                ServiceId = 2,
+                AmoutEmployee = 106,
+                StartDate = DateTime.Now.AddDays(-164),
+                EndDate = DateTime.Now.AddDays(-159),
+                Cost = 10176000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-115),
+                UpdatedAt
+             = DateTime.Now.AddDays(-115)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 295,
+                PaymentId = 116,
+                ProductId = 12,
+                ServiceId = 3,
+                AmoutEmployee = 46,
+                StartDate = DateTime.Now.AddDays(-98),
+                EndDate = DateTime.Now.AddDays(-86),
+                Cost = 13915000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-116),
+                UpdatedAt
+             = DateTime.Now.AddDays(-116)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 296,
+                PaymentId = 116,
+                ProductId = 4,
+                ServiceId = 1,
+                AmoutEmployee = 155,
+                StartDate = DateTime.Now.AddDays(-114),
+                EndDate = DateTime.Now.AddDays(-108),
+                Cost = 20925000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-116),
+                UpdatedAt
+             = DateTime.Now.AddDays(-116)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 297,
+                PaymentId = 117,
+                ProductId = 23,
+                ServiceId = 3,
+                AmoutEmployee = 195,
+                StartDate = DateTime.Now.AddDays(-181),
+                EndDate = DateTime.Now.AddDays(-168),
+                Cost = 35392500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-117),
+                UpdatedAt
+             = DateTime.Now.AddDays(-117)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 298,
+                PaymentId = 117,
+                ProductId = 11,
+                ServiceId = 1,
+                AmoutEmployee = 82,
+                StartDate = DateTime.Now.AddDays(-31),
+                EndDate = DateTime.Now.AddDays(-18),
+                Cost = 9594000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-117),
+                UpdatedAt
+             = DateTime.Now.AddDays(-117)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 299,
+                PaymentId = 117,
+                ProductId = 29,
+                ServiceId = 1,
+                AmoutEmployee = 175,
+                StartDate = DateTime.Now.AddDays(-122),
+                EndDate = DateTime.Now.AddDays(-114),
+                Cost = 90562500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-117),
+                UpdatedAt
+             = DateTime.Now.AddDays(-117)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 300,
+                PaymentId = 118,
+                ProductId = 14,
+                ServiceId = 2,
+                AmoutEmployee = 62,
+                StartDate = DateTime.Now.AddDays(-11),
+                EndDate = DateTime.Now.AddDays(-10),
+                Cost = 2232000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-118),
+                UpdatedAt
+             = DateTime.Now.AddDays(-118)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 301,
+                PaymentId = 118,
+                ProductId = 25,
+                ServiceId = 1,
+                AmoutEmployee = 161,
+                StartDate = DateTime.Now.AddDays(-35),
+                EndDate = DateTime.Now.AddDays(-26),
+                Cost = 18837000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-118),
+                UpdatedAt
+             = DateTime.Now.AddDays(-118)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 302,
+                PaymentId = 119,
+                ProductId = 4,
+                ServiceId = 1,
+                AmoutEmployee = 145,
+                StartDate = DateTime.Now.AddDays(-171),
+                EndDate = DateTime.Now.AddDays(-167),
+                Cost = 44370000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-119),
+                UpdatedAt
+             = DateTime.Now.AddDays(-119)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 303,
+                PaymentId = 119,
+                ProductId = 3,
+                ServiceId = 3,
+                AmoutEmployee = 103,
+                StartDate = DateTime.Now.AddDays(-198),
+                EndDate = DateTime.Now.AddDays(-189),
+                Cost = 104802500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-119),
+                UpdatedAt
+             = DateTime.Now.AddDays(-119)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 304,
+                PaymentId = 119,
+                ProductId = 26,
+                ServiceId = 2,
+                AmoutEmployee = 118,
+                StartDate = DateTime.Now.AddDays(-198),
+                EndDate = DateTime.Now.AddDays(-187),
+                Cost = 124608000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-119),
+                UpdatedAt
+             = DateTime.Now.AddDays(-119)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 305,
+                PaymentId = 120,
+                ProductId = 8,
+                ServiceId = 1,
+                AmoutEmployee = 79,
+                StartDate = DateTime.Now.AddDays(-17),
+                EndDate = DateTime.Now.AddDays(-5),
+                Cost = 1066500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-120),
+                UpdatedAt
+             = DateTime.Now.AddDays(-120)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 306,
+                PaymentId = 120,
+                ProductId = 28,
+                ServiceId = 2,
+                AmoutEmployee = 34,
+                StartDate = DateTime.Now.AddDays(-95),
+                EndDate = DateTime.Now.AddDays(-85),
+                Cost = 204000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-120),
+                UpdatedAt
+             = DateTime.Now.AddDays(-120)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 307,
+                PaymentId = 121,
+                ProductId = 29,
+                ServiceId = 3,
+                AmoutEmployee = 166,
+                StartDate = DateTime.Now.AddDays(-88),
+                EndDate = DateTime.Now.AddDays(-76),
+                Cost = 26477000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-121),
+                UpdatedAt
+             = DateTime.Now.AddDays(-121)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 308,
+                PaymentId = 121,
+                ProductId = 2,
+                ServiceId = 2,
+                AmoutEmployee = 87,
+                StartDate = DateTime.Now.AddDays(-82),
+                EndDate = DateTime.Now.AddDays(-76),
+                Cost = 30798000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-121),
+                UpdatedAt
+             = DateTime.Now.AddDays(-121)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 309,
+                PaymentId = 121,
+                ProductId = 11,
+                ServiceId = 3,
+                AmoutEmployee = 34,
+                StartDate = DateTime.Now.AddDays(-115),
+                EndDate = DateTime.Now.AddDays(-101),
+                Cost = 13277000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-121),
+                UpdatedAt
+             = DateTime.Now.AddDays(-121)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 310,
+                PaymentId = 122,
+                ProductId = 1,
+                ServiceId = 1,
+                AmoutEmployee = 61,
+                StartDate = DateTime.Now.AddDays(-31),
+                EndDate = DateTime.Now.AddDays(-26),
+                Cost = 5215500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-122),
+                UpdatedAt
+             = DateTime.Now.AddDays(-122)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 311,
+                PaymentId = 122,
+                ProductId = 2,
+                ServiceId = 1,
+                AmoutEmployee = 178,
+                StartDate = DateTime.Now.AddDays(-63),
+                EndDate = DateTime.Now.AddDays(-62),
+                Cost = 40851000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-122),
+                UpdatedAt
+             = DateTime.Now.AddDays(-122)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 312,
+                PaymentId = 122,
+                ProductId = 19,
+                ServiceId = 2,
+                AmoutEmployee = 48,
+                StartDate = DateTime.Now.AddDays(-169),
+                EndDate = DateTime.Now.AddDays(-166),
+                Cost = 12384000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-122),
+                UpdatedAt
+             = DateTime.Now.AddDays(-122)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 313,
+                PaymentId = 123,
+                ProductId = 18,
+                ServiceId = 1,
+                AmoutEmployee = 127,
+                StartDate = DateTime.Now.AddDays(-138),
+                EndDate = DateTime.Now.AddDays(-135),
+                Cost = 32575500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-123),
+                UpdatedAt
+             = DateTime.Now.AddDays(-123)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 314,
+                PaymentId = 123,
+                ProductId = 10,
+                ServiceId = 2,
+                AmoutEmployee = 146,
+                StartDate = DateTime.Now.AddDays(-16),
+                EndDate = DateTime.Now.AddDays(-5),
+                Cost = 2628000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-123),
+                UpdatedAt
+             = DateTime.Now.AddDays(-123)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 315,
+                PaymentId = 124,
+                ProductId = 22,
+                ServiceId = 1,
+                AmoutEmployee = 115,
+                StartDate = DateTime.Now.AddDays(-136),
+                EndDate = DateTime.Now.AddDays(-134),
+                Cost = 37777500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-124),
+                UpdatedAt
+             = DateTime.Now.AddDays(-124)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 316,
+                PaymentId = 124,
+                ProductId = 13,
+                ServiceId = 2,
+                AmoutEmployee = 45,
+                StartDate = DateTime.Now.AddDays(-68),
+                EndDate = DateTime.Now.AddDays(-67),
+                Cost = 2430000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-124),
+                UpdatedAt
+             = DateTime.Now.AddDays(-124)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 317,
+                PaymentId = 124,
+                ProductId = 15,
+                ServiceId = 2,
+                AmoutEmployee = 107,
+                StartDate = DateTime.Now.AddDays(-15),
+                EndDate = DateTime.Now.AddDays(-1),
+                Cost = 4494000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-124),
+                UpdatedAt
+             = DateTime.Now.AddDays(-124)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 318,
+                PaymentId = 125,
+                ProductId = 5,
+                ServiceId = 2,
+                AmoutEmployee = 46,
+                StartDate = DateTime.Now.AddDays(-95),
+                EndDate = DateTime.Now.AddDays(-87),
+                Cost = 18492000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-125),
+                UpdatedAt
+             = DateTime.Now.AddDays(-125)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 319,
+                PaymentId = 125,
+                ProductId = 7,
+                ServiceId = 1,
+                AmoutEmployee = 85,
+                StartDate = DateTime.Now.AddDays(-127),
+                EndDate = DateTime.Now.AddDays(-123),
+                Cost = 7267500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-125),
+                UpdatedAt
+             = DateTime.Now.AddDays(-125)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 320,
+                PaymentId = 126,
+                ProductId = 27,
+                ServiceId = 1,
+                AmoutEmployee = 196,
+                StartDate = DateTime.Now.AddDays(-76),
+                EndDate = DateTime.Now.AddDays(-62),
+                Cost = 26460000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-126),
+                UpdatedAt
+             = DateTime.Now.AddDays(-126)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 321,
+                PaymentId = 126,
+                ProductId = 25,
+                ServiceId = 2,
+                AmoutEmployee = 106,
+                StartDate = DateTime.Now.AddDays(-93),
+                EndDate = DateTime.Now.AddDays(-78),
+                Cost = 5724000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-126),
+                UpdatedAt
+             = DateTime.Now.AddDays(-126)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 322,
+                PaymentId = 126,
+                ProductId = 7,
+                ServiceId = 2,
+                AmoutEmployee = 193,
+                StartDate = DateTime.Now.AddDays(-98),
+                EndDate = DateTime.Now.AddDays(-88),
+                Cost = 39372000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-126),
+                UpdatedAt
+             = DateTime.Now.AddDays(-126)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 323,
+                PaymentId = 127,
+                ProductId = 11,
+                ServiceId = 1,
+                AmoutEmployee = 48,
+                StartDate = DateTime.Now.AddDays(-118),
+                EndDate = DateTime.Now.AddDays(-114),
+                Cost = 14904000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-127),
+                UpdatedAt
+             = DateTime.Now.AddDays(-127)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 324,
+                PaymentId = 127,
+                ProductId = 25,
+                ServiceId = 3,
+                AmoutEmployee = 196,
+                StartDate = DateTime.Now.AddDays(-111),
+                EndDate = DateTime.Now.AddDays(-110),
+                Cost = 20482000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-127),
+                UpdatedAt
+             = DateTime.Now.AddDays(-127)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 325,
+                PaymentId = 128,
+                ProductId = 8,
+                ServiceId = 3,
+                AmoutEmployee = 131,
+                StartDate = DateTime.Now.AddDays(-172),
+                EndDate = DateTime.Now.AddDays(-169),
+                Cost = 15851000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-128),
+                UpdatedAt
+             = DateTime.Now.AddDays(-128)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 326,
+                PaymentId = 128,
+                ProductId = 23,
+                ServiceId = 3,
+                AmoutEmployee = 158,
+                StartDate = DateTime.Now.AddDays(-179),
+                EndDate = DateTime.Now.AddDays(-171),
+                Cost = 114708000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-128),
+                UpdatedAt
+             = DateTime.Now.AddDays(-128)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 327,
+                PaymentId = 128,
+                ProductId = 18,
+                ServiceId = 2,
+                AmoutEmployee = 163,
+                StartDate = DateTime.Now.AddDays(-173),
+                EndDate = DateTime.Now.AddDays(-162),
+                Cost = 88020000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-128),
+                UpdatedAt
+             = DateTime.Now.AddDays(-128)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 328,
+                PaymentId = 129,
+                ProductId = 23,
+                ServiceId = 2,
+                AmoutEmployee = 131,
+                StartDate = DateTime.Now.AddDays(-200),
+                EndDate = DateTime.Now.AddDays(-188),
+                Cost = 101394000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-129),
+                UpdatedAt
+             = DateTime.Now.AddDays(-129)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 329,
+                PaymentId = 129,
+                ProductId = 17,
+                ServiceId = 3,
+                AmoutEmployee = 87,
+                StartDate = DateTime.Now.AddDays(-105),
+                EndDate = DateTime.Now.AddDays(-90),
+                Cost = 36366000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-129),
+                UpdatedAt
+             = DateTime.Now.AddDays(-129)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 330,
+                PaymentId = 130,
+                ProductId = 11,
+                ServiceId = 2,
+                AmoutEmployee = 96,
+                StartDate = DateTime.Now.AddDays(-104),
+                EndDate = DateTime.Now.AddDays(-91),
+                Cost = 17856000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-130),
+                UpdatedAt
+             = DateTime.Now.AddDays(-130)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 331,
+                PaymentId = 130,
+                ProductId = 28,
+                ServiceId = 2,
+                AmoutEmployee = 96,
+                StartDate = DateTime.Now.AddDays(-134),
+                EndDate = DateTime.Now.AddDays(-122),
+                Cost = 19584000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-130),
+                UpdatedAt
+             = DateTime.Now.AddDays(-130)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 332,
+                PaymentId = 130,
+                ProductId = 23,
+                ServiceId = 3,
+                AmoutEmployee = 188,
+                StartDate = DateTime.Now.AddDays(-42),
+                EndDate = DateTime.Now.AddDays(-31),
+                Cost = 8272000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-130),
+                UpdatedAt
+             = DateTime.Now.AddDays(-130)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 333,
+                PaymentId = 131,
+                ProductId = 15,
+                ServiceId = 3,
+                AmoutEmployee = 164,
+                StartDate = DateTime.Now.AddDays(-25),
+                EndDate = DateTime.Now.AddDays(-15),
+                Cost = 14432000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-131),
+                UpdatedAt
+             = DateTime.Now.AddDays(-131)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 334,
+                PaymentId = 131,
+                ProductId = 13,
+                ServiceId = 2,
+                AmoutEmployee = 161,
+                StartDate = DateTime.Now.AddDays(-121),
+                EndDate = DateTime.Now.AddDays(-117),
+                Cost = 5796000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-131),
+                UpdatedAt
+             = DateTime.Now.AddDays(-131)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 335,
+                PaymentId = 132,
+                ProductId = 13,
+                ServiceId = 2,
+                AmoutEmployee = 33,
+                StartDate = DateTime.Now.AddDays(-182),
+                EndDate = DateTime.Now.AddDays(-172),
+                Cost = 23364000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-132),
+                UpdatedAt
+             = DateTime.Now.AddDays(-132)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 336,
+                PaymentId = 132,
+                ProductId = 24,
+                ServiceId = 2,
+                AmoutEmployee = 75,
+                StartDate = DateTime.Now.AddDays(-37),
+                EndDate = DateTime.Now.AddDays(-27),
+                Cost = 1350000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-132),
+                UpdatedAt
+             = DateTime.Now.AddDays(-132)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 337,
+                PaymentId = 132,
+                ProductId = 10,
+                ServiceId = 1,
+                AmoutEmployee = 120,
+                StartDate = DateTime.Now.AddDays(-33),
+                EndDate = DateTime.Now.AddDays(-24),
+                Cost = 13500000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-132),
+                UpdatedAt
+             = DateTime.Now.AddDays(-132)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 338,
+                PaymentId = 133,
+                ProductId = 13,
+                ServiceId = 1,
+                AmoutEmployee = 190,
+                StartDate = DateTime.Now.AddDays(-140),
+                EndDate = DateTime.Now.AddDays(-129),
+                Cost = 16245000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-133),
+                UpdatedAt
+             = DateTime.Now.AddDays(-133)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 339,
+                PaymentId = 133,
+                ProductId = 27,
+                ServiceId = 3,
+                AmoutEmployee = 119,
+                StartDate = DateTime.Now.AddDays(-13),
+                EndDate = DateTime.Now.AddDays(1),
+                Cost = 1963500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-133),
+                UpdatedAt
+             = DateTime.Now.AddDays(-133)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 340,
+                PaymentId = 133,
+                ProductId = 25,
+                ServiceId = 2,
+                AmoutEmployee = 199,
+                StartDate = DateTime.Now.AddDays(-20),
+                EndDate = DateTime.Now.AddDays(-12),
+                Cost = 13134000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-133),
+                UpdatedAt
+             = DateTime.Now.AddDays(-133)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 341,
+                PaymentId = 134,
+                ProductId = 22,
+                ServiceId = 1,
+                AmoutEmployee = 182,
+                StartDate = DateTime.Now.AddDays(-10),
+                EndDate = DateTime.Now.AddDays(3),
+                Cost = 2457000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-134),
+                UpdatedAt
+             = DateTime.Now.AddDays(-134)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 342,
+                PaymentId = 134,
+                ProductId = 25,
+                ServiceId = 2,
+                AmoutEmployee = 147,
+                StartDate = DateTime.Now.AddDays(-154),
+                EndDate = DateTime.Now.AddDays(-147),
+                Cost = 116424000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-134),
+                UpdatedAt
+             = DateTime.Now.AddDays(-134)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 343,
+                PaymentId = 135,
+                ProductId = 19,
+                ServiceId = 1,
+                AmoutEmployee = 101,
+                StartDate = DateTime.Now.AddDays(-98),
+                EndDate = DateTime.Now.AddDays(-88),
+                Cost = 39087000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-135),
+                UpdatedAt
+             = DateTime.Now.AddDays(-135)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 344,
+                PaymentId = 135,
+                ProductId = 22,
+                ServiceId = 2,
+                AmoutEmployee = 56,
+                StartDate = DateTime.Now.AddDays(-137),
+                EndDate = DateTime.Now.AddDays(-122),
+                Cost = 6384000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-135),
+                UpdatedAt
+             = DateTime.Now.AddDays(-135)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 345,
+                PaymentId = 135,
+                ProductId = 10,
+                ServiceId = 2,
+                AmoutEmployee = 194,
+                StartDate = DateTime.Now.AddDays(-77),
+                EndDate = DateTime.Now.AddDays(-66),
+                Cost = 33756000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-135),
+                UpdatedAt
+             = DateTime.Now.AddDays(-135)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 346,
+                PaymentId = 136,
+                ProductId = 17,
+                ServiceId = 2,
+                AmoutEmployee = 49,
+                StartDate = DateTime.Now.AddDays(-68),
+                EndDate = DateTime.Now.AddDays(-61),
+                Cost = 3822000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-136),
+                UpdatedAt
+             = DateTime.Now.AddDays(-136)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 347,
+                PaymentId = 136,
+                ProductId = 21,
+                ServiceId = 1,
+                AmoutEmployee = 42,
+                StartDate = DateTime.Now.AddDays(-72),
+                EndDate = DateTime.Now.AddDays(-59),
+                Cost = 7560000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-136),
+                UpdatedAt
+             = DateTime.Now.AddDays(-136)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 348,
+                PaymentId = 137,
+                ProductId = 6,
+                ServiceId = 2,
+                AmoutEmployee = 128,
+                StartDate = DateTime.Now.AddDays(-8),
+                EndDate = DateTime.Now.AddDays(1),
+                Cost = 1536000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-137),
+                UpdatedAt
+             = DateTime.Now.AddDays(-137)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 349,
+                PaymentId = 137,
+                ProductId = 26,
+                ServiceId = 3,
+                AmoutEmployee = 163,
+                StartDate = DateTime.Now.AddDays(-130),
+                EndDate = DateTime.Now.AddDays(-128),
+                Cost = 93236000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-137),
+                UpdatedAt
+             = DateTime.Now.AddDays(-137)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 350,
+                PaymentId = 137,
+                ProductId = 19,
+                ServiceId = 1,
+                AmoutEmployee = 26,
+                StartDate = DateTime.Now.AddDays(-48),
+                EndDate = DateTime.Now.AddDays(-41),
+                Cost = 5031000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-137),
+                UpdatedAt
+             = DateTime.Now.AddDays(-137)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 351,
+                PaymentId = 138,
+                ProductId = 18,
+                ServiceId = 2,
+                AmoutEmployee = 115,
+                StartDate = DateTime.Now.AddDays(-156),
+                EndDate = DateTime.Now.AddDays(-142),
+                Cost = 84180000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-138),
+                UpdatedAt
+             = DateTime.Now.AddDays(-138)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 352,
+                PaymentId = 138,
+                ProductId = 3,
+                ServiceId = 3,
+                AmoutEmployee = 35,
+                StartDate = DateTime.Now.AddDays(-111),
+                EndDate = DateTime.Now.AddDays(-104),
+                Cost = 18287500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-138),
+                UpdatedAt
+             = DateTime.Now.AddDays(-138)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 353,
+                PaymentId = 139,
+                ProductId = 25,
+                ServiceId = 2,
+                AmoutEmployee = 99,
+                StartDate = DateTime.Now.AddDays(-44),
+                EndDate = DateTime.Now.AddDays(-41),
+                Cost = 1782000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-139),
+                UpdatedAt
+             = DateTime.Now.AddDays(-139)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 354,
+                PaymentId = 139,
+                ProductId = 5,
+                ServiceId = 3,
+                AmoutEmployee = 63,
+                StartDate = DateTime.Now.AddDays(-32),
+                EndDate = DateTime.Now.AddDays(-28),
+                Cost = 346500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-139),
+                UpdatedAt
+             = DateTime.Now.AddDays(-139)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 355,
+                PaymentId = 139,
+                ProductId = 26,
+                ServiceId = 1,
+                AmoutEmployee = 51,
+                StartDate = DateTime.Now.AddDays(-159),
+                EndDate = DateTime.Now.AddDays(-146),
+                Cost = 13311000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-139),
+                UpdatedAt
+             = DateTime.Now.AddDays(-139)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 356,
+                PaymentId = 140,
+                ProductId = 23,
+                ServiceId = 3,
+                AmoutEmployee = 89,
+                StartDate = DateTime.Now.AddDays(-107),
+                EndDate = DateTime.Now.AddDays(-105),
+                Cost = 39160000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-140),
+                UpdatedAt
+             = DateTime.Now.AddDays(-140)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 357,
+                PaymentId = 140,
+                ProductId = 12,
+                ServiceId = 1,
+                AmoutEmployee = 190,
+                StartDate = DateTime.Now.AddDays(-31),
+                EndDate = DateTime.Now.AddDays(-30),
+                Cost = 11115000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-140),
+                UpdatedAt
+             = DateTime.Now.AddDays(-140)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 358,
+                PaymentId = 141,
+                ProductId = 6,
+                ServiceId = 1,
+                AmoutEmployee = 50,
+                StartDate = DateTime.Now.AddDays(-188),
+                EndDate = DateTime.Now.AddDays(-176),
+                Cost = 900000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-141),
+                UpdatedAt
+             = DateTime.Now.AddDays(-141)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 359,
+                PaymentId = 141,
+                ProductId = 21,
+                ServiceId = 3,
+                AmoutEmployee = 196,
+                StartDate = DateTime.Now.AddDays(-125),
+                EndDate = DateTime.Now.AddDays(-115),
+                Cost = 20482000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-141),
+                UpdatedAt
+             = DateTime.Now.AddDays(-141)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 360,
+                PaymentId = 141,
+                ProductId = 24,
+                ServiceId = 2,
+                AmoutEmployee = 147,
+                StartDate = DateTime.Now.AddDays(-57),
+                EndDate = DateTime.Now.AddDays(-49),
+                Cost = 40572000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-141),
+                UpdatedAt
+             = DateTime.Now.AddDays(-141)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 361,
+                PaymentId = 142,
+                ProductId = 9,
+                ServiceId = 1,
+                AmoutEmployee = 127,
+                StartDate = DateTime.Now.AddDays(-152),
+                EndDate = DateTime.Now.AddDays(-150),
+                Cost = 5143500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-142),
+                UpdatedAt
+             = DateTime.Now.AddDays(-142)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 362,
+                PaymentId = 142,
+                ProductId = 30,
+                ServiceId = 3,
+                AmoutEmployee = 102,
+                StartDate = DateTime.Now.AddDays(-96),
+                EndDate = DateTime.Now.AddDays(-88),
+                Cost = 46002000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-142),
+                UpdatedAt
+             = DateTime.Now.AddDays(-142)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 363,
+                PaymentId = 143,
+                ProductId = 9,
+                ServiceId = 1,
+                AmoutEmployee = 45,
+                StartDate = DateTime.Now.AddDays(-181),
+                EndDate = DateTime.Now.AddDays(-174),
+                Cost = 24907500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-143),
+                UpdatedAt
+             = DateTime.Now.AddDays(-143)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 364,
+                PaymentId = 143,
+                ProductId = 26,
+                ServiceId = 3,
+                AmoutEmployee = 60,
+                StartDate = DateTime.Now.AddDays(-112),
+                EndDate = DateTime.Now.AddDays(-97),
+                Cost = 23100000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-143),
+                UpdatedAt
+             = DateTime.Now.AddDays(-143)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 365,
+                PaymentId = 143,
+                ProductId = 25,
+                ServiceId = 3,
+                AmoutEmployee = 29,
+                StartDate = DateTime.Now.AddDays(-88),
+                EndDate = DateTime.Now.AddDays(-78),
+                Cost = 4466000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-143),
+                UpdatedAt
+             = DateTime.Now.AddDays(-143)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 366,
+                PaymentId = 144,
+                ProductId = 16,
+                ServiceId = 3,
+                AmoutEmployee = 179,
+                StartDate = DateTime.Now.AddDays(-74),
+                EndDate = DateTime.Now.AddDays(-60),
+                Cost = 20674500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-144),
+                UpdatedAt
+             = DateTime.Now.AddDays(-144)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 367,
+                PaymentId = 144,
+                ProductId = 26,
+                ServiceId = 3,
+                AmoutEmployee = 137,
+                StartDate = DateTime.Now.AddDays(-71),
+                EndDate = DateTime.Now.AddDays(-65),
+                Cost = 18084000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-144),
+                UpdatedAt
+             = DateTime.Now.AddDays(-144)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 368,
+                PaymentId = 144,
+                ProductId = 16,
+                ServiceId = 1,
+                AmoutEmployee = 62,
+                StartDate = DateTime.Now.AddDays(-103),
+                EndDate = DateTime.Now.AddDays(-90),
+                Cost = 4185000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-144),
+                UpdatedAt
+             = DateTime.Now.AddDays(-144)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 369,
+                PaymentId = 145,
+                ProductId = 16,
+                ServiceId = 3,
+                AmoutEmployee = 183,
+                StartDate = DateTime.Now.AddDays(-15),
+                EndDate = DateTime.Now.AddDays(-1),
+                Cost = 6039000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-145),
+                UpdatedAt
+             = DateTime.Now.AddDays(-145)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 370,
+                PaymentId = 145,
+                ProductId = 1,
+                ServiceId = 3,
+                AmoutEmployee = 53,
+                StartDate = DateTime.Now.AddDays(-31),
+                EndDate = DateTime.Now.AddDays(-29),
+                Cost = 4664000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-145),
+                UpdatedAt
+             = DateTime.Now.AddDays(-145)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 371,
+                PaymentId = 146,
+                ProductId = 3,
+                ServiceId = 3,
+                AmoutEmployee = 29,
+                StartDate = DateTime.Now.AddDays(-77),
+                EndDate = DateTime.Now.AddDays(-76),
+                Cost = 7177500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-146),
+                UpdatedAt
+             = DateTime.Now.AddDays(-146)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 372,
+                PaymentId = 146,
+                ProductId = 29,
+                ServiceId = 2,
+                AmoutEmployee = 83,
+                StartDate = DateTime.Now.AddDays(-116),
+                EndDate = DateTime.Now.AddDays(-113),
+                Cost = 19920000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-146),
+                UpdatedAt
+             = DateTime.Now.AddDays(-146)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 373,
+                PaymentId = 146,
+                ProductId = 18,
+                ServiceId = 2,
+                AmoutEmployee = 106,
+                StartDate = DateTime.Now.AddDays(-132),
+                EndDate = DateTime.Now.AddDays(-128),
+                Cost = 10176000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-146),
+                UpdatedAt
+             = DateTime.Now.AddDays(-146)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 374,
+                PaymentId = 147,
+                ProductId = 11,
+                ServiceId = 1,
+                AmoutEmployee = 190,
+                StartDate = DateTime.Now.AddDays(-107),
+                EndDate = DateTime.Now.AddDays(-99),
+                Cost = 87210000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-147),
+                UpdatedAt
+             = DateTime.Now.AddDays(-147)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 375,
+                PaymentId = 147,
+                ProductId = 24,
+                ServiceId = 2,
+                AmoutEmployee = 196,
+                StartDate = DateTime.Now.AddDays(-52),
+                EndDate = DateTime.Now.AddDays(-42),
+                Cost = 16464000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-147),
+                UpdatedAt
+             = DateTime.Now.AddDays(-147)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 376,
+                PaymentId = 148,
+                ProductId = 1,
+                ServiceId = 3,
+                AmoutEmployee = 37,
+                StartDate = DateTime.Now.AddDays(-80),
+                EndDate = DateTime.Now.AddDays(-65),
+                Cost = 4273500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-148),
+                UpdatedAt
+             = DateTime.Now.AddDays(-148)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 377,
+                PaymentId = 148,
+                ProductId = 28,
+                ServiceId = 2,
+                AmoutEmployee = 90,
+                StartDate = DateTime.Now.AddDays(-134),
+                EndDate = DateTime.Now.AddDays(-132),
+                Cost = 61560000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-148),
+                UpdatedAt
+             = DateTime.Now.AddDays(-148)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 378,
+                PaymentId = 148,
+                ProductId = 6,
+                ServiceId = 3,
+                AmoutEmployee = 36,
+                StartDate = DateTime.Now.AddDays(-141),
+                EndDate = DateTime.Now.AddDays(-130),
+                Cost = 4752000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-148),
+                UpdatedAt
+             = DateTime.Now.AddDays(-148)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 379,
+                PaymentId = 149,
+                ProductId = 11,
+                ServiceId = 2,
+                AmoutEmployee = 58,
+                StartDate = DateTime.Now.AddDays(-108),
+                EndDate = DateTime.Now.AddDays(-98),
+                Cost = 26100000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-149),
+                UpdatedAt
+             = DateTime.Now.AddDays(-149)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 380,
+                PaymentId = 149,
+                ProductId = 5,
+                ServiceId = 2,
+                AmoutEmployee = 189,
+                StartDate = DateTime.Now.AddDays(-149),
+                EndDate = DateTime.Now.AddDays(-148),
+                Cost = 1134000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-149),
+                UpdatedAt
+             = DateTime.Now.AddDays(-149)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 381,
+                PaymentId = 150,
+                ProductId = 17,
+                ServiceId = 3,
+                AmoutEmployee = 72,
+                StartDate = DateTime.Now.AddDays(-167),
+                EndDate = DateTime.Now.AddDays(-162),
+                Cost = 15048000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-150),
+                UpdatedAt
+             = DateTime.Now.AddDays(-150)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 382,
+                PaymentId = 150,
+                ProductId = 21,
+                ServiceId = 2,
+                AmoutEmployee = 193,
+                StartDate = DateTime.Now.AddDays(-18),
+                EndDate = DateTime.Now.AddDays(-8),
+                Cost = 4632000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-150),
+                UpdatedAt
+             = DateTime.Now.AddDays(-150)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 383,
+                PaymentId = 150,
+                ProductId = 13,
+                ServiceId = 3,
+                AmoutEmployee = 150,
+                StartDate = DateTime.Now.AddDays(-159),
+                EndDate = DateTime.Now.AddDays(-152),
+                Cost = 75900000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-150),
+                UpdatedAt
+             = DateTime.Now.AddDays(-150)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 384,
+                PaymentId = 151,
+                ProductId = 23,
+                ServiceId = 1,
+                AmoutEmployee = 129,
+                StartDate = DateTime.Now.AddDays(-197),
+                EndDate = DateTime.Now.AddDays(-192),
+                Cost = 64435500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-151),
+                UpdatedAt
+             = DateTime.Now.AddDays(-151)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 385,
+                PaymentId = 151,
+                ProductId = 17,
+                ServiceId = 2,
+                AmoutEmployee = 172,
+                StartDate = DateTime.Now.AddDays(-14),
+                EndDate = DateTime.Now.AddDays(-6),
+                Cost = 2064000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-151),
+                UpdatedAt
+             = DateTime.Now.AddDays(-151)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 386,
+                PaymentId = 152,
+                ProductId = 28,
+                ServiceId = 3,
+                AmoutEmployee = 43,
+                StartDate = DateTime.Now.AddDays(-120),
+                EndDate = DateTime.Now.AddDays(-119),
+                Cost = 25305500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-152),
+                UpdatedAt
+             = DateTime.Now.AddDays(-152)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 387,
+                PaymentId = 152,
+                ProductId = 9,
+                ServiceId = 3,
+                AmoutEmployee = 107,
+                StartDate = DateTime.Now.AddDays(-18),
+                EndDate = DateTime.Now.AddDays(-7),
+                Cost = 1177000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-152),
+                UpdatedAt
+             = DateTime.Now.AddDays(-152)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 388,
+                PaymentId = 152,
+                ProductId = 10,
+                ServiceId = 2,
+                AmoutEmployee = 128,
+                StartDate = DateTime.Now.AddDays(-89),
+                EndDate = DateTime.Now.AddDays(-86),
+                Cost = 55296000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-152),
+                UpdatedAt
+             = DateTime.Now.AddDays(-152)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 389,
+                PaymentId = 153,
+                ProductId = 30,
+                ServiceId = 2,
+                AmoutEmployee = 140,
+                StartDate = DateTime.Now.AddDays(-64),
+                EndDate = DateTime.Now.AddDays(-49),
+                Cost = 13440000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-153),
+                UpdatedAt
+             = DateTime.Now.AddDays(-153)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 390,
+                PaymentId = 153,
+                ProductId = 26,
+                ServiceId = 1,
+                AmoutEmployee = 193,
+                StartDate = DateTime.Now.AddDays(-17),
+                EndDate = DateTime.Now.AddDays(-4),
+                Cost = 5211000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-153),
+                UpdatedAt
+             = DateTime.Now.AddDays(-153)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 391,
+                PaymentId = 154,
+                ProductId = 28,
+                ServiceId = 1,
+                AmoutEmployee = 90,
+                StartDate = DateTime.Now.AddDays(-69),
+                EndDate = DateTime.Now.AddDays(-61),
+                Cost = 19035000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-154),
+                UpdatedAt
+             = DateTime.Now.AddDays(-154)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 392,
+                PaymentId = 154,
+                ProductId = 25,
+                ServiceId = 2,
+                AmoutEmployee = 36,
+                StartDate = DateTime.Now.AddDays(-127),
+                EndDate = DateTime.Now.AddDays(-117),
+                Cost = 11016000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-154),
+                UpdatedAt
+             = DateTime.Now.AddDays(-154)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 393,
+                PaymentId = 154,
+                ProductId = 2,
+                ServiceId = 1,
+                AmoutEmployee = 43,
+                StartDate = DateTime.Now.AddDays(-149),
+                EndDate = DateTime.Now.AddDays(-142),
+                Cost = 12964500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-154),
+                UpdatedAt
+             = DateTime.Now.AddDays(-154)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 394,
+                PaymentId = 155,
+                ProductId = 27,
+                ServiceId = 2,
+                AmoutEmployee = 63,
+                StartDate = DateTime.Now.AddDays(-97),
+                EndDate = DateTime.Now.AddDays(-89),
+                Cost = 11340000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-155),
+                UpdatedAt
+             = DateTime.Now.AddDays(-155)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 395,
+                PaymentId = 155,
+                ProductId = 17,
+                ServiceId = 2,
+                AmoutEmployee = 126,
+                StartDate = DateTime.Now.AddDays(-51),
+                EndDate = DateTime.Now.AddDays(-43),
+                Cost = 30996000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-155),
+                UpdatedAt
+             = DateTime.Now.AddDays(-155)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 396,
+                PaymentId = 155,
+                ProductId = 19,
+                ServiceId = 1,
+                AmoutEmployee = 92,
+                StartDate = DateTime.Now.AddDays(-150),
+                EndDate = DateTime.Now.AddDays(-143),
+                Cost = 17802000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-155),
+                UpdatedAt
+             = DateTime.Now.AddDays(-155)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 397,
+                PaymentId = 156,
+                ProductId = 17,
+                ServiceId = 1,
+                AmoutEmployee = 64,
+                StartDate = DateTime.Now.AddDays(-89),
+                EndDate = DateTime.Now.AddDays(-88),
+                Cost = 9504000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-156),
+                UpdatedAt
+             = DateTime.Now.AddDays(-156)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 398,
+                PaymentId = 156,
+                ProductId = 24,
+                ServiceId = 3,
+                AmoutEmployee = 32,
+                StartDate = DateTime.Now.AddDays(-122),
+                EndDate = DateTime.Now.AddDays(-108),
+                Cost = 15664000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-156),
+                UpdatedAt
+             = DateTime.Now.AddDays(-156)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 399,
+                PaymentId = 157,
+                ProductId = 20,
+                ServiceId = 3,
+                AmoutEmployee = 169,
+                StartDate = DateTime.Now.AddDays(-117),
+                EndDate = DateTime.Now.AddDays(-105),
+                Cost = 73430500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-157),
+                UpdatedAt
+             = DateTime.Now.AddDays(-157)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 400,
+                PaymentId = 157,
+                ProductId = 20,
+                ServiceId = 1,
+                AmoutEmployee = 175,
+                StartDate = DateTime.Now.AddDays(-52),
+                EndDate = DateTime.Now.AddDays(-47),
+                Cost = 12600000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-157),
+                UpdatedAt
+             = DateTime.Now.AddDays(-157)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 401,
+                PaymentId = 157,
+                ProductId = 14,
+                ServiceId = 3,
+                AmoutEmployee = 58,
+                StartDate = DateTime.Now.AddDays(-52),
+                EndDate = DateTime.Now.AddDays(-46),
+                Cost = 12122000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-157),
+                UpdatedAt
+             = DateTime.Now.AddDays(-157)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 402,
+                PaymentId = 158,
+                ProductId = 5,
+                ServiceId = 2,
+                AmoutEmployee = 188,
+                StartDate = DateTime.Now.AddDays(-106),
+                EndDate = DateTime.Now.AddDays(-94),
+                Cost = 107160000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-158),
+                UpdatedAt
+             = DateTime.Now.AddDays(-158)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 403,
+                PaymentId = 158,
+                ProductId = 11,
+                ServiceId = 3,
+                AmoutEmployee = 65,
+                StartDate = DateTime.Now.AddDays(-79),
+                EndDate = DateTime.Now.AddDays(-67),
+                Cost = 17517500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-158),
+                UpdatedAt
+             = DateTime.Now.AddDays(-158)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 404,
+                PaymentId = 159,
+                ProductId = 16,
+                ServiceId = 3,
+                AmoutEmployee = 147,
+                StartDate = DateTime.Now.AddDays(-107),
+                EndDate = DateTime.Now.AddDays(-100),
+                Cost = 12936000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-159),
+                UpdatedAt
+             = DateTime.Now.AddDays(-159)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 405,
+                PaymentId = 159,
+                ProductId = 18,
+                ServiceId = 2,
+                AmoutEmployee = 152,
+                StartDate = DateTime.Now.AddDays(-34),
+                EndDate = DateTime.Now.AddDays(-30),
+                Cost = 18240000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-159),
+                UpdatedAt
+             = DateTime.Now.AddDays(-159)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 406,
+                PaymentId = 159,
+                ProductId = 20,
+                ServiceId = 3,
+                AmoutEmployee = 31,
+                StartDate = DateTime.Now.AddDays(-81),
+                EndDate = DateTime.Now.AddDays(-72),
+                Cost = 5456000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-159),
+                UpdatedAt
+             = DateTime.Now.AddDays(-159)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 407,
+                PaymentId = 160,
+                ProductId = 8,
+                ServiceId = 3,
+                AmoutEmployee = 55,
+                StartDate = DateTime.Now.AddDays(-128),
+                EndDate = DateTime.Now.AddDays(-116),
+                Cost = 14822500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-160),
+                UpdatedAt
+             = DateTime.Now.AddDays(-160)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 408,
+                PaymentId = 160,
+                ProductId = 30,
+                ServiceId = 1,
+                AmoutEmployee = 49,
+                StartDate = DateTime.Now.AddDays(-110),
+                EndDate = DateTime.Now.AddDays(-107),
+                Cost = 3087000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-160),
+                UpdatedAt
+             = DateTime.Now.AddDays(-160)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 409,
+                PaymentId = 161,
+                ProductId = 2,
+                ServiceId = 3,
+                AmoutEmployee = 103,
+                StartDate = DateTime.Now.AddDays(-147),
+                EndDate = DateTime.Now.AddDays(-145),
+                Cost = 25492500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-161),
+                UpdatedAt
+             = DateTime.Now.AddDays(-161)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 410,
+                PaymentId = 161,
+                ProductId = 17,
+                ServiceId = 2,
+                AmoutEmployee = 77,
+                StartDate = DateTime.Now.AddDays(-10),
+                EndDate = DateTime.Now.AddDays(5),
+                Cost = 462000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-161),
+                UpdatedAt
+             = DateTime.Now.AddDays(-161)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 411,
+                PaymentId = 161,
+                ProductId = 26,
+                ServiceId = 3,
+                AmoutEmployee = 196,
+                StartDate = DateTime.Now.AddDays(-191),
+                EndDate = DateTime.Now.AddDays(-178),
+                Cost = 173558000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-161),
+                UpdatedAt
+             = DateTime.Now.AddDays(-161)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 412,
+                PaymentId = 162,
+                ProductId = 18,
+                ServiceId = 2,
+                AmoutEmployee = 173,
+                StartDate = DateTime.Now.AddDays(-52),
+                EndDate = DateTime.Now.AddDays(-41),
+                Cost = 43596000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-162),
+                UpdatedAt
+             = DateTime.Now.AddDays(-162)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 413,
+                PaymentId = 162,
+                ProductId = 5,
+                ServiceId = 2,
+                AmoutEmployee = 155,
+                StartDate = DateTime.Now.AddDays(-134),
+                EndDate = DateTime.Now.AddDays(-119),
+                Cost = 930000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-162),
+                UpdatedAt
+             = DateTime.Now.AddDays(-162)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 414,
+                PaymentId = 163,
+                ProductId = 22,
+                ServiceId = 2,
+                AmoutEmployee = 54,
+                StartDate = DateTime.Now.AddDays(-182),
+                EndDate = DateTime.Now.AddDays(-171),
+                Cost = 36288000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-163),
+                UpdatedAt
+             = DateTime.Now.AddDays(-163)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 415,
+                PaymentId = 163,
+                ProductId = 26,
+                ServiceId = 3,
+                AmoutEmployee = 144,
+                StartDate = DateTime.Now.AddDays(-156),
+                EndDate = DateTime.Now.AddDays(-150),
+                Cost = 21384000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-163),
+                UpdatedAt
+             = DateTime.Now.AddDays(-163)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 416,
+                PaymentId = 163,
+                ProductId = 17,
+                ServiceId = 2,
+                AmoutEmployee = 47,
+                StartDate = DateTime.Now.AddDays(-82),
+                EndDate = DateTime.Now.AddDays(-71),
+                Cost = 3948000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-163),
+                UpdatedAt
+             = DateTime.Now.AddDays(-163)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 417,
+                PaymentId = 164,
+                ProductId = 15,
+                ServiceId = 1,
+                AmoutEmployee = 93,
+                StartDate = DateTime.Now.AddDays(-100),
+                EndDate = DateTime.Now.AddDays(-94),
+                Cost = 38083500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-164),
+                UpdatedAt
+             = DateTime.Now.AddDays(-164)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 418,
+                PaymentId = 164,
+                ProductId = 29,
+                ServiceId = 1,
+                AmoutEmployee = 179,
+                StartDate = DateTime.Now.AddDays(-154),
+                EndDate = DateTime.Now.AddDays(-139),
+                Cost = 53968500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-164),
+                UpdatedAt
+             = DateTime.Now.AddDays(-164)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 419,
+                PaymentId = 165,
+                ProductId = 8,
+                ServiceId = 1,
+                AmoutEmployee = 31,
+                StartDate = DateTime.Now.AddDays(-158),
+                EndDate = DateTime.Now.AddDays(-148),
+                Cost = 15484500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-165),
+                UpdatedAt
+             = DateTime.Now.AddDays(-165)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 420,
+                PaymentId = 165,
+                ProductId = 11,
+                ServiceId = 2,
+                AmoutEmployee = 47,
+                StartDate = DateTime.Now.AddDays(-84),
+                EndDate = DateTime.Now.AddDays(-77),
+                Cost = 15792000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-165),
+                UpdatedAt
+             = DateTime.Now.AddDays(-165)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 421,
+                PaymentId = 165,
+                ProductId = 24,
+                ServiceId = 2,
+                AmoutEmployee = 146,
+                StartDate = DateTime.Now.AddDays(-10),
+                EndDate = DateTime.Now.AddDays(-3),
+                Cost = 1752000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-165),
+                UpdatedAt
+             = DateTime.Now.AddDays(-165)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 422,
+                PaymentId = 166,
+                ProductId = 22,
+                ServiceId = 1,
+                AmoutEmployee = 30,
+                StartDate = DateTime.Now.AddDays(-146),
+                EndDate = DateTime.Now.AddDays(-141),
+                Cost = 14580000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-166),
+                UpdatedAt
+             = DateTime.Now.AddDays(-166)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 423,
+                PaymentId = 166,
+                ProductId = 26,
+                ServiceId = 1,
+                AmoutEmployee = 85,
+                StartDate = DateTime.Now.AddDays(-148),
+                EndDate = DateTime.Now.AddDays(-143),
+                Cost = 48577500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-166),
+                UpdatedAt
+             = DateTime.Now.AddDays(-166)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 424,
+                PaymentId = 166,
+                ProductId = 29,
+                ServiceId = 3,
+                AmoutEmployee = 175,
+                StartDate = DateTime.Now.AddDays(-168),
+                EndDate = DateTime.Now.AddDays(-164),
+                Cost = 123200000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-166),
+                UpdatedAt
+             = DateTime.Now.AddDays(-166)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 425,
+                PaymentId = 167,
+                ProductId = 11,
+                ServiceId = 2,
+                AmoutEmployee = 91,
+                StartDate = DateTime.Now.AddDays(-38),
+                EndDate = DateTime.Now.AddDays(-36),
+                Cost = 6006000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-167),
+                UpdatedAt
+             = DateTime.Now.AddDays(-167)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 426,
+                PaymentId = 167,
+                ProductId = 30,
+                ServiceId = 2,
+                AmoutEmployee = 140,
+                StartDate = DateTime.Now.AddDays(-162),
+                EndDate = DateTime.Now.AddDays(-161),
+                Cost = 34440000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-167),
+                UpdatedAt
+             = DateTime.Now.AddDays(-167)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 427,
+                PaymentId = 168,
+                ProductId = 10,
+                ServiceId = 3,
+                AmoutEmployee = 120,
+                StartDate = DateTime.Now.AddDays(-182),
+                EndDate = DateTime.Now.AddDays(-168),
+                Cost = 4620000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-168),
+                UpdatedAt
+             = DateTime.Now.AddDays(-168)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 428,
+                PaymentId = 168,
+                ProductId = 21,
+                ServiceId = 3,
+                AmoutEmployee = 29,
+                StartDate = DateTime.Now.AddDays(-186),
+                EndDate = DateTime.Now.AddDays(-179),
+                Cost = 2552000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-168),
+                UpdatedAt
+             = DateTime.Now.AddDays(-168)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 429,
+                PaymentId = 168,
+                ProductId = 28,
+                ServiceId = 1,
+                AmoutEmployee = 40,
+                StartDate = DateTime.Now.AddDays(-178),
+                EndDate = DateTime.Now.AddDays(-175),
+                Cost = 25020000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-168),
+                UpdatedAt
+             = DateTime.Now.AddDays(-168)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 430,
+                PaymentId = 169,
+                ProductId = 17,
+                ServiceId = 2,
+                AmoutEmployee = 119,
+                StartDate = DateTime.Now.AddDays(-64),
+                EndDate = DateTime.Now.AddDays(-59),
+                Cost = 13566000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-169),
+                UpdatedAt
+             = DateTime.Now.AddDays(-169)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 431,
+                PaymentId = 169,
+                ProductId = 4,
+                ServiceId = 2,
+                AmoutEmployee = 108,
+                StartDate = DateTime.Now.AddDays(-157),
+                EndDate = DateTime.Now.AddDays(-151),
+                Cost = 56376000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-169),
+                UpdatedAt
+             = DateTime.Now.AddDays(-169)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 432,
+                PaymentId = 170,
+                ProductId = 29,
+                ServiceId = 3,
+                AmoutEmployee = 27,
+                StartDate = DateTime.Now.AddDays(-77),
+                EndDate = DateTime.Now.AddDays(-75),
+                Cost = 2821500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-170),
+                UpdatedAt
+             = DateTime.Now.AddDays(-170)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 433,
+                PaymentId = 170,
+                ProductId = 22,
+                ServiceId = 1,
+                AmoutEmployee = 141,
+                StartDate = DateTime.Now.AddDays(-146),
+                EndDate = DateTime.Now.AddDays(-133),
+                Cost = 55201500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-170),
+                UpdatedAt
+             = DateTime.Now.AddDays(-170)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 434,
+                PaymentId = 170,
+                ProductId = 7,
+                ServiceId = 3,
+                AmoutEmployee = 44,
+                StartDate = DateTime.Now.AddDays(-15),
+                EndDate = DateTime.Now.AddDays(-7),
+                Cost = 726000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-170),
+                UpdatedAt
+             = DateTime.Now.AddDays(-170)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 435,
+                PaymentId = 171,
+                ProductId = 21,
+                ServiceId = 3,
+                AmoutEmployee = 189,
+                StartDate = DateTime.Now.AddDays(-129),
+                EndDate = DateTime.Now.AddDays(-116),
+                Cost = 66528000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-171),
+                UpdatedAt
+             = DateTime.Now.AddDays(-171)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 436,
+                PaymentId = 171,
+                ProductId = 2,
+                ServiceId = 1,
+                AmoutEmployee = 112,
+                StartDate = DateTime.Now.AddDays(-184),
+                EndDate = DateTime.Now.AddDays(-177),
+                Cost = 66024000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-171),
+                UpdatedAt
+             = DateTime.Now.AddDays(-171)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 437,
+                PaymentId = 172,
+                ProductId = 23,
+                ServiceId = 2,
+                AmoutEmployee = 192,
+                StartDate = DateTime.Now.AddDays(-29),
+                EndDate = DateTime.Now.AddDays(-18),
+                Cost = 21888000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-172),
+                UpdatedAt
+             = DateTime.Now.AddDays(-172)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 438,
+                PaymentId = 172,
+                ProductId = 12,
+                ServiceId = 3,
+                AmoutEmployee = 104,
+                StartDate = DateTime.Now.AddDays(-191),
+                EndDate = DateTime.Now.AddDays(-190),
+                Cost = 77220000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-172),
+                UpdatedAt
+             = DateTime.Now.AddDays(-172)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 439,
+                PaymentId = 172,
+                ProductId = 30,
+                ServiceId = 3,
+                AmoutEmployee = 100,
+                StartDate = DateTime.Now.AddDays(-64),
+                EndDate = DateTime.Now.AddDays(-63),
+                Cost = 15950000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-172),
+                UpdatedAt
+             = DateTime.Now.AddDays(-172)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 440,
+                PaymentId = 173,
+                ProductId = 26,
+                ServiceId = 3,
+                AmoutEmployee = 79,
+                StartDate = DateTime.Now.AddDays(-180),
+                EndDate = DateTime.Now.AddDays(-175),
+                Cost = 69085500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-173),
+                UpdatedAt
+             = DateTime.Now.AddDays(-173)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 441,
+                PaymentId = 173,
+                ProductId = 3,
+                ServiceId = 3,
+                AmoutEmployee = 69,
+                StartDate = DateTime.Now.AddDays(-62),
+                EndDate = DateTime.Now.AddDays(-56),
+                Cost = 14800500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-173),
+                UpdatedAt
+             = DateTime.Now.AddDays(-173)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 442,
+                PaymentId = 174,
+                ProductId = 16,
+                ServiceId = 2,
+                AmoutEmployee = 171,
+                StartDate = DateTime.Now.AddDays(-31),
+                EndDate = DateTime.Now.AddDays(-19),
+                Cost = 23598000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-174),
+                UpdatedAt
+             = DateTime.Now.AddDays(-174)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 443,
+                PaymentId = 174,
+                ProductId = 11,
+                ServiceId = 2,
+                AmoutEmployee = 104,
+                StartDate = DateTime.Now.AddDays(-39),
+                EndDate = DateTime.Now.AddDays(-27),
+                Cost = 19968000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-174),
+                UpdatedAt
+             = DateTime.Now.AddDays(-174)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 444,
+                PaymentId = 174,
+                ProductId = 11,
+                ServiceId = 2,
+                AmoutEmployee = 144,
+                StartDate = DateTime.Now.AddDays(-87),
+                EndDate = DateTime.Now.AddDays(-81),
+                Cost = 8640000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-174),
+                UpdatedAt
+             = DateTime.Now.AddDays(-174)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 445,
+                PaymentId = 175,
+                ProductId = 5,
+                ServiceId = 2,
+                AmoutEmployee = 152,
+                StartDate = DateTime.Now.AddDays(-122),
+                EndDate = DateTime.Now.AddDays(-119),
+                Cost = 15504000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-175),
+                UpdatedAt
+             = DateTime.Now.AddDays(-175)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 446,
+                PaymentId = 175,
+                ProductId = 14,
+                ServiceId = 2,
+                AmoutEmployee = 165,
+                StartDate = DateTime.Now.AddDays(-80),
+                EndDate = DateTime.Now.AddDays(-76),
+                Cost = 46530000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-175),
+                UpdatedAt
+             = DateTime.Now.AddDays(-175)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 447,
+                PaymentId = 176,
+                ProductId = 26,
+                ServiceId = 2,
+                AmoutEmployee = 49,
+                StartDate = DateTime.Now.AddDays(-40),
+                EndDate = DateTime.Now.AddDays(-38),
+                Cost = 2940000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-176),
+                UpdatedAt
+             = DateTime.Now.AddDays(-176)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 448,
+                PaymentId = 176,
+                ProductId = 9,
+                ServiceId = 3,
+                AmoutEmployee = 89,
+                StartDate = DateTime.Now.AddDays(-188),
+                EndDate = DateTime.Now.AddDays(-180),
+                Cost = 24964500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-176),
+                UpdatedAt
+             = DateTime.Now.AddDays(-176)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 449,
+                PaymentId = 176,
+                ProductId = 5,
+                ServiceId = 2,
+                AmoutEmployee = 155,
+                StartDate = DateTime.Now.AddDays(-113),
+                EndDate = DateTime.Now.AddDays(-106),
+                Cost = 91140000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-176),
+                UpdatedAt
+             = DateTime.Now.AddDays(-176)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 450,
+                PaymentId = 177,
+                ProductId = 4,
+                ServiceId = 1,
+                AmoutEmployee = 105,
+                StartDate = DateTime.Now.AddDays(-45),
+                EndDate = DateTime.Now.AddDays(-36),
+                Cost = 11812500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-177),
+                UpdatedAt
+             = DateTime.Now.AddDays(-177)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 451,
+                PaymentId = 177,
+                ProductId = 20,
+                ServiceId = 2,
+                AmoutEmployee = 194,
+                StartDate = DateTime.Now.AddDays(-88),
+                EndDate = DateTime.Now.AddDays(-87),
+                Cost = 55872000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-177),
+                UpdatedAt
+             = DateTime.Now.AddDays(-177)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 452,
+                PaymentId = 177,
+                ProductId = 26,
+                ServiceId = 3,
+                AmoutEmployee = 105,
+                StartDate = DateTime.Now.AddDays(-131),
+                EndDate = DateTime.Now.AddDays(-125),
+                Cost = 29452500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-177),
+                UpdatedAt
+             = DateTime.Now.AddDays(-177)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 453,
+                PaymentId = 178,
+                ProductId = 1,
+                ServiceId = 3,
+                AmoutEmployee = 54,
+                StartDate = DateTime.Now.AddDays(-172),
+                EndDate = DateTime.Now.AddDays(-168),
+                Cost = 4752000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-178),
+                UpdatedAt
+             = DateTime.Now.AddDays(-178)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 454,
+                PaymentId = 178,
+                ProductId = 5,
+                ServiceId = 1,
+                AmoutEmployee = 67,
+                StartDate = DateTime.Now.AddDays(-52),
+                EndDate = DateTime.Now.AddDays(-43),
+                Cost = 3618000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-178),
+                UpdatedAt
+             = DateTime.Now.AddDays(-178)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 455,
+                PaymentId = 179,
+                ProductId = 8,
+                ServiceId = 3,
+                AmoutEmployee = 87,
+                StartDate = DateTime.Now.AddDays(-126),
+                EndDate = DateTime.Now.AddDays(-123),
+                Cost = 15312000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-179),
+                UpdatedAt
+             = DateTime.Now.AddDays(-179)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 456,
+                PaymentId = 179,
+                ProductId = 27,
+                ServiceId = 3,
+                AmoutEmployee = 50,
+                StartDate = DateTime.Now.AddDays(-102),
+                EndDate = DateTime.Now.AddDays(-87),
+                Cost = 8250000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-179),
+                UpdatedAt
+             = DateTime.Now.AddDays(-179)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 457,
+                PaymentId = 179,
+                ProductId = 10,
+                ServiceId = 3,
+                AmoutEmployee = 27,
+                StartDate = DateTime.Now.AddDays(-53),
+                EndDate = DateTime.Now.AddDays(-51),
+                Cost = 6385500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-179),
+                UpdatedAt
+             = DateTime.Now.AddDays(-179)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 458,
+                PaymentId = 180,
+                ProductId = 16,
+                ServiceId = 2,
+                AmoutEmployee = 153,
+                StartDate = DateTime.Now.AddDays(-198),
+                EndDate = DateTime.Now.AddDays(-194),
+                Cost = 138618000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-180),
+                UpdatedAt
+             = DateTime.Now.AddDays(-180)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 459,
+                PaymentId = 180,
+                ProductId = 19,
+                ServiceId = 3,
+                AmoutEmployee = 125,
+                StartDate = DateTime.Now.AddDays(-101),
+                EndDate = DateTime.Now.AddDays(-97),
+                Cost = 39187500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-180),
+                UpdatedAt
+             = DateTime.Now.AddDays(-180)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 460,
+                PaymentId = 181,
+                ProductId = 28,
+                ServiceId = 1,
+                AmoutEmployee = 138,
+                StartDate = DateTime.Now.AddDays(-38),
+                EndDate = DateTime.Now.AddDays(-31),
+                Cost = 621000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-181),
+                UpdatedAt
+             = DateTime.Now.AddDays(-181)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 461,
+                PaymentId = 181,
+                ProductId = 2,
+                ServiceId = 3,
+                AmoutEmployee = 39,
+                StartDate = DateTime.Now.AddDays(-187),
+                EndDate = DateTime.Now.AddDays(-177),
+                Cost = 35821500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-181),
+                UpdatedAt
+             = DateTime.Now.AddDays(-181)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 462,
+                PaymentId = 181,
+                ProductId = 27,
+                ServiceId = 3,
+                AmoutEmployee = 54,
+                StartDate = DateTime.Now.AddDays(-67),
+                EndDate = DateTime.Now.AddDays(-65),
+                Cost = 5049000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-181),
+                UpdatedAt
+             = DateTime.Now.AddDays(-181)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 463,
+                PaymentId = 182,
+                ProductId = 16,
+                ServiceId = 3,
+                AmoutEmployee = 121,
+                StartDate = DateTime.Now.AddDays(-178),
+                EndDate = DateTime.Now.AddDays(-172),
+                Cost = 61226000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-182),
+                UpdatedAt
+             = DateTime.Now.AddDays(-182)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 464,
+                PaymentId = 182,
+                ProductId = 4,
+                ServiceId = 3,
+                AmoutEmployee = 92,
+                StartDate = DateTime.Now.AddDays(-30),
+                EndDate = DateTime.Now.AddDays(-29),
+                Cost = 2530000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-182),
+                UpdatedAt
+             = DateTime.Now.AddDays(-182)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 465,
+                PaymentId = 183,
+                ProductId = 11,
+                ServiceId = 2,
+                AmoutEmployee = 102,
+                StartDate = DateTime.Now.AddDays(-11),
+                EndDate = DateTime.Now.AddDays(-8),
+                Cost = 3672000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-183),
+                UpdatedAt
+             = DateTime.Now.AddDays(-183)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 466,
+                PaymentId = 183,
+                ProductId = 10,
+                ServiceId = 2,
+                AmoutEmployee = 197,
+                StartDate = DateTime.Now.AddDays(-145),
+                EndDate = DateTime.Now.AddDays(-133),
+                Cost = 140658000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-183),
+                UpdatedAt
+             = DateTime.Now.AddDays(-183)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 467,
+                PaymentId = 183,
+                ProductId = 20,
+                ServiceId = 3,
+                AmoutEmployee = 148,
+                StartDate = DateTime.Now.AddDays(-48),
+                EndDate = DateTime.Now.AddDays(-37),
+                Cost = 13838000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-183),
+                UpdatedAt
+             = DateTime.Now.AddDays(-183)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 468,
+                PaymentId = 184,
+                ProductId = 21,
+                ServiceId = 1,
+                AmoutEmployee = 165,
+                StartDate = DateTime.Now.AddDays(-107),
+                EndDate = DateTime.Now.AddDays(-93),
+                Cost = 23017500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-184),
+                UpdatedAt
+             = DateTime.Now.AddDays(-184)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 469,
+                PaymentId = 184,
+                ProductId = 5,
+                ServiceId = 2,
+                AmoutEmployee = 169,
+                StartDate = DateTime.Now.AddDays(-13),
+                EndDate = DateTime.Now.AddDays(-1),
+                Cost = 3042000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-184),
+                UpdatedAt
+             = DateTime.Now.AddDays(-184)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 470,
+                PaymentId = 185,
+                ProductId = 7,
+                ServiceId = 3,
+                AmoutEmployee = 51,
+                StartDate = DateTime.Now.AddDays(-164),
+                EndDate = DateTime.Now.AddDays(-162),
+                Cost = 3366000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-185),
+                UpdatedAt
+             = DateTime.Now.AddDays(-185)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 471,
+                PaymentId = 185,
+                ProductId = 9,
+                ServiceId = 1,
+                AmoutEmployee = 193,
+                StartDate = DateTime.Now.AddDays(-79),
+                EndDate = DateTime.Now.AddDays(-69),
+                Cost = 54715500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-185),
+                UpdatedAt
+             = DateTime.Now.AddDays(-185)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 472,
+                PaymentId = 185,
+                ProductId = 4,
+                ServiceId = 1,
+                AmoutEmployee = 128,
+                StartDate = DateTime.Now.AddDays(-154),
+                EndDate = DateTime.Now.AddDays(-145),
+                Cost = 11520000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-185),
+                UpdatedAt
+             = DateTime.Now.AddDays(-185)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 473,
+                PaymentId = 186,
+                ProductId = 3,
+                ServiceId = 3,
+                AmoutEmployee = 33,
+                StartDate = DateTime.Now.AddDays(-104),
+                EndDate = DateTime.Now.AddDays(-103),
+                Cost = 1815000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-186),
+                UpdatedAt
+             = DateTime.Now.AddDays(-186)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 474,
+                PaymentId = 186,
+                ProductId = 20,
+                ServiceId = 3,
+                AmoutEmployee = 91,
+                StartDate = DateTime.Now.AddDays(-64),
+                EndDate = DateTime.Now.AddDays(-62),
+                Cost = 21021000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-186),
+                UpdatedAt
+             = DateTime.Now.AddDays(-186)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 475,
+                PaymentId = 187,
+                ProductId = 6,
+                ServiceId = 3,
+                AmoutEmployee = 147,
+                StartDate = DateTime.Now.AddDays(-92),
+                EndDate = DateTime.Now.AddDays(-90),
+                Cost = 6468000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-187),
+                UpdatedAt
+             = DateTime.Now.AddDays(-187)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 476,
+                PaymentId = 187,
+                ProductId = 29,
+                ServiceId = 3,
+                AmoutEmployee = 175,
+                StartDate = DateTime.Now.AddDays(-166),
+                EndDate = DateTime.Now.AddDays(-154),
+                Cost = 34650000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-187),
+                UpdatedAt
+             = DateTime.Now.AddDays(-187)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 477,
+                PaymentId = 187,
+                ProductId = 6,
+                ServiceId = 1,
+                AmoutEmployee = 181,
+                StartDate = DateTime.Now.AddDays(-89),
+                EndDate = DateTime.Now.AddDays(-75),
+                Cost = 33394500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-187),
+                UpdatedAt
+             = DateTime.Now.AddDays(-187)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 478,
+                PaymentId = 188,
+                ProductId = 12,
+                ServiceId = 1,
+                AmoutEmployee = 190,
+                StartDate = DateTime.Now.AddDays(-45),
+                EndDate = DateTime.Now.AddDays(-34),
+                Cost = 9405000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-188),
+                UpdatedAt
+             = DateTime.Now.AddDays(-188)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 479,
+                PaymentId = 188,
+                ProductId = 26,
+                ServiceId = 3,
+                AmoutEmployee = 67,
+                StartDate = DateTime.Now.AddDays(-127),
+                EndDate = DateTime.Now.AddDays(-114),
+                Cost = 31322500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-188),
+                UpdatedAt
+             = DateTime.Now.AddDays(-188)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 480,
+                PaymentId = 188,
+                ProductId = 10,
+                ServiceId = 2,
+                AmoutEmployee = 109,
+                StartDate = DateTime.Now.AddDays(-150),
+                EndDate = DateTime.Now.AddDays(-149),
+                Cost = 23544000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-188),
+                UpdatedAt
+             = DateTime.Now.AddDays(-188)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 481,
+                PaymentId = 189,
+                ProductId = 7,
+                ServiceId = 3,
+                AmoutEmployee = 142,
+                StartDate = DateTime.Now.AddDays(-143),
+                EndDate = DateTime.Now.AddDays(-129),
+                Cost = 63261000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-189),
+                UpdatedAt
+             = DateTime.Now.AddDays(-189)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 482,
+                PaymentId = 189,
+                ProductId = 29,
+                ServiceId = 1,
+                AmoutEmployee = 151,
+                StartDate = DateTime.Now.AddDays(-98),
+                EndDate = DateTime.Now.AddDays(-83),
+                Cost = 29218500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-189),
+                UpdatedAt
+             = DateTime.Now.AddDays(-189)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 483,
+                PaymentId = 190,
+                ProductId = 26,
+                ServiceId = 2,
+                AmoutEmployee = 35,
+                StartDate = DateTime.Now.AddDays(-82),
+                EndDate = DateTime.Now.AddDays(-75),
+                Cost = 9660000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-190),
+                UpdatedAt
+             = DateTime.Now.AddDays(-190)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 484,
+                PaymentId = 190,
+                ProductId = 26,
+                ServiceId = 3,
+                AmoutEmployee = 57,
+                StartDate = DateTime.Now.AddDays(-163),
+                EndDate = DateTime.Now.AddDays(-148),
+                Cost = 35739000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-190),
+                UpdatedAt
+             = DateTime.Now.AddDays(-190)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 485,
+                PaymentId = 190,
+                ProductId = 23,
+                ServiceId = 1,
+                AmoutEmployee = 52,
+                StartDate = DateTime.Now.AddDays(-37),
+                EndDate = DateTime.Now.AddDays(-24),
+                Cost = 1638000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-190),
+                UpdatedAt
+             = DateTime.Now.AddDays(-190)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 486,
+                PaymentId = 191,
+                ProductId = 7,
+                ServiceId = 3,
+                AmoutEmployee = 67,
+                StartDate = DateTime.Now.AddDays(-25),
+                EndDate = DateTime.Now.AddDays(-18),
+                Cost = 368500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-191),
+                UpdatedAt
+             = DateTime.Now.AddDays(-191)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 487,
+                PaymentId = 191,
+                ProductId = 1,
+                ServiceId = 2,
+                AmoutEmployee = 147,
+                StartDate = DateTime.Now.AddDays(-141),
+                EndDate = DateTime.Now.AddDays(-134),
+                Cost = 49392000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-191),
+                UpdatedAt
+             = DateTime.Now.AddDays(-191)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 488,
+                PaymentId = 192,
+                ProductId = 4,
+                ServiceId = 2,
+                AmoutEmployee = 32,
+                StartDate = DateTime.Now.AddDays(-95),
+                EndDate = DateTime.Now.AddDays(-89),
+                Cost = 6912000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-192),
+                UpdatedAt
+             = DateTime.Now.AddDays(-192)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 489,
+                PaymentId = 192,
+                ProductId = 28,
+                ServiceId = 3,
+                AmoutEmployee = 57,
+                StartDate = DateTime.Now.AddDays(-118),
+                EndDate = DateTime.Now.AddDays(-103),
+                Cost = 22572000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-192),
+                UpdatedAt
+             = DateTime.Now.AddDays(-192)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 490,
+                PaymentId = 192,
+                ProductId = 29,
+                ServiceId = 1,
+                AmoutEmployee = 129,
+                StartDate = DateTime.Now.AddDays(-41),
+                EndDate = DateTime.Now.AddDays(-37),
+                Cost = 1161000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-192),
+                UpdatedAt
+             = DateTime.Now.AddDays(-192)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 491,
+                PaymentId = 193,
+                ProductId = 19,
+                ServiceId = 3,
+                AmoutEmployee = 178,
+                StartDate = DateTime.Now.AddDays(-143),
+                EndDate = DateTime.Now.AddDays(-139),
+                Cost = 133144000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-193),
+                UpdatedAt
+             = DateTime.Now.AddDays(-193)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 492,
+                PaymentId = 193,
+                ProductId = 2,
+                ServiceId = 2,
+                AmoutEmployee = 149,
+                StartDate = DateTime.Now.AddDays(-162),
+                EndDate = DateTime.Now.AddDays(-159),
+                Cost = 44700000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-193),
+                UpdatedAt
+             = DateTime.Now.AddDays(-193)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 493,
+                PaymentId = 194,
+                ProductId = 18,
+                ServiceId = 1,
+                AmoutEmployee = 111,
+                StartDate = DateTime.Now.AddDays(-196),
+                EndDate = DateTime.Now.AddDays(-189),
+                Cost = 16983000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-194),
+                UpdatedAt
+             = DateTime.Now.AddDays(-194)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 494,
+                PaymentId = 194,
+                ProductId = 12,
+                ServiceId = 3,
+                AmoutEmployee = 175,
+                StartDate = DateTime.Now.AddDays(-166),
+                EndDate = DateTime.Now.AddDays(-165),
+                Cost = 88550000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-194),
+                UpdatedAt
+             = DateTime.Now.AddDays(-194)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 495,
+                PaymentId = 194,
+                ProductId = 15,
+                ServiceId = 1,
+                AmoutEmployee = 32,
+                StartDate = DateTime.Now.AddDays(-102),
+                EndDate = DateTime.Now.AddDays(-98),
+                Cost = 7776000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-194),
+                UpdatedAt
+             = DateTime.Now.AddDays(-194)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 496,
+                PaymentId = 195,
+                ProductId = 26,
+                ServiceId = 1,
+                AmoutEmployee = 108,
+                StartDate = DateTime.Now.AddDays(-71),
+                EndDate = DateTime.Now.AddDays(-66),
+                Cost = 19926000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-195),
+                UpdatedAt
+             = DateTime.Now.AddDays(-195)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 497,
+                PaymentId = 195,
+                ProductId = 13,
+                ServiceId = 2,
+                AmoutEmployee = 73,
+                StartDate = DateTime.Now.AddDays(-10),
+                EndDate = DateTime.Now.AddDays(-3),
+                Cost = 2190000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-195),
+                UpdatedAt
+             = DateTime.Now.AddDays(-195)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 498,
+                PaymentId = 196,
+                ProductId = 3,
+                ServiceId = 2,
+                AmoutEmployee = 59,
+                StartDate = DateTime.Now.AddDays(-157),
+                EndDate = DateTime.Now.AddDays(-144),
+                Cost = 9912000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-196),
+                UpdatedAt
+             = DateTime.Now.AddDays(-196)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 499,
+                PaymentId = 196,
+                ProductId = 20,
+                ServiceId = 3,
+                AmoutEmployee = 29,
+                StartDate = DateTime.Now.AddDays(-122),
+                EndDate = DateTime.Now.AddDays(-108),
+                Cost = 3668500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-196),
+                UpdatedAt
+             = DateTime.Now.AddDays(-196)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 500,
+                PaymentId = 196,
+                ProductId = 26,
+                ServiceId = 1,
+                AmoutEmployee = 43,
+                StartDate = DateTime.Now.AddDays(-53),
+                EndDate = DateTime.Now.AddDays(-44),
+                Cost = 2709000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-196),
+                UpdatedAt
+             = DateTime.Now.AddDays(-196)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 501,
+                PaymentId = 197,
+                ProductId = 21,
+                ServiceId = 3,
+                AmoutEmployee = 164,
+                StartDate = DateTime.Now.AddDays(-26),
+                EndDate = DateTime.Now.AddDays(-17),
+                Cost = 7216000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-197),
+                UpdatedAt
+             = DateTime.Now.AddDays(-197)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 502,
+                PaymentId = 197,
+                ProductId = 25,
+                ServiceId = 2,
+                AmoutEmployee = 198,
+                StartDate = DateTime.Now.AddDays(-195),
+                EndDate = DateTime.Now.AddDays(-191),
+                Cost = 180576000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-197),
+                UpdatedAt
+             = DateTime.Now.AddDays(-197)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 503,
+                PaymentId = 198,
+                ProductId = 19,
+                ServiceId = 1,
+                AmoutEmployee = 45,
+                StartDate = DateTime.Now.AddDays(-84),
+                EndDate = DateTime.Now.AddDays(-77),
+                Cost = 5467500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-198),
+                UpdatedAt
+             = DateTime.Now.AddDays(-198)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 504,
+                PaymentId = 198,
+                ProductId = 14,
+                ServiceId = 2,
+                AmoutEmployee = 156,
+                StartDate = DateTime.Now.AddDays(-86),
+                EndDate = DateTime.Now.AddDays(-85),
+                Cost = 32760000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-198),
+                UpdatedAt
+             = DateTime.Now.AddDays(-198)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 505,
+                PaymentId = 198,
+                ProductId = 24,
+                ServiceId = 2,
+                AmoutEmployee = 83,
+                StartDate = DateTime.Now.AddDays(-184),
+                EndDate = DateTime.Now.AddDays(-174),
+                Cost = 68724000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-198),
+                UpdatedAt
+             = DateTime.Now.AddDays(-198)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 506,
+                PaymentId = 199,
+                ProductId = 3,
+                ServiceId = 1,
+                AmoutEmployee = 53,
+                StartDate = DateTime.Now.AddDays(-133),
+                EndDate = DateTime.Now.AddDays(-125),
+                Cost = 28620000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-199),
+                UpdatedAt
+             = DateTime.Now.AddDays(-199)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 507,
+                PaymentId = 199,
+                ProductId = 2,
+                ServiceId = 1,
+                AmoutEmployee = 81,
+                StartDate = DateTime.Now.AddDays(-140),
+                EndDate = DateTime.Now.AddDays(-126),
+                Cost = 2916000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-199),
+                UpdatedAt
+             = DateTime.Now.AddDays(-199)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 508,
+                PaymentId = 199,
+                ProductId = 25,
+                ServiceId = 1,
+                AmoutEmployee = 101,
+                StartDate = DateTime.Now.AddDays(-10),
+                EndDate = DateTime.Now.AddDays(5),
+                Cost = 454500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-199),
+                UpdatedAt
+             = DateTime.Now.AddDays(-199)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 509,
+                PaymentId = 200,
+                ProductId = 2,
+                ServiceId = 1,
+                AmoutEmployee = 151,
+                StartDate = DateTime.Now.AddDays(-36),
+                EndDate = DateTime.Now.AddDays(-24),
+                Cost = 679500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-200),
+                UpdatedAt
+             = DateTime.Now.AddDays(-200)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 510,
+                PaymentId = 200,
+                ProductId = 12,
+                ServiceId = 1,
+                AmoutEmployee = 166,
+                StartDate = DateTime.Now.AddDays(-121),
+                EndDate = DateTime.Now.AddDays(-108),
+                Cost = 71712000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-200),
+                UpdatedAt
+             = DateTime.Now.AddDays(-200)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 511,
+                PaymentId = 201,
+                ProductId = 24,
+                ServiceId = 2,
+                AmoutEmployee = 54,
+                StartDate = DateTime.Now.AddDays(-183),
+                EndDate = DateTime.Now.AddDays(-174),
+                Cost = 47628000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-201),
+                UpdatedAt
+             = DateTime.Now.AddDays(-201)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 512,
+                PaymentId = 201,
+                ProductId = 10,
+                ServiceId = 2,
+                AmoutEmployee = 128,
+                StartDate = DateTime.Now.AddDays(-48),
+                EndDate = DateTime.Now.AddDays(-47),
+                Cost = 10752000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-201),
+                UpdatedAt
+             = DateTime.Now.AddDays(-201)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 513,
+                PaymentId = 201,
+                ProductId = 24,
+                ServiceId = 1,
+                AmoutEmployee = 91,
+                StartDate = DateTime.Now.AddDays(-150),
+                EndDate = DateTime.Now.AddDays(-137),
+                Cost = 28255500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-201),
+                UpdatedAt
+             = DateTime.Now.AddDays(-201)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 514,
+                PaymentId = 202,
+                ProductId = 7,
+                ServiceId = 2,
+                AmoutEmployee = 50,
+                StartDate = DateTime.Now.AddDays(-123),
+                EndDate = DateTime.Now.AddDays(-117),
+                Cost = 23100000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-202),
+                UpdatedAt
+             = DateTime.Now.AddDays(-202)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 515,
+                PaymentId = 202,
+                ProductId = 14,
+                ServiceId = 2,
+                AmoutEmployee = 133,
+                StartDate = DateTime.Now.AddDays(-193),
+                EndDate = DateTime.Now.AddDays(-187),
+                Cost = 61446000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-202),
+                UpdatedAt
+             = DateTime.Now.AddDays(-202)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 516,
+                PaymentId = 203,
+                ProductId = 13,
+                ServiceId = 1,
+                AmoutEmployee = 110,
+                StartDate = DateTime.Now.AddDays(-90),
+                EndDate = DateTime.Now.AddDays(-76),
+                Cost = 18315000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-203),
+                UpdatedAt
+             = DateTime.Now.AddDays(-203)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 517,
+                PaymentId = 203,
+                ProductId = 12,
+                ServiceId = 2,
+                AmoutEmployee = 143,
+                StartDate = DateTime.Now.AddDays(-193),
+                EndDate = DateTime.Now.AddDays(-189),
+                Cost = 145860000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-203),
+                UpdatedAt
+             = DateTime.Now.AddDays(-203)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 518,
+                PaymentId = 203,
+                ProductId = 25,
+                ServiceId = 2,
+                AmoutEmployee = 111,
+                StartDate = DateTime.Now.AddDays(-87),
+                EndDate = DateTime.Now.AddDays(-77),
+                Cost = 5994000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-203),
+                UpdatedAt
+             = DateTime.Now.AddDays(-203)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 519,
+                PaymentId = 204,
+                ProductId = 10,
+                ServiceId = 2,
+                AmoutEmployee = 103,
+                StartDate = DateTime.Now.AddDays(-113),
+                EndDate = DateTime.Now.AddDays(-101),
+                Cost = 66126000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-204),
+                UpdatedAt
+             = DateTime.Now.AddDays(-204)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 520,
+                PaymentId = 204,
+                ProductId = 13,
+                ServiceId = 1,
+                AmoutEmployee = 198,
+                StartDate = DateTime.Now.AddDays(-58),
+                EndDate = DateTime.Now.AddDays(-44),
+                Cost = 41877000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-204),
+                UpdatedAt
+             = DateTime.Now.AddDays(-204)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 521,
+                PaymentId = 205,
+                ProductId = 26,
+                ServiceId = 1,
+                AmoutEmployee = 73,
+                StartDate = DateTime.Now.AddDays(-28),
+                EndDate = DateTime.Now.AddDays(-16),
+                Cost = 5584500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-205),
+                UpdatedAt
+             = DateTime.Now.AddDays(-205)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 522,
+                PaymentId = 205,
+                ProductId = 10,
+                ServiceId = 2,
+                AmoutEmployee = 30,
+                StartDate = DateTime.Now.AddDays(-111),
+                EndDate = DateTime.Now.AddDays(-96),
+                Cost = 1620000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-205),
+                UpdatedAt
+             = DateTime.Now.AddDays(-205)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 523,
+                PaymentId = 205,
+                ProductId = 12,
+                ServiceId = 3,
+                AmoutEmployee = 98,
+                StartDate = DateTime.Now.AddDays(-79),
+                EndDate = DateTime.Now.AddDays(-65),
+                Cost = 29645000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-205),
+                UpdatedAt
+             = DateTime.Now.AddDays(-205)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 524,
+                PaymentId = 206,
+                ProductId = 15,
+                ServiceId = 1,
+                AmoutEmployee = 173,
+                StartDate = DateTime.Now.AddDays(-191),
+                EndDate = DateTime.Now.AddDays(-178),
+                Cost = 25690500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-206),
+                UpdatedAt
+             = DateTime.Now.AddDays(-206)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 525,
+                PaymentId = 206,
+                ProductId = 9,
+                ServiceId = 3,
+                AmoutEmployee = 155,
+                StartDate = DateTime.Now.AddDays(-125),
+                EndDate = DateTime.Now.AddDays(-111),
+                Cost = 1705000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-206),
+                UpdatedAt
+             = DateTime.Now.AddDays(-206)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 526,
+                PaymentId = 207,
+                ProductId = 16,
+                ServiceId = 1,
+                AmoutEmployee = 102,
+                StartDate = DateTime.Now.AddDays(-147),
+                EndDate = DateTime.Now.AddDays(-139),
+                Cost = 21573000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-207),
+                UpdatedAt
+             = DateTime.Now.AddDays(-207)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 527,
+                PaymentId = 207,
+                ProductId = 14,
+                ServiceId = 1,
+                AmoutEmployee = 75,
+                StartDate = DateTime.Now.AddDays(-156),
+                EndDate = DateTime.Now.AddDays(-154),
+                Cost = 50625000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-207),
+                UpdatedAt
+             = DateTime.Now.AddDays(-207)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 528,
+                PaymentId = 207,
+                ProductId = 7,
+                ServiceId = 3,
+                AmoutEmployee = 151,
+                StartDate = DateTime.Now.AddDays(-172),
+                EndDate = DateTime.Now.AddDays(-160),
+                Cost = 116270000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-207),
+                UpdatedAt
+             = DateTime.Now.AddDays(-207)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 529,
+                PaymentId = 208,
+                ProductId = 9,
+                ServiceId = 2,
+                AmoutEmployee = 109,
+                StartDate = DateTime.Now.AddDays(-178),
+                EndDate = DateTime.Now.AddDays(-172),
+                Cost = 25506000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-208),
+                UpdatedAt
+             = DateTime.Now.AddDays(-208)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 530,
+                PaymentId = 208,
+                ProductId = 26,
+                ServiceId = 3,
+                AmoutEmployee = 26,
+                StartDate = DateTime.Now.AddDays(-29),
+                EndDate = DateTime.Now.AddDays(-23),
+                Cost = 143000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-208),
+                UpdatedAt
+             = DateTime.Now.AddDays(-208)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 531,
+                PaymentId = 209,
+                ProductId = 26,
+                ServiceId = 3,
+                AmoutEmployee = 159,
+                StartDate = DateTime.Now.AddDays(-119),
+                EndDate = DateTime.Now.AddDays(-107),
+                Cost = 45474000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-209),
+                UpdatedAt
+             = DateTime.Now.AddDays(-209)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 532,
+                PaymentId = 209,
+                ProductId = 19,
+                ServiceId = 3,
+                AmoutEmployee = 103,
+                StartDate = DateTime.Now.AddDays(-116),
+                EndDate = DateTime.Now.AddDays(-107),
+                Cost = 13029500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-209),
+                UpdatedAt
+             = DateTime.Now.AddDays(-209)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 533,
+                PaymentId = 209,
+                ProductId = 13,
+                ServiceId = 1,
+                AmoutEmployee = 155,
+                StartDate = DateTime.Now.AddDays(-45),
+                EndDate = DateTime.Now.AddDays(-41),
+                Cost = 6277500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-209),
+                UpdatedAt
+             = DateTime.Now.AddDays(-209)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 534,
+                PaymentId = 210,
+                ProductId = 21,
+                ServiceId = 2,
+                AmoutEmployee = 81,
+                StartDate = DateTime.Now.AddDays(-57),
+                EndDate = DateTime.Now.AddDays(-42),
+                Cost = 5832000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-210),
+                UpdatedAt
+             = DateTime.Now.AddDays(-210)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 535,
+                PaymentId = 210,
+                ProductId = 11,
+                ServiceId = 2,
+                AmoutEmployee = 198,
+                StartDate = DateTime.Now.AddDays(-49),
+                EndDate = DateTime.Now.AddDays(-38),
+                Cost = 13068000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-210),
+                UpdatedAt
+             = DateTime.Now.AddDays(-210)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 536,
+                PaymentId = 210,
+                ProductId = 20,
+                ServiceId = 2,
+                AmoutEmployee = 80,
+                StartDate = DateTime.Now.AddDays(-99),
+                EndDate = DateTime.Now.AddDays(-86),
+                Cost = 25440000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-210),
+                UpdatedAt
+             = DateTime.Now.AddDays(-210)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 537,
+                PaymentId = 211,
+                ProductId = 22,
+                ServiceId = 1,
+                AmoutEmployee = 43,
+                StartDate = DateTime.Now.AddDays(-70),
+                EndDate = DateTime.Now.AddDays(-65),
+                Cost = 12577500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-211),
+                UpdatedAt
+             = DateTime.Now.AddDays(-211)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 538,
+                PaymentId = 211,
+                ProductId = 14,
+                ServiceId = 1,
+                AmoutEmployee = 190,
+                StartDate = DateTime.Now.AddDays(-114),
+                EndDate = DateTime.Now.AddDays(-110),
+                Cost = 76095000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-211),
+                UpdatedAt
+             = DateTime.Now.AddDays(-211)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 539,
+                PaymentId = 212,
+                ProductId = 13,
+                ServiceId = 1,
+                AmoutEmployee = 68,
+                StartDate = DateTime.Now.AddDays(-80),
+                EndDate = DateTime.Now.AddDays(-69),
+                Cost = 22338000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-212),
+                UpdatedAt
+             = DateTime.Now.AddDays(-212)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 540,
+                PaymentId = 212,
+                ProductId = 20,
+                ServiceId = 1,
+                AmoutEmployee = 27,
+                StartDate = DateTime.Now.AddDays(-194),
+                EndDate = DateTime.Now.AddDays(-187),
+                Cost = 10084500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-212),
+                UpdatedAt
+             = DateTime.Now.AddDays(-212)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 541,
+                PaymentId = 212,
+                ProductId = 5,
+                ServiceId = 3,
+                AmoutEmployee = 108,
+                StartDate = DateTime.Now.AddDays(-185),
+                EndDate = DateTime.Now.AddDays(-175),
+                Cost = 48114000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-212),
+                UpdatedAt
+             = DateTime.Now.AddDays(-212)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 542,
+                PaymentId = 213,
+                ProductId = 12,
+                ServiceId = 3,
+                AmoutEmployee = 47,
+                StartDate = DateTime.Now.AddDays(-145),
+                EndDate = DateTime.Now.AddDays(-139),
+                Cost = 35673000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-213),
+                UpdatedAt
+             = DateTime.Now.AddDays(-213)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 543,
+                PaymentId = 213,
+                ProductId = 2,
+                ServiceId = 3,
+                AmoutEmployee = 30,
+                StartDate = DateTime.Now.AddDays(-170),
+                EndDate = DateTime.Now.AddDays(-165),
+                Cost = 1815000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-213),
+                UpdatedAt
+             = DateTime.Now.AddDays(-213)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 544,
+                PaymentId = 214,
+                ProductId = 1,
+                ServiceId = 2,
+                AmoutEmployee = 121,
+                StartDate = DateTime.Now.AddDays(-103),
+                EndDate = DateTime.Now.AddDays(-89),
+                Cost = 65340000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-214),
+                UpdatedAt
+             = DateTime.Now.AddDays(-214)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 545,
+                PaymentId = 214,
+                ProductId = 3,
+                ServiceId = 3,
+                AmoutEmployee = 42,
+                StartDate = DateTime.Now.AddDays(-143),
+                EndDate = DateTime.Now.AddDays(-140),
+                Cost = 27027000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-214),
+                UpdatedAt
+             = DateTime.Now.AddDays(-214)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 546,
+                PaymentId = 214,
+                ProductId = 18,
+                ServiceId = 3,
+                AmoutEmployee = 137,
+                StartDate = DateTime.Now.AddDays(-91),
+                EndDate = DateTime.Now.AddDays(-87),
+                Cost = 15070000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-214),
+                UpdatedAt
+             = DateTime.Now.AddDays(-214)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 547,
+                PaymentId = 215,
+                ProductId = 27,
+                ServiceId = 2,
+                AmoutEmployee = 106,
+                StartDate = DateTime.Now.AddDays(-45),
+                EndDate = DateTime.Now.AddDays(-41),
+                Cost = 24804000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-215),
+                UpdatedAt
+             = DateTime.Now.AddDays(-215)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 548,
+                PaymentId = 215,
+                ProductId = 1,
+                ServiceId = 2,
+                AmoutEmployee = 165,
+                StartDate = DateTime.Now.AddDays(-66),
+                EndDate = DateTime.Now.AddDays(-59),
+                Cost = 51480000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-215),
+                UpdatedAt
+             = DateTime.Now.AddDays(-215)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 549,
+                PaymentId = 216,
+                ProductId = 12,
+                ServiceId = 2,
+                AmoutEmployee = 186,
+                StartDate = DateTime.Now.AddDays(-191),
+                EndDate = DateTime.Now.AddDays(-186),
+                Cost = 121644000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-216),
+                UpdatedAt
+             = DateTime.Now.AddDays(-216)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 550,
+                PaymentId = 216,
+                ProductId = 19,
+                ServiceId = 3,
+                AmoutEmployee = 109,
+                StartDate = DateTime.Now.AddDays(-70),
+                EndDate = DateTime.Now.AddDays(-68),
+                Cost = 35970000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-216),
+                UpdatedAt
+             = DateTime.Now.AddDays(-216)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 551,
+                PaymentId = 216,
+                ProductId = 6,
+                ServiceId = 1,
+                AmoutEmployee = 136,
+                StartDate = DateTime.Now.AddDays(-106),
+                EndDate = DateTime.Now.AddDays(-104),
+                Cost = 7956000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-216),
+                UpdatedAt
+             = DateTime.Now.AddDays(-216)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 552,
+                PaymentId = 217,
+                ProductId = 18,
+                ServiceId = 2,
+                AmoutEmployee = 92,
+                StartDate = DateTime.Now.AddDays(-108),
+                EndDate = DateTime.Now.AddDays(-97),
+                Cost = 44160000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-217),
+                UpdatedAt
+             = DateTime.Now.AddDays(-217)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 553,
+                PaymentId = 217,
+                ProductId = 10,
+                ServiceId = 3,
+                AmoutEmployee = 165,
+                StartDate = DateTime.Now.AddDays(-198),
+                EndDate = DateTime.Now.AddDays(-190),
+                Cost = 126142500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-217),
+                UpdatedAt
+             = DateTime.Now.AddDays(-217)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 554,
+                PaymentId = 218,
+                ProductId = 24,
+                ServiceId = 3,
+                AmoutEmployee = 41,
+                StartDate = DateTime.Now.AddDays(-146),
+                EndDate = DateTime.Now.AddDays(-145),
+                Cost = 225500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-218),
+                UpdatedAt
+             = DateTime.Now.AddDays(-218)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 555,
+                PaymentId = 218,
+                ProductId = 2,
+                ServiceId = 1,
+                AmoutEmployee = 75,
+                StartDate = DateTime.Now.AddDays(-69),
+                EndDate = DateTime.Now.AddDays(-58),
+                Cost = 16875000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-218),
+                UpdatedAt
+             = DateTime.Now.AddDays(-218)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 556,
+                PaymentId = 218,
+                ProductId = 17,
+                ServiceId = 1,
+                AmoutEmployee = 93,
+                StartDate = DateTime.Now.AddDays(-166),
+                EndDate = DateTime.Now.AddDays(-157),
+                Cost = 30132000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-218),
+                UpdatedAt
+             = DateTime.Now.AddDays(-218)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 557,
+                PaymentId = 219,
+                ProductId = 13,
+                ServiceId = 2,
+                AmoutEmployee = 193,
+                StartDate = DateTime.Now.AddDays(-105),
+                EndDate = DateTime.Now.AddDays(-95),
+                Cost = 2316000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-219),
+                UpdatedAt
+             = DateTime.Now.AddDays(-219)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 558,
+                PaymentId = 219,
+                ProductId = 2,
+                ServiceId = 1,
+                AmoutEmployee = 158,
+                StartDate = DateTime.Now.AddDays(-13),
+                EndDate = DateTime.Now.AddDays(2),
+                Cost = 4266000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-219),
+                UpdatedAt
+             = DateTime.Now.AddDays(-219)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 559,
+                PaymentId = 220,
+                ProductId = 15,
+                ServiceId = 1,
+                AmoutEmployee = 107,
+                StartDate = DateTime.Now.AddDays(-85),
+                EndDate = DateTime.Now.AddDays(-73),
+                Cost = 30816000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-220),
+                UpdatedAt
+             = DateTime.Now.AddDays(-220)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 560,
+                PaymentId = 220,
+                ProductId = 29,
+                ServiceId = 3,
+                AmoutEmployee = 185,
+                StartDate = DateTime.Now.AddDays(-197),
+                EndDate = DateTime.Now.AddDays(-190),
+                Cost = 16280000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-220),
+                UpdatedAt
+             = DateTime.Now.AddDays(-220)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 561,
+                PaymentId = 220,
+                ProductId = 14,
+                ServiceId = 1,
+                AmoutEmployee = 54,
+                StartDate = DateTime.Now.AddDays(-11),
+                EndDate = DateTime.Now.AddDays(0),
+                Cost = 486000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-220),
+                UpdatedAt
+             = DateTime.Now.AddDays(-220)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 562,
+                PaymentId = 221,
+                ProductId = 28,
+                ServiceId = 3,
+                AmoutEmployee = 157,
+                StartDate = DateTime.Now.AddDays(-134),
+                EndDate = DateTime.Now.AddDays(-119),
+                Cost = 109664500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-221),
+                UpdatedAt
+             = DateTime.Now.AddDays(-221)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 563,
+                PaymentId = 221,
+                ProductId = 23,
+                ServiceId = 2,
+                AmoutEmployee = 164,
+                StartDate = DateTime.Now.AddDays(-45),
+                EndDate = DateTime.Now.AddDays(-31),
+                Cost = 17712000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-221),
+                UpdatedAt
+             = DateTime.Now.AddDays(-221)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 564,
+                PaymentId = 221,
+                ProductId = 29,
+                ServiceId = 3,
+                AmoutEmployee = 138,
+                StartDate = DateTime.Now.AddDays(-194),
+                EndDate = DateTime.Now.AddDays(-187),
+                Cost = 115368000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-221),
+                UpdatedAt
+             = DateTime.Now.AddDays(-221)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 565,
+                PaymentId = 222,
+                ProductId = 24,
+                ServiceId = 3,
+                AmoutEmployee = 169,
+                StartDate = DateTime.Now.AddDays(-151),
+                EndDate = DateTime.Now.AddDays(-148),
+                Cost = 6506500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-222),
+                UpdatedAt
+             = DateTime.Now.AddDays(-222)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 566,
+                PaymentId = 222,
+                ProductId = 14,
+                ServiceId = 1,
+                AmoutEmployee = 186,
+                StartDate = DateTime.Now.AddDays(-145),
+                EndDate = DateTime.Now.AddDays(-130),
+                Cost = 93744000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-222),
+                UpdatedAt
+             = DateTime.Now.AddDays(-222)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 567,
+                PaymentId = 223,
+                ProductId = 25,
+                ServiceId = 3,
+                AmoutEmployee = 55,
+                StartDate = DateTime.Now.AddDays(-175),
+                EndDate = DateTime.Now.AddDays(-164),
+                Cost = 11192500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-223),
+                UpdatedAt
+             = DateTime.Now.AddDays(-223)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 568,
+                PaymentId = 223,
+                ProductId = 6,
+                ServiceId = 3,
+                AmoutEmployee = 159,
+                StartDate = DateTime.Now.AddDays(-84),
+                EndDate = DateTime.Now.AddDays(-83),
+                Cost = 48972000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-223),
+                UpdatedAt
+             = DateTime.Now.AddDays(-223)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 569,
+                PaymentId = 223,
+                ProductId = 3,
+                ServiceId = 3,
+                AmoutEmployee = 99,
+                StartDate = DateTime.Now.AddDays(-145),
+                EndDate = DateTime.Now.AddDays(-143),
+                Cost = 44104500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-223),
+                UpdatedAt
+             = DateTime.Now.AddDays(-223)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 570,
+                PaymentId = 224,
+                ProductId = 27,
+                ServiceId = 2,
+                AmoutEmployee = 76,
+                StartDate = DateTime.Now.AddDays(-8),
+                EndDate = DateTime.Now.AddDays(-7),
+                Cost = 456000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-224),
+                UpdatedAt
+             = DateTime.Now.AddDays(-224)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 571,
+                PaymentId = 224,
+                ProductId = 15,
+                ServiceId = 2,
+                AmoutEmployee = 136,
+                StartDate = DateTime.Now.AddDays(-86),
+                EndDate = DateTime.Now.AddDays(-73),
+                Cost = 13056000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-224),
+                UpdatedAt
+             = DateTime.Now.AddDays(-224)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 572,
+                PaymentId = 225,
+                ProductId = 13,
+                ServiceId = 2,
+                AmoutEmployee = 172,
+                StartDate = DateTime.Now.AddDays(-101),
+                EndDate = DateTime.Now.AddDays(-89),
+                Cost = 78432000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-225),
+                UpdatedAt
+             = DateTime.Now.AddDays(-225)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 573,
+                PaymentId = 225,
+                ProductId = 9,
+                ServiceId = 2,
+                AmoutEmployee = 84,
+                StartDate = DateTime.Now.AddDays(-184),
+                EndDate = DateTime.Now.AddDays(-171),
+                Cost = 76608000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-225),
+                UpdatedAt
+             = DateTime.Now.AddDays(-225)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 574,
+                PaymentId = 225,
+                ProductId = 19,
+                ServiceId = 3,
+                AmoutEmployee = 188,
+                StartDate = DateTime.Now.AddDays(-16),
+                EndDate = DateTime.Now.AddDays(-4),
+                Cost = 3102000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-225),
+                UpdatedAt
+             = DateTime.Now.AddDays(-225)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 575,
+                PaymentId = 226,
+                ProductId = 5,
+                ServiceId = 2,
+                AmoutEmployee = 29,
+                StartDate = DateTime.Now.AddDays(-40),
+                EndDate = DateTime.Now.AddDays(-29),
+                Cost = 4872000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-226),
+                UpdatedAt
+             = DateTime.Now.AddDays(-226)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 576,
+                PaymentId = 226,
+                ProductId = 14,
+                ServiceId = 2,
+                AmoutEmployee = 199,
+                StartDate = DateTime.Now.AddDays(-177),
+                EndDate = DateTime.Now.AddDays(-175),
+                Cost = 70446000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-226),
+                UpdatedAt
+             = DateTime.Now.AddDays(-226)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 577,
+                PaymentId = 227,
+                ProductId = 8,
+                ServiceId = 2,
+                AmoutEmployee = 189,
+                StartDate = DateTime.Now.AddDays(-159),
+                EndDate = DateTime.Now.AddDays(-156),
+                Cost = 168966000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-227),
+                UpdatedAt
+             = DateTime.Now.AddDays(-227)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 578,
+                PaymentId = 227,
+                ProductId = 21,
+                ServiceId = 1,
+                AmoutEmployee = 137,
+                StartDate = DateTime.Now.AddDays(-24),
+                EndDate = DateTime.Now.AddDays(-17),
+                Cost = 8014500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-227),
+                UpdatedAt
+             = DateTime.Now.AddDays(-227)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 579,
+                PaymentId = 227,
+                ProductId = 19,
+                ServiceId = 2,
+                AmoutEmployee = 70,
+                StartDate = DateTime.Now.AddDays(-164),
+                EndDate = DateTime.Now.AddDays(-159),
+                Cost = 14700000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-227),
+                UpdatedAt
+             = DateTime.Now.AddDays(-227)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 580,
+                PaymentId = 228,
+                ProductId = 3,
+                ServiceId = 2,
+                AmoutEmployee = 152,
+                StartDate = DateTime.Now.AddDays(-187),
+                EndDate = DateTime.Now.AddDays(-186),
+                Cost = 84816000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-228),
+                UpdatedAt
+             = DateTime.Now.AddDays(-228)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 581,
+                PaymentId = 228,
+                ProductId = 11,
+                ServiceId = 2,
+                AmoutEmployee = 161,
+                StartDate = DateTime.Now.AddDays(-63),
+                EndDate = DateTime.Now.AddDays(-48),
+                Cost = 28014000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-228),
+                UpdatedAt
+             = DateTime.Now.AddDays(-228)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 582,
+                PaymentId = 229,
+                ProductId = 22,
+                ServiceId = 2,
+                AmoutEmployee = 71,
+                StartDate = DateTime.Now.AddDays(-82),
+                EndDate = DateTime.Now.AddDays(-71),
+                Cost = 32802000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-229),
+                UpdatedAt
+             = DateTime.Now.AddDays(-229)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 583,
+                PaymentId = 229,
+                ProductId = 6,
+                ServiceId = 2,
+                AmoutEmployee = 152,
+                StartDate = DateTime.Now.AddDays(-119),
+                EndDate = DateTime.Now.AddDays(-116),
+                Cost = 12768000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-229),
+                UpdatedAt
+             = DateTime.Now.AddDays(-229)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 584,
+                PaymentId = 229,
+                ProductId = 12,
+                ServiceId = 2,
+                AmoutEmployee = 93,
+                StartDate = DateTime.Now.AddDays(-71),
+                EndDate = DateTime.Now.AddDays(-68),
+                Cost = 3906000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-229),
+                UpdatedAt
+             = DateTime.Now.AddDays(-229)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 585,
+                PaymentId = 230,
+                ProductId = 7,
+                ServiceId = 1,
+                AmoutEmployee = 120,
+                StartDate = DateTime.Now.AddDays(-102),
+                EndDate = DateTime.Now.AddDays(-91),
+                Cost = 31320000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-230),
+                UpdatedAt
+             = DateTime.Now.AddDays(-230)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 586,
+                PaymentId = 230,
+                ProductId = 13,
+                ServiceId = 1,
+                AmoutEmployee = 33,
+                StartDate = DateTime.Now.AddDays(-45),
+                EndDate = DateTime.Now.AddDays(-32),
+                Cost = 2079000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-230),
+                UpdatedAt
+             = DateTime.Now.AddDays(-230)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 587,
+                PaymentId = 231,
+                ProductId = 9,
+                ServiceId = 3,
+                AmoutEmployee = 78,
+                StartDate = DateTime.Now.AddDays(-59),
+                EndDate = DateTime.Now.AddDays(-56),
+                Cost = 22737000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-231),
+                UpdatedAt
+             = DateTime.Now.AddDays(-231)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 588,
+                PaymentId = 231,
+                ProductId = 21,
+                ServiceId = 3,
+                AmoutEmployee = 40,
+                StartDate = DateTime.Now.AddDays(-40),
+                EndDate = DateTime.Now.AddDays(-27),
+                Cost = 6160000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-231),
+                UpdatedAt
+             = DateTime.Now.AddDays(-231)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 589,
+                PaymentId = 231,
+                ProductId = 27,
+                ServiceId = 2,
+                AmoutEmployee = 160,
+                StartDate = DateTime.Now.AddDays(-70),
+                EndDate = DateTime.Now.AddDays(-59),
+                Cost = 19200000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-231),
+                UpdatedAt
+             = DateTime.Now.AddDays(-231)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 590,
+                PaymentId = 232,
+                ProductId = 24,
+                ServiceId = 3,
+                AmoutEmployee = 196,
+                StartDate = DateTime.Now.AddDays(-60),
+                EndDate = DateTime.Now.AddDays(-52),
+                Cost = 32340000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-232),
+                UpdatedAt
+             = DateTime.Now.AddDays(-232)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 591,
+                PaymentId = 232,
+                ProductId = 9,
+                ServiceId = 1,
+                AmoutEmployee = 91,
+                StartDate = DateTime.Now.AddDays(-91),
+                EndDate = DateTime.Now.AddDays(-77),
+                Cost = 409500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-232),
+                UpdatedAt
+             = DateTime.Now.AddDays(-232)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 592,
+                PaymentId = 232,
+                ProductId = 15,
+                ServiceId = 3,
+                AmoutEmployee = 169,
+                StartDate = DateTime.Now.AddDays(-168),
+                EndDate = DateTime.Now.AddDays(-159),
+                Cost = 99456500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-232),
+                UpdatedAt
+             = DateTime.Now.AddDays(-232)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 593,
+                PaymentId = 233,
+                ProductId = 14,
+                ServiceId = 3,
+                AmoutEmployee = 148,
+                StartDate = DateTime.Now.AddDays(-180),
+                EndDate = DateTime.Now.AddDays(-175),
+                Cost = 42328000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-233),
+                UpdatedAt
+             = DateTime.Now.AddDays(-233)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 594,
+                PaymentId = 233,
+                ProductId = 8,
+                ServiceId = 1,
+                AmoutEmployee = 124,
+                StartDate = DateTime.Now.AddDays(-160),
+                EndDate = DateTime.Now.AddDays(-158),
+                Cost = 2232000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-233),
+                UpdatedAt
+             = DateTime.Now.AddDays(-233)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 595,
+                PaymentId = 234,
+                ProductId = 26,
+                ServiceId = 3,
+                AmoutEmployee = 191,
+                StartDate = DateTime.Now.AddDays(-121),
+                EndDate = DateTime.Now.AddDays(-120),
+                Cost = 66181500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-234),
+                UpdatedAt
+             = DateTime.Now.AddDays(-234)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 596,
+                PaymentId = 234,
+                ProductId = 23,
+                ServiceId = 1,
+                AmoutEmployee = 180,
+                StartDate = DateTime.Now.AddDays(-67),
+                EndDate = DateTime.Now.AddDays(-55),
+                Cost = 24300000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-234),
+                UpdatedAt
+             = DateTime.Now.AddDays(-234)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 597,
+                PaymentId = 234,
+                ProductId = 10,
+                ServiceId = 1,
+                AmoutEmployee = 129,
+                StartDate = DateTime.Now.AddDays(-132),
+                EndDate = DateTime.Now.AddDays(-121),
+                Cost = 48181500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-234),
+                UpdatedAt
+             = DateTime.Now.AddDays(-234)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 598,
+                PaymentId = 235,
+                ProductId = 16,
+                ServiceId = 1,
+                AmoutEmployee = 37,
+                StartDate = DateTime.Now.AddDays(-8),
+                EndDate = DateTime.Now.AddDays(1),
+                Cost = 333000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-235),
+                UpdatedAt
+             = DateTime.Now.AddDays(-235)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 599,
+                PaymentId = 235,
+                ProductId = 23,
+                ServiceId = 1,
+                AmoutEmployee = 188,
+                StartDate = DateTime.Now.AddDays(-112),
+                EndDate = DateTime.Now.AddDays(-111),
+                Cost = 60912000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-235),
+                UpdatedAt
+             = DateTime.Now.AddDays(-235)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 600,
+                PaymentId = 236,
+                ProductId = 22,
+                ServiceId = 2,
+                AmoutEmployee = 196,
+                StartDate = DateTime.Now.AddDays(-158),
+                EndDate = DateTime.Now.AddDays(-156),
+                Cost = 8232000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-236),
+                UpdatedAt
+             = DateTime.Now.AddDays(-236)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 601,
+                PaymentId = 236,
+                ProductId = 6,
+                ServiceId = 3,
+                AmoutEmployee = 54,
+                StartDate = DateTime.Now.AddDays(-33),
+                EndDate = DateTime.Now.AddDays(-19),
+                Cost = 4158000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-236),
+                UpdatedAt
+             = DateTime.Now.AddDays(-236)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 602,
+                PaymentId = 236,
+                ProductId = 21,
+                ServiceId = 3,
+                AmoutEmployee = 57,
+                StartDate = DateTime.Now.AddDays(-20),
+                EndDate = DateTime.Now.AddDays(-13),
+                Cost = 1567500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-236),
+                UpdatedAt
+             = DateTime.Now.AddDays(-236)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 603,
+                PaymentId = 237,
+                ProductId = 28,
+                ServiceId = 1,
+                AmoutEmployee = 52,
+                StartDate = DateTime.Now.AddDays(-18),
+                EndDate = DateTime.Now.AddDays(-17),
+                Cost = 1872000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-237),
+                UpdatedAt
+             = DateTime.Now.AddDays(-237)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 604,
+                PaymentId = 237,
+                ProductId = 3,
+                ServiceId = 1,
+                AmoutEmployee = 50,
+                StartDate = DateTime.Now.AddDays(-127),
+                EndDate = DateTime.Now.AddDays(-122),
+                Cost = 18000000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-237),
+                UpdatedAt
+             = DateTime.Now.AddDays(-237)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 605,
+                PaymentId = 238,
+                ProductId = 18,
+                ServiceId = 1,
+                AmoutEmployee = 184,
+                StartDate = DateTime.Now.AddDays(-58),
+                EndDate = DateTime.Now.AddDays(-51),
+                Cost = 34776000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-238),
+                UpdatedAt
+             = DateTime.Now.AddDays(-238)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 606,
+                PaymentId = 238,
+                ProductId = 29,
+                ServiceId = 2,
+                AmoutEmployee = 94,
+                StartDate = DateTime.Now.AddDays(-159),
+                EndDate = DateTime.Now.AddDays(-148),
+                Cost = 47376000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-238),
+                UpdatedAt
+             = DateTime.Now.AddDays(-238)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 607,
+                PaymentId = 238,
+                ProductId = 2,
+                ServiceId = 2,
+                AmoutEmployee = 163,
+                StartDate = DateTime.Now.AddDays(-100),
+                EndDate = DateTime.Now.AddDays(-88),
+                Cost = 33252000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-238),
+                UpdatedAt
+             = DateTime.Now.AddDays(-238)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 608,
+                PaymentId = 239,
+                ProductId = 14,
+                ServiceId = 2,
+                AmoutEmployee = 125,
+                StartDate = DateTime.Now.AddDays(-41),
+                EndDate = DateTime.Now.AddDays(-26),
+                Cost = 15000000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-239),
+                UpdatedAt
+             = DateTime.Now.AddDays(-239)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 609,
+                PaymentId = 239,
+                ProductId = 14,
+                ServiceId = 2,
+                AmoutEmployee = 194,
+                StartDate = DateTime.Now.AddDays(-53),
+                EndDate = DateTime.Now.AddDays(-43),
+                Cost = 27936000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-239),
+                UpdatedAt
+             = DateTime.Now.AddDays(-239)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 610,
+                PaymentId = 240,
+                ProductId = 9,
+                ServiceId = 1,
+                AmoutEmployee = 107,
+                StartDate = DateTime.Now.AddDays(-70),
+                EndDate = DateTime.Now.AddDays(-67),
+                Cost = 8667000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-240),
+                UpdatedAt
+             = DateTime.Now.AddDays(-240)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 611,
+                PaymentId = 240,
+                ProductId = 12,
+                ServiceId = 1,
+                AmoutEmployee = 33,
+                StartDate = DateTime.Now.AddDays(-30),
+                EndDate = DateTime.Now.AddDays(-26),
+                Cost = 594000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-240),
+                UpdatedAt
+             = DateTime.Now.AddDays(-240)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 612,
+                PaymentId = 240,
+                ProductId = 25,
+                ServiceId = 3,
+                AmoutEmployee = 66,
+                StartDate = DateTime.Now.AddDays(-177),
+                EndDate = DateTime.Now.AddDays(-164),
+                Cost = 17424000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-240),
+                UpdatedAt
+             = DateTime.Now.AddDays(-240)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 613,
+                PaymentId = 241,
+                ProductId = 7,
+                ServiceId = 3,
+                AmoutEmployee = 128,
+                StartDate = DateTime.Now.AddDays(-119),
+                EndDate = DateTime.Now.AddDays(-104),
+                Cost = 33792000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-241),
+                UpdatedAt
+             = DateTime.Now.AddDays(-241)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 614,
+                PaymentId = 241,
+                ProductId = 27,
+                ServiceId = 3,
+                AmoutEmployee = 64,
+                StartDate = DateTime.Now.AddDays(-198),
+                EndDate = DateTime.Now.AddDays(-193),
+                Cost = 64064000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-241),
+                UpdatedAt
+             = DateTime.Now.AddDays(-241)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 615,
+                PaymentId = 242,
+                ProductId = 9,
+                ServiceId = 3,
+                AmoutEmployee = 81,
+                StartDate = DateTime.Now.AddDays(-70),
+                EndDate = DateTime.Now.AddDays(-57),
+                Cost = 9801000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-242),
+                UpdatedAt
+             = DateTime.Now.AddDays(-242)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 616,
+                PaymentId = 242,
+                ProductId = 24,
+                ServiceId = 3,
+                AmoutEmployee = 31,
+                StartDate = DateTime.Now.AddDays(-135),
+                EndDate = DateTime.Now.AddDays(-132),
+                Cost = 2557500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-242),
+                UpdatedAt
+             = DateTime.Now.AddDays(-242)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 617,
+                PaymentId = 242,
+                ProductId = 22,
+                ServiceId = 3,
+                AmoutEmployee = 196,
+                StartDate = DateTime.Now.AddDays(-189),
+                EndDate = DateTime.Now.AddDays(-176),
+                Cost = 190806000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-242),
+                UpdatedAt
+             = DateTime.Now.AddDays(-242)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 618,
+                PaymentId = 243,
+                ProductId = 10,
+                ServiceId = 1,
+                AmoutEmployee = 110,
+                StartDate = DateTime.Now.AddDays(-145),
+                EndDate = DateTime.Now.AddDays(-134),
+                Cost = 43065000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-243),
+                UpdatedAt
+             = DateTime.Now.AddDays(-243)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 619,
+                PaymentId = 243,
+                ProductId = 23,
+                ServiceId = 3,
+                AmoutEmployee = 176,
+                StartDate = DateTime.Now.AddDays(-154),
+                EndDate = DateTime.Now.AddDays(-145),
+                Cost = 1936000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-243),
+                UpdatedAt
+             = DateTime.Now.AddDays(-243)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 620,
+                PaymentId = 243,
+                ProductId = 10,
+                ServiceId = 2,
+                AmoutEmployee = 40,
+                StartDate = DateTime.Now.AddDays(-139),
+                EndDate = DateTime.Now.AddDays(-126),
+                Cost = 29760000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-243),
+                UpdatedAt
+             = DateTime.Now.AddDays(-243)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 621,
+                PaymentId = 244,
+                ProductId = 24,
+                ServiceId = 2,
+                AmoutEmployee = 92,
+                StartDate = DateTime.Now.AddDays(-130),
+                EndDate = DateTime.Now.AddDays(-129),
+                Cost = 13248000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-244),
+                UpdatedAt
+             = DateTime.Now.AddDays(-244)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 622,
+                PaymentId = 244,
+                ProductId = 14,
+                ServiceId = 3,
+                AmoutEmployee = 46,
+                StartDate = DateTime.Now.AddDays(-188),
+                EndDate = DateTime.Now.AddDays(-184),
+                Cost = 18722000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-244),
+                UpdatedAt
+             = DateTime.Now.AddDays(-244)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 623,
+                PaymentId = 245,
+                ProductId = 15,
+                ServiceId = 2,
+                AmoutEmployee = 98,
+                StartDate = DateTime.Now.AddDays(-51),
+                EndDate = DateTime.Now.AddDays(-44),
+                Cost = 12936000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-245),
+                UpdatedAt
+             = DateTime.Now.AddDays(-245)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 624,
+                PaymentId = 245,
+                ProductId = 27,
+                ServiceId = 2,
+                AmoutEmployee = 46,
+                StartDate = DateTime.Now.AddDays(-156),
+                EndDate = DateTime.Now.AddDays(-154),
+                Cost = 18492000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-245),
+                UpdatedAt
+             = DateTime.Now.AddDays(-245)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 625,
+                PaymentId = 245,
+                ProductId = 8,
+                ServiceId = 2,
+                AmoutEmployee = 103,
+                StartDate = DateTime.Now.AddDays(-10),
+                EndDate = DateTime.Now.AddDays(-9),
+                Cost = 2472000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-245),
+                UpdatedAt
+             = DateTime.Now.AddDays(-245)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 626,
+                PaymentId = 246,
+                ProductId = 9,
+                ServiceId = 1,
+                AmoutEmployee = 87,
+                StartDate = DateTime.Now.AddDays(-155),
+                EndDate = DateTime.Now.AddDays(-148),
+                Cost = 32494500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-246),
+                UpdatedAt
+             = DateTime.Now.AddDays(-246)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 627,
+                PaymentId = 246,
+                ProductId = 17,
+                ServiceId = 1,
+                AmoutEmployee = 56,
+                StartDate = DateTime.Now.AddDays(-193),
+                EndDate = DateTime.Now.AddDays(-180),
+                Cost = 40824000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-246),
+                UpdatedAt
+             = DateTime.Now.AddDays(-246)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 628,
+                PaymentId = 247,
+                ProductId = 10,
+                ServiceId = 1,
+                AmoutEmployee = 116,
+                StartDate = DateTime.Now.AddDays(-52),
+                EndDate = DateTime.Now.AddDays(-39),
+                Cost = 20880000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-247),
+                UpdatedAt
+             = DateTime.Now.AddDays(-247)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 629,
+                PaymentId = 247,
+                ProductId = 16,
+                ServiceId = 1,
+                AmoutEmployee = 97,
+                StartDate = DateTime.Now.AddDays(-41),
+                EndDate = DateTime.Now.AddDays(-32),
+                Cost = 1309500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-247),
+                UpdatedAt
+             = DateTime.Now.AddDays(-247)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 630,
+                PaymentId = 247,
+                ProductId = 21,
+                ServiceId = 3,
+                AmoutEmployee = 195,
+                StartDate = DateTime.Now.AddDays(-170),
+                EndDate = DateTime.Now.AddDays(-168),
+                Cost = 153367500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-247),
+                UpdatedAt
+             = DateTime.Now.AddDays(-247)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 631,
+                PaymentId = 248,
+                ProductId = 23,
+                ServiceId = 2,
+                AmoutEmployee = 101,
+                StartDate = DateTime.Now.AddDays(-89),
+                EndDate = DateTime.Now.AddDays(-83),
+                Cost = 11514000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-248),
+                UpdatedAt
+             = DateTime.Now.AddDays(-248)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 632,
+                PaymentId = 248,
+                ProductId = 26,
+                ServiceId = 3,
+                AmoutEmployee = 192,
+                StartDate = DateTime.Now.AddDays(-167),
+                EndDate = DateTime.Now.AddDays(-154),
+                Cost = 89760000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-248),
+                UpdatedAt
+             = DateTime.Now.AddDays(-248)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 633,
+                PaymentId = 249,
+                ProductId = 23,
+                ServiceId = 3,
+                AmoutEmployee = 35,
+                StartDate = DateTime.Now.AddDays(-131),
+                EndDate = DateTime.Now.AddDays(-129),
+                Cost = 14630000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-249),
+                UpdatedAt
+             = DateTime.Now.AddDays(-249)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 634,
+                PaymentId = 249,
+                ProductId = 24,
+                ServiceId = 1,
+                AmoutEmployee = 152,
+                StartDate = DateTime.Now.AddDays(-57),
+                EndDate = DateTime.Now.AddDays(-55),
+                Cost = 19836000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-249),
+                UpdatedAt
+             = DateTime.Now.AddDays(-249)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 635,
+                PaymentId = 249,
+                ProductId = 12,
+                ServiceId = 2,
+                AmoutEmployee = 107,
+                StartDate = DateTime.Now.AddDays(-170),
+                EndDate = DateTime.Now.AddDays(-160),
+                Cost = 95658000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-249),
+                UpdatedAt
+             = DateTime.Now.AddDays(-249)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 636,
+                PaymentId = 250,
+                ProductId = 4,
+                ServiceId = 1,
+                AmoutEmployee = 168,
+                StartDate = DateTime.Now.AddDays(-19),
+                EndDate = DateTime.Now.AddDays(-12),
+                Cost = 3024000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-250),
+                UpdatedAt
+             = DateTime.Now.AddDays(-250)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 637,
+                PaymentId = 250,
+                ProductId = 22,
+                ServiceId = 1,
+                AmoutEmployee = 170,
+                StartDate = DateTime.Now.AddDays(-188),
+                EndDate = DateTime.Now.AddDays(-174),
+                Cost = 74970000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-250),
+                UpdatedAt
+             = DateTime.Now.AddDays(-250)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 638,
+                PaymentId = 251,
+                ProductId = 10,
+                ServiceId = 3,
+                AmoutEmployee = 46,
+                StartDate = DateTime.Now.AddDays(-62),
+                EndDate = DateTime.Now.AddDays(-61),
+                Cost = 3542000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-251),
+                UpdatedAt
+             = DateTime.Now.AddDays(-251)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 639,
+                PaymentId = 251,
+                ProductId = 13,
+                ServiceId = 2,
+                AmoutEmployee = 37,
+                StartDate = DateTime.Now.AddDays(-32),
+                EndDate = DateTime.Now.AddDays(-18),
+                Cost = 3552000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-251),
+                UpdatedAt
+             = DateTime.Now.AddDays(-251)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 640,
+                PaymentId = 251,
+                ProductId = 3,
+                ServiceId = 1,
+                AmoutEmployee = 112,
+                StartDate = DateTime.Now.AddDays(-34),
+                EndDate = DateTime.Now.AddDays(-26),
+                Cost = 4032000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-251),
+                UpdatedAt
+             = DateTime.Now.AddDays(-251)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 641,
+                PaymentId = 252,
+                ProductId = 10,
+                ServiceId = 1,
+                AmoutEmployee = 121,
+                StartDate = DateTime.Now.AddDays(-62),
+                EndDate = DateTime.Now.AddDays(-50),
+                Cost = 5445000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-252),
+                UpdatedAt
+             = DateTime.Now.AddDays(-252)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 642,
+                PaymentId = 252,
+                ProductId = 23,
+                ServiceId = 2,
+                AmoutEmployee = 190,
+                StartDate = DateTime.Now.AddDays(-194),
+                EndDate = DateTime.Now.AddDays(-188),
+                Cost = 127680000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-252),
+                UpdatedAt
+             = DateTime.Now.AddDays(-252)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 643,
+                PaymentId = 253,
+                ProductId = 26,
+                ServiceId = 1,
+                AmoutEmployee = 34,
+                StartDate = DateTime.Now.AddDays(-184),
+                EndDate = DateTime.Now.AddDays(-169),
+                Cost = 26010000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-253),
+                UpdatedAt
+             = DateTime.Now.AddDays(-253)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 644,
+                PaymentId = 253,
+                ProductId = 10,
+                ServiceId = 2,
+                AmoutEmployee = 40,
+                StartDate = DateTime.Now.AddDays(-49),
+                EndDate = DateTime.Now.AddDays(-39),
+                Cost = 6000000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-253),
+                UpdatedAt
+             = DateTime.Now.AddDays(-253)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 645,
+                PaymentId = 253,
+                ProductId = 25,
+                ServiceId = 3,
+                AmoutEmployee = 45,
+                StartDate = DateTime.Now.AddDays(-149),
+                EndDate = DateTime.Now.AddDays(-139),
+                Cost = 30690000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-253),
+                UpdatedAt
+             = DateTime.Now.AddDays(-253)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 646,
+                PaymentId = 254,
+                ProductId = 1,
+                ServiceId = 1,
+                AmoutEmployee = 31,
+                StartDate = DateTime.Now.AddDays(-153),
+                EndDate = DateTime.Now.AddDays(-142),
+                Cost = 13810500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-254),
+                UpdatedAt
+             = DateTime.Now.AddDays(-254)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 647,
+                PaymentId = 254,
+                ProductId = 9,
+                ServiceId = 2,
+                AmoutEmployee = 40,
+                StartDate = DateTime.Now.AddDays(-161),
+                EndDate = DateTime.Now.AddDays(-159),
+                Cost = 13200000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-254),
+                UpdatedAt
+             = DateTime.Now.AddDays(-254)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 648,
+                PaymentId = 254,
+                ProductId = 12,
+                ServiceId = 3,
+                AmoutEmployee = 120,
+                StartDate = DateTime.Now.AddDays(-161),
+                EndDate = DateTime.Now.AddDays(-156),
+                Cost = 73920000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-254),
+                UpdatedAt
+             = DateTime.Now.AddDays(-254)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 649,
+                PaymentId = 255,
+                ProductId = 20,
+                ServiceId = 2,
+                AmoutEmployee = 184,
+                StartDate = DateTime.Now.AddDays(-120),
+                EndDate = DateTime.Now.AddDays(-105),
+                Cost = 73968000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-255),
+                UpdatedAt
+             = DateTime.Now.AddDays(-255)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 650,
+                PaymentId = 255,
+                ProductId = 26,
+                ServiceId = 3,
+                AmoutEmployee = 163,
+                StartDate = DateTime.Now.AddDays(-139),
+                EndDate = DateTime.Now.AddDays(-126),
+                Cost = 38549500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-255),
+                UpdatedAt
+             = DateTime.Now.AddDays(-255)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 651,
+                PaymentId = 256,
+                ProductId = 1,
+                ServiceId = 2,
+                AmoutEmployee = 34,
+                StartDate = DateTime.Now.AddDays(-14),
+                EndDate = DateTime.Now.AddDays(-2),
+                Cost = 816000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-256),
+                UpdatedAt
+             = DateTime.Now.AddDays(-256)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 652,
+                PaymentId = 256,
+                ProductId = 18,
+                ServiceId = 1,
+                AmoutEmployee = 60,
+                StartDate = DateTime.Now.AddDays(-84),
+                EndDate = DateTime.Now.AddDays(-77),
+                Cost = 7290000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-256),
+                UpdatedAt
+             = DateTime.Now.AddDays(-256)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 653,
+                PaymentId = 256,
+                ProductId = 10,
+                ServiceId = 1,
+                AmoutEmployee = 179,
+                StartDate = DateTime.Now.AddDays(-161),
+                EndDate = DateTime.Now.AddDays(-146),
+                Cost = 8860500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-256),
+                UpdatedAt
+             = DateTime.Now.AddDays(-256)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 654,
+                PaymentId = 257,
+                ProductId = 30,
+                ServiceId = 2,
+                AmoutEmployee = 191,
+                StartDate = DateTime.Now.AddDays(-167),
+                EndDate = DateTime.Now.AddDays(-156),
+                Cost = 61884000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-257),
+                UpdatedAt
+             = DateTime.Now.AddDays(-257)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 655,
+                PaymentId = 257,
+                ProductId = 6,
+                ServiceId = 1,
+                AmoutEmployee = 183,
+                StartDate = DateTime.Now.AddDays(-72),
+                EndDate = DateTime.Now.AddDays(-71),
+                Cost = 44469000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-257),
+                UpdatedAt
+             = DateTime.Now.AddDays(-257)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 656,
+                PaymentId = 258,
+                ProductId = 4,
+                ServiceId = 2,
+                AmoutEmployee = 115,
+                StartDate = DateTime.Now.AddDays(-161),
+                EndDate = DateTime.Now.AddDays(-156),
+                Cost = 71070000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-258),
+                UpdatedAt
+             = DateTime.Now.AddDays(-258)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 657,
+                PaymentId = 258,
+                ProductId = 14,
+                ServiceId = 2,
+                AmoutEmployee = 145,
+                StartDate = DateTime.Now.AddDays(-159),
+                EndDate = DateTime.Now.AddDays(-153),
+                Cost = 72210000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-258),
+                UpdatedAt
+             = DateTime.Now.AddDays(-258)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 658,
+                PaymentId = 258,
+                ProductId = 3,
+                ServiceId = 1,
+                AmoutEmployee = 32,
+                StartDate = DateTime.Now.AddDays(-24),
+                EndDate = DateTime.Now.AddDays(-23),
+                Cost = 1584000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-258),
+                UpdatedAt
+             = DateTime.Now.AddDays(-258)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 659,
+                PaymentId = 259,
+                ProductId = 12,
+                ServiceId = 1,
+                AmoutEmployee = 197,
+                StartDate = DateTime.Now.AddDays(-93),
+                EndDate = DateTime.Now.AddDays(-85),
+                Cost = 14184000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-259),
+                UpdatedAt
+             = DateTime.Now.AddDays(-259)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 660,
+                PaymentId = 259,
+                ProductId = 1,
+                ServiceId = 2,
+                AmoutEmployee = 47,
+                StartDate = DateTime.Now.AddDays(-119),
+                EndDate = DateTime.Now.AddDays(-108),
+                Cost = 22842000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-259),
+                UpdatedAt
+             = DateTime.Now.AddDays(-259)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 661,
+                PaymentId = 260,
+                ProductId = 1,
+                ServiceId = 3,
+                AmoutEmployee = 28,
+                StartDate = DateTime.Now.AddDays(-177),
+                EndDate = DateTime.Now.AddDays(-174),
+                Cost = 9086000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-260),
+                UpdatedAt
+             = DateTime.Now.AddDays(-260)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 662,
+                PaymentId = 260,
+                ProductId = 9,
+                ServiceId = 3,
+                AmoutEmployee = 89,
+                StartDate = DateTime.Now.AddDays(-82),
+                EndDate = DateTime.Now.AddDays(-67),
+                Cost = 1958000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-260),
+                UpdatedAt
+             = DateTime.Now.AddDays(-260)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 663,
+                PaymentId = 260,
+                ProductId = 10,
+                ServiceId = 2,
+                AmoutEmployee = 95,
+                StartDate = DateTime.Now.AddDays(-132),
+                EndDate = DateTime.Now.AddDays(-130),
+                Cost = 38190000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-260),
+                UpdatedAt
+             = DateTime.Now.AddDays(-260)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 664,
+                PaymentId = 261,
+                ProductId = 13,
+                ServiceId = 2,
+                AmoutEmployee = 160,
+                StartDate = DateTime.Now.AddDays(-151),
+                EndDate = DateTime.Now.AddDays(-136),
+                Cost = 126720000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-261),
+                UpdatedAt
+             = DateTime.Now.AddDays(-261)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 665,
+                PaymentId = 261,
+                ProductId = 4,
+                ServiceId = 3,
+                AmoutEmployee = 195,
+                StartDate = DateTime.Now.AddDays(-40),
+                EndDate = DateTime.Now.AddDays(-27),
+                Cost = 37537500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-261),
+                UpdatedAt
+             = DateTime.Now.AddDays(-261)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 666,
+                PaymentId = 262,
+                ProductId = 26,
+                ServiceId = 2,
+                AmoutEmployee = 62,
+                StartDate = DateTime.Now.AddDays(-197),
+                EndDate = DateTime.Now.AddDays(-182),
+                Cost = 20832000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-262),
+                UpdatedAt
+             = DateTime.Now.AddDays(-262)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 667,
+                PaymentId = 262,
+                ProductId = 24,
+                ServiceId = 2,
+                AmoutEmployee = 191,
+                StartDate = DateTime.Now.AddDays(-98),
+                EndDate = DateTime.Now.AddDays(-83),
+                Cost = 55008000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-262),
+                UpdatedAt
+             = DateTime.Now.AddDays(-262)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 668,
+                PaymentId = 262,
+                ProductId = 27,
+                ServiceId = 3,
+                AmoutEmployee = 60,
+                StartDate = DateTime.Now.AddDays(-112),
+                EndDate = DateTime.Now.AddDays(-99),
+                Cost = 23430000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-262),
+                UpdatedAt
+             = DateTime.Now.AddDays(-262)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 669,
+                PaymentId = 263,
+                ProductId = 6,
+                ServiceId = 2,
+                AmoutEmployee = 157,
+                StartDate = DateTime.Now.AddDays(-137),
+                EndDate = DateTime.Now.AddDays(-127),
+                Cost = 80070000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-263),
+                UpdatedAt
+             = DateTime.Now.AddDays(-263)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 670,
+                PaymentId = 263,
+                ProductId = 21,
+                ServiceId = 3,
+                AmoutEmployee = 118,
+                StartDate = DateTime.Now.AddDays(-90),
+                EndDate = DateTime.Now.AddDays(-77),
+                Cost = 10384000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-263),
+                UpdatedAt
+             = DateTime.Now.AddDays(-263)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 671,
+                PaymentId = 264,
+                ProductId = 16,
+                ServiceId = 1,
+                AmoutEmployee = 131,
+                StartDate = DateTime.Now.AddDays(-28),
+                EndDate = DateTime.Now.AddDays(-24),
+                Cost = 3537000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-264),
+                UpdatedAt
+             = DateTime.Now.AddDays(-264)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 672,
+                PaymentId = 264,
+                ProductId = 27,
+                ServiceId = 1,
+                AmoutEmployee = 79,
+                StartDate = DateTime.Now.AddDays(-176),
+                EndDate = DateTime.Now.AddDays(-174),
+                Cost = 26307000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-264),
+                UpdatedAt
+             = DateTime.Now.AddDays(-264)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 673,
+                PaymentId = 264,
+                ProductId = 13,
+                ServiceId = 3,
+                AmoutEmployee = 196,
+                StartDate = DateTime.Now.AddDays(-8),
+                EndDate = DateTime.Now.AddDays(-3),
+                Cost = 3234000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-264),
+                UpdatedAt
+             = DateTime.Now.AddDays(-264)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 674,
+                PaymentId = 265,
+                ProductId = 30,
+                ServiceId = 3,
+                AmoutEmployee = 59,
+                StartDate = DateTime.Now.AddDays(-69),
+                EndDate = DateTime.Now.AddDays(-54),
+                Cost = 7463500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-265),
+                UpdatedAt
+             = DateTime.Now.AddDays(-265)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 675,
+                PaymentId = 265,
+                ProductId = 8,
+                ServiceId = 2,
+                AmoutEmployee = 149,
+                StartDate = DateTime.Now.AddDays(-85),
+                EndDate = DateTime.Now.AddDays(-77),
+                Cost = 51852000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-265),
+                UpdatedAt
+             = DateTime.Now.AddDays(-265)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 676,
+                PaymentId = 265,
+                ProductId = 23,
+                ServiceId = 3,
+                AmoutEmployee = 114,
+                StartDate = DateTime.Now.AddDays(-183),
+                EndDate = DateTime.Now.AddDays(-171),
+                Cost = 89034000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-265),
+                UpdatedAt
+             = DateTime.Now.AddDays(-265)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 677,
+                PaymentId = 266,
+                ProductId = 21,
+                ServiceId = 2,
+                AmoutEmployee = 168,
+                StartDate = DateTime.Now.AddDays(-186),
+                EndDate = DateTime.Now.AddDays(-183),
+                Cost = 55440000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-266),
+                UpdatedAt
+             = DateTime.Now.AddDays(-266)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 678,
+                PaymentId = 266,
+                ProductId = 21,
+                ServiceId = 1,
+                AmoutEmployee = 196,
+                StartDate = DateTime.Now.AddDays(-194),
+                EndDate = DateTime.Now.AddDays(-186),
+                Cost = 138474000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-266),
+                UpdatedAt
+             = DateTime.Now.AddDays(-266)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 679,
+                PaymentId = 267,
+                ProductId = 2,
+                ServiceId = 1,
+                AmoutEmployee = 199,
+                StartDate = DateTime.Now.AddDays(-91),
+                EndDate = DateTime.Now.AddDays(-89),
+                Cost = 32238000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-267),
+                UpdatedAt
+             = DateTime.Now.AddDays(-267)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 680,
+                PaymentId = 267,
+                ProductId = 8,
+                ServiceId = 1,
+                AmoutEmployee = 184,
+                StartDate = DateTime.Now.AddDays(-146),
+                EndDate = DateTime.Now.AddDays(-143),
+                Cost = 12420000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-267),
+                UpdatedAt
+             = DateTime.Now.AddDays(-267)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 681,
+                PaymentId = 267,
+                ProductId = 21,
+                ServiceId = 1,
+                AmoutEmployee = 93,
+                StartDate = DateTime.Now.AddDays(-109),
+                EndDate = DateTime.Now.AddDays(-101),
+                Cost = 3766500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-267),
+                UpdatedAt
+             = DateTime.Now.AddDays(-267)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 682,
+                PaymentId = 268,
+                ProductId = 6,
+                ServiceId = 2,
+                AmoutEmployee = 157,
+                StartDate = DateTime.Now.AddDays(-117),
+                EndDate = DateTime.Now.AddDays(-116),
+                Cost = 98910000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-268),
+                UpdatedAt
+             = DateTime.Now.AddDays(-268)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 683,
+                PaymentId = 268,
+                ProductId = 27,
+                ServiceId = 1,
+                AmoutEmployee = 30,
+                StartDate = DateTime.Now.AddDays(-196),
+                EndDate = DateTime.Now.AddDays(-184),
+                Cost = 22950000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-268),
+                UpdatedAt
+             = DateTime.Now.AddDays(-268)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 684,
+                PaymentId = 269,
+                ProductId = 15,
+                ServiceId = 1,
+                AmoutEmployee = 89,
+                StartDate = DateTime.Now.AddDays(-28),
+                EndDate = DateTime.Now.AddDays(-20),
+                Cost = 8811000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-269),
+                UpdatedAt
+             = DateTime.Now.AddDays(-269)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 685,
+                PaymentId = 269,
+                ProductId = 29,
+                ServiceId = 2,
+                AmoutEmployee = 163,
+                StartDate = DateTime.Now.AddDays(-179),
+                EndDate = DateTime.Now.AddDays(-169),
+                Cost = 95844000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-269),
+                UpdatedAt
+             = DateTime.Now.AddDays(-269)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 686,
+                PaymentId = 269,
+                ProductId = 28,
+                ServiceId = 2,
+                AmoutEmployee = 194,
+                StartDate = DateTime.Now.AddDays(-107),
+                EndDate = DateTime.Now.AddDays(-104),
+                Cost = 4656000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-269),
+                UpdatedAt
+             = DateTime.Now.AddDays(-269)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 687,
+                PaymentId = 270,
+                ProductId = 23,
+                ServiceId = 2,
+                AmoutEmployee = 118,
+                StartDate = DateTime.Now.AddDays(-92),
+                EndDate = DateTime.Now.AddDays(-87),
+                Cost = 37524000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-270),
+                UpdatedAt
+             = DateTime.Now.AddDays(-270)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 688,
+                PaymentId = 270,
+                ProductId = 20,
+                ServiceId = 1,
+                AmoutEmployee = 46,
+                StartDate = DateTime.Now.AddDays(-195),
+                EndDate = DateTime.Now.AddDays(-189),
+                Cost = 31257000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-270),
+                UpdatedAt
+             = DateTime.Now.AddDays(-270)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 689,
+                PaymentId = 271,
+                ProductId = 13,
+                ServiceId = 3,
+                AmoutEmployee = 181,
+                StartDate = DateTime.Now.AddDays(-95),
+                EndDate = DateTime.Now.AddDays(-84),
+                Cost = 995500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-271),
+                UpdatedAt
+             = DateTime.Now.AddDays(-271)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 690,
+                PaymentId = 271,
+                ProductId = 23,
+                ServiceId = 2,
+                AmoutEmployee = 28,
+                StartDate = DateTime.Now.AddDays(-188),
+                EndDate = DateTime.Now.AddDays(-185),
+                Cost = 30576000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-271),
+                UpdatedAt
+             = DateTime.Now.AddDays(-271)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 691,
+                PaymentId = 271,
+                ProductId = 14,
+                ServiceId = 2,
+                AmoutEmployee = 35,
+                StartDate = DateTime.Now.AddDays(-10),
+                EndDate = DateTime.Now.AddDays(-6),
+                Cost = 1050000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-271),
+                UpdatedAt
+             = DateTime.Now.AddDays(-271)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 692,
+                PaymentId = 272,
+                ProductId = 10,
+                ServiceId = 2,
+                AmoutEmployee = 168,
+                StartDate = DateTime.Now.AddDays(-161),
+                EndDate = DateTime.Now.AddDays(-154),
+                Cost = 22176000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-272),
+                UpdatedAt
+             = DateTime.Now.AddDays(-272)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 693,
+                PaymentId = 272,
+                ProductId = 27,
+                ServiceId = 1,
+                AmoutEmployee = 105,
+                StartDate = DateTime.Now.AddDays(-105),
+                EndDate = DateTime.Now.AddDays(-94),
+                Cost = 15120000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-272),
+                UpdatedAt
+             = DateTime.Now.AddDays(-272)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 694,
+                PaymentId = 273,
+                ProductId = 13,
+                ServiceId = 1,
+                AmoutEmployee = 99,
+                StartDate = DateTime.Now.AddDays(-128),
+                EndDate = DateTime.Now.AddDays(-120),
+                Cost = 35194500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-273),
+                UpdatedAt
+             = DateTime.Now.AddDays(-273)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 695,
+                PaymentId = 273,
+                ProductId = 23,
+                ServiceId = 2,
+                AmoutEmployee = 182,
+                StartDate = DateTime.Now.AddDays(-41),
+                EndDate = DateTime.Now.AddDays(-38),
+                Cost = 4368000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-273),
+                UpdatedAt
+             = DateTime.Now.AddDays(-273)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 696,
+                PaymentId = 273,
+                ProductId = 22,
+                ServiceId = 3,
+                AmoutEmployee = 167,
+                StartDate = DateTime.Now.AddDays(-33),
+                EndDate = DateTime.Now.AddDays(-26),
+                Cost = 8266500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-273),
+                UpdatedAt
+             = DateTime.Now.AddDays(-273)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 697,
+                PaymentId = 274,
+                ProductId = 24,
+                ServiceId = 1,
+                AmoutEmployee = 98,
+                StartDate = DateTime.Now.AddDays(-97),
+                EndDate = DateTime.Now.AddDays(-91),
+                Cost = 2646000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-274),
+                UpdatedAt
+             = DateTime.Now.AddDays(-274)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 698,
+                PaymentId = 274,
+                ProductId = 10,
+                ServiceId = 2,
+                AmoutEmployee = 100,
+                StartDate = DateTime.Now.AddDays(-180),
+                EndDate = DateTime.Now.AddDays(-169),
+                Cost = 10800000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-274),
+                UpdatedAt
+             = DateTime.Now.AddDays(-274)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 699,
+                PaymentId = 275,
+                ProductId = 6,
+                ServiceId = 3,
+                AmoutEmployee = 140,
+                StartDate = DateTime.Now.AddDays(-145),
+                EndDate = DateTime.Now.AddDays(-134),
+                Cost = 16940000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-275),
+                UpdatedAt
+             = DateTime.Now.AddDays(-275)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 700,
+                PaymentId = 275,
+                ProductId = 13,
+                ServiceId = 1,
+                AmoutEmployee = 74,
+                StartDate = DateTime.Now.AddDays(-57),
+                EndDate = DateTime.Now.AddDays(-43),
+                Cost = 5994000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-275),
+                UpdatedAt
+             = DateTime.Now.AddDays(-275)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 701,
+                PaymentId = 275,
+                ProductId = 10,
+                ServiceId = 2,
+                AmoutEmployee = 120,
+                StartDate = DateTime.Now.AddDays(-174),
+                EndDate = DateTime.Now.AddDays(-165),
+                Cost = 59040000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-275),
+                UpdatedAt
+             = DateTime.Now.AddDays(-275)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 702,
+                PaymentId = 276,
+                ProductId = 6,
+                ServiceId = 3,
+                AmoutEmployee = 123,
+                StartDate = DateTime.Now.AddDays(-17),
+                EndDate = DateTime.Now.AddDays(-2),
+                Cost = 5412000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-276),
+                UpdatedAt
+             = DateTime.Now.AddDays(-276)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 703,
+                PaymentId = 276,
+                ProductId = 22,
+                ServiceId = 2,
+                AmoutEmployee = 72,
+                StartDate = DateTime.Now.AddDays(-198),
+                EndDate = DateTime.Now.AddDays(-196),
+                Cost = 14688000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-276),
+                UpdatedAt
+             = DateTime.Now.AddDays(-276)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 704,
+                PaymentId = 276,
+                ProductId = 21,
+                ServiceId = 2,
+                AmoutEmployee = 183,
+                StartDate = DateTime.Now.AddDays(-57),
+                EndDate = DateTime.Now.AddDays(-54),
+                Cost = 49410000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-276),
+                UpdatedAt
+             = DateTime.Now.AddDays(-276)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 705,
+                PaymentId = 277,
+                ProductId = 10,
+                ServiceId = 3,
+                AmoutEmployee = 69,
+                StartDate = DateTime.Now.AddDays(-58),
+                EndDate = DateTime.Now.AddDays(-54),
+                Cost = 13662000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-277),
+                UpdatedAt
+             = DateTime.Now.AddDays(-277)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 706,
+                PaymentId = 277,
+                ProductId = 4,
+                ServiceId = 2,
+                AmoutEmployee = 168,
+                StartDate = DateTime.Now.AddDays(-113),
+                EndDate = DateTime.Now.AddDays(-112),
+                Cost = 21168000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-277),
+                UpdatedAt
+             = DateTime.Now.AddDays(-277)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 707,
+                PaymentId = 278,
+                ProductId = 21,
+                ServiceId = 2,
+                AmoutEmployee = 193,
+                StartDate = DateTime.Now.AddDays(-22),
+                EndDate = DateTime.Now.AddDays(-9),
+                Cost = 9264000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-278),
+                UpdatedAt
+             = DateTime.Now.AddDays(-278)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 708,
+                PaymentId = 278,
+                ProductId = 5,
+                ServiceId = 3,
+                AmoutEmployee = 42,
+                StartDate = DateTime.Now.AddDays(-54),
+                EndDate = DateTime.Now.AddDays(-41),
+                Cost = 231000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-278),
+                UpdatedAt
+             = DateTime.Now.AddDays(-278)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 709,
+                PaymentId = 278,
+                ProductId = 28,
+                ServiceId = 2,
+                AmoutEmployee = 82,
+                StartDate = DateTime.Now.AddDays(-93),
+                EndDate = DateTime.Now.AddDays(-92),
+                Cost = 12792000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-278),
+                UpdatedAt
+             = DateTime.Now.AddDays(-278)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 710,
+                PaymentId = 279,
+                ProductId = 4,
+                ServiceId = 2,
+                AmoutEmployee = 93,
+                StartDate = DateTime.Now.AddDays(-191),
+                EndDate = DateTime.Now.AddDays(-184),
+                Cost = 87048000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-279),
+                UpdatedAt
+             = DateTime.Now.AddDays(-279)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 711,
+                PaymentId = 279,
+                ProductId = 13,
+                ServiceId = 3,
+                AmoutEmployee = 150,
+                StartDate = DateTime.Now.AddDays(-191),
+                EndDate = DateTime.Now.AddDays(-180),
+                Cost = 88275000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-279),
+                UpdatedAt
+             = DateTime.Now.AddDays(-279)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 712,
+                PaymentId = 280,
+                ProductId = 25,
+                ServiceId = 3,
+                AmoutEmployee = 154,
+                StartDate = DateTime.Now.AddDays(-104),
+                EndDate = DateTime.Now.AddDays(-94),
+                Cost = 5082000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-280),
+                UpdatedAt
+             = DateTime.Now.AddDays(-280)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 713,
+                PaymentId = 280,
+                ProductId = 12,
+                ServiceId = 2,
+                AmoutEmployee = 179,
+                StartDate = DateTime.Now.AddDays(-129),
+                EndDate = DateTime.Now.AddDays(-127),
+                Cost = 93438000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-280),
+                UpdatedAt
+             = DateTime.Now.AddDays(-280)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 714,
+                PaymentId = 280,
+                ProductId = 5,
+                ServiceId = 2,
+                AmoutEmployee = 120,
+                StartDate = DateTime.Now.AddDays(-72),
+                EndDate = DateTime.Now.AddDays(-62),
+                Cost = 46800000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-280),
+                UpdatedAt
+             = DateTime.Now.AddDays(-280)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 715,
+                PaymentId = 281,
+                ProductId = 13,
+                ServiceId = 3,
+                AmoutEmployee = 129,
+                StartDate = DateTime.Now.AddDays(-197),
+                EndDate = DateTime.Now.AddDays(-183),
+                Cost = 47536500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-281),
+                UpdatedAt
+             = DateTime.Now.AddDays(-281)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 716,
+                PaymentId = 281,
+                ProductId = 9,
+                ServiceId = 1,
+                AmoutEmployee = 100,
+                StartDate = DateTime.Now.AddDays(-154),
+                EndDate = DateTime.Now.AddDays(-140),
+                Cost = 57150000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-281),
+                UpdatedAt
+             = DateTime.Now.AddDays(-281)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 717,
+                PaymentId = 282,
+                ProductId = 15,
+                ServiceId = 3,
+                AmoutEmployee = 183,
+                StartDate = DateTime.Now.AddDays(-125),
+                EndDate = DateTime.Now.AddDays(-114),
+                Cost = 41266500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-282),
+                UpdatedAt
+             = DateTime.Now.AddDays(-282)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 718,
+                PaymentId = 282,
+                ProductId = 6,
+                ServiceId = 1,
+                AmoutEmployee = 164,
+                StartDate = DateTime.Now.AddDays(-145),
+                EndDate = DateTime.Now.AddDays(-134),
+                Cost = 93726000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-282),
+                UpdatedAt
+             = DateTime.Now.AddDays(-282)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 719,
+                PaymentId = 282,
+                ProductId = 22,
+                ServiceId = 2,
+                AmoutEmployee = 57,
+                StartDate = DateTime.Now.AddDays(-49),
+                EndDate = DateTime.Now.AddDays(-38),
+                Cost = 12312000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-282),
+                UpdatedAt
+             = DateTime.Now.AddDays(-282)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 720,
+                PaymentId = 283,
+                ProductId = 6,
+                ServiceId = 2,
+                AmoutEmployee = 55,
+                StartDate = DateTime.Now.AddDays(-167),
+                EndDate = DateTime.Now.AddDays(-165),
+                Cost = 53130000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-283),
+                UpdatedAt
+             = DateTime.Now.AddDays(-283)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 721,
+                PaymentId = 283,
+                ProductId = 24,
+                ServiceId = 3,
+                AmoutEmployee = 51,
+                StartDate = DateTime.Now.AddDays(-196),
+                EndDate = DateTime.Now.AddDays(-187),
+                Cost = 46563000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-283),
+                UpdatedAt
+             = DateTime.Now.AddDays(-283)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 722,
+                PaymentId = 284,
+                ProductId = 27,
+                ServiceId = 3,
+                AmoutEmployee = 183,
+                StartDate = DateTime.Now.AddDays(-120),
+                EndDate = DateTime.Now.AddDays(-117),
+                Cost = 61396500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-284),
+                UpdatedAt
+             = DateTime.Now.AddDays(-284)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 723,
+                PaymentId = 284,
+                ProductId = 30,
+                ServiceId = 1,
+                AmoutEmployee = 68,
+                StartDate = DateTime.Now.AddDays(-88),
+                EndDate = DateTime.Now.AddDays(-87),
+                Cost = 14076000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-284),
+                UpdatedAt
+             = DateTime.Now.AddDays(-284)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 724,
+                PaymentId = 284,
+                ProductId = 28,
+                ServiceId = 2,
+                AmoutEmployee = 156,
+                StartDate = DateTime.Now.AddDays(-73),
+                EndDate = DateTime.Now.AddDays(-63),
+                Cost = 60840000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-284),
+                UpdatedAt
+             = DateTime.Now.AddDays(-284)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 725,
+                PaymentId = 285,
+                ProductId = 13,
+                ServiceId = 2,
+                AmoutEmployee = 51,
+                StartDate = DateTime.Now.AddDays(-177),
+                EndDate = DateTime.Now.AddDays(-165),
+                Cost = 46512000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-285),
+                UpdatedAt
+             = DateTime.Now.AddDays(-285)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 726,
+                PaymentId = 285,
+                ProductId = 12,
+                ServiceId = 3,
+                AmoutEmployee = 177,
+                StartDate = DateTime.Now.AddDays(-166),
+                EndDate = DateTime.Now.AddDays(-160),
+                Cost = 2920500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-285),
+                UpdatedAt
+             = DateTime.Now.AddDays(-285)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 727,
+                PaymentId = 286,
+                ProductId = 17,
+                ServiceId = 3,
+                AmoutEmployee = 98,
+                StartDate = DateTime.Now.AddDays(-145),
+                EndDate = DateTime.Now.AddDays(-130),
+                Cost = 52283000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-286),
+                UpdatedAt
+             = DateTime.Now.AddDays(-286)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 728,
+                PaymentId = 286,
+                ProductId = 4,
+                ServiceId = 1,
+                AmoutEmployee = 58,
+                StartDate = DateTime.Now.AddDays(-87),
+                EndDate = DateTime.Now.AddDays(-75),
+                Cost = 13833000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-286),
+                UpdatedAt
+             = DateTime.Now.AddDays(-286)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 729,
+                PaymentId = 286,
+                ProductId = 7,
+                ServiceId = 2,
+                AmoutEmployee = 91,
+                StartDate = DateTime.Now.AddDays(-194),
+                EndDate = DateTime.Now.AddDays(-179),
+                Cost = 52962000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-286),
+                UpdatedAt
+             = DateTime.Now.AddDays(-286)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 730,
+                PaymentId = 287,
+                ProductId = 27,
+                ServiceId = 3,
+                AmoutEmployee = 58,
+                StartDate = DateTime.Now.AddDays(-73),
+                EndDate = DateTime.Now.AddDays(-69),
+                Cost = 11484000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-287),
+                UpdatedAt
+             = DateTime.Now.AddDays(-287)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 731,
+                PaymentId = 287,
+                ProductId = 22,
+                ServiceId = 2,
+                AmoutEmployee = 130,
+                StartDate = DateTime.Now.AddDays(-71),
+                EndDate = DateTime.Now.AddDays(-63),
+                Cost = 39000000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-287),
+                UpdatedAt
+             = DateTime.Now.AddDays(-287)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 732,
+                PaymentId = 287,
+                ProductId = 11,
+                ServiceId = 2,
+                AmoutEmployee = 200,
+                StartDate = DateTime.Now.AddDays(-58),
+                EndDate = DateTime.Now.AddDays(-47),
+                Cost = 2400000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-287),
+                UpdatedAt
+             = DateTime.Now.AddDays(-287)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 733,
+                PaymentId = 288,
+                ProductId = 29,
+                ServiceId = 2,
+                AmoutEmployee = 145,
+                StartDate = DateTime.Now.AddDays(-100),
+                EndDate = DateTime.Now.AddDays(-86),
+                Cost = 26970000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-288),
+                UpdatedAt
+             = DateTime.Now.AddDays(-288)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 734,
+                PaymentId = 288,
+                ProductId = 7,
+                ServiceId = 3,
+                AmoutEmployee = 136,
+                StartDate = DateTime.Now.AddDays(-75),
+                EndDate = DateTime.Now.AddDays(-69),
+                Cost = 8976000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-288),
+                UpdatedAt
+             = DateTime.Now.AddDays(-288)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 735,
+                PaymentId = 289,
+                ProductId = 5,
+                ServiceId = 3,
+                AmoutEmployee = 101,
+                StartDate = DateTime.Now.AddDays(-163),
+                EndDate = DateTime.Now.AddDays(-152),
+                Cost = 51661500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-289),
+                UpdatedAt
+             = DateTime.Now.AddDays(-289)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 736,
+                PaymentId = 289,
+                ProductId = 10,
+                ServiceId = 3,
+                AmoutEmployee = 162,
+                StartDate = DateTime.Now.AddDays(-67),
+                EndDate = DateTime.Now.AddDays(-56),
+                Cost = 891000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-289),
+                UpdatedAt
+             = DateTime.Now.AddDays(-289)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 737,
+                PaymentId = 289,
+                ProductId = 13,
+                ServiceId = 1,
+                AmoutEmployee = 66,
+                StartDate = DateTime.Now.AddDays(-125),
+                EndDate = DateTime.Now.AddDays(-123),
+                Cost = 9801000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-289),
+                UpdatedAt
+             = DateTime.Now.AddDays(-289)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 738,
+                PaymentId = 290,
+                ProductId = 2,
+                ServiceId = 3,
+                AmoutEmployee = 55,
+                StartDate = DateTime.Now.AddDays(-27),
+                EndDate = DateTime.Now.AddDays(-18),
+                Cost = 302500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-290),
+                UpdatedAt
+             = DateTime.Now.AddDays(-290)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 739,
+                PaymentId = 290,
+                ProductId = 5,
+                ServiceId = 3,
+                AmoutEmployee = 170,
+                StartDate = DateTime.Now.AddDays(-130),
+                EndDate = DateTime.Now.AddDays(-117),
+                Cost = 38335000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-290),
+                UpdatedAt
+             = DateTime.Now.AddDays(-290)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 740,
+                PaymentId = 291,
+                ProductId = 30,
+                ServiceId = 3,
+                AmoutEmployee = 34,
+                StartDate = DateTime.Now.AddDays(-46),
+                EndDate = DateTime.Now.AddDays(-44),
+                Cost = 7480000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-291),
+                UpdatedAt
+             = DateTime.Now.AddDays(-291)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 741,
+                PaymentId = 291,
+                ProductId = 19,
+                ServiceId = 1,
+                AmoutEmployee = 63,
+                StartDate = DateTime.Now.AddDays(-130),
+                EndDate = DateTime.Now.AddDays(-126),
+                Cost = 5953500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-291),
+                UpdatedAt
+             = DateTime.Now.AddDays(-291)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 742,
+                PaymentId = 291,
+                ProductId = 8,
+                ServiceId = 2,
+                AmoutEmployee = 106,
+                StartDate = DateTime.Now.AddDays(-101),
+                EndDate = DateTime.Now.AddDays(-91),
+                Cost = 60420000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-291),
+                UpdatedAt
+             = DateTime.Now.AddDays(-291)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 743,
+                PaymentId = 292,
+                ProductId = 1,
+                ServiceId = 3,
+                AmoutEmployee = 94,
+                StartDate = DateTime.Now.AddDays(-61),
+                EndDate = DateTime.Now.AddDays(-51),
+                Cost = 13959000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-292),
+                UpdatedAt
+             = DateTime.Now.AddDays(-292)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 744,
+                PaymentId = 292,
+                ProductId = 4,
+                ServiceId = 1,
+                AmoutEmployee = 85,
+                StartDate = DateTime.Now.AddDays(-153),
+                EndDate = DateTime.Now.AddDays(-145),
+                Cost = 382500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-292),
+                UpdatedAt
+             = DateTime.Now.AddDays(-292)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 745,
+                PaymentId = 293,
+                ProductId = 19,
+                ServiceId = 3,
+                AmoutEmployee = 133,
+                StartDate = DateTime.Now.AddDays(-85),
+                EndDate = DateTime.Now.AddDays(-83),
+                Cost = 20482000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-293),
+                UpdatedAt
+             = DateTime.Now.AddDays(-293)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 746,
+                PaymentId = 293,
+                ProductId = 9,
+                ServiceId = 2,
+                AmoutEmployee = 165,
+                StartDate = DateTime.Now.AddDays(-165),
+                EndDate = DateTime.Now.AddDays(-160),
+                Cost = 128700000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-293),
+                UpdatedAt
+             = DateTime.Now.AddDays(-293)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 747,
+                PaymentId = 293,
+                ProductId = 27,
+                ServiceId = 1,
+                AmoutEmployee = 36,
+                StartDate = DateTime.Now.AddDays(-178),
+                EndDate = DateTime.Now.AddDays(-164),
+                Cost = 13932000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-293),
+                UpdatedAt
+             = DateTime.Now.AddDays(-293)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 748,
+                PaymentId = 294,
+                ProductId = 5,
+                ServiceId = 1,
+                AmoutEmployee = 41,
+                StartDate = DateTime.Now.AddDays(-174),
+                EndDate = DateTime.Now.AddDays(-171),
+                Cost = 9040500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-294),
+                UpdatedAt
+             = DateTime.Now.AddDays(-294)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 749,
+                PaymentId = 294,
+                ProductId = 27,
+                ServiceId = 1,
+                AmoutEmployee = 80,
+                StartDate = DateTime.Now.AddDays(-40),
+                EndDate = DateTime.Now.AddDays(-38),
+                Cost = 11520000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-294),
+                UpdatedAt
+             = DateTime.Now.AddDays(-294)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 750,
+                PaymentId = 295,
+                ProductId = 29,
+                ServiceId = 2,
+                AmoutEmployee = 148,
+                StartDate = DateTime.Now.AddDays(-140),
+                EndDate = DateTime.Now.AddDays(-131),
+                Cost = 72816000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-295),
+                UpdatedAt
+             = DateTime.Now.AddDays(-295)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 751,
+                PaymentId = 295,
+                ProductId = 9,
+                ServiceId = 1,
+                AmoutEmployee = 185,
+                StartDate = DateTime.Now.AddDays(-63),
+                EndDate = DateTime.Now.AddDays(-60),
+                Cost = 39127500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-295),
+                UpdatedAt
+             = DateTime.Now.AddDays(-295)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 752,
+                PaymentId = 295,
+                ProductId = 23,
+                ServiceId = 2,
+                AmoutEmployee = 175,
+                StartDate = DateTime.Now.AddDays(-149),
+                EndDate = DateTime.Now.AddDays(-144),
+                Cost = 35700000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-295),
+                UpdatedAt
+             = DateTime.Now.AddDays(-295)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 753,
+                PaymentId = 296,
+                ProductId = 8,
+                ServiceId = 1,
+                AmoutEmployee = 186,
+                StartDate = DateTime.Now.AddDays(-194),
+                EndDate = DateTime.Now.AddDays(-189),
+                Cost = 146475000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-296),
+                UpdatedAt
+             = DateTime.Now.AddDays(-296)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 754,
+                PaymentId = 296,
+                ProductId = 21,
+                ServiceId = 2,
+                AmoutEmployee = 105,
+                StartDate = DateTime.Now.AddDays(-156),
+                EndDate = DateTime.Now.AddDays(-142),
+                Cost = 15750000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-296),
+                UpdatedAt
+             = DateTime.Now.AddDays(-296)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 755,
+                PaymentId = 297,
+                ProductId = 17,
+                ServiceId = 2,
+                AmoutEmployee = 145,
+                StartDate = DateTime.Now.AddDays(-17),
+                EndDate = DateTime.Now.AddDays(-5),
+                Cost = 6090000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-297),
+                UpdatedAt
+             = DateTime.Now.AddDays(-297)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 756,
+                PaymentId = 297,
+                ProductId = 5,
+                ServiceId = 2,
+                AmoutEmployee = 198,
+                StartDate = DateTime.Now.AddDays(-26),
+                EndDate = DateTime.Now.AddDays(-24),
+                Cost = 11880000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-297),
+                UpdatedAt
+             = DateTime.Now.AddDays(-297)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 757,
+                PaymentId = 297,
+                ProductId = 27,
+                ServiceId = 3,
+                AmoutEmployee = 81,
+                StartDate = DateTime.Now.AddDays(-169),
+                EndDate = DateTime.Now.AddDays(-154),
+                Cost = 445500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-297),
+                UpdatedAt
+             = DateTime.Now.AddDays(-297)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 758,
+                PaymentId = 298,
+                ProductId = 20,
+                ServiceId = 3,
+                AmoutEmployee = 86,
+                StartDate = DateTime.Now.AddDays(-178),
+                EndDate = DateTime.Now.AddDays(-173),
+                Cost = 80410000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-298),
+                UpdatedAt
+             = DateTime.Now.AddDays(-298)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 759,
+                PaymentId = 298,
+                ProductId = 4,
+                ServiceId = 1,
+                AmoutEmployee = 62,
+                StartDate = DateTime.Now.AddDays(-129),
+                EndDate = DateTime.Now.AddDays(-123),
+                Cost = 4464000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-298),
+                UpdatedAt
+             = DateTime.Now.AddDays(-298)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 760,
+                PaymentId = 298,
+                ProductId = 27,
+                ServiceId = 1,
+                AmoutEmployee = 112,
+                StartDate = DateTime.Now.AddDays(-49),
+                EndDate = DateTime.Now.AddDays(-36),
+                Cost = 10584000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-298),
+                UpdatedAt
+             = DateTime.Now.AddDays(-298)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 761,
+                PaymentId = 299,
+                ProductId = 27,
+                ServiceId = 2,
+                AmoutEmployee = 79,
+                StartDate = DateTime.Now.AddDays(-152),
+                EndDate = DateTime.Now.AddDays(-144),
+                Cost = 16590000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-299),
+                UpdatedAt
+             = DateTime.Now.AddDays(-299)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 762,
+                PaymentId = 299,
+                ProductId = 9,
+                ServiceId = 3,
+                AmoutEmployee = 42,
+                StartDate = DateTime.Now.AddDays(-154),
+                EndDate = DateTime.Now.AddDays(-149),
+                Cost = 25872000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-299),
+                UpdatedAt
+             = DateTime.Now.AddDays(-299)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 763,
+                PaymentId = 300,
+                ProductId = 28,
+                ServiceId = 1,
+                AmoutEmployee = 61,
+                StartDate = DateTime.Now.AddDays(-192),
+                EndDate = DateTime.Now.AddDays(-181),
+                Cost = 1098000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-300),
+                UpdatedAt
+             = DateTime.Now.AddDays(-300)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 764,
+                PaymentId = 300,
+                ProductId = 11,
+                ServiceId = 1,
+                AmoutEmployee = 180,
+                StartDate = DateTime.Now.AddDays(-178),
+                EndDate = DateTime.Now.AddDays(-175),
+                Cost = 57510000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-300),
+                UpdatedAt
+             = DateTime.Now.AddDays(-300)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 765,
+                PaymentId = 300,
+                ProductId = 25,
+                ServiceId = 3,
+                AmoutEmployee = 195,
+                StartDate = DateTime.Now.AddDays(-193),
+                EndDate = DateTime.Now.AddDays(-191),
+                Cost = 168382500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-300),
+                UpdatedAt
+             = DateTime.Now.AddDays(-300)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 766,
+                PaymentId = 301,
+                ProductId = 11,
+                ServiceId = 1,
+                AmoutEmployee = 171,
+                StartDate = DateTime.Now.AddDays(-60),
+                EndDate = DateTime.Now.AddDays(-50),
+                Cost = 3847500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-301),
+                UpdatedAt
+             = DateTime.Now.AddDays(-301)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 767,
+                PaymentId = 301,
+                ProductId = 19,
+                ServiceId = 3,
+                AmoutEmployee = 140,
+                StartDate = DateTime.Now.AddDays(-195),
+                EndDate = DateTime.Now.AddDays(-189),
+                Cost = 40040000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-301),
+                UpdatedAt
+             = DateTime.Now.AddDays(-301)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 768,
+                PaymentId = 302,
+                ProductId = 3,
+                ServiceId = 2,
+                AmoutEmployee = 132,
+                StartDate = DateTime.Now.AddDays(-128),
+                EndDate = DateTime.Now.AddDays(-116),
+                Cost = 47520000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-302),
+                UpdatedAt
+             = DateTime.Now.AddDays(-302)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 769,
+                PaymentId = 302,
+                ProductId = 18,
+                ServiceId = 1,
+                AmoutEmployee = 192,
+                StartDate = DateTime.Now.AddDays(-43),
+                EndDate = DateTime.Now.AddDays(-31),
+                Cost = 6912000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-302),
+                UpdatedAt
+             = DateTime.Now.AddDays(-302)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 770,
+                PaymentId = 302,
+                ProductId = 21,
+                ServiceId = 2,
+                AmoutEmployee = 28,
+                StartDate = DateTime.Now.AddDays(-33),
+                EndDate = DateTime.Now.AddDays(-32),
+                Cost = 840000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-302),
+                UpdatedAt
+             = DateTime.Now.AddDays(-302)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 771,
+                PaymentId = 303,
+                ProductId = 11,
+                ServiceId = 2,
+                AmoutEmployee = 57,
+                StartDate = DateTime.Now.AddDays(-183),
+                EndDate = DateTime.Now.AddDays(-172),
+                Cost = 27018000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-303),
+                UpdatedAt
+             = DateTime.Now.AddDays(-303)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 772,
+                PaymentId = 303,
+                ProductId = 12,
+                ServiceId = 3,
+                AmoutEmployee = 124,
+                StartDate = DateTime.Now.AddDays(-180),
+                EndDate = DateTime.Now.AddDays(-171),
+                Cost = 60698000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-303),
+                UpdatedAt
+             = DateTime.Now.AddDays(-303)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 773,
+                PaymentId = 304,
+                ProductId = 10,
+                ServiceId = 1,
+                AmoutEmployee = 26,
+                StartDate = DateTime.Now.AddDays(-161),
+                EndDate = DateTime.Now.AddDays(-147),
+                Cost = 11583000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-304),
+                UpdatedAt
+             = DateTime.Now.AddDays(-304)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 774,
+                PaymentId = 304,
+                ProductId = 6,
+                ServiceId = 2,
+                AmoutEmployee = 67,
+                StartDate = DateTime.Now.AddDays(-49),
+                EndDate = DateTime.Now.AddDays(-40),
+                Cost = 14070000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-304),
+                UpdatedAt
+             = DateTime.Now.AddDays(-304)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 775,
+                PaymentId = 304,
+                ProductId = 20,
+                ServiceId = 3,
+                AmoutEmployee = 121,
+                StartDate = DateTime.Now.AddDays(-91),
+                EndDate = DateTime.Now.AddDays(-77),
+                Cost = 45254000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-304),
+                UpdatedAt
+             = DateTime.Now.AddDays(-304)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 776,
+                PaymentId = 305,
+                ProductId = 8,
+                ServiceId = 1,
+                AmoutEmployee = 38,
+                StartDate = DateTime.Now.AddDays(-200),
+                EndDate = DateTime.Now.AddDays(-188),
+                Cost = 12996000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-305),
+                UpdatedAt
+             = DateTime.Now.AddDays(-305)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 777,
+                PaymentId = 305,
+                ProductId = 9,
+                ServiceId = 2,
+                AmoutEmployee = 81,
+                StartDate = DateTime.Now.AddDays(-186),
+                EndDate = DateTime.Now.AddDays(-184),
+                Cost = 57834000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-305),
+                UpdatedAt
+             = DateTime.Now.AddDays(-305)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 778,
+                PaymentId = 306,
+                ProductId = 5,
+                ServiceId = 2,
+                AmoutEmployee = 44,
+                StartDate = DateTime.Now.AddDays(-34),
+                EndDate = DateTime.Now.AddDays(-33),
+                Cost = 6336000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-306),
+                UpdatedAt
+             = DateTime.Now.AddDays(-306)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 779,
+                PaymentId = 306,
+                ProductId = 13,
+                ServiceId = 3,
+                AmoutEmployee = 95,
+                StartDate = DateTime.Now.AddDays(-175),
+                EndDate = DateTime.Now.AddDays(-165),
+                Cost = 16720000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-306),
+                UpdatedAt
+             = DateTime.Now.AddDays(-306)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 780,
+                PaymentId = 306,
+                ProductId = 2,
+                ServiceId = 3,
+                AmoutEmployee = 57,
+                StartDate = DateTime.Now.AddDays(-184),
+                EndDate = DateTime.Now.AddDays(-173),
+                Cost = 45771000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-306),
+                UpdatedAt
+             = DateTime.Now.AddDays(-306)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 781,
+                PaymentId = 307,
+                ProductId = 29,
+                ServiceId = 2,
+                AmoutEmployee = 159,
+                StartDate = DateTime.Now.AddDays(-49),
+                EndDate = DateTime.Now.AddDays(-39),
+                Cost = 26712000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-307),
+                UpdatedAt
+             = DateTime.Now.AddDays(-307)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 782,
+                PaymentId = 307,
+                ProductId = 1,
+                ServiceId = 2,
+                AmoutEmployee = 104,
+                StartDate = DateTime.Now.AddDays(-139),
+                EndDate = DateTime.Now.AddDays(-128),
+                Cost = 28704000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-307),
+                UpdatedAt
+             = DateTime.Now.AddDays(-307)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 783,
+                PaymentId = 308,
+                ProductId = 20,
+                ServiceId = 2,
+                AmoutEmployee = 64,
+                StartDate = DateTime.Now.AddDays(-24),
+                EndDate = DateTime.Now.AddDays(-17),
+                Cost = 4992000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-308),
+                UpdatedAt
+             = DateTime.Now.AddDays(-308)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 784,
+                PaymentId = 308,
+                ProductId = 28,
+                ServiceId = 3,
+                AmoutEmployee = 109,
+                StartDate = DateTime.Now.AddDays(-77),
+                EndDate = DateTime.Now.AddDays(-71),
+                Cost = 34771000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-308),
+                UpdatedAt
+             = DateTime.Now.AddDays(-308)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 785,
+                PaymentId = 308,
+                ProductId = 11,
+                ServiceId = 2,
+                AmoutEmployee = 191,
+                StartDate = DateTime.Now.AddDays(-116),
+                EndDate = DateTime.Now.AddDays(-102),
+                Cost = 93972000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-308),
+                UpdatedAt
+             = DateTime.Now.AddDays(-308)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 786,
+                PaymentId = 309,
+                ProductId = 25,
+                ServiceId = 2,
+                AmoutEmployee = 180,
+                StartDate = DateTime.Now.AddDays(-33),
+                EndDate = DateTime.Now.AddDays(-24),
+                Cost = 23760000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-309),
+                UpdatedAt
+             = DateTime.Now.AddDays(-309)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 787,
+                PaymentId = 309,
+                ProductId = 29,
+                ServiceId = 3,
+                AmoutEmployee = 67,
+                StartDate = DateTime.Now.AddDays(-177),
+                EndDate = DateTime.Now.AddDays(-172),
+                Cost = 368500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-309),
+                UpdatedAt
+             = DateTime.Now.AddDays(-309)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 788,
+                PaymentId = 309,
+                ProductId = 24,
+                ServiceId = 1,
+                AmoutEmployee = 116,
+                StartDate = DateTime.Now.AddDays(-151),
+                EndDate = DateTime.Now.AddDays(-136),
+                Cost = 45936000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-309),
+                UpdatedAt
+             = DateTime.Now.AddDays(-309)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 789,
+                PaymentId = 310,
+                ProductId = 22,
+                ServiceId = 2,
+                AmoutEmployee = 127,
+                StartDate = DateTime.Now.AddDays(-31),
+                EndDate = DateTime.Now.AddDays(-28),
+                Cost = 15240000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-310),
+                UpdatedAt
+             = DateTime.Now.AddDays(-310)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 790,
+                PaymentId = 310,
+                ProductId = 21,
+                ServiceId = 2,
+                AmoutEmployee = 43,
+                StartDate = DateTime.Now.AddDays(-160),
+                EndDate = DateTime.Now.AddDays(-148),
+                Cost = 1806000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-310),
+                UpdatedAt
+             = DateTime.Now.AddDays(-310)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 791,
+                PaymentId = 311,
+                ProductId = 13,
+                ServiceId = 3,
+                AmoutEmployee = 177,
+                StartDate = DateTime.Now.AddDays(-168),
+                EndDate = DateTime.Now.AddDays(-159),
+                Cost = 98323500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-311),
+                UpdatedAt
+             = DateTime.Now.AddDays(-311)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 792,
+                PaymentId = 311,
+                ProductId = 13,
+                ServiceId = 3,
+                AmoutEmployee = 153,
+                StartDate = DateTime.Now.AddDays(-163),
+                EndDate = DateTime.Now.AddDays(-153),
+                Cost = 58063500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-311),
+                UpdatedAt
+             = DateTime.Now.AddDays(-311)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 793,
+                PaymentId = 311,
+                ProductId = 17,
+                ServiceId = 2,
+                AmoutEmployee = 95,
+                StartDate = DateTime.Now.AddDays(-80),
+                EndDate = DateTime.Now.AddDays(-67),
+                Cost = 30210000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-311),
+                UpdatedAt
+             = DateTime.Now.AddDays(-311)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 794,
+                PaymentId = 312,
+                ProductId = 1,
+                ServiceId = 1,
+                AmoutEmployee = 134,
+                StartDate = DateTime.Now.AddDays(-19),
+                EndDate = DateTime.Now.AddDays(-17),
+                Cost = 3015000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-312),
+                UpdatedAt
+             = DateTime.Now.AddDays(-312)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 795,
+                PaymentId = 312,
+                ProductId = 4,
+                ServiceId = 3,
+                AmoutEmployee = 33,
+                StartDate = DateTime.Now.AddDays(-16),
+                EndDate = DateTime.Now.AddDays(-4),
+                Cost = 1452000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-312),
+                UpdatedAt
+             = DateTime.Now.AddDays(-312)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 796,
+                PaymentId = 313,
+                ProductId = 14,
+                ServiceId = 2,
+                AmoutEmployee = 188,
+                StartDate = DateTime.Now.AddDays(-29),
+                EndDate = DateTime.Now.AddDays(-28),
+                Cost = 5640000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-313),
+                UpdatedAt
+             = DateTime.Now.AddDays(-313)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 797,
+                PaymentId = 313,
+                ProductId = 26,
+                ServiceId = 3,
+                AmoutEmployee = 105,
+                StartDate = DateTime.Now.AddDays(-33),
+                EndDate = DateTime.Now.AddDays(-24),
+                Cost = 15592500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-313),
+                UpdatedAt
+             = DateTime.Now.AddDays(-313)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 798,
+                PaymentId = 313,
+                ProductId = 26,
+                ServiceId = 2,
+                AmoutEmployee = 88,
+                StartDate = DateTime.Now.AddDays(-191),
+                EndDate = DateTime.Now.AddDays(-186),
+                Cost = 13200000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-313),
+                UpdatedAt
+             = DateTime.Now.AddDays(-313)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 799,
+                PaymentId = 314,
+                ProductId = 23,
+                ServiceId = 1,
+                AmoutEmployee = 116,
+                StartDate = DateTime.Now.AddDays(-43),
+                EndDate = DateTime.Now.AddDays(-31),
+                Cost = 15138000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-314),
+                UpdatedAt
+             = DateTime.Now.AddDays(-314)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 800,
+                PaymentId = 314,
+                ProductId = 22,
+                ServiceId = 2,
+                AmoutEmployee = 195,
+                StartDate = DateTime.Now.AddDays(-158),
+                EndDate = DateTime.Now.AddDays(-144),
+                Cost = 170820000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-314),
+                UpdatedAt
+             = DateTime.Now.AddDays(-314)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 801,
+                PaymentId = 315,
+                ProductId = 17,
+                ServiceId = 3,
+                AmoutEmployee = 62,
+                StartDate = DateTime.Now.AddDays(-125),
+                EndDate = DateTime.Now.AddDays(-120),
+                Cost = 21483000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-315),
+                UpdatedAt
+             = DateTime.Now.AddDays(-315)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 802,
+                PaymentId = 315,
+                ProductId = 26,
+                ServiceId = 3,
+                AmoutEmployee = 86,
+                StartDate = DateTime.Now.AddDays(-174),
+                EndDate = DateTime.Now.AddDays(-163),
+                Cost = 48719000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-315),
+                UpdatedAt
+             = DateTime.Now.AddDays(-315)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 803,
+                PaymentId = 315,
+                ProductId = 13,
+                ServiceId = 1,
+                AmoutEmployee = 166,
+                StartDate = DateTime.Now.AddDays(-149),
+                EndDate = DateTime.Now.AddDays(-135),
+                Cost = 15687000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-315),
+                UpdatedAt
+             = DateTime.Now.AddDays(-315)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 804,
+                PaymentId = 316,
+                ProductId = 14,
+                ServiceId = 1,
+                AmoutEmployee = 113,
+                StartDate = DateTime.Now.AddDays(-194),
+                EndDate = DateTime.Now.AddDays(-183),
+                Cost = 80851500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-316),
+                UpdatedAt
+             = DateTime.Now.AddDays(-316)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 805,
+                PaymentId = 316,
+                ProductId = 22,
+                ServiceId = 3,
+                AmoutEmployee = 92,
+                StartDate = DateTime.Now.AddDays(-24),
+                EndDate = DateTime.Now.AddDays(-14),
+                Cost = 5566000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-316),
+                UpdatedAt
+             = DateTime.Now.AddDays(-316)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 806,
+                PaymentId = 317,
+                ProductId = 27,
+                ServiceId = 1,
+                AmoutEmployee = 176,
+                StartDate = DateTime.Now.AddDays(-19),
+                EndDate = DateTime.Now.AddDays(-10),
+                Cost = 792000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-317),
+                UpdatedAt
+             = DateTime.Now.AddDays(-317)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 807,
+                PaymentId = 317,
+                ProductId = 17,
+                ServiceId = 1,
+                AmoutEmployee = 74,
+                StartDate = DateTime.Now.AddDays(-94),
+                EndDate = DateTime.Now.AddDays(-91),
+                Cost = 25641000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-317),
+                UpdatedAt
+             = DateTime.Now.AddDays(-317)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 808,
+                PaymentId = 317,
+                ProductId = 5,
+                ServiceId = 1,
+                AmoutEmployee = 183,
+                StartDate = DateTime.Now.AddDays(-22),
+                EndDate = DateTime.Now.AddDays(-14),
+                Cost = 1647000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-317),
+                UpdatedAt
+             = DateTime.Now.AddDays(-317)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 809,
+                PaymentId = 318,
+                ProductId = 6,
+                ServiceId = 2,
+                AmoutEmployee = 36,
+                StartDate = DateTime.Now.AddDays(-153),
+                EndDate = DateTime.Now.AddDays(-142),
+                Cost = 24408000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-318),
+                UpdatedAt
+             = DateTime.Now.AddDays(-318)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 810,
+                PaymentId = 318,
+                ProductId = 25,
+                ServiceId = 2,
+                AmoutEmployee = 136,
+                StartDate = DateTime.Now.AddDays(-32),
+                EndDate = DateTime.Now.AddDays(-20),
+                Cost = 11424000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-318),
+                UpdatedAt
+             = DateTime.Now.AddDays(-318)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 811,
+                PaymentId = 319,
+                ProductId = 8,
+                ServiceId = 1,
+                AmoutEmployee = 120,
+                StartDate = DateTime.Now.AddDays(-76),
+                EndDate = DateTime.Now.AddDays(-70),
+                Cost = 10260000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-319),
+                UpdatedAt
+             = DateTime.Now.AddDays(-319)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 812,
+                PaymentId = 319,
+                ProductId = 25,
+                ServiceId = 1,
+                AmoutEmployee = 47,
+                StartDate = DateTime.Now.AddDays(-154),
+                EndDate = DateTime.Now.AddDays(-144),
+                Cost = 30667500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-319),
+                UpdatedAt
+             = DateTime.Now.AddDays(-319)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 813,
+                PaymentId = 319,
+                ProductId = 16,
+                ServiceId = 1,
+                AmoutEmployee = 55,
+                StartDate = DateTime.Now.AddDays(-149),
+                EndDate = DateTime.Now.AddDays(-135),
+                Cost = 25987500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-319),
+                UpdatedAt
+             = DateTime.Now.AddDays(-319)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 814,
+                PaymentId = 320,
+                ProductId = 1,
+                ServiceId = 2,
+                AmoutEmployee = 86,
+                StartDate = DateTime.Now.AddDays(-65),
+                EndDate = DateTime.Now.AddDays(-61),
+                Cost = 3096000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-320),
+                UpdatedAt
+             = DateTime.Now.AddDays(-320)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 815,
+                PaymentId = 320,
+                ProductId = 28,
+                ServiceId = 2,
+                AmoutEmployee = 127,
+                StartDate = DateTime.Now.AddDays(-160),
+                EndDate = DateTime.Now.AddDays(-156),
+                Cost = 11430000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-320),
+                UpdatedAt
+             = DateTime.Now.AddDays(-320)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 816,
+                PaymentId = 320,
+                ProductId = 12,
+                ServiceId = 1,
+                AmoutEmployee = 182,
+                StartDate = DateTime.Now.AddDays(-15),
+                EndDate = DateTime.Now.AddDays(-7),
+                Cost = 4914000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-320),
+                UpdatedAt
+             = DateTime.Now.AddDays(-320)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 817,
+                PaymentId = 321,
+                ProductId = 2,
+                ServiceId = 1,
+                AmoutEmployee = 121,
+                StartDate = DateTime.Now.AddDays(-77),
+                EndDate = DateTime.Now.AddDays(-74),
+                Cost = 30492000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-321),
+                UpdatedAt
+             = DateTime.Now.AddDays(-321)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 818,
+                PaymentId = 321,
+                ProductId = 30,
+                ServiceId = 2,
+                AmoutEmployee = 70,
+                StartDate = DateTime.Now.AddDays(-124),
+                EndDate = DateTime.Now.AddDays(-123),
+                Cost = 34020000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-321),
+                UpdatedAt
+             = DateTime.Now.AddDays(-321)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 819,
+                PaymentId = 322,
+                ProductId = 24,
+                ServiceId = 3,
+                AmoutEmployee = 56,
+                StartDate = DateTime.Now.AddDays(-73),
+                EndDate = DateTime.Now.AddDays(-65),
+                Cost = 7700000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-322),
+                UpdatedAt
+             = DateTime.Now.AddDays(-322)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 820,
+                PaymentId = 322,
+                ProductId = 27,
+                ServiceId = 2,
+                AmoutEmployee = 126,
+                StartDate = DateTime.Now.AddDays(-51),
+                EndDate = DateTime.Now.AddDays(-37),
+                Cost = 6804000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-322),
+                UpdatedAt
+             = DateTime.Now.AddDays(-322)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 821,
+                PaymentId = 322,
+                ProductId = 29,
+                ServiceId = 3,
+                AmoutEmployee = 169,
+                StartDate = DateTime.Now.AddDays(-60),
+                EndDate = DateTime.Now.AddDays(-50),
+                Cost = 39039000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-322),
+                UpdatedAt
+             = DateTime.Now.AddDays(-322)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 822,
+                PaymentId = 323,
+                ProductId = 10,
+                ServiceId = 1,
+                AmoutEmployee = 167,
+                StartDate = DateTime.Now.AddDays(-199),
+                EndDate = DateTime.Now.AddDays(-198),
+                Cost = 39078000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-323),
+                UpdatedAt
+             = DateTime.Now.AddDays(-323)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 823,
+                PaymentId = 323,
+                ProductId = 7,
+                ServiceId = 2,
+                AmoutEmployee = 47,
+                StartDate = DateTime.Now.AddDays(-142),
+                EndDate = DateTime.Now.AddDays(-136),
+                Cost = 25098000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-323),
+                UpdatedAt
+             = DateTime.Now.AddDays(-323)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 824,
+                PaymentId = 324,
+                ProductId = 13,
+                ServiceId = 1,
+                AmoutEmployee = 116,
+                StartDate = DateTime.Now.AddDays(-97),
+                EndDate = DateTime.Now.AddDays(-88),
+                Cost = 41760000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-324),
+                UpdatedAt
+             = DateTime.Now.AddDays(-324)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 825,
+                PaymentId = 324,
+                ProductId = 27,
+                ServiceId = 1,
+                AmoutEmployee = 50,
+                StartDate = DateTime.Now.AddDays(-174),
+                EndDate = DateTime.Now.AddDays(-170),
+                Cost = 6075000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-324),
+                UpdatedAt
+             = DateTime.Now.AddDays(-324)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 826,
+                PaymentId = 324,
+                ProductId = 22,
+                ServiceId = 3,
+                AmoutEmployee = 84,
+                StartDate = DateTime.Now.AddDays(-23),
+                EndDate = DateTime.Now.AddDays(-21),
+                Cost = 2310000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-324),
+                UpdatedAt
+             = DateTime.Now.AddDays(-324)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 827,
+                PaymentId = 325,
+                ProductId = 8,
+                ServiceId = 2,
+                AmoutEmployee = 170,
+                StartDate = DateTime.Now.AddDays(-147),
+                EndDate = DateTime.Now.AddDays(-143),
+                Cost = 9180000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-325),
+                UpdatedAt
+             = DateTime.Now.AddDays(-325)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 828,
+                PaymentId = 325,
+                ProductId = 26,
+                ServiceId = 2,
+                AmoutEmployee = 147,
+                StartDate = DateTime.Now.AddDays(-14),
+                EndDate = DateTime.Now.AddDays(0),
+                Cost = 7938000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-325),
+                UpdatedAt
+             = DateTime.Now.AddDays(-325)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 829,
+                PaymentId = 326,
+                ProductId = 1,
+                ServiceId = 2,
+                AmoutEmployee = 137,
+                StartDate = DateTime.Now.AddDays(-29),
+                EndDate = DateTime.Now.AddDays(-17),
+                Cost = 4932000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-326),
+                UpdatedAt
+             = DateTime.Now.AddDays(-326)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 830,
+                PaymentId = 326,
+                ProductId = 1,
+                ServiceId = 3,
+                AmoutEmployee = 61,
+                StartDate = DateTime.Now.AddDays(-22),
+                EndDate = DateTime.Now.AddDays(-7),
+                Cost = 3690500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-326),
+                UpdatedAt
+             = DateTime.Now.AddDays(-326)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 831,
+                PaymentId = 326,
+                ProductId = 11,
+                ServiceId = 2,
+                AmoutEmployee = 168,
+                StartDate = DateTime.Now.AddDays(-70),
+                EndDate = DateTime.Now.AddDays(-66),
+                Cost = 35280000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-326),
+                UpdatedAt
+             = DateTime.Now.AddDays(-326)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 832,
+                PaymentId = 327,
+                ProductId = 18,
+                ServiceId = 2,
+                AmoutEmployee = 89,
+                StartDate = DateTime.Now.AddDays(-147),
+                EndDate = DateTime.Now.AddDays(-140),
+                Cost = 61944000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-327),
+                UpdatedAt
+             = DateTime.Now.AddDays(-327)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 833,
+                PaymentId = 327,
+                ProductId = 27,
+                ServiceId = 2,
+                AmoutEmployee = 99,
+                StartDate = DateTime.Now.AddDays(-186),
+                EndDate = DateTime.Now.AddDays(-178),
+                Cost = 103356000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-327),
+                UpdatedAt
+             = DateTime.Now.AddDays(-327)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 834,
+                PaymentId = 328,
+                ProductId = 7,
+                ServiceId = 1,
+                AmoutEmployee = 112,
+                StartDate = DateTime.Now.AddDays(-16),
+                EndDate = DateTime.Now.AddDays(-6),
+                Cost = 5040000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-328),
+                UpdatedAt
+             = DateTime.Now.AddDays(-328)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 835,
+                PaymentId = 328,
+                ProductId = 28,
+                ServiceId = 2,
+                AmoutEmployee = 143,
+                StartDate = DateTime.Now.AddDays(-176),
+                EndDate = DateTime.Now.AddDays(-169),
+                Cost = 104676000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-328),
+                UpdatedAt
+             = DateTime.Now.AddDays(-328)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 836,
+                PaymentId = 328,
+                ProductId = 25,
+                ServiceId = 2,
+                AmoutEmployee = 84,
+                StartDate = DateTime.Now.AddDays(-195),
+                EndDate = DateTime.Now.AddDays(-188),
+                Cost = 26208000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-328),
+                UpdatedAt
+             = DateTime.Now.AddDays(-328)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 837,
+                PaymentId = 329,
+                ProductId = 24,
+                ServiceId = 3,
+                AmoutEmployee = 149,
+                StartDate = DateTime.Now.AddDays(-89),
+                EndDate = DateTime.Now.AddDays(-80),
+                Cost = 5736500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-329),
+                UpdatedAt
+             = DateTime.Now.AddDays(-329)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 838,
+                PaymentId = 329,
+                ProductId = 30,
+                ServiceId = 2,
+                AmoutEmployee = 38,
+                StartDate = DateTime.Now.AddDays(-126),
+                EndDate = DateTime.Now.AddDays(-114),
+                Cost = 4560000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-329),
+                UpdatedAt
+             = DateTime.Now.AddDays(-329)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 839,
+                PaymentId = 330,
+                ProductId = 9,
+                ServiceId = 2,
+                AmoutEmployee = 156,
+                StartDate = DateTime.Now.AddDays(-60),
+                EndDate = DateTime.Now.AddDays(-45),
+                Cost = 46800000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-330),
+                UpdatedAt
+             = DateTime.Now.AddDays(-330)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 840,
+                PaymentId = 330,
+                ProductId = 16,
+                ServiceId = 1,
+                AmoutEmployee = 64,
+                StartDate = DateTime.Now.AddDays(-117),
+                EndDate = DateTime.Now.AddDays(-112),
+                Cost = 15840000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-330),
+                UpdatedAt
+             = DateTime.Now.AddDays(-330)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 841,
+                PaymentId = 330,
+                ProductId = 6,
+                ServiceId = 1,
+                AmoutEmployee = 104,
+                StartDate = DateTime.Now.AddDays(-166),
+                EndDate = DateTime.Now.AddDays(-160),
+                Cost = 14508000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-330),
+                UpdatedAt
+             = DateTime.Now.AddDays(-330)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 842,
+                PaymentId = 331,
+                ProductId = 23,
+                ServiceId = 3,
+                AmoutEmployee = 29,
+                StartDate = DateTime.Now.AddDays(-142),
+                EndDate = DateTime.Now.AddDays(-131),
+                Cost = 16109500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-331),
+                UpdatedAt
+             = DateTime.Now.AddDays(-331)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 843,
+                PaymentId = 331,
+                ProductId = 3,
+                ServiceId = 1,
+                AmoutEmployee = 27,
+                StartDate = DateTime.Now.AddDays(-186),
+                EndDate = DateTime.Now.AddDays(-178),
+                Cost = 20898000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-331),
+                UpdatedAt
+             = DateTime.Now.AddDays(-331)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 844,
+                PaymentId = 331,
+                ProductId = 17,
+                ServiceId = 1,
+                AmoutEmployee = 151,
+                StartDate = DateTime.Now.AddDays(-18),
+                EndDate = DateTime.Now.AddDays(-4),
+                Cost = 5436000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-331),
+                UpdatedAt
+             = DateTime.Now.AddDays(-331)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 845,
+                PaymentId = 332,
+                ProductId = 20,
+                ServiceId = 1,
+                AmoutEmployee = 105,
+                StartDate = DateTime.Now.AddDays(-189),
+                EndDate = DateTime.Now.AddDays(-179),
+                Cost = 70402500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-332),
+                UpdatedAt
+             = DateTime.Now.AddDays(-332)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 846,
+                PaymentId = 332,
+                ProductId = 12,
+                ServiceId = 1,
+                AmoutEmployee = 125,
+                StartDate = DateTime.Now.AddDays(-188),
+                EndDate = DateTime.Now.AddDays(-187),
+                Cost = 86062500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-332),
+                UpdatedAt
+             = DateTime.Now.AddDays(-332)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 847,
+                PaymentId = 333,
+                ProductId = 1,
+                ServiceId = 3,
+                AmoutEmployee = 58,
+                StartDate = DateTime.Now.AddDays(-50),
+                EndDate = DateTime.Now.AddDays(-42),
+                Cost = 7975000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-333),
+                UpdatedAt
+             = DateTime.Now.AddDays(-333)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 848,
+                PaymentId = 333,
+                ProductId = 24,
+                ServiceId = 2,
+                AmoutEmployee = 43,
+                StartDate = DateTime.Now.AddDays(-44),
+                EndDate = DateTime.Now.AddDays(-41),
+                Cost = 1290000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-333),
+                UpdatedAt
+             = DateTime.Now.AddDays(-333)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 849,
+                PaymentId = 333,
+                ProductId = 25,
+                ServiceId = 3,
+                AmoutEmployee = 28,
+                StartDate = DateTime.Now.AddDays(-68),
+                EndDate = DateTime.Now.AddDays(-55),
+                Cost = 1540000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-333),
+                UpdatedAt
+             = DateTime.Now.AddDays(-333)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 850,
+                PaymentId = 334,
+                ProductId = 12,
+                ServiceId = 2,
+                AmoutEmployee = 69,
+                StartDate = DateTime.Now.AddDays(-167),
+                EndDate = DateTime.Now.AddDays(-160),
+                Cost = 34362000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-334),
+                UpdatedAt
+             = DateTime.Now.AddDays(-334)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 851,
+                PaymentId = 334,
+                ProductId = 7,
+                ServiceId = 3,
+                AmoutEmployee = 38,
+                StartDate = DateTime.Now.AddDays(-59),
+                EndDate = DateTime.Now.AddDays(-49),
+                Cost = 3971000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-334),
+                UpdatedAt
+             = DateTime.Now.AddDays(-334)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 852,
+                PaymentId = 335,
+                ProductId = 2,
+                ServiceId = 2,
+                AmoutEmployee = 58,
+                StartDate = DateTime.Now.AddDays(-25),
+                EndDate = DateTime.Now.AddDays(-17),
+                Cost = 6264000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-335),
+                UpdatedAt
+             = DateTime.Now.AddDays(-335)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 853,
+                PaymentId = 335,
+                ProductId = 24,
+                ServiceId = 2,
+                AmoutEmployee = 83,
+                StartDate = DateTime.Now.AddDays(-116),
+                EndDate = DateTime.Now.AddDays(-111),
+                Cost = 12948000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-335),
+                UpdatedAt
+             = DateTime.Now.AddDays(-335)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 854,
+                PaymentId = 335,
+                ProductId = 9,
+                ServiceId = 2,
+                AmoutEmployee = 154,
+                StartDate = DateTime.Now.AddDays(-168),
+                EndDate = DateTime.Now.AddDays(-158),
+                Cost = 48048000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-335),
+                UpdatedAt
+             = DateTime.Now.AddDays(-335)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 855,
+                PaymentId = 336,
+                ProductId = 11,
+                ServiceId = 3,
+                AmoutEmployee = 197,
+                StartDate = DateTime.Now.AddDays(-194),
+                EndDate = DateTime.Now.AddDays(-186),
+                Cost = 28171000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-336),
+                UpdatedAt
+             = DateTime.Now.AddDays(-336)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 856,
+                PaymentId = 336,
+                ProductId = 19,
+                ServiceId = 3,
+                AmoutEmployee = 130,
+                StartDate = DateTime.Now.AddDays(-184),
+                EndDate = DateTime.Now.AddDays(-172),
+                Cost = 112970000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-336),
+                UpdatedAt
+             = DateTime.Now.AddDays(-336)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 857,
+                PaymentId = 337,
+                ProductId = 3,
+                ServiceId = 3,
+                AmoutEmployee = 43,
+                StartDate = DateTime.Now.AddDays(-111),
+                EndDate = DateTime.Now.AddDays(-97),
+                Cost = 2365000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-337),
+                UpdatedAt
+             = DateTime.Now.AddDays(-337)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 858,
+                PaymentId = 337,
+                ProductId = 12,
+                ServiceId = 1,
+                AmoutEmployee = 117,
+                StartDate = DateTime.Now.AddDays(-188),
+                EndDate = DateTime.Now.AddDays(-176),
+                Cost = 18954000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-337),
+                UpdatedAt
+             = DateTime.Now.AddDays(-337)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 859,
+                PaymentId = 337,
+                ProductId = 28,
+                ServiceId = 2,
+                AmoutEmployee = 132,
+                StartDate = DateTime.Now.AddDays(-150),
+                EndDate = DateTime.Now.AddDays(-136),
+                Cost = 63360000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-337),
+                UpdatedAt
+             = DateTime.Now.AddDays(-337)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 860,
+                PaymentId = 338,
+                ProductId = 2,
+                ServiceId = 3,
+                AmoutEmployee = 145,
+                StartDate = DateTime.Now.AddDays(-46),
+                EndDate = DateTime.Now.AddDays(-40),
+                Cost = 31102500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-338),
+                UpdatedAt
+             = DateTime.Now.AddDays(-338)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 861,
+                PaymentId = 338,
+                ProductId = 7,
+                ServiceId = 2,
+                AmoutEmployee = 180,
+                StartDate = DateTime.Now.AddDays(-46),
+                EndDate = DateTime.Now.AddDays(-40),
+                Cost = 5400000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-338),
+                UpdatedAt
+             = DateTime.Now.AddDays(-338)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 862,
+                PaymentId = 339,
+                ProductId = 11,
+                ServiceId = 2,
+                AmoutEmployee = 47,
+                StartDate = DateTime.Now.AddDays(-71),
+                EndDate = DateTime.Now.AddDays(-65),
+                Cost = 12972000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-339),
+                UpdatedAt
+             = DateTime.Now.AddDays(-339)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 863,
+                PaymentId = 339,
+                ProductId = 4,
+                ServiceId = 2,
+                AmoutEmployee = 182,
+                StartDate = DateTime.Now.AddDays(-79),
+                EndDate = DateTime.Now.AddDays(-67),
+                Cost = 45864000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-339),
+                UpdatedAt
+             = DateTime.Now.AddDays(-339)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 864,
+                PaymentId = 339,
+                ProductId = 2,
+                ServiceId = 1,
+                AmoutEmployee = 118,
+                StartDate = DateTime.Now.AddDays(-44),
+                EndDate = DateTime.Now.AddDays(-36),
+                Cost = 18585000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-339),
+                UpdatedAt
+             = DateTime.Now.AddDays(-339)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 865,
+                PaymentId = 340,
+                ProductId = 3,
+                ServiceId = 1,
+                AmoutEmployee = 148,
+                StartDate = DateTime.Now.AddDays(-98),
+                EndDate = DateTime.Now.AddDays(-83),
+                Cost = 17982000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-340),
+                UpdatedAt
+             = DateTime.Now.AddDays(-340)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 866,
+                PaymentId = 340,
+                ProductId = 18,
+                ServiceId = 3,
+                AmoutEmployee = 110,
+                StartDate = DateTime.Now.AddDays(-66),
+                EndDate = DateTime.Now.AddDays(-58),
+                Cost = 29645000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-340),
+                UpdatedAt
+             = DateTime.Now.AddDays(-340)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 867,
+                PaymentId = 341,
+                ProductId = 7,
+                ServiceId = 2,
+                AmoutEmployee = 113,
+                StartDate = DateTime.Now.AddDays(-189),
+                EndDate = DateTime.Now.AddDays(-188),
+                Cost = 18984000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-341),
+                UpdatedAt
+             = DateTime.Now.AddDays(-341)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 868,
+                PaymentId = 341,
+                ProductId = 13,
+                ServiceId = 2,
+                AmoutEmployee = 85,
+                StartDate = DateTime.Now.AddDays(-166),
+                EndDate = DateTime.Now.AddDays(-163),
+                Cost = 55080000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-341),
+                UpdatedAt
+             = DateTime.Now.AddDays(-341)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 869,
+                PaymentId = 341,
+                ProductId = 28,
+                ServiceId = 2,
+                AmoutEmployee = 165,
+                StartDate = DateTime.Now.AddDays(-83),
+                EndDate = DateTime.Now.AddDays(-75),
+                Cost = 11880000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-341),
+                UpdatedAt
+             = DateTime.Now.AddDays(-341)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 870,
+                PaymentId = 342,
+                ProductId = 29,
+                ServiceId = 3,
+                AmoutEmployee = 26,
+                StartDate = DateTime.Now.AddDays(-112),
+                EndDate = DateTime.Now.AddDays(-100),
+                Cost = 13013000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-342),
+                UpdatedAt
+             = DateTime.Now.AddDays(-342)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 871,
+                PaymentId = 342,
+                ProductId = 20,
+                ServiceId = 2,
+                AmoutEmployee = 174,
+                StartDate = DateTime.Now.AddDays(-138),
+                EndDate = DateTime.Now.AddDays(-132),
+                Cost = 85608000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-342),
+                UpdatedAt
+             = DateTime.Now.AddDays(-342)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 872,
+                PaymentId = 342,
+                ProductId = 2,
+                ServiceId = 3,
+                AmoutEmployee = 26,
+                StartDate = DateTime.Now.AddDays(-45),
+                EndDate = DateTime.Now.AddDays(-37),
+                Cost = 3575000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-342),
+                UpdatedAt
+             = DateTime.Now.AddDays(-342)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 873,
+                PaymentId = 343,
+                ProductId = 22,
+                ServiceId = 2,
+                AmoutEmployee = 200,
+                StartDate = DateTime.Now.AddDays(-74),
+                EndDate = DateTime.Now.AddDays(-73),
+                Cost = 75600000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-343),
+                UpdatedAt
+             = DateTime.Now.AddDays(-343)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 874,
+                PaymentId = 343,
+                ProductId = 24,
+                ServiceId = 1,
+                AmoutEmployee = 131,
+                StartDate = DateTime.Now.AddDays(-64),
+                EndDate = DateTime.Now.AddDays(-58),
+                Cost = 9432000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-343),
+                UpdatedAt
+             = DateTime.Now.AddDays(-343)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 875,
+                PaymentId = 344,
+                ProductId = 19,
+                ServiceId = 1,
+                AmoutEmployee = 166,
+                StartDate = DateTime.Now.AddDays(-50),
+                EndDate = DateTime.Now.AddDays(-36),
+                Cost = 1494000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-344),
+                UpdatedAt
+             = DateTime.Now.AddDays(-344)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 876,
+                PaymentId = 344,
+                ProductId = 11,
+                ServiceId = 1,
+                AmoutEmployee = 37,
+                StartDate = DateTime.Now.AddDays(-129),
+                EndDate = DateTime.Now.AddDays(-120),
+                Cost = 18315000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-344),
+                UpdatedAt
+             = DateTime.Now.AddDays(-344)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 877,
+                PaymentId = 344,
+                ProductId = 10,
+                ServiceId = 3,
+                AmoutEmployee = 132,
+                StartDate = DateTime.Now.AddDays(-47),
+                EndDate = DateTime.Now.AddDays(-33),
+                Cost = 15246000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-344),
+                UpdatedAt
+             = DateTime.Now.AddDays(-344)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 878,
+                PaymentId = 345,
+                ProductId = 4,
+                ServiceId = 3,
+                AmoutEmployee = 153,
+                StartDate = DateTime.Now.AddDays(-38),
+                EndDate = DateTime.Now.AddDays(-31),
+                Cost = 20196000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-345),
+                UpdatedAt
+             = DateTime.Now.AddDays(-345)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 879,
+                PaymentId = 345,
+                ProductId = 5,
+                ServiceId = 3,
+                AmoutEmployee = 195,
+                StartDate = DateTime.Now.AddDays(-151),
+                EndDate = DateTime.Now.AddDays(-146),
+                Cost = 47190000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-345),
+                UpdatedAt
+             = DateTime.Now.AddDays(-345)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 880,
+                PaymentId = 346,
+                ProductId = 20,
+                ServiceId = 2,
+                AmoutEmployee = 58,
+                StartDate = DateTime.Now.AddDays(-146),
+                EndDate = DateTime.Now.AddDays(-145),
+                Cost = 35844000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-346),
+                UpdatedAt
+             = DateTime.Now.AddDays(-346)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 881,
+                PaymentId = 346,
+                ProductId = 22,
+                ServiceId = 3,
+                AmoutEmployee = 91,
+                StartDate = DateTime.Now.AddDays(-128),
+                EndDate = DateTime.Now.AddDays(-118),
+                Cost = 12012000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-346),
+                UpdatedAt
+             = DateTime.Now.AddDays(-346)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 882,
+                PaymentId = 346,
+                ProductId = 21,
+                ServiceId = 3,
+                AmoutEmployee = 49,
+                StartDate = DateTime.Now.AddDays(-112),
+                EndDate = DateTime.Now.AddDays(-106),
+                Cost = 28836500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-346),
+                UpdatedAt
+             = DateTime.Now.AddDays(-346)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 883,
+                PaymentId = 347,
+                ProductId = 23,
+                ServiceId = 3,
+                AmoutEmployee = 200,
+                StartDate = DateTime.Now.AddDays(-154),
+                EndDate = DateTime.Now.AddDays(-147),
+                Cost = 132000000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-347),
+                UpdatedAt
+             = DateTime.Now.AddDays(-347)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 884,
+                PaymentId = 347,
+                ProductId = 24,
+                ServiceId = 2,
+                AmoutEmployee = 195,
+                StartDate = DateTime.Now.AddDays(-189),
+                EndDate = DateTime.Now.AddDays(-184),
+                Cost = 112320000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-347),
+                UpdatedAt
+             = DateTime.Now.AddDays(-347)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 885,
+                PaymentId = 348,
+                ProductId = 16,
+                ServiceId = 3,
+                AmoutEmployee = 56,
+                StartDate = DateTime.Now.AddDays(-178),
+                EndDate = DateTime.Now.AddDays(-177),
+                Cost = 36344000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-348),
+                UpdatedAt
+             = DateTime.Now.AddDays(-348)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 886,
+                PaymentId = 348,
+                ProductId = 28,
+                ServiceId = 2,
+                AmoutEmployee = 43,
+                StartDate = DateTime.Now.AddDays(-186),
+                EndDate = DateTime.Now.AddDays(-173),
+                Cost = 23478000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-348),
+                UpdatedAt
+             = DateTime.Now.AddDays(-348)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 887,
+                PaymentId = 348,
+                ProductId = 12,
+                ServiceId = 1,
+                AmoutEmployee = 196,
+                StartDate = DateTime.Now.AddDays(-137),
+                EndDate = DateTime.Now.AddDays(-126),
+                Cost = 14112000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-348),
+                UpdatedAt
+             = DateTime.Now.AddDays(-348)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 888,
+                PaymentId = 349,
+                ProductId = 19,
+                ServiceId = 1,
+                AmoutEmployee = 109,
+                StartDate = DateTime.Now.AddDays(-148),
+                EndDate = DateTime.Now.AddDays(-136),
+                Cost = 2943000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-349),
+                UpdatedAt
+             = DateTime.Now.AddDays(-349)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 889,
+                PaymentId = 349,
+                ProductId = 6,
+                ServiceId = 3,
+                AmoutEmployee = 187,
+                StartDate = DateTime.Now.AddDays(-196),
+                EndDate = DateTime.Now.AddDays(-195),
+                Cost = 140904500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-349),
+                UpdatedAt
+             = DateTime.Now.AddDays(-349)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 890,
+                PaymentId = 350,
+                ProductId = 9,
+                ServiceId = 2,
+                AmoutEmployee = 182,
+                StartDate = DateTime.Now.AddDays(-98),
+                EndDate = DateTime.Now.AddDays(-92),
+                Cost = 99372000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-350),
+                UpdatedAt
+             = DateTime.Now.AddDays(-350)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 891,
+                PaymentId = 350,
+                ProductId = 14,
+                ServiceId = 2,
+                AmoutEmployee = 83,
+                StartDate = DateTime.Now.AddDays(-75),
+                EndDate = DateTime.Now.AddDays(-60),
+                Cost = 18426000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-350),
+                UpdatedAt
+             = DateTime.Now.AddDays(-350)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 892,
+                PaymentId = 350,
+                ProductId = 29,
+                ServiceId = 1,
+                AmoutEmployee = 191,
+                StartDate = DateTime.Now.AddDays(-23),
+                EndDate = DateTime.Now.AddDays(-22),
+                Cost = 1719000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-350),
+                UpdatedAt
+             = DateTime.Now.AddDays(-350)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 893,
+                PaymentId = 351,
+                ProductId = 14,
+                ServiceId = 3,
+                AmoutEmployee = 46,
+                StartDate = DateTime.Now.AddDays(-164),
+                EndDate = DateTime.Now.AddDays(-161),
+                Cost = 39468000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-351),
+                UpdatedAt
+             = DateTime.Now.AddDays(-351)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 894,
+                PaymentId = 351,
+                ProductId = 7,
+                ServiceId = 3,
+                AmoutEmployee = 168,
+                StartDate = DateTime.Now.AddDays(-156),
+                EndDate = DateTime.Now.AddDays(-142),
+                Cost = 105336000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-351),
+                UpdatedAt
+             = DateTime.Now.AddDays(-351)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 895,
+                PaymentId = 352,
+                ProductId = 15,
+                ServiceId = 1,
+                AmoutEmployee = 85,
+                StartDate = DateTime.Now.AddDays(-67),
+                EndDate = DateTime.Now.AddDays(-65),
+                Cost = 16447500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-352),
+                UpdatedAt
+             = DateTime.Now.AddDays(-352)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 896,
+                PaymentId = 352,
+                ProductId = 8,
+                ServiceId = 2,
+                AmoutEmployee = 189,
+                StartDate = DateTime.Now.AddDays(-31),
+                EndDate = DateTime.Now.AddDays(-22),
+                Cost = 22680000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-352),
+                UpdatedAt
+             = DateTime.Now.AddDays(-352)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 897,
+                PaymentId = 352,
+                ProductId = 28,
+                ServiceId = 2,
+                AmoutEmployee = 65,
+                StartDate = DateTime.Now.AddDays(-162),
+                EndDate = DateTime.Now.AddDays(-158),
+                Cost = 40560000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-352),
+                UpdatedAt
+             = DateTime.Now.AddDays(-352)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 898,
+                PaymentId = 353,
+                ProductId = 7,
+                ServiceId = 1,
+                AmoutEmployee = 133,
+                StartDate = DateTime.Now.AddDays(-123),
+                EndDate = DateTime.Now.AddDays(-119),
+                Cost = 55062000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-353),
+                UpdatedAt
+             = DateTime.Now.AddDays(-353)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 899,
+                PaymentId = 353,
+                ProductId = 2,
+                ServiceId = 3,
+                AmoutEmployee = 123,
+                StartDate = DateTime.Now.AddDays(-59),
+                EndDate = DateTime.Now.AddDays(-55),
+                Cost = 35178000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-353),
+                UpdatedAt
+             = DateTime.Now.AddDays(-353)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 900,
+                PaymentId = 353,
+                ProductId = 17,
+                ServiceId = 1,
+                AmoutEmployee = 25,
+                StartDate = DateTime.Now.AddDays(-40),
+                EndDate = DateTime.Now.AddDays(-37),
+                Cost = 1237500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-353),
+                UpdatedAt
+             = DateTime.Now.AddDays(-353)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 901,
+                PaymentId = 354,
+                ProductId = 19,
+                ServiceId = 1,
+                AmoutEmployee = 179,
+                StartDate = DateTime.Now.AddDays(-41),
+                EndDate = DateTime.Now.AddDays(-39),
+                Cost = 9666000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-354),
+                UpdatedAt
+             = DateTime.Now.AddDays(-354)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 902,
+                PaymentId = 354,
+                ProductId = 15,
+                ServiceId = 3,
+                AmoutEmployee = 51,
+                StartDate = DateTime.Now.AddDays(-11),
+                EndDate = DateTime.Now.AddDays(4),
+                Cost = 280500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-354),
+                UpdatedAt
+             = DateTime.Now.AddDays(-354)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 903,
+                PaymentId = 355,
+                ProductId = 28,
+                ServiceId = 1,
+                AmoutEmployee = 56,
+                StartDate = DateTime.Now.AddDays(-37),
+                EndDate = DateTime.Now.AddDays(-27),
+                Cost = 1008000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-355),
+                UpdatedAt
+             = DateTime.Now.AddDays(-355)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 904,
+                PaymentId = 355,
+                ProductId = 29,
+                ServiceId = 1,
+                AmoutEmployee = 39,
+                StartDate = DateTime.Now.AddDays(-49),
+                EndDate = DateTime.Now.AddDays(-43),
+                Cost = 2457000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-355),
+                UpdatedAt
+             = DateTime.Now.AddDays(-355)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 905,
+                PaymentId = 355,
+                ProductId = 13,
+                ServiceId = 2,
+                AmoutEmployee = 166,
+                StartDate = DateTime.Now.AddDays(-148),
+                EndDate = DateTime.Now.AddDays(-141),
+                Cost = 131472000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-355),
+                UpdatedAt
+             = DateTime.Now.AddDays(-355)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 906,
+                PaymentId = 356,
+                ProductId = 16,
+                ServiceId = 1,
+                AmoutEmployee = 158,
+                StartDate = DateTime.Now.AddDays(-56),
+                EndDate = DateTime.Now.AddDays(-44),
+                Cost = 22752000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-356),
+                UpdatedAt
+             = DateTime.Now.AddDays(-356)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 907,
+                PaymentId = 356,
+                ProductId = 17,
+                ServiceId = 2,
+                AmoutEmployee = 105,
+                StartDate = DateTime.Now.AddDays(-169),
+                EndDate = DateTime.Now.AddDays(-162),
+                Cost = 37800000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-356),
+                UpdatedAt
+             = DateTime.Now.AddDays(-356)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 908,
+                PaymentId = 357,
+                ProductId = 3,
+                ServiceId = 1,
+                AmoutEmployee = 182,
+                StartDate = DateTime.Now.AddDays(-184),
+                EndDate = DateTime.Now.AddDays(-169),
+                Cost = 58968000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-357),
+                UpdatedAt
+             = DateTime.Now.AddDays(-357)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 909,
+                PaymentId = 357,
+                ProductId = 6,
+                ServiceId = 1,
+                AmoutEmployee = 200,
+                StartDate = DateTime.Now.AddDays(-191),
+                EndDate = DateTime.Now.AddDays(-189),
+                Cost = 5400000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-357),
+                UpdatedAt
+             = DateTime.Now.AddDays(-357)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 910,
+                PaymentId = 357,
+                ProductId = 6,
+                ServiceId = 1,
+                AmoutEmployee = 150,
+                StartDate = DateTime.Now.AddDays(-32),
+                EndDate = DateTime.Now.AddDays(-30),
+                Cost = 8100000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-357),
+                UpdatedAt
+             = DateTime.Now.AddDays(-357)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 911,
+                PaymentId = 358,
+                ProductId = 5,
+                ServiceId = 1,
+                AmoutEmployee = 178,
+                StartDate = DateTime.Now.AddDays(-41),
+                EndDate = DateTime.Now.AddDays(-40),
+                Cost = 21627000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-358),
+                UpdatedAt
+             = DateTime.Now.AddDays(-358)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 912,
+                PaymentId = 358,
+                ProductId = 26,
+                ServiceId = 3,
+                AmoutEmployee = 103,
+                StartDate = DateTime.Now.AddDays(-92),
+                EndDate = DateTime.Now.AddDays(-91),
+                Cost = 45886500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-358),
+                UpdatedAt
+             = DateTime.Now.AddDays(-358)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 913,
+                PaymentId = 359,
+                ProductId = 5,
+                ServiceId = 1,
+                AmoutEmployee = 86,
+                StartDate = DateTime.Now.AddDays(-137),
+                EndDate = DateTime.Now.AddDays(-128),
+                Cost = 41796000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-359),
+                UpdatedAt
+             = DateTime.Now.AddDays(-359)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 914,
+                PaymentId = 359,
+                ProductId = 4,
+                ServiceId = 1,
+                AmoutEmployee = 197,
+                StartDate = DateTime.Now.AddDays(-12),
+                EndDate = DateTime.Now.AddDays(-7),
+                Cost = 6205500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-359),
+                UpdatedAt
+             = DateTime.Now.AddDays(-359)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 915,
+                PaymentId = 359,
+                ProductId = 16,
+                ServiceId = 1,
+                AmoutEmployee = 186,
+                StartDate = DateTime.Now.AddDays(-31),
+                EndDate = DateTime.Now.AddDays(-18),
+                Cost = 15903000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-359),
+                UpdatedAt
+             = DateTime.Now.AddDays(-359)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 916,
+                PaymentId = 360,
+                ProductId = 12,
+                ServiceId = 3,
+                AmoutEmployee = 57,
+                StartDate = DateTime.Now.AddDays(-168),
+                EndDate = DateTime.Now.AddDays(-159),
+                Cost = 25707000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-360),
+                UpdatedAt
+             = DateTime.Now.AddDays(-360)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 917,
+                PaymentId = 360,
+                ProductId = 20,
+                ServiceId = 3,
+                AmoutEmployee = 169,
+                StartDate = DateTime.Now.AddDays(-135),
+                EndDate = DateTime.Now.AddDays(-131),
+                Cost = 119905500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-360),
+                UpdatedAt
+             = DateTime.Now.AddDays(-360)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 918,
+                PaymentId = 361,
+                ProductId = 8,
+                ServiceId = 3,
+                AmoutEmployee = 156,
+                StartDate = DateTime.Now.AddDays(-118),
+                EndDate = DateTime.Now.AddDays(-110),
+                Cost = 42900000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-361),
+                UpdatedAt
+             = DateTime.Now.AddDays(-361)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 919,
+                PaymentId = 361,
+                ProductId = 11,
+                ServiceId = 3,
+                AmoutEmployee = 166,
+                StartDate = DateTime.Now.AddDays(-8),
+                EndDate = DateTime.Now.AddDays(-6),
+                Cost = 913000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-361),
+                UpdatedAt
+             = DateTime.Now.AddDays(-361)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 920,
+                PaymentId = 361,
+                ProductId = 27,
+                ServiceId = 1,
+                AmoutEmployee = 103,
+                StartDate = DateTime.Now.AddDays(-145),
+                EndDate = DateTime.Now.AddDays(-137),
+                Cost = 63036000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-361),
+                UpdatedAt
+             = DateTime.Now.AddDays(-361)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 921,
+                PaymentId = 362,
+                ProductId = 4,
+                ServiceId = 2,
+                AmoutEmployee = 135,
+                StartDate = DateTime.Now.AddDays(-181),
+                EndDate = DateTime.Now.AddDays(-166),
+                Cost = 25110000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-362),
+                UpdatedAt
+             = DateTime.Now.AddDays(-362)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 922,
+                PaymentId = 362,
+                ProductId = 22,
+                ServiceId = 2,
+                AmoutEmployee = 144,
+                StartDate = DateTime.Now.AddDays(-131),
+                EndDate = DateTime.Now.AddDays(-125),
+                Cost = 76032000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-362),
+                UpdatedAt
+             = DateTime.Now.AddDays(-362)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 923,
+                PaymentId = 363,
+                ProductId = 20,
+                ServiceId = 1,
+                AmoutEmployee = 111,
+                StartDate = DateTime.Now.AddDays(-53),
+                EndDate = DateTime.Now.AddDays(-38),
+                Cost = 499500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-363),
+                UpdatedAt
+             = DateTime.Now.AddDays(-363)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 924,
+                PaymentId = 363,
+                ProductId = 11,
+                ServiceId = 3,
+                AmoutEmployee = 194,
+                StartDate = DateTime.Now.AddDays(-89),
+                EndDate = DateTime.Now.AddDays(-76),
+                Cost = 76824000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-363),
+                UpdatedAt
+             = DateTime.Now.AddDays(-363)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 925,
+                PaymentId = 363,
+                ProductId = 9,
+                ServiceId = 2,
+                AmoutEmployee = 163,
+                StartDate = DateTime.Now.AddDays(-77),
+                EndDate = DateTime.Now.AddDays(-70),
+                Cost = 5868000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-363),
+                UpdatedAt
+             = DateTime.Now.AddDays(-363)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 926,
+                PaymentId = 364,
+                ProductId = 20,
+                ServiceId = 3,
+                AmoutEmployee = 84,
+                StartDate = DateTime.Now.AddDays(-59),
+                EndDate = DateTime.Now.AddDays(-58),
+                Cost = 24486000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-364),
+                UpdatedAt
+             = DateTime.Now.AddDays(-364)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 927,
+                PaymentId = 364,
+                ProductId = 28,
+                ServiceId = 2,
+                AmoutEmployee = 171,
+                StartDate = DateTime.Now.AddDays(-11),
+                EndDate = DateTime.Now.AddDays(0),
+                Cost = 1026000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-364),
+                UpdatedAt
+             = DateTime.Now.AddDays(-364)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 928,
+                PaymentId = 364,
+                ProductId = 24,
+                ServiceId = 2,
+                AmoutEmployee = 120,
+                StartDate = DateTime.Now.AddDays(-16),
+                EndDate = DateTime.Now.AddDays(-12),
+                Cost = 3600000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-364),
+                UpdatedAt
+             = DateTime.Now.AddDays(-364)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 929,
+                PaymentId = 365,
+                ProductId = 2,
+                ServiceId = 1,
+                AmoutEmployee = 166,
+                StartDate = DateTime.Now.AddDays(-122),
+                EndDate = DateTime.Now.AddDays(-117),
+                Cost = 37350000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-365),
+                UpdatedAt
+             = DateTime.Now.AddDays(-365)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 930,
+                PaymentId = 365,
+                ProductId = 26,
+                ServiceId = 3,
+                AmoutEmployee = 86,
+                StartDate = DateTime.Now.AddDays(-126),
+                EndDate = DateTime.Now.AddDays(-124),
+                Cost = 26015000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-365),
+                UpdatedAt
+             = DateTime.Now.AddDays(-365)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 931,
+                PaymentId = 366,
+                ProductId = 10,
+                ServiceId = 1,
+                AmoutEmployee = 147,
+                StartDate = DateTime.Now.AddDays(-170),
+                EndDate = DateTime.Now.AddDays(-169),
+                Cost = 36382500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-366),
+                UpdatedAt
+             = DateTime.Now.AddDays(-366)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 932,
+                PaymentId = 366,
+                ProductId = 9,
+                ServiceId = 1,
+                AmoutEmployee = 147,
+                StartDate = DateTime.Now.AddDays(-164),
+                EndDate = DateTime.Now.AddDays(-161),
+                Cost = 53581500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-366),
+                UpdatedAt
+             = DateTime.Now.AddDays(-366)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 933,
+                PaymentId = 366,
+                ProductId = 2,
+                ServiceId = 3,
+                AmoutEmployee = 176,
+                StartDate = DateTime.Now.AddDays(-87),
+                EndDate = DateTime.Now.AddDays(-74),
+                Cost = 50336000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-366),
+                UpdatedAt
+             = DateTime.Now.AddDays(-366)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 934,
+                PaymentId = 367,
+                ProductId = 9,
+                ServiceId = 1,
+                AmoutEmployee = 136,
+                StartDate = DateTime.Now.AddDays(-26),
+                EndDate = DateTime.Now.AddDays(-25),
+                Cost = 10404000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-367),
+                UpdatedAt
+             = DateTime.Now.AddDays(-367)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 935,
+                PaymentId = 367,
+                ProductId = 6,
+                ServiceId = 3,
+                AmoutEmployee = 67,
+                StartDate = DateTime.Now.AddDays(-169),
+                EndDate = DateTime.Now.AddDays(-158),
+                Cost = 16214000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-367),
+                UpdatedAt
+             = DateTime.Now.AddDays(-367)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 936,
+                PaymentId = 368,
+                ProductId = 19,
+                ServiceId = 1,
+                AmoutEmployee = 154,
+                StartDate = DateTime.Now.AddDays(-172),
+                EndDate = DateTime.Now.AddDays(-161),
+                Cost = 96327000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-368),
+                UpdatedAt
+             = DateTime.Now.AddDays(-368)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 937,
+                PaymentId = 368,
+                ProductId = 28,
+                ServiceId = 3,
+                AmoutEmployee = 105,
+                StartDate = DateTime.Now.AddDays(-99),
+                EndDate = DateTime.Now.AddDays(-97),
+                Cost = 24255000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-368),
+                UpdatedAt
+             = DateTime.Now.AddDays(-368)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 938,
+                PaymentId = 368,
+                ProductId = 24,
+                ServiceId = 2,
+                AmoutEmployee = 133,
+                StartDate = DateTime.Now.AddDays(-54),
+                EndDate = DateTime.Now.AddDays(-46),
+                Cost = 28728000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-368),
+                UpdatedAt
+             = DateTime.Now.AddDays(-368)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 939,
+                PaymentId = 369,
+                ProductId = 19,
+                ServiceId = 1,
+                AmoutEmployee = 102,
+                StartDate = DateTime.Now.AddDays(-58),
+                EndDate = DateTime.Now.AddDays(-47),
+                Cost = 22950000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-369),
+                UpdatedAt
+             = DateTime.Now.AddDays(-369)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 940,
+                PaymentId = 369,
+                ProductId = 17,
+                ServiceId = 3,
+                AmoutEmployee = 194,
+                StartDate = DateTime.Now.AddDays(-74),
+                EndDate = DateTime.Now.AddDays(-73),
+                Cost = 40546000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-369),
+                UpdatedAt
+             = DateTime.Now.AddDays(-369)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 941,
+                PaymentId = 370,
+                ProductId = 21,
+                ServiceId = 2,
+                AmoutEmployee = 184,
+                StartDate = DateTime.Now.AddDays(-117),
+                EndDate = DateTime.Now.AddDays(-107),
+                Cost = 85008000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-370),
+                UpdatedAt
+             = DateTime.Now.AddDays(-370)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 942,
+                PaymentId = 370,
+                ProductId = 22,
+                ServiceId = 1,
+                AmoutEmployee = 151,
+                StartDate = DateTime.Now.AddDays(-8),
+                EndDate = DateTime.Now.AddDays(1),
+                Cost = 1359000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-370),
+                UpdatedAt
+             = DateTime.Now.AddDays(-370)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 943,
+                PaymentId = 370,
+                ProductId = 9,
+                ServiceId = 3,
+                AmoutEmployee = 87,
+                StartDate = DateTime.Now.AddDays(-143),
+                EndDate = DateTime.Now.AddDays(-140),
+                Cost = 60291000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-370),
+                UpdatedAt
+             = DateTime.Now.AddDays(-370)
+            ,
+            });
             //change
             context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 944,
-PaymentId = 371,
-ProductId = 28,
-ServiceId = 2,
-AmoutEmployee = 162,
-StartDate = DateTime.Now.AddDays(-96),
-EndDate = DateTime.Now.AddDays(-82),
-Cost = 72900000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-371),
-UpdatedAt
+            {
+                Id = 944,
+                PaymentId = 371,
+                ProductId = 28,
+                ServiceId = 2,
+                AmoutEmployee = 162,
+                StartDate = DateTime.Now.AddDays(-96),
+                EndDate = DateTime.Now.AddDays(-82),
+                Cost = 72900000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-371),
+                UpdatedAt
  = DateTime.Now.AddDays(-371)
 ,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 945,
-PaymentId = 371,
-ProductId = 6,
-ServiceId = 3,
-AmoutEmployee = 121,
-StartDate = DateTime.Now.AddDays(-183),
-EndDate = DateTime.Now.AddDays(-174),
-Cost = 33940500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-371),
-UpdatedAt
- = DateTime.Now.AddDays(-371)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 946,
-PaymentId = 372,
-ProductId = 23,
-ServiceId = 1,
-AmoutEmployee = 48,
-StartDate = DateTime.Now.AddDays(-94),
-EndDate = DateTime.Now.AddDays(-87),
-Cost = 11664000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-372),
-UpdatedAt
- = DateTime.Now.AddDays(-372)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 947,
-PaymentId = 372,
-ProductId = 21,
-ServiceId = 2,
-AmoutEmployee = 93,
-StartDate = DateTime.Now.AddDays(-152),
-EndDate = DateTime.Now.AddDays(-138),
-Cost = 32922000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-372),
-UpdatedAt
- = DateTime.Now.AddDays(-372)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 948,
-PaymentId = 372,
-ProductId = 18,
-ServiceId = 1,
-AmoutEmployee = 34,
-StartDate = DateTime.Now.AddDays(-136),
-EndDate = DateTime.Now.AddDays(-128),
-Cost = 13770000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-372),
-UpdatedAt
- = DateTime.Now.AddDays(-372)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 949,
-PaymentId = 373,
-ProductId = 11,
-ServiceId = 1,
-AmoutEmployee = 200,
-StartDate = DateTime.Now.AddDays(-153),
-EndDate = DateTime.Now.AddDays(-148),
-Cost = 63000000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-373),
-UpdatedAt
- = DateTime.Now.AddDays(-373)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 950,
-PaymentId = 373,
-ProductId = 8,
-ServiceId = 3,
-AmoutEmployee = 194,
-StartDate = DateTime.Now.AddDays(-44),
-EndDate = DateTime.Now.AddDays(-40),
-Cost = 12804000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-373),
-UpdatedAt
- = DateTime.Now.AddDays(-373)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 951,
-PaymentId = 374,
-ProductId = 29,
-ServiceId = 1,
-AmoutEmployee = 49,
-StartDate = DateTime.Now.AddDays(-56),
-EndDate = DateTime.Now.AddDays(-55),
-Cost = 6835500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-374),
-UpdatedAt
- = DateTime.Now.AddDays(-374)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 952,
-PaymentId = 374,
-ProductId = 7,
-ServiceId = 3,
-AmoutEmployee = 157,
-StartDate = DateTime.Now.AddDays(-72),
-EndDate = DateTime.Now.AddDays(-66),
-Cost = 26768500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-374),
-UpdatedAt
- = DateTime.Now.AddDays(-374)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 953,
-PaymentId = 374,
-ProductId = 12,
-ServiceId = 2,
-AmoutEmployee = 51,
-StartDate = DateTime.Now.AddDays(-20),
-EndDate = DateTime.Now.AddDays(-12),
-Cost = 4590000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-374),
-UpdatedAt
- = DateTime.Now.AddDays(-374)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 954,
-PaymentId = 375,
-ProductId = 8,
-ServiceId = 1,
-AmoutEmployee = 179,
-StartDate = DateTime.Now.AddDays(-185),
-EndDate = DateTime.Now.AddDays(-170),
-Cost = 115186500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-375),
-UpdatedAt
- = DateTime.Now.AddDays(-375)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 955,
-PaymentId = 375,
-ProductId = 10,
-ServiceId = 1,
-AmoutEmployee = 54,
-StartDate = DateTime.Now.AddDays(-85),
-EndDate = DateTime.Now.AddDays(-78),
-Cost = 19197000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-375),
-UpdatedAt
- = DateTime.Now.AddDays(-375)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 956,
-PaymentId = 375,
-ProductId = 27,
-ServiceId = 3,
-AmoutEmployee = 155,
-StartDate = DateTime.Now.AddDays(-141),
-EndDate = DateTime.Now.AddDays(-133),
-Cost = 12787500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-375),
-UpdatedAt
- = DateTime.Now.AddDays(-375)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 957,
-PaymentId = 376,
-ProductId = 19,
-ServiceId = 1,
-AmoutEmployee = 200,
-StartDate = DateTime.Now.AddDays(-41),
-EndDate = DateTime.Now.AddDays(-30),
-Cost = 6300000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-376),
-UpdatedAt
- = DateTime.Now.AddDays(-376)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 958,
-PaymentId = 376,
-ProductId = 15,
-ServiceId = 2,
-AmoutEmployee = 178,
-StartDate = DateTime.Now.AddDays(-175),
-EndDate = DateTime.Now.AddDays(-168),
-Cost = 179424000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-376),
-UpdatedAt
- = DateTime.Now.AddDays(-376)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 959,
-PaymentId = 377,
-ProductId = 5,
-ServiceId = 3,
-AmoutEmployee = 78,
-StartDate = DateTime.Now.AddDays(-47),
-EndDate = DateTime.Now.AddDays(-38),
-Cost = 13299000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-377),
-UpdatedAt
- = DateTime.Now.AddDays(-377)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 960,
-PaymentId = 377,
-ProductId = 3,
-ServiceId = 1,
-AmoutEmployee = 176,
-StartDate = DateTime.Now.AddDays(-104),
-EndDate = DateTime.Now.AddDays(-103),
-Cost = 4752000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-377),
-UpdatedAt
- = DateTime.Now.AddDays(-377)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 961,
-PaymentId = 377,
-ProductId = 25,
-ServiceId = 3,
-AmoutEmployee = 154,
-StartDate = DateTime.Now.AddDays(-113),
-EndDate = DateTime.Now.AddDays(-106),
-Cost = 85547000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-377),
-UpdatedAt
- = DateTime.Now.AddDays(-377)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 962,
-PaymentId = 378,
-ProductId = 14,
-ServiceId = 3,
-AmoutEmployee = 92,
-StartDate = DateTime.Now.AddDays(-33),
-EndDate = DateTime.Now.AddDays(-32),
-Cost = 1518000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-378),
-UpdatedAt
- = DateTime.Now.AddDays(-378)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 963,
-PaymentId = 378,
-ProductId = 4,
-ServiceId = 2,
-AmoutEmployee = 139,
-StartDate = DateTime.Now.AddDays(-47),
-EndDate = DateTime.Now.AddDays(-32),
-Cost = 16680000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-378),
-UpdatedAt
- = DateTime.Now.AddDays(-378)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 964,
-PaymentId = 379,
-ProductId = 30,
-ServiceId = 2,
-AmoutEmployee = 134,
-StartDate = DateTime.Now.AddDays(-27),
-EndDate = DateTime.Now.AddDays(-20),
-Cost = 10452000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-379),
-UpdatedAt
- = DateTime.Now.AddDays(-379)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 965,
-PaymentId = 379,
-ProductId = 7,
-ServiceId = 1,
-AmoutEmployee = 172,
-StartDate = DateTime.Now.AddDays(-38),
-EndDate = DateTime.Now.AddDays(-28),
-Cost = 4644000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-379),
-UpdatedAt
- = DateTime.Now.AddDays(-379)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 966,
-PaymentId = 379,
-ProductId = 22,
-ServiceId = 1,
-AmoutEmployee = 150,
-StartDate = DateTime.Now.AddDays(-32),
-EndDate = DateTime.Now.AddDays(-24),
-Cost = 2025000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-379),
-UpdatedAt
- = DateTime.Now.AddDays(-379)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 967,
-PaymentId = 380,
-ProductId = 8,
-ServiceId = 1,
-AmoutEmployee = 178,
-StartDate = DateTime.Now.AddDays(-84),
-EndDate = DateTime.Now.AddDays(-70),
-Cost = 41652000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-380),
-UpdatedAt
- = DateTime.Now.AddDays(-380)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 968,
-PaymentId = 380,
-ProductId = 21,
-ServiceId = 2,
-AmoutEmployee = 121,
-StartDate = DateTime.Now.AddDays(-137),
-EndDate = DateTime.Now.AddDays(-127),
-Cost = 95832000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-380),
-UpdatedAt
- = DateTime.Now.AddDays(-380)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 969,
-PaymentId = 381,
-ProductId = 8,
-ServiceId = 1,
-AmoutEmployee = 57,
-StartDate = DateTime.Now.AddDays(-25),
-EndDate = DateTime.Now.AddDays(-24),
-Cost = 1282500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-381),
-UpdatedAt
- = DateTime.Now.AddDays(-381)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 970,
-PaymentId = 381,
-ProductId = 14,
-ServiceId = 2,
-AmoutEmployee = 191,
-StartDate = DateTime.Now.AddDays(-135),
-EndDate = DateTime.Now.AddDays(-124),
-Cost = 46986000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-381),
-UpdatedAt
- = DateTime.Now.AddDays(-381)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 971,
-PaymentId = 381,
-ProductId = 1,
-ServiceId = 3,
-AmoutEmployee = 155,
-StartDate = DateTime.Now.AddDays(-151),
-EndDate = DateTime.Now.AddDays(-138),
-Cost = 7672500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-381),
-UpdatedAt
- = DateTime.Now.AddDays(-381)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 972,
-PaymentId = 382,
-ProductId = 25,
-ServiceId = 1,
-AmoutEmployee = 176,
-StartDate = DateTime.Now.AddDays(-155),
-EndDate = DateTime.Now.AddDays(-151),
-Cost = 38808000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-382),
-UpdatedAt
- = DateTime.Now.AddDays(-382)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 973,
-PaymentId = 382,
-ProductId = 12,
-ServiceId = 1,
-AmoutEmployee = 93,
-StartDate = DateTime.Now.AddDays(-66),
-EndDate = DateTime.Now.AddDays(-62),
-Cost = 25528500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-382),
-UpdatedAt
- = DateTime.Now.AddDays(-382)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 974,
-PaymentId = 383,
-ProductId = 1,
-ServiceId = 2,
-AmoutEmployee = 130,
-StartDate = DateTime.Now.AddDays(-73),
-EndDate = DateTime.Now.AddDays(-62),
-Cost = 28860000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-383),
-UpdatedAt
- = DateTime.Now.AddDays(-383)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 975,
-PaymentId = 383,
-ProductId = 14,
-ServiceId = 2,
-AmoutEmployee = 53,
-StartDate = DateTime.Now.AddDays(-155),
-EndDate = DateTime.Now.AddDays(-152),
-Cost = 34980000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-383),
-UpdatedAt
- = DateTime.Now.AddDays(-383)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 976,
-PaymentId = 383,
-ProductId = 30,
-ServiceId = 3,
-AmoutEmployee = 87,
-StartDate = DateTime.Now.AddDays(-123),
-EndDate = DateTime.Now.AddDays(-116),
-Cost = 48807000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-383),
-UpdatedAt
- = DateTime.Now.AddDays(-383)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 977,
-PaymentId = 384,
-ProductId = 3,
-ServiceId = 3,
-AmoutEmployee = 195,
-StartDate = DateTime.Now.AddDays(-156),
-EndDate = DateTime.Now.AddDays(-148),
-Cost = 115830000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-384),
-UpdatedAt
- = DateTime.Now.AddDays(-384)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 978,
-PaymentId = 384,
-ProductId = 10,
-ServiceId = 3,
-AmoutEmployee = 195,
-StartDate = DateTime.Now.AddDays(-71),
-EndDate = DateTime.Now.AddDays(-64),
-Cost = 68640000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-384),
-UpdatedAt
- = DateTime.Now.AddDays(-384)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 979,
-PaymentId = 385,
-ProductId = 6,
-ServiceId = 1,
-AmoutEmployee = 106,
-StartDate = DateTime.Now.AddDays(-17),
-EndDate = DateTime.Now.AddDays(-12),
-Cost = 2862000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-385),
-UpdatedAt
- = DateTime.Now.AddDays(-385)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 980,
-PaymentId = 385,
-ProductId = 1,
-ServiceId = 3,
-AmoutEmployee = 80,
-StartDate = DateTime.Now.AddDays(-124),
-EndDate = DateTime.Now.AddDays(-123),
-Cost = 20680000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-385),
-UpdatedAt
- = DateTime.Now.AddDays(-385)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 981,
-PaymentId = 385,
-ProductId = 30,
-ServiceId = 2,
-AmoutEmployee = 173,
-StartDate = DateTime.Now.AddDays(-77),
-EndDate = DateTime.Now.AddDays(-62),
-Cost = 73698000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-385),
-UpdatedAt
- = DateTime.Now.AddDays(-385)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 982,
-PaymentId = 386,
-ProductId = 10,
-ServiceId = 1,
-AmoutEmployee = 143,
-StartDate = DateTime.Now.AddDays(-140),
-EndDate = DateTime.Now.AddDays(-130),
-Cost = 40540500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-386),
-UpdatedAt
- = DateTime.Now.AddDays(-386)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 983,
-PaymentId = 386,
-ProductId = 25,
-ServiceId = 2,
-AmoutEmployee = 143,
-StartDate = DateTime.Now.AddDays(-143),
-EndDate = DateTime.Now.AddDays(-141),
-Cost = 81510000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-386),
-UpdatedAt
- = DateTime.Now.AddDays(-386)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 984,
-PaymentId = 386,
-ProductId = 10,
-ServiceId = 3,
-AmoutEmployee = 39,
-StartDate = DateTime.Now.AddDays(-33),
-EndDate = DateTime.Now.AddDays(-23),
-Cost = 5148000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-386),
-UpdatedAt
- = DateTime.Now.AddDays(-386)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 985,
-PaymentId = 387,
-ProductId = 24,
-ServiceId = 3,
-AmoutEmployee = 45,
-StartDate = DateTime.Now.AddDays(-47),
-EndDate = DateTime.Now.AddDays(-37),
-Cost = 8167500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-387),
-UpdatedAt
- = DateTime.Now.AddDays(-387)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 986,
-PaymentId = 387,
-ProductId = 6,
-ServiceId = 3,
-AmoutEmployee = 170,
-StartDate = DateTime.Now.AddDays(-147),
-EndDate = DateTime.Now.AddDays(-136),
-Cost = 57035000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-387),
-UpdatedAt
- = DateTime.Now.AddDays(-387)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 987,
-PaymentId = 388,
-ProductId = 12,
-ServiceId = 3,
-AmoutEmployee = 66,
-StartDate = DateTime.Now.AddDays(-22),
-EndDate = DateTime.Now.AddDays(-7),
-Cost = 5082000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-388),
-UpdatedAt
- = DateTime.Now.AddDays(-388)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 988,
-PaymentId = 388,
-ProductId = 26,
-ServiceId = 1,
-AmoutEmployee = 60,
-StartDate = DateTime.Now.AddDays(-96),
-EndDate = DateTime.Now.AddDays(-88),
-Cost = 3780000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-388),
-UpdatedAt
- = DateTime.Now.AddDays(-388)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 989,
-PaymentId = 388,
-ProductId = 17,
-ServiceId = 2,
-AmoutEmployee = 199,
-StartDate = DateTime.Now.AddDays(-84),
-EndDate = DateTime.Now.AddDays(-82),
-Cost = 27462000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-388),
-UpdatedAt
- = DateTime.Now.AddDays(-388)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 990,
-PaymentId = 389,
-ProductId = 18,
-ServiceId = 3,
-AmoutEmployee = 129,
-StartDate = DateTime.Now.AddDays(-55),
-EndDate = DateTime.Now.AddDays(-41),
-Cost = 10642500,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-389),
-UpdatedAt
- = DateTime.Now.AddDays(-389)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 991,
-PaymentId = 389,
-ProductId = 27,
-ServiceId = 3,
-AmoutEmployee = 81,
-StartDate = DateTime.Now.AddDays(-63),
-EndDate = DateTime.Now.AddDays(-49),
-Cost = 5346000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-389),
-UpdatedAt
- = DateTime.Now.AddDays(-389)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 992,
-PaymentId = 390,
-ProductId = 25,
-ServiceId = 2,
-AmoutEmployee = 58,
-StartDate = DateTime.Now.AddDays(-92),
-EndDate = DateTime.Now.AddDays(-77),
-Cost = 8700000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-390),
-UpdatedAt
- = DateTime.Now.AddDays(-390)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 993,
-PaymentId = 390,
-ProductId = 16,
-ServiceId = 2,
-AmoutEmployee = 180,
-StartDate = DateTime.Now.AddDays(-65),
-EndDate = DateTime.Now.AddDays(-64),
-Cost = 49680000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-390),
-UpdatedAt
- = DateTime.Now.AddDays(-390)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 994,
-PaymentId = 390,
-ProductId = 17,
-ServiceId = 1,
-AmoutEmployee = 198,
-StartDate = DateTime.Now.AddDays(-104),
-EndDate = DateTime.Now.AddDays(-100),
-Cost = 18711000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-390),
-UpdatedAt
- = DateTime.Now.AddDays(-390)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 995,
-PaymentId = 391,
-ProductId = 5,
-ServiceId = 2,
-AmoutEmployee = 127,
-StartDate = DateTime.Now.AddDays(-75),
-EndDate = DateTime.Now.AddDays(-73),
-Cost = 17526000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-391),
-UpdatedAt
- = DateTime.Now.AddDays(-391)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 996,
-PaymentId = 391,
-ProductId = 4,
-ServiceId = 3,
-AmoutEmployee = 198,
-StartDate = DateTime.Now.AddDays(-79),
-EndDate = DateTime.Now.AddDays(-69),
-Cost = 25047000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-391),
-UpdatedAt
- = DateTime.Now.AddDays(-391)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 997,
-PaymentId = 392,
-ProductId = 4,
-ServiceId = 2,
-AmoutEmployee = 170,
-StartDate = DateTime.Now.AddDays(-151),
-EndDate = DateTime.Now.AddDays(-147),
-Cost = 77520000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-392),
-UpdatedAt
- = DateTime.Now.AddDays(-392)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 998,
-PaymentId = 392,
-ProductId = 6,
-ServiceId = 1,
-AmoutEmployee = 123,
-StartDate = DateTime.Now.AddDays(-44),
-EndDate = DateTime.Now.AddDays(-30),
-Cost = 16605000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-392),
-UpdatedAt
- = DateTime.Now.AddDays(-392)
-,
-});
-context.PaymentDetails.AddOrUpdate(new PaymentDetail()
-{
-Id = 999,
-PaymentId = 392,
-ProductId = 17,
-ServiceId = 2,
-AmoutEmployee = 197,
-StartDate = DateTime.Now.AddDays(-191),
-EndDate = DateTime.Now.AddDays(-186),
-Cost = 120564000,
-Status = PaymentDetailStatus.Active,
-CreatedAt = DateTime.Now.AddDays(-392),
-UpdatedAt
- = DateTime.Now.AddDays(-392),
-});
-context.SaveChanges();
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 945,
+                PaymentId = 371,
+                ProductId = 6,
+                ServiceId = 3,
+                AmoutEmployee = 121,
+                StartDate = DateTime.Now.AddDays(-183),
+                EndDate = DateTime.Now.AddDays(-174),
+                Cost = 33940500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-371),
+                UpdatedAt
+             = DateTime.Now.AddDays(-371)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 946,
+                PaymentId = 372,
+                ProductId = 23,
+                ServiceId = 1,
+                AmoutEmployee = 48,
+                StartDate = DateTime.Now.AddDays(-94),
+                EndDate = DateTime.Now.AddDays(-87),
+                Cost = 11664000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-372),
+                UpdatedAt
+             = DateTime.Now.AddDays(-372)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 947,
+                PaymentId = 372,
+                ProductId = 21,
+                ServiceId = 2,
+                AmoutEmployee = 93,
+                StartDate = DateTime.Now.AddDays(-152),
+                EndDate = DateTime.Now.AddDays(-138),
+                Cost = 32922000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-372),
+                UpdatedAt
+             = DateTime.Now.AddDays(-372)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 948,
+                PaymentId = 372,
+                ProductId = 18,
+                ServiceId = 1,
+                AmoutEmployee = 34,
+                StartDate = DateTime.Now.AddDays(-136),
+                EndDate = DateTime.Now.AddDays(-128),
+                Cost = 13770000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-372),
+                UpdatedAt
+             = DateTime.Now.AddDays(-372)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 949,
+                PaymentId = 373,
+                ProductId = 11,
+                ServiceId = 1,
+                AmoutEmployee = 200,
+                StartDate = DateTime.Now.AddDays(-153),
+                EndDate = DateTime.Now.AddDays(-148),
+                Cost = 63000000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-373),
+                UpdatedAt
+             = DateTime.Now.AddDays(-373)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 950,
+                PaymentId = 373,
+                ProductId = 8,
+                ServiceId = 3,
+                AmoutEmployee = 194,
+                StartDate = DateTime.Now.AddDays(-44),
+                EndDate = DateTime.Now.AddDays(-40),
+                Cost = 12804000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-373),
+                UpdatedAt
+             = DateTime.Now.AddDays(-373)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 951,
+                PaymentId = 374,
+                ProductId = 29,
+                ServiceId = 1,
+                AmoutEmployee = 49,
+                StartDate = DateTime.Now.AddDays(-56),
+                EndDate = DateTime.Now.AddDays(-55),
+                Cost = 6835500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-374),
+                UpdatedAt
+             = DateTime.Now.AddDays(-374)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 952,
+                PaymentId = 374,
+                ProductId = 7,
+                ServiceId = 3,
+                AmoutEmployee = 157,
+                StartDate = DateTime.Now.AddDays(-72),
+                EndDate = DateTime.Now.AddDays(-66),
+                Cost = 26768500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-374),
+                UpdatedAt
+             = DateTime.Now.AddDays(-374)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 953,
+                PaymentId = 374,
+                ProductId = 12,
+                ServiceId = 2,
+                AmoutEmployee = 51,
+                StartDate = DateTime.Now.AddDays(-20),
+                EndDate = DateTime.Now.AddDays(-12),
+                Cost = 4590000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-374),
+                UpdatedAt
+             = DateTime.Now.AddDays(-374)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 954,
+                PaymentId = 375,
+                ProductId = 8,
+                ServiceId = 1,
+                AmoutEmployee = 179,
+                StartDate = DateTime.Now.AddDays(-185),
+                EndDate = DateTime.Now.AddDays(-170),
+                Cost = 115186500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-375),
+                UpdatedAt
+             = DateTime.Now.AddDays(-375)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 955,
+                PaymentId = 375,
+                ProductId = 10,
+                ServiceId = 1,
+                AmoutEmployee = 54,
+                StartDate = DateTime.Now.AddDays(-85),
+                EndDate = DateTime.Now.AddDays(-78),
+                Cost = 19197000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-375),
+                UpdatedAt
+             = DateTime.Now.AddDays(-375)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 956,
+                PaymentId = 375,
+                ProductId = 27,
+                ServiceId = 3,
+                AmoutEmployee = 155,
+                StartDate = DateTime.Now.AddDays(-141),
+                EndDate = DateTime.Now.AddDays(-133),
+                Cost = 12787500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-375),
+                UpdatedAt
+             = DateTime.Now.AddDays(-375)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 957,
+                PaymentId = 376,
+                ProductId = 19,
+                ServiceId = 1,
+                AmoutEmployee = 200,
+                StartDate = DateTime.Now.AddDays(-41),
+                EndDate = DateTime.Now.AddDays(-30),
+                Cost = 6300000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-376),
+                UpdatedAt
+             = DateTime.Now.AddDays(-376)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 958,
+                PaymentId = 376,
+                ProductId = 15,
+                ServiceId = 2,
+                AmoutEmployee = 178,
+                StartDate = DateTime.Now.AddDays(-175),
+                EndDate = DateTime.Now.AddDays(-168),
+                Cost = 179424000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-376),
+                UpdatedAt
+             = DateTime.Now.AddDays(-376)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 959,
+                PaymentId = 377,
+                ProductId = 5,
+                ServiceId = 3,
+                AmoutEmployee = 78,
+                StartDate = DateTime.Now.AddDays(-47),
+                EndDate = DateTime.Now.AddDays(-38),
+                Cost = 13299000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-377),
+                UpdatedAt
+             = DateTime.Now.AddDays(-377)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 960,
+                PaymentId = 377,
+                ProductId = 3,
+                ServiceId = 1,
+                AmoutEmployee = 176,
+                StartDate = DateTime.Now.AddDays(-104),
+                EndDate = DateTime.Now.AddDays(-103),
+                Cost = 4752000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-377),
+                UpdatedAt
+             = DateTime.Now.AddDays(-377)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 961,
+                PaymentId = 377,
+                ProductId = 25,
+                ServiceId = 3,
+                AmoutEmployee = 154,
+                StartDate = DateTime.Now.AddDays(-113),
+                EndDate = DateTime.Now.AddDays(-106),
+                Cost = 85547000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-377),
+                UpdatedAt
+             = DateTime.Now.AddDays(-377)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 962,
+                PaymentId = 378,
+                ProductId = 14,
+                ServiceId = 3,
+                AmoutEmployee = 92,
+                StartDate = DateTime.Now.AddDays(-33),
+                EndDate = DateTime.Now.AddDays(-32),
+                Cost = 1518000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-378),
+                UpdatedAt
+             = DateTime.Now.AddDays(-378)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 963,
+                PaymentId = 378,
+                ProductId = 4,
+                ServiceId = 2,
+                AmoutEmployee = 139,
+                StartDate = DateTime.Now.AddDays(-47),
+                EndDate = DateTime.Now.AddDays(-32),
+                Cost = 16680000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-378),
+                UpdatedAt
+             = DateTime.Now.AddDays(-378)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 964,
+                PaymentId = 379,
+                ProductId = 30,
+                ServiceId = 2,
+                AmoutEmployee = 134,
+                StartDate = DateTime.Now.AddDays(-27),
+                EndDate = DateTime.Now.AddDays(-20),
+                Cost = 10452000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-379),
+                UpdatedAt
+             = DateTime.Now.AddDays(-379)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 965,
+                PaymentId = 379,
+                ProductId = 7,
+                ServiceId = 1,
+                AmoutEmployee = 172,
+                StartDate = DateTime.Now.AddDays(-38),
+                EndDate = DateTime.Now.AddDays(-28),
+                Cost = 4644000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-379),
+                UpdatedAt
+             = DateTime.Now.AddDays(-379)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 966,
+                PaymentId = 379,
+                ProductId = 22,
+                ServiceId = 1,
+                AmoutEmployee = 150,
+                StartDate = DateTime.Now.AddDays(-32),
+                EndDate = DateTime.Now.AddDays(-24),
+                Cost = 2025000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-379),
+                UpdatedAt
+             = DateTime.Now.AddDays(-379)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 967,
+                PaymentId = 380,
+                ProductId = 8,
+                ServiceId = 1,
+                AmoutEmployee = 178,
+                StartDate = DateTime.Now.AddDays(-84),
+                EndDate = DateTime.Now.AddDays(-70),
+                Cost = 41652000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-380),
+                UpdatedAt
+             = DateTime.Now.AddDays(-380)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 968,
+                PaymentId = 380,
+                ProductId = 21,
+                ServiceId = 2,
+                AmoutEmployee = 121,
+                StartDate = DateTime.Now.AddDays(-137),
+                EndDate = DateTime.Now.AddDays(-127),
+                Cost = 95832000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-380),
+                UpdatedAt
+             = DateTime.Now.AddDays(-380)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 969,
+                PaymentId = 381,
+                ProductId = 8,
+                ServiceId = 1,
+                AmoutEmployee = 57,
+                StartDate = DateTime.Now.AddDays(-25),
+                EndDate = DateTime.Now.AddDays(-24),
+                Cost = 1282500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-381),
+                UpdatedAt
+             = DateTime.Now.AddDays(-381)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 970,
+                PaymentId = 381,
+                ProductId = 14,
+                ServiceId = 2,
+                AmoutEmployee = 191,
+                StartDate = DateTime.Now.AddDays(-135),
+                EndDate = DateTime.Now.AddDays(-124),
+                Cost = 46986000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-381),
+                UpdatedAt
+             = DateTime.Now.AddDays(-381)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 971,
+                PaymentId = 381,
+                ProductId = 1,
+                ServiceId = 3,
+                AmoutEmployee = 155,
+                StartDate = DateTime.Now.AddDays(-151),
+                EndDate = DateTime.Now.AddDays(-138),
+                Cost = 7672500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-381),
+                UpdatedAt
+             = DateTime.Now.AddDays(-381)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 972,
+                PaymentId = 382,
+                ProductId = 25,
+                ServiceId = 1,
+                AmoutEmployee = 176,
+                StartDate = DateTime.Now.AddDays(-155),
+                EndDate = DateTime.Now.AddDays(-151),
+                Cost = 38808000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-382),
+                UpdatedAt
+             = DateTime.Now.AddDays(-382)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 973,
+                PaymentId = 382,
+                ProductId = 12,
+                ServiceId = 1,
+                AmoutEmployee = 93,
+                StartDate = DateTime.Now.AddDays(-66),
+                EndDate = DateTime.Now.AddDays(-62),
+                Cost = 25528500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-382),
+                UpdatedAt
+             = DateTime.Now.AddDays(-382)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 974,
+                PaymentId = 383,
+                ProductId = 1,
+                ServiceId = 2,
+                AmoutEmployee = 130,
+                StartDate = DateTime.Now.AddDays(-73),
+                EndDate = DateTime.Now.AddDays(-62),
+                Cost = 28860000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-383),
+                UpdatedAt
+             = DateTime.Now.AddDays(-383)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 975,
+                PaymentId = 383,
+                ProductId = 14,
+                ServiceId = 2,
+                AmoutEmployee = 53,
+                StartDate = DateTime.Now.AddDays(-155),
+                EndDate = DateTime.Now.AddDays(-152),
+                Cost = 34980000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-383),
+                UpdatedAt
+             = DateTime.Now.AddDays(-383)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 976,
+                PaymentId = 383,
+                ProductId = 30,
+                ServiceId = 3,
+                AmoutEmployee = 87,
+                StartDate = DateTime.Now.AddDays(-123),
+                EndDate = DateTime.Now.AddDays(-116),
+                Cost = 48807000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-383),
+                UpdatedAt
+             = DateTime.Now.AddDays(-383)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 977,
+                PaymentId = 384,
+                ProductId = 3,
+                ServiceId = 3,
+                AmoutEmployee = 195,
+                StartDate = DateTime.Now.AddDays(-156),
+                EndDate = DateTime.Now.AddDays(-148),
+                Cost = 115830000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-384),
+                UpdatedAt
+             = DateTime.Now.AddDays(-384)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 978,
+                PaymentId = 384,
+                ProductId = 10,
+                ServiceId = 3,
+                AmoutEmployee = 195,
+                StartDate = DateTime.Now.AddDays(-71),
+                EndDate = DateTime.Now.AddDays(-64),
+                Cost = 68640000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-384),
+                UpdatedAt
+             = DateTime.Now.AddDays(-384)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 979,
+                PaymentId = 385,
+                ProductId = 6,
+                ServiceId = 1,
+                AmoutEmployee = 106,
+                StartDate = DateTime.Now.AddDays(-17),
+                EndDate = DateTime.Now.AddDays(-12),
+                Cost = 2862000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-385),
+                UpdatedAt
+             = DateTime.Now.AddDays(-385)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 980,
+                PaymentId = 385,
+                ProductId = 1,
+                ServiceId = 3,
+                AmoutEmployee = 80,
+                StartDate = DateTime.Now.AddDays(-124),
+                EndDate = DateTime.Now.AddDays(-123),
+                Cost = 20680000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-385),
+                UpdatedAt
+             = DateTime.Now.AddDays(-385)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 981,
+                PaymentId = 385,
+                ProductId = 30,
+                ServiceId = 2,
+                AmoutEmployee = 173,
+                StartDate = DateTime.Now.AddDays(-77),
+                EndDate = DateTime.Now.AddDays(-62),
+                Cost = 73698000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-385),
+                UpdatedAt
+             = DateTime.Now.AddDays(-385)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 982,
+                PaymentId = 386,
+                ProductId = 10,
+                ServiceId = 1,
+                AmoutEmployee = 143,
+                StartDate = DateTime.Now.AddDays(-140),
+                EndDate = DateTime.Now.AddDays(-130),
+                Cost = 40540500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-386),
+                UpdatedAt
+             = DateTime.Now.AddDays(-386)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 983,
+                PaymentId = 386,
+                ProductId = 25,
+                ServiceId = 2,
+                AmoutEmployee = 143,
+                StartDate = DateTime.Now.AddDays(-143),
+                EndDate = DateTime.Now.AddDays(-141),
+                Cost = 81510000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-386),
+                UpdatedAt
+             = DateTime.Now.AddDays(-386)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 984,
+                PaymentId = 386,
+                ProductId = 10,
+                ServiceId = 3,
+                AmoutEmployee = 39,
+                StartDate = DateTime.Now.AddDays(-33),
+                EndDate = DateTime.Now.AddDays(-23),
+                Cost = 5148000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-386),
+                UpdatedAt
+             = DateTime.Now.AddDays(-386)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 985,
+                PaymentId = 387,
+                ProductId = 24,
+                ServiceId = 3,
+                AmoutEmployee = 45,
+                StartDate = DateTime.Now.AddDays(-47),
+                EndDate = DateTime.Now.AddDays(-37),
+                Cost = 8167500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-387),
+                UpdatedAt
+             = DateTime.Now.AddDays(-387)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 986,
+                PaymentId = 387,
+                ProductId = 6,
+                ServiceId = 3,
+                AmoutEmployee = 170,
+                StartDate = DateTime.Now.AddDays(-147),
+                EndDate = DateTime.Now.AddDays(-136),
+                Cost = 57035000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-387),
+                UpdatedAt
+             = DateTime.Now.AddDays(-387)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 987,
+                PaymentId = 388,
+                ProductId = 12,
+                ServiceId = 3,
+                AmoutEmployee = 66,
+                StartDate = DateTime.Now.AddDays(-22),
+                EndDate = DateTime.Now.AddDays(-7),
+                Cost = 5082000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-388),
+                UpdatedAt
+             = DateTime.Now.AddDays(-388)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 988,
+                PaymentId = 388,
+                ProductId = 26,
+                ServiceId = 1,
+                AmoutEmployee = 60,
+                StartDate = DateTime.Now.AddDays(-96),
+                EndDate = DateTime.Now.AddDays(-88),
+                Cost = 3780000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-388),
+                UpdatedAt
+             = DateTime.Now.AddDays(-388)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 989,
+                PaymentId = 388,
+                ProductId = 17,
+                ServiceId = 2,
+                AmoutEmployee = 199,
+                StartDate = DateTime.Now.AddDays(-84),
+                EndDate = DateTime.Now.AddDays(-82),
+                Cost = 27462000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-388),
+                UpdatedAt
+             = DateTime.Now.AddDays(-388)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 990,
+                PaymentId = 389,
+                ProductId = 18,
+                ServiceId = 3,
+                AmoutEmployee = 129,
+                StartDate = DateTime.Now.AddDays(-55),
+                EndDate = DateTime.Now.AddDays(-41),
+                Cost = 10642500,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-389),
+                UpdatedAt
+             = DateTime.Now.AddDays(-389)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 991,
+                PaymentId = 389,
+                ProductId = 27,
+                ServiceId = 3,
+                AmoutEmployee = 81,
+                StartDate = DateTime.Now.AddDays(-63),
+                EndDate = DateTime.Now.AddDays(-49),
+                Cost = 5346000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-389),
+                UpdatedAt
+             = DateTime.Now.AddDays(-389)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 992,
+                PaymentId = 390,
+                ProductId = 25,
+                ServiceId = 2,
+                AmoutEmployee = 58,
+                StartDate = DateTime.Now.AddDays(-92),
+                EndDate = DateTime.Now.AddDays(-77),
+                Cost = 8700000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-390),
+                UpdatedAt
+             = DateTime.Now.AddDays(-390)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 993,
+                PaymentId = 390,
+                ProductId = 16,
+                ServiceId = 2,
+                AmoutEmployee = 180,
+                StartDate = DateTime.Now.AddDays(-65),
+                EndDate = DateTime.Now.AddDays(-64),
+                Cost = 49680000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-390),
+                UpdatedAt
+             = DateTime.Now.AddDays(-390)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 994,
+                PaymentId = 390,
+                ProductId = 17,
+                ServiceId = 1,
+                AmoutEmployee = 198,
+                StartDate = DateTime.Now.AddDays(-104),
+                EndDate = DateTime.Now.AddDays(-100),
+                Cost = 18711000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-390),
+                UpdatedAt
+             = DateTime.Now.AddDays(-390)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 995,
+                PaymentId = 391,
+                ProductId = 5,
+                ServiceId = 2,
+                AmoutEmployee = 127,
+                StartDate = DateTime.Now.AddDays(-75),
+                EndDate = DateTime.Now.AddDays(-73),
+                Cost = 17526000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-391),
+                UpdatedAt
+             = DateTime.Now.AddDays(-391)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 996,
+                PaymentId = 391,
+                ProductId = 4,
+                ServiceId = 3,
+                AmoutEmployee = 198,
+                StartDate = DateTime.Now.AddDays(-79),
+                EndDate = DateTime.Now.AddDays(-69),
+                Cost = 25047000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-391),
+                UpdatedAt
+             = DateTime.Now.AddDays(-391)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 997,
+                PaymentId = 392,
+                ProductId = 4,
+                ServiceId = 2,
+                AmoutEmployee = 170,
+                StartDate = DateTime.Now.AddDays(-151),
+                EndDate = DateTime.Now.AddDays(-147),
+                Cost = 77520000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-392),
+                UpdatedAt
+             = DateTime.Now.AddDays(-392)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 998,
+                PaymentId = 392,
+                ProductId = 6,
+                ServiceId = 1,
+                AmoutEmployee = 123,
+                StartDate = DateTime.Now.AddDays(-44),
+                EndDate = DateTime.Now.AddDays(-30),
+                Cost = 16605000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-392),
+                UpdatedAt
+             = DateTime.Now.AddDays(-392)
+            ,
+            });
+            context.PaymentDetails.AddOrUpdate(new PaymentDetail()
+            {
+                Id = 999,
+                PaymentId = 392,
+                ProductId = 17,
+                ServiceId = 2,
+                AmoutEmployee = 197,
+                StartDate = DateTime.Now.AddDays(-191),
+                EndDate = DateTime.Now.AddDays(-186),
+                Cost = 120564000,
+                Status = PaymentDetailStatus.Active,
+                CreatedAt = DateTime.Now.AddDays(-392),
+                UpdatedAt
+             = DateTime.Now.AddDays(-392),
+            });
+            context.SaveChanges();
+            //change
         }
     }
 }
