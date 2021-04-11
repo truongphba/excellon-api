@@ -249,6 +249,10 @@
     <Compile Include="Migrations\202104100931294_excel_v7.Designer.cs">
       <DependentUpon>202104100931294_excel_v7.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202104101600559_excel_v8.cs" />
+    <Compile Include="Migrations\202104101600559_excel_v8.Designer.cs">
+      <DependentUpon>202104101600559_excel_v8.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AuthRepository.cs" />
     <Compile Include="Models\Client.cs" />
@@ -373,6 +377,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202104100931294_excel_v7.resx">
       <DependentUpon>202104100931294_excel_v7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202104101600559_excel_v8.resx">
+      <DependentUpon>202104101600559_excel_v8.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

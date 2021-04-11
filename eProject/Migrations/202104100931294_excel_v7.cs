@@ -15,6 +15,7 @@ namespace eProject.Migrations
             AlterColumn("dbo.Clients", "CreatedAt", c => c.DateTime(nullable: false));
         }
         
+
         public override void Down()
         {
             AlterColumn("dbo.Clients", "CreatedAt", c => c.DateTime());

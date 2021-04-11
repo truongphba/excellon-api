@@ -24,7 +24,7 @@ namespace eProject.Models
         // Người liên hệ chính
         public string PointOfContact { get; set; }
         // chức vụ
-        public string position { get; set; }
+        public string Position { get; set; }
         //mô tả về khách hàng
         public string Description { get; set; }
         public ClientStatus Status { get; set; }
@@ -32,6 +32,7 @@ namespace eProject.Models
         public ICollection<Product> Products { get; set; }
         public DateTime CreatedAt { get; set; }
         public DateTime? UpdatedAt { get; set; }
+        //change
     }
 
     public enum ClientStatus
