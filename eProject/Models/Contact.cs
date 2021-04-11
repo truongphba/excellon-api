@@ -20,6 +20,6 @@ namespace eProject.Models
 
     public enum ContactStatus
     {
-        Pending, Done
+        Cancel, Done, Pending
     }
 }
