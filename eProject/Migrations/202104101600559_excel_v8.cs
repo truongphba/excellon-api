@@ -11,6 +11,8 @@ namespace eProject.Migrations
         
         public override void Down()
         {
+
         }
+        //change
     }
 }

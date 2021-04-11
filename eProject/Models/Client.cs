@@ -32,6 +32,7 @@ namespace eProject.Models
         public ICollection<Product> Products { get; set; }
         public DateTime CreatedAt { get; set; }
         public DateTime? UpdatedAt { get; set; }
+        //change
     }
 
     public enum ClientStatus
