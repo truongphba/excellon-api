@@ -374,7 +374,6 @@ namespace eProject.Controllers
             //var telePercent = tele / totalCost * 100;
             return Ok(new
             {
-                inBound,
                 inBoundPercent,
                 outBoundPercent,
                 telePercent
