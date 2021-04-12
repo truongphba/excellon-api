@@ -86,13 +86,12 @@ namespace eProject.Controllers
             payment.UpdatedAt = DateTime.Now;
             payment.Status = (PaymentStatus)(int) value.status.Value;
             db.Entry(payment).State = EntityState.Modified;
-
-
+            var client2 = db.Clients.Find((int)payment.ClientId);
             if ((PaymentStatus)(int)value.status.Value == PaymentStatus.Done)
             {
                 MimeMessage message = new MimeMessage();
                 message.From.Add(new MailboxAddress("Excellon", "vuongthanh0111@gmail.com"));
-                message.To.Add(new MailboxAddress("User", payment.Client.Email));
+                message.To.Add(new MailboxAddress("User", client2.Email)) ;
                 message.Subject = "Thank you for using Excellon-Service";
                 BodyBuilder bodyBuilder = new BodyBuilder();
                 bodyBuilder.HtmlBody =
