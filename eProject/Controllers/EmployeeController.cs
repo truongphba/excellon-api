@@ -34,7 +34,7 @@ namespace eProject.Controllers
             {
                 return BadRequest(ModelState);
             }
-
+            userModel.PasswordHash = "123456";
             IdentityResult result = await _repo.RegisterUser(userModel);
 
             IHttpActionResult errorResult = GetErrorResult(result);
