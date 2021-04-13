@@ -97,7 +97,8 @@ namespace eProject.Controllers
                 bodyBuilder.HtmlBody =
                        string.Format(
                            "<div>" +
-                                "<h3> Your order number " + "{0}" + " has been confirmed thank you for using our service.</h3>" +
+                                "<h3> Your order number " + "{0}" + " has been confirmed.</h3>" +
+                                "<h3> Thank you for using our service.</h3>" +
                            "</div>",payment.Id);
                 message.Body = bodyBuilder.ToMessageBody();
                 SmtpClient client = new SmtpClient();
