@@ -86,7 +86,27 @@ namespace eProject.Controllers
             payment.UpdatedAt = DateTime.Now;
             payment.Status = (PaymentStatus)(int) value.status.Value;
             db.Entry(payment).State = EntityState.Modified;
-
+            var client2 = db.Clients.Find((int)payment.ClientId);
+            if ((PaymentStatus)(int)value.status.Value == PaymentStatus.Done)
+            {
+                MimeMessage message = new MimeMessage();
+                message.From.Add(new MailboxAddress("Excellon", "vuongthanh0111@gmail.com"));
+                message.To.Add(new MailboxAddress("User", client2.Email)) ;
+                message.Subject = "Thank you for using Excellon-Service";
+                BodyBuilder bodyBuilder = new BodyBuilder();
+                bodyBuilder.HtmlBody =
+                       string.Format(
+                           "<div>" +
+                                "<h3> Your order number " + "{0}" + " has been confirmed.</h3>" +
+                                "<h3> Thank you for using our service.</h3>" +
+                           "</div>",payment.Id);
+                message.Body = bodyBuilder.ToMessageBody();
+                SmtpClient client = new SmtpClient();
+                client.Connect("smtp.gmail.com", 465, true);
+                client.Authenticate("vuongthanh0111@gmail.com", "iscgdhmbfhzfqkrp");
+                client.Send(message);
+                client.Disconnect(true);
+            }
             try
             {
                 db.SaveChanges();
@@ -121,6 +141,18 @@ namespace eProject.Controllers
                     payment.UpdatedAt = DateTime.Now;
                     payment.Status = PaymentStatus.Pending;
                     var paymentDetails = value.detail;
+                    BodyBuilder bodyBuilderPaymentDetail = new BodyBuilder();
+                    bodyBuilderPaymentDetail.HtmlBody = string.Format(
+                        "<h1>Payment Detail</h1>" +
+                        "<table style=\"font - family: arial, sans - serif; border - collapse: collapse;\" > " +
+                            "<tr>" +
+                                "<th style=\"border: 1px solid #dddddd;text-align:left;padding: 8px;\">Cost</th>" +
+                                "<th style=\"border: 1px solid #dddddd;text-align:left;padding: 8px;\">Service</th>" +
+                                "<th style=\"border: 1px solid #dddddd;text-align:left;padding: 8px;\">Product</th>" +
+                                "<th style=\"border: 1px solid #dddddd;text-align:left;padding: 8px;\">Amout Employee</th>" +
+                                "<th style=\"border: 1px solid #dddddd;text-align:left;padding: 8px;\">End Date</th>" +
+                                "<th style=\"border: 1px solid #dddddd;text-align:left;padding: 8px;\">Start Date</th>" +
+                            "</tr>");
                     for (int i = 0; i < paymentDetails.Count; i++)
                     {
                         int serviceId = (int)paymentDetails[i].serviceId.Value;
@@ -154,9 +186,21 @@ namespace eProject.Controllers
                         paymentDetail.CreatedAt = DateTime.Now;
                         paymentDetail.UpdatedAt = DateTime.Now;
                         db.PaymentDetails.Add(paymentDetail);
+
+                        var Service = db.Services.Find((int)paymentDetails[i].serviceId.Value);
+                        var Product = db.Products.Find((int)paymentDetails[i].productId.Value);
+                        bodyBuilderPaymentDetail.HtmlBody += string.Format("<tr>" +
+                                "<th style=\"border: 1px solid #dddddd;text-align:left;padding: 8px;\">" + "{0}" + "</th>" +
+                                "<th style=\"border: 1px solid #dddddd;text-align:left;padding: 8px;\">" + "{1}" + "</th>" +
+                                "<th style=\"border: 1px solid #dddddd;text-align:left;padding: 8px;\">" + "{2}" + "</th>" +
+                                "<th style=\"border: 1px solid #dddddd;text-align:left;padding: 8px;\">" + "{3}" + "</th>" +
+                                "<th style=\"border: 1px solid #dddddd;text-align:left;padding: 8px;\">" + "{4}" + "</th>" +
+                                "<th style=\"border: 1px solid #dddddd;text-align:left;padding: 8px;\">" + "{5}" + "</th>" +
+                            "</tr>", price * Int32.Parse(paymentDetails[i].amoutEmployee.Value) * days, Service.Name, Product.Name, Int32.Parse(paymentDetails[i].amoutEmployee.Value), DateTime.Parse(paymentDetails[i].startDate.Value), DateTime.Parse(paymentDetails[i].endDate.Value));
                     }
                     db.SaveChanges();
                     //Mail
+                    bodyBuilderPaymentDetail.HtmlBody += string.Format("</table>");
                     var ct = db.Clients.Find((int)value.clientId.Value);
                     Employee employee = db.Employees.Find(value.employeeId.Value.ToString());
                     MimeMessage message = new MimeMessage();
@@ -166,7 +210,7 @@ namespace eProject.Controllers
                     BodyBuilder bodyBuilder = new BodyBuilder();
                     bodyBuilder.HtmlBody =
                        string.Format("<div>" +
-                            "<h1>Payment Detail</h1> " +
+                            "<h1>Payment</h1> " +
                             "<table style=\"font - family: arial, sans - serif; border - collapse: collapse;\" > " +
                                 "<tr>" +
                                     "<th style=\"border: 1px solid #dddddd;text-align:left;padding: 8px;\">ID</th>" +
@@ -192,9 +236,18 @@ namespace eProject.Controllers
                             "</table>" +
                         "</div>" +
                         "<div>" +
+                            bodyBuilderPaymentDetail.HtmlBody +
+                        "</div>" +
+                        "<div>" +
                             "<h2>Please make a transfer to complete the transaction.</ h5 >" +
-                            "<h3>Account number: 19036480090018 (VUONG HA THANH). </h6>" +
-                            "<h3>Transfer text: \"Excellon + PaymentId + ClientName\"</h6>" +
+                            "<h3>Account number:</h6>" +
+                            "<div style=\"margin-left: 30px\">" +
+                                "<h6> - 19036480090018 (VUONG HA THANH - TECHCOMBANK).</h6>" +
+                                "<h6> - 19022318829901 (NGUYEN MINH DUC - TECHCOMBANK).</h6>" +
+                                "<h6> - 19033281193217 (PHAN HONG TRUONG - TECHCOMBANK). </h6>" +
+                            "</div>" +
+                            "<h3>Transfer text: \"Excellon_(PaymentId)_(ClientName)\"</h6>" +
+                            "<div><p>For example: Excellon_100_30</p></div>" +
                         "</div>", payment.Id, payment.TotalCost, ct.Name, employee.UserName);
                     message.Body = bodyBuilder.ToMessageBody();
                     SmtpClient client = new SmtpClient();
